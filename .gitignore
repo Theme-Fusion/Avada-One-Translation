@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.tmp/
+*.mo
+*.l10n.php
+*.zip

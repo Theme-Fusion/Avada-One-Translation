@@ -1,0 +1,39 @@
+name: Check translations
+
+on:
+  pull_request:
+    paths:
+      - 'po/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: sudo apt-get update -q && sudo apt-get install -y -q gettext
+      - run: npm ci
+
+      - name: Only po files may change
+        run: |
+          other=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" | grep -v '^po/avada-one-[A-Za-z_]*\.po$' || true)
+          if [ -n "$other" ]; then
+            echo "Translation pull requests can only change po/avada-one-<locale>.po files. Also changed:" >> "$GITHUB_STEP_SUMMARY"
+            echo "$other" | sed 's/^/- /' >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      - name: Check changed files
+        run: |
+          files=$(git diff --name-only --diff-filter=AM "origin/${{ github.base_ref }}...HEAD" -- 'po/*.po')
+          node scripts/validate.js $files | tee -a "$GITHUB_STEP_SUMMARY"

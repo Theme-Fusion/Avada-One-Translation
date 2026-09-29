@@ -1,0 +1,18 @@
+{
+  "name": "avada-one-translation",
+  "private": true,
+  "description": "Community translations for Avada One, built and published as WordPress language packs.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "add-locale": "node scripts/add-locale.js"
+  },
+  "dependencies": {
+    "gettext-parser": "^9.1.1"
+  }
+}

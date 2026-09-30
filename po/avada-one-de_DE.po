@@ -8,19 +8,10 @@ msgstr ""
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Domain: avada-one\n"
-
-msgid "12"
-msgstr "12"
-
-msgid "404"
-msgstr "404"
-
-msgid "12345"
-msgstr "12345"
 
 #. translators: The value.
 msgid "  Current value set to %s."
@@ -82,6 +73,10 @@ msgstr " Leer lassen für den Standardwert von %s."
 
 msgid " Wishlist Product Status"
 msgstr " Wunschliste-Produktstatus"
+
+msgctxt "Cost range separator"
+msgid " – "
+msgstr " – "
 
 msgid "\"%s\" has been added to your cart."
 msgstr "„%s“ wurde deinem Warenkorb hinzugefügt."
@@ -521,6 +516,10 @@ msgstr "+ Datensatz hinzufügen"
 msgid "+ Add Value Column"
 msgstr "+ Wertespalte hinzufügen"
 
+msgctxt "Address separator"
+msgid ", "
+msgstr ", "
+
 msgid "0 Comments"
 msgstr "0 Kommentare"
 
@@ -581,11 +580,17 @@ msgstr "100% gefüllte Farbe"
 msgid "100% Width"
 msgstr "100% Breite"
 
+msgid "12"
+msgstr "12"
+
 msgid "12 Hour"
 msgstr "12 Stunden"
 
 msgid "1200px Width"
 msgstr "1200px Breite"
+
+msgid "12345"
+msgstr "12345"
 
 msgid "16:9"
 msgstr "16:9"
@@ -652,6 +657,9 @@ msgstr "400px Breite"
 
 msgid "401 Unauthorized: User is not authenticated"
 msgstr "401 Unauthorized: Benutzer ist nicht authentifiziert"
+
+msgid "404"
+msgstr "404"
 
 msgid "404 - Page not Found"
 msgstr "404 - Seite nicht gefunden"
@@ -985,6 +993,14 @@ msgstr "ACF-Auswahl"
 msgid "ACF Text"
 msgstr "ACF-Text"
 
+msgctxt "Currency"
+msgid "AED"
+msgstr "AED"
+
+msgctxt "Currency"
+msgid "AFN"
+msgstr "AFN"
+
 msgid "AI"
 msgstr "KI"
 
@@ -1051,8 +1067,24 @@ msgstr "AJAX bei Änderung"
 msgid "AJAX On Submit"
 msgstr "AJAX beim Absenden"
 
+msgctxt "Currency"
+msgid "ALL"
+msgstr "ALL"
+
+msgctxt "Currency"
+msgid "AMD"
+msgstr "AMD"
+
 msgid "AND"
 msgstr "UND"
+
+msgctxt "Currency"
+msgid "ANG"
+msgstr "ANG"
+
+msgctxt "Currency"
+msgid "AOA"
+msgstr "AOA"
 
 msgid "API Key"
 msgstr "API-Schlüssel"
@@ -1072,8 +1104,16 @@ msgstr "ERSCHEINT IN (%s)"
 msgid "ARIA Label Attribute"
 msgstr "ARIA-Label-Attribut"
 
+msgctxt "Currency"
+msgid "ARS"
+msgstr "ARS"
+
 msgid "ASC"
 msgstr "ASC"
+
+msgctxt "Currency"
+msgid "AUD"
+msgstr "AUD"
 
 msgid "AVIF"
 msgstr "AVIF"
@@ -1083,6 +1123,14 @@ msgstr "AWB E-Mail-Inhalt"
 
 msgid "AWB Form database insert failed."
 msgstr "AWB-Formular: DB-Eintrag fehlgeschlagen."
+
+msgctxt "Currency"
+msgid "AWG"
+msgstr "AWG"
+
+msgctxt "Currency"
+msgid "AZN"
+msgstr "AZN"
 
 msgid "Abandoned"
 msgstr "Verlassen"
@@ -1516,6 +1564,26 @@ msgstr "Verschachtelte Spalten hinzufügen"
 msgid "Add New"
 msgstr "Neu hinzufügen"
 
+msgctxt "Avada Icon"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgctxt "Avada Off Canvas"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgctxt "Element item"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgctxt "Layout item"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+msgctxt "Section item"
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
 msgid "Add New Color"
 msgstr "Neue Farbe hinzufügen"
 
@@ -1528,6 +1596,14 @@ msgstr "Neuen FAQ-Beitrag hinzufügen"
 msgid "Add New Form"
 msgstr "Neues Formular hinzufügen"
 
+msgctxt "avada-one"
+msgid "Add New Form"
+msgstr "Neues Formular hinzufügen"
+
+msgid "Add New Icon Set"
+msgstr "Neues Icon-Set hinzufügen"
+
+msgctxt "Avada Icon"
 msgid "Add New Icon Set"
 msgstr "Neues Icon-Set hinzufügen"
 
@@ -1537,6 +1613,10 @@ msgstr "Neues Layout hinzufügen"
 msgid "Add New Logic"
 msgstr "Neue Logik hinzufügen"
 
+msgid "Add New Off Canvas"
+msgstr "Neues Off-Canvas hinzufügen"
+
+msgctxt "Avada Off Canvas"
 msgid "Add New Off Canvas"
 msgstr "Neues Off-Canvas hinzufügen"
 
@@ -2216,6 +2296,10 @@ msgstr "Ausrichtung"
 msgid "All"
 msgstr "Alle"
 
+msgctxt "status labels"
+msgid "All"
+msgstr "Alle"
+
 #. Translators: The post-type label.
 msgid "All %s"
 msgstr "Alle %s"
@@ -2247,6 +2331,10 @@ msgstr "Alle Elemente"
 msgid "All Forms"
 msgstr "Alle Formulare"
 
+msgctxt "Avada Icon"
+msgid "All Icon Sets"
+msgstr "Alle Icon-Sets"
+
 msgid "All Keywords"
 msgstr "Alle Keywords"
 
@@ -2258,6 +2346,10 @@ msgstr "Alle Links"
 
 msgid "All Lists"
 msgstr "Alle Listen"
+
+msgctxt "Avada Off Canvas"
+msgid "All Off Canvases"
+msgstr "Alle Off-Canvas"
 
 msgid "All Pages"
 msgstr "Alle Seiten"
@@ -2594,6 +2686,10 @@ msgstr "Arabisch"
 msgid "Arabic (Egypt)"
 msgstr "Arabisch (Ägypten)"
 
+msgctxt "CSS property"
+msgid "Arabic Indic"
+msgstr "Arabisch-Indisch"
+
 msgid "Arc"
 msgstr "Bogen"
 
@@ -2733,6 +2829,10 @@ msgstr "Armed Forces (AP)"
 msgid "Armenia"
 msgstr "Armenien"
 
+msgctxt "CSS property"
+msgid "Armenian"
+msgstr "Armenisch"
+
 msgid "Arrow Background Color"
 msgstr "Hintergrundfarbe der Pfeile"
 
@@ -2801,6 +2901,10 @@ msgstr "Aufsteigende Reihenfolge"
 
 msgid "Asia"
 msgstr "Asien"
+
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Kurzmitteilungen"
 
 msgid "Ask Avada AI"
 msgstr "Avada AI fragen"
@@ -2883,6 +2987,10 @@ msgstr "Zielgruppe"
 msgid "Audience Analysis"
 msgstr "Zielgruppenanalyse"
 
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "post format archive title"
 msgid "Audio"
 msgstr "Audio"
 
@@ -3141,9 +3249,17 @@ msgstr "Avada Schriften/Typografie"
 msgid "Avada Form"
 msgstr "Avada-Formular"
 
+msgctxt "Post Type Singular Name"
+msgid "Avada Form"
+msgstr "Avada-Formular"
+
 msgid "Avada Form Options"
 msgstr "Avada-Formularoptionen"
 
+msgid "Avada Forms"
+msgstr "Avada Forms"
+
+msgctxt "Post Type General Name"
 msgid "Avada Forms"
 msgstr "Avada Forms"
 
@@ -3171,6 +3287,14 @@ msgstr "Avada-Bildgrößen"
 
 msgid "Avada Integrations"
 msgstr "Avada-Integrationen"
+
+msgctxt "Section type general name"
+msgid "Avada Layout Sections"
+msgstr "Avada-Layout-Bereiche"
+
+msgctxt "Layout general name"
+msgid "Avada Layouts"
+msgstr "Avada-Layouts"
 
 msgid "Avada Library"
 msgstr "Avada Library"
@@ -3253,11 +3377,19 @@ msgstr "Avada-Einrichtungs- & Update-Tools"
 msgid "Avada Setup Wizard"
 msgstr "Avada-Einrichtungsassistent"
 
+msgctxt "Post Type Singular Name"
+msgid "Avada Slide"
+msgstr "Avada-Slide"
+
 msgid "Avada Slider"
 msgstr "Avada Slider"
 
 msgid "Avada Sliders"
 msgstr "Avada Slider"
+
+msgctxt "Post Type General Name"
+msgid "Avada Slides"
+msgstr "Avada-Slides"
 
 msgid "Avada Special Hosting"
 msgstr "Avada Special Hosting"
@@ -3432,11 +3564,63 @@ msgstr "Produktbild folgt"
 msgid "Azerbaijan"
 msgstr "Aserbaidschan"
 
+msgctxt "Currency"
+msgid "BAM"
+msgstr "BAM"
+
+msgctxt "Currency"
+msgid "BBD"
+msgstr "BBD"
+
 msgid "BCC Email"
 msgstr "BCC-E-Mail"
 
+msgctxt "Currency"
+msgid "BDT"
+msgstr "BDT"
+
 msgid "BG Removed %s"
 msgstr "Freigestellt %s"
+
+msgctxt "Currency"
+msgid "BGN"
+msgstr "BGN"
+
+msgctxt "Currency"
+msgid "BIF"
+msgstr "BIF"
+
+msgctxt "Currency"
+msgid "BMD"
+msgstr "BMD"
+
+msgctxt "Currency"
+msgid "BND"
+msgstr "BND"
+
+msgctxt "Currency"
+msgid "BOB"
+msgstr "BOB"
+
+msgctxt "Currency"
+msgid "BRL"
+msgstr "BRL"
+
+msgctxt "Currency"
+msgid "BSD"
+msgstr "BSD"
+
+msgctxt "Currency"
+msgid "BWP"
+msgstr "BWP"
+
+msgctxt "Currency"
+msgid "BYN"
+msgstr "BYN"
+
+msgctxt "Currency"
+msgid "BZD"
+msgstr "BZD"
 
 msgid "Back"
 msgstr "Zurück"
@@ -3793,6 +3977,10 @@ msgstr "Unter dem Titel"
 msgid "Below each consent item, list the data the feature keeps on the server — what it is, how long it is kept, and whether it is anonymous or linked to you. Cookies are only half of what most features store, so this is what makes the disclosure complete."
 msgstr "Liste unter jedem Einwilligungseintrag die Daten auf, die die Funktion auf dem Server speichert – was es ist, wie lange es aufbewahrt wird und ob es anonym oder mit dir verknüpft ist. Cookies sind nur die Hälfte dessen, was die meisten Funktionen speichern, erst damit ist die Offenlegung vollständig."
 
+msgid "Bengali"
+msgstr "Bengalisch"
+
+msgctxt "CSS property"
 msgid "Bengali"
 msgstr "Bengalisch"
 
@@ -4556,6 +4744,10 @@ msgstr "Standardmäßig werden im Frontend nur die Builder-Elemente geladen, die
 msgid "By:"
 msgstr "Von:"
 
+msgctxt "Currency"
+msgid "CAD"
+msgstr "CAD"
+
 msgid "CC Email"
 msgstr "CC-E-Mail"
 
@@ -4589,8 +4781,32 @@ msgstr "CC-Sicherheitscode"
 msgid "CC Type"
 msgstr "CC-Typ"
 
+msgctxt "Currency"
+msgid "CDF"
+msgstr "CDF"
+
 msgid "CDN"
 msgstr "CDN"
+
+msgctxt "Currency"
+msgid "CHF"
+msgstr "CHF"
+
+msgctxt "Currency"
+msgid "CLP"
+msgstr "CLP"
+
+msgctxt "Currency"
+msgid "CNY"
+msgstr "CNY"
+
+msgctxt "Currency"
+msgid "COP"
+msgstr "COP"
+
+msgctxt "Currency"
+msgid "CRC"
+msgstr "CRC"
 
 msgid "CRM, Marketing & Sales"
 msgstr "CRM, Marketing & Vertrieb"
@@ -4652,6 +4868,14 @@ msgstr "CTR"
 msgid "CTR (Click-Through Rate):"
 msgstr "CTR (Klickrate):"
 
+msgctxt "Currency"
+msgid "CVE"
+msgstr "CVE"
+
+msgctxt "Currency"
+msgid "CZK"
+msgstr "CZK"
+
 msgid "Cache Content (For SEO)"
 msgstr "Inhalt zwischenspeichern (für SEO)"
 
@@ -4675,6 +4899,10 @@ msgstr "Call to Action"
 
 msgid "Cambodia"
 msgstr "Kambodscha"
+
+msgctxt "CSS property"
+msgid "Cambodian"
+msgstr "Kambodschanisch"
 
 msgid "Camera"
 msgstr "Kamera"
@@ -5135,6 +5363,10 @@ msgstr "Diagrammwert"
 
 msgid "Chat"
 msgstr "Chat"
+
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
 
 msgid "Check All"
 msgstr "Alle auswählen"
@@ -12771,6 +13003,10 @@ msgstr "Eigenes Icon"
 msgid "Custom Icon documentation"
 msgstr "Doku zu eigenen Icons"
 
+msgctxt "Avada Icon"
+msgid "Custom Icons"
+msgstr "Benutzerdefinierte Icons"
+
 msgid "Custom Infobox"
 msgstr "Eigene Infobox"
 
@@ -12959,8 +13195,24 @@ msgstr "ABSTEIGEND"
 msgid "DIV"
 msgstr "DIV"
 
+msgctxt "Currency"
+msgid "DJF"
+msgstr "DJF"
+
+msgctxt "Currency"
+msgid "DKK"
+msgstr "DKK"
+
 msgid "DOMDocument"
 msgstr "DOMDocument"
+
+msgctxt "Currency"
+msgid "DOP"
+msgstr "DOP"
+
+msgctxt "Currency"
+msgid "DZD"
+msgstr "DZD"
 
 msgid "Daily"
 msgstr "Täglich"
@@ -13184,6 +13436,10 @@ msgstr "Lege fest, ob die Wartungs- oder „Demnächst verfügbar“-Seite von S
 
 msgid "Decimal"
 msgstr "Dezimal"
+
+msgctxt "CSS property"
+msgid "Decimal with Leading Zero"
+msgstr "Dezimal mit führender Null"
 
 msgid "Deeplinking"
 msgstr "Deeplinking"
@@ -13615,6 +13871,10 @@ msgstr "Innenabstand der Details"
 msgid "Dev Tools"
 msgstr "Dev-Tools"
 
+msgid "Devanagari"
+msgstr "Devanagari"
+
+msgctxt "CSS property"
 msgid "Devanagari"
 msgstr "Devanagari"
 
@@ -14374,6 +14634,18 @@ msgstr "Dynamische Inhalte (Warenkorbdetails usw.) erscheinen hier, wenn die E-M
 msgid "Dynamic content slot filled when the email is sent (e.g. cart details)."
 msgstr "Dynamischer Inhaltsplatz, der beim Senden der E-Mail befüllt wird (z. B. Warenkorbdetails)."
 
+msgctxt "Currency"
+msgid "EGP"
+msgstr "EGP"
+
+msgctxt "Currency"
+msgid "ETB"
+msgstr "ETB"
+
+msgctxt "Currency"
+msgid "EUR"
+msgstr "EUR"
+
 msgid "EXCLUDE FROM (%s)"
 msgstr "AUSSCHLIESSEN VON (%s)"
 
@@ -14454,6 +14726,10 @@ msgstr "Footer-Layout-Bereich bearbeiten"
 msgid "Edit Form"
 msgstr "Formular bearbeiten"
 
+msgctxt "avada-one"
+msgid "Edit Form"
+msgstr "Formular bearbeiten"
+
 msgid "Edit Global Colors"
 msgstr "Globale Farben bearbeiten"
 
@@ -14462,6 +14738,10 @@ msgstr "Globale Seitentitelleiste bearbeiten"
 
 msgid "Edit Header Layout Section"
 msgstr "Header-Layout-Bereich bearbeiten"
+
+msgctxt "Avada Icon"
+msgid "Edit Icon Set"
+msgstr "Icon-Set bearbeiten"
 
 msgid "Edit Image"
 msgstr "Bild bearbeiten"
@@ -14493,6 +14773,10 @@ msgstr "Bearbeitungsmodus"
 
 msgid "Edit Name & Alt Text"
 msgstr "Name & Alt-Text bearbeiten"
+
+msgctxt "Avada Off Canvas"
+msgid "Edit Off Canvas"
+msgstr "Off-Canvas bearbeiten"
 
 msgid "Edit Page Title Bar Layout Section"
 msgstr "Seitentitelleisten-Layout-Bereich bearbeiten"
@@ -14612,6 +14896,10 @@ msgstr "Elastischer Übergang"
 msgid "Element"
 msgstr "Element"
 
+msgctxt "Element type singular name"
+msgid "Element"
+msgstr "Element"
+
 msgid "Element Appearance Animations"
 msgstr "Erscheinungsanimationen der Elemente"
 
@@ -14705,6 +14993,10 @@ msgstr "E-Mail (erforderlich)"
 msgid "Email Address"
 msgstr "E-Mail-Adresse"
 
+msgid "Email Contents"
+msgstr "E-Mail-Inhalte"
+
+msgctxt "Block pattern category"
 msgid "Email Contents"
 msgstr "E-Mail-Inhalte"
 
@@ -16426,6 +16718,18 @@ msgstr "Extraktionsmodus"
 msgid "Extras"
 msgstr "Extras"
 
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j. F Y"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgctxt "Post Type Singular Name"
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -16531,8 +16835,20 @@ msgstr "FAQ aktualisiert."
 msgid "FAQs"
 msgstr "FAQs"
 
+msgctxt "Post Type General Name"
+msgid "FAQs"
+msgstr "FAQs"
+
 msgid "FAQs in Toggles or Accordions"
 msgstr "FAQs in Toggles oder Akkordeons"
+
+msgctxt "Currency"
+msgid "FJD"
+msgstr "FJD"
+
+msgctxt "Currency"
+msgid "FKP"
+msgstr "FKP"
 
 msgid "Facebook"
 msgstr "Facebook"
@@ -16567,6 +16883,10 @@ msgstr "Überblendtyp"
 msgid "Fading Animation"
 msgstr "Überblendanimation"
 
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+msgctxt "post"
 msgid "Failed"
 msgstr "Fehlgeschlagen"
 
@@ -17864,8 +18184,16 @@ msgstr "Weitere Detailanalyse für den Link."
 msgid "Fusion Builder: Form"
 msgstr "Fusion Builder: Formular"
 
+msgctxt "element type general name"
+msgid "Fusion Elements"
+msgstr "Fusion-Elemente"
+
 msgid "Fusion Inline"
 msgstr "Fusion Inline"
+
+msgctxt "Layout type general name"
+msgid "Fusion Templates"
+msgstr "Fusion-Vorlagen"
 
 msgid "Future"
 msgstr "Zukunft"
@@ -17876,8 +18204,16 @@ msgstr "Futuristisch"
 msgid "Fuzzy"
 msgstr "Unscharf"
 
+msgctxt "Currency"
+msgid "GBP"
+msgstr "GBP"
+
 msgid "GD Library"
 msgstr "GD-Bibliothek"
+
+msgctxt "Currency"
+msgid "GEL"
+msgstr "GEL"
 
 msgid "GET"
 msgstr "GET"
@@ -17885,8 +18221,32 @@ msgstr "GET"
 msgid "GET Variable"
 msgstr "GET-Variable"
 
+msgctxt "Currency"
+msgid "GIP"
+msgstr "GIP"
+
+msgctxt "Currency"
+msgid "GMD"
+msgstr "GMD"
+
+msgctxt "Currency"
+msgid "GNF"
+msgstr "GNF"
+
+msgctxt "Currency"
+msgid "GTQ"
+msgstr "GTQ"
+
+msgctxt "Currency"
+msgid "GYD"
+msgstr "GYD"
+
 msgid "Gabon"
 msgstr "Gabun"
+
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerien"
 
 msgid "Gallery"
 msgstr "Galerie"
@@ -17998,6 +18358,18 @@ msgstr "Geolokalisierungs-Datenbank ist heruntergeladen."
 
 msgid "Georgia"
 msgstr "Georgien"
+
+msgctxt "Country"
+msgid "Georgia"
+msgstr "Georgien"
+
+msgctxt "US state of Georgia"
+msgid "Georgia"
+msgstr "Georgia"
+
+msgctxt "CSS property"
+msgid "Georgian"
+msgstr "Georgisch"
 
 msgid "German"
 msgstr "Deutsch"
@@ -18426,6 +18798,14 @@ msgstr "Guinea-Bissau"
 msgid "Gujarati"
 msgstr "Gujarati"
 
+msgctxt "CSS property"
+msgid "Gujarati"
+msgstr "Gujarati"
+
+msgid "Gurmukhi"
+msgstr "Gurmukhi"
+
+msgctxt "CSS property"
 msgid "Gurmukhi"
 msgstr "Gurmukhi"
 
@@ -18492,11 +18872,27 @@ msgstr "Typografie der H6-Überschriften"
 msgid "HDR"
 msgstr "HDR"
 
+msgctxt "Currency"
+msgid "HKD"
+msgstr "HKD"
+
+msgctxt "Currency"
+msgid "HNL"
+msgstr "HNL"
+
 msgid "HOURS"
 msgstr "STUNDEN"
 
+msgctxt "Currency"
+msgid "HRK"
+msgstr "HRK"
+
 msgid "HSLA offset"
 msgstr "HSLA-Versatz"
+
+msgctxt "Currency"
+msgid "HTG"
+msgstr "HTG"
 
 msgid "HTML Heading Tag"
 msgstr "HTML-Überschriften-Tag"
@@ -18666,6 +19062,10 @@ msgstr "Heard und die McDonaldinseln"
 msgid "Heart"
 msgstr "Herz"
 
+msgid "Hebrew"
+msgstr "Hebräisch"
+
+msgctxt "CSS property"
 msgid "Hebrew"
 msgstr "Hebräisch"
 
@@ -18873,6 +19273,10 @@ msgstr "Hindi"
 msgid "Hindi (India)"
 msgstr "Hindi (Indien)"
 
+msgctxt "CSS property"
+msgid "Hiragana"
+msgstr "Hiragana"
+
 msgid "History"
 msgstr "Verlauf"
 
@@ -18888,6 +19292,10 @@ msgstr "Enthält personenbezogene Daten"
 msgid "Holy See"
 msgstr "Heiliger Stuhl"
 
+msgid "Home"
+msgstr "Startseite"
+
+msgctxt "breadcrumb"
 msgid "Home"
 msgstr "Startseite"
 
@@ -19194,6 +19602,14 @@ msgstr "ID"
 msgid "ID or empty for current product."
 msgstr "ID oder leer für das aktuelle Produkt."
 
+msgctxt "Currency"
+msgid "IDR"
+msgstr "IDR"
+
+msgctxt "Currency"
+msgid "ILS"
+msgstr "ILS"
+
 msgid "IMPORTANT NOTE:"
 msgstr "WICHTIGER HINWEIS:"
 
@@ -19207,8 +19623,16 @@ msgstr "WICHTIG: Dieses Feld muss für selbst gehostete Videos verwendet werden.
 msgid "IMPORTANT: When loading a saved template through the \"Replace All Content\" option, everything will load, including the page template and Avada Page Options. When inserting above or below existing content only the saved content will be added."
 msgstr "WICHTIG: Wenn du eine gespeicherte Vorlage über die Option „Gesamten Inhalt ersetzen“ lädst, wird alles geladen, einschließlich des Seiten-Templates und der Avada-Seitenoptionen. Beim Einfügen über oder unter bestehendem Inhalt wird nur der gespeicherte Inhalt hinzugefügt."
 
+msgctxt "Currency"
+msgid "INR"
+msgstr "INR"
+
 msgid "IP"
 msgstr "IP"
+
+msgctxt "Currency"
+msgid "ISK"
+msgstr "ISK"
 
 msgid "Iceland"
 msgstr "Island"
@@ -19351,6 +19775,10 @@ msgstr "Icon drehen"
 msgid "Icon Select"
 msgstr "Icon-Auswahl"
 
+msgid "Icon Set"
+msgstr "Icon-Set"
+
+msgctxt "Avada Icon"
 msgid "Icon Set"
 msgstr "Icon-Set"
 
@@ -19744,6 +20172,10 @@ msgstr "Abstand Bild/Datum"
 msgid "Images"
 msgstr "Bilder"
 
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bilder"
+
 msgid "Images Aspect Ratio"
 msgstr "Seitenverhältnis der Bilder"
 
@@ -19985,6 +20417,10 @@ msgstr "In diesem Schritt kannst du optimieren, wie die CSS- und JS-Assets einge
 
 msgid "In this step, you can scan your website to get information about any icons you are using. You can also disable unused icon sets, and read about how to optimize your icons."
 msgstr "In diesem Schritt kannst du deine Website scannen, um Informationen über die verwendeten Icons zu erhalten. Außerdem kannst du ungenutzte Icon-Sets deaktivieren und nachlesen, wie du deine Icons optimierst."
+
+msgctxt "post"
+msgid "In-Progress"
+msgstr "In Bearbeitung"
 
 #. translators: %s: count
 msgid "In-Progress <span class=\"count\">(%s)</span>"
@@ -20884,6 +21320,14 @@ msgstr "Elemente in %s"
 msgid "Ivory Coast"
 msgstr "Elfenbeinküste"
 
+msgctxt "Currency"
+msgid "JMD"
+msgstr "JMD"
+
+msgctxt "Currency"
+msgid "JPY"
+msgstr "JPY"
+
 msgid "JS API"
 msgstr "JS-API"
 
@@ -20965,11 +21409,47 @@ msgstr "Blocksatz"
 msgid "Justify Tabs"
 msgstr "Tabs im Blocksatz"
 
+msgctxt "Currency"
+msgid "KES"
+msgstr "KES"
+
+msgctxt "Currency"
+msgid "KGS"
+msgstr "KGS"
+
+msgctxt "Currency"
+msgid "KHR"
+msgstr "KHR"
+
+msgctxt "Currency"
+msgid "KMF"
+msgstr "KMF"
+
+msgctxt "Currency"
+msgid "KRW"
+msgstr "KRW"
+
+msgctxt "Currency"
+msgid "KYD"
+msgstr "KYD"
+
+msgctxt "Currency"
+msgid "KZT"
+msgstr "KZT"
+
+msgid "Kannada"
+msgstr "Kannada"
+
+msgctxt "CSS property"
 msgid "Kannada"
 msgstr "Kannada"
 
 msgid "Kansas"
 msgstr "Kansas"
+
+msgctxt "CSS property"
+msgid "Katakana"
+msgstr "Katakana"
 
 msgid "Kazakhstan"
 msgstr "Kasachstan"
@@ -21026,6 +21506,18 @@ msgstr "Koreanisch"
 msgid "Korean (Korea)"
 msgstr "Koreanisch (Korea)"
 
+msgctxt "CSS property"
+msgid "Korean Hangul Formal"
+msgstr "Koreanisch Hangul formell"
+
+msgctxt "CSS property"
+msgid "Korean Hanja Formal"
+msgstr "Koreanisch Hanja formell"
+
+msgctxt "CSS property"
+msgid "Korean Hanja Informal"
+msgstr "Koreanisch Hanja informell"
+
 msgid "Kuwait"
 msgstr "Kuwait"
 
@@ -21034,6 +21526,26 @@ msgstr "Kirgisistan"
 
 msgid "L"
 msgstr "L"
+
+msgctxt "Currency"
+msgid "LAK"
+msgstr "LAK"
+
+msgctxt "Currency"
+msgid "LBP"
+msgstr "LBP"
+
+msgctxt "Currency"
+msgid "LKR"
+msgstr "LKR"
+
+msgctxt "Currency"
+msgid "LRD"
+msgstr "LRD"
+
+msgctxt "Currency"
+msgid "LSL"
+msgstr "LSL"
 
 msgid "LTR"
 msgstr "LTR"
@@ -21097,6 +21609,10 @@ msgstr "Querformat"
 
 msgid "Language"
 msgstr "Sprache"
+
+msgctxt "CSS property"
+msgid "Lao"
+msgstr "Laotisch"
 
 msgid "Lao People's Democratic Republic"
 msgstr "Laos, Demokratische Volksrepublik"
@@ -21201,6 +21717,14 @@ msgstr "Layer Slider"
 msgid "LayerSlider"
 msgstr "LayerSlider"
 
+msgid "Layout"
+msgstr "Layout"
+
+msgctxt "Layout singular name"
+msgid "Layout"
+msgstr "Layout"
+
+msgctxt "Layout type singular name"
 msgid "Layout"
 msgstr "Layout"
 
@@ -21694,6 +22218,10 @@ msgstr "LinkedIn-Link"
 msgid "Links"
 msgstr "Links"
 
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
 msgid "Links Margin"
 msgstr "Außenabstand der Links"
 
@@ -22046,6 +22574,22 @@ msgstr "Low-Key-Licht"
 msgid "Low saturation"
 msgstr "Geringe Sättigung"
 
+msgctxt "CSS property"
+msgid "Lower Alpha"
+msgstr "Kleinbuchstaben"
+
+msgctxt "CSS property"
+msgid "Lower Armenian"
+msgstr "Armenisch klein"
+
+msgctxt "CSS property"
+msgid "Lower Greek"
+msgstr "Griechisch klein"
+
+msgctxt "CSS property"
+msgid "Lower Roman"
+msgstr "Römisch klein"
+
 msgid "Lowercase"
 msgstr "Kleinbuchstaben"
 
@@ -22061,11 +22605,67 @@ msgstr "Luxemburg"
 msgid "M"
 msgstr "M"
 
+msgctxt "Currency"
+msgid "MAD"
+msgstr "MAD"
+
+msgctxt "Currency"
+msgid "MDL"
+msgstr "MDL"
+
 msgid "MDN Web Docs"
 msgstr "MDN Web Docs"
 
+msgctxt "Currency"
+msgid "MGA"
+msgstr "MGA"
+
 msgid "MINUTES"
 msgstr "MINUTEN"
+
+msgctxt "Currency"
+msgid "MKD"
+msgstr "MKD"
+
+msgctxt "Currency"
+msgid "MMK"
+msgstr "MMK"
+
+msgctxt "Currency"
+msgid "MNT"
+msgstr "MNT"
+
+msgctxt "Currency"
+msgid "MOP"
+msgstr "MOP"
+
+msgctxt "Currency"
+msgid "MRO"
+msgstr "MRO"
+
+msgctxt "Currency"
+msgid "MUR"
+msgstr "MUR"
+
+msgctxt "Currency"
+msgid "MVR"
+msgstr "MVR"
+
+msgctxt "Currency"
+msgid "MWK"
+msgstr "MWK"
+
+msgctxt "Currency"
+msgid "MXN"
+msgstr "MXN"
+
+msgctxt "Currency"
+msgid "MYR"
+msgstr "MYR"
+
+msgctxt "Currency"
+msgid "MZN"
+msgstr "MZN"
 
 msgid "Mac"
 msgstr "Mac"
@@ -22331,6 +22931,10 @@ msgstr "Malaiisch"
 msgid "Malay (Malaysia)"
 msgstr "Malaiisch (Malaysia)"
 
+msgid "Malayalam"
+msgstr "Malayalam"
+
+msgctxt "CSS property"
 msgid "Malayalam"
 msgstr "Malayalam"
 
@@ -23459,6 +24063,10 @@ msgstr "MySQL-Version"
 msgid "Myanmar"
 msgstr "Myanmar"
 
+msgctxt "CSS property"
+msgid "Myanmar"
+msgstr "Myanmar"
+
 msgid "Myspace Link"
 msgstr "Myspace-Link"
 
@@ -23468,12 +24076,36 @@ msgstr "Geheimnisvoll"
 msgid "N/A"
 msgstr "k. A."
 
+msgctxt "Currency"
+msgid "NAD"
+msgstr "NAD"
+
+msgctxt "Currency"
+msgid "NGN"
+msgstr "NGN"
+
+msgctxt "Currency"
+msgid "NIO"
+msgstr "NIO"
+
+msgctxt "Currency"
+msgid "NOK"
+msgstr "NOK"
+
 #. translators: EC Customizer notice.
 msgid "NOTE"
 msgstr "HINWEIS"
 
 msgid "NOTE:"
 msgstr "HINWEIS:"
+
+msgctxt "Currency"
+msgid "NPR"
+msgstr "NPR"
+
+msgctxt "Currency"
+msgid "NZD"
+msgstr "NZD"
 
 msgid "Name"
 msgstr "Name"
@@ -23643,6 +24275,10 @@ msgstr "Neue Schriftart"
 msgid "New Hampshire"
 msgstr "New Hampshire"
 
+msgctxt "Avada Icon"
+msgid "New Icon Set"
+msgstr "Neues Icon-Set"
+
 msgid "New Jersey"
 msgstr "New Jersey"
 
@@ -23660,6 +24296,10 @@ msgstr "Neue Liste"
 
 msgid "New Mexico"
 msgstr "New Mexico"
+
+msgctxt "Avada Off Canvas"
+msgid "New Off Canvas"
+msgstr "Neues Off-Canvas"
 
 msgid "New Palette"
 msgstr "Neue Palette"
@@ -23847,6 +24487,14 @@ msgstr "Keine IDs zum Wiederherstellen angegeben."
 msgid "No IDs provided."
 msgstr "Keine IDs angegeben."
 
+msgctxt "Avada Icon"
+msgid "No Icon Sets found"
+msgstr "Keine Icon-Sets gefunden"
+
+msgctxt "Avada Icon"
+msgid "No Icon Sets found in Trash"
+msgstr "Keine Icon-Sets im Papierkorb gefunden"
+
 msgid "No Icons"
 msgstr "Keine Icons"
 
@@ -23870,6 +24518,14 @@ msgstr "Keine Betriebssystemdaten"
 
 msgid "No Off Canvas items found."
 msgstr "Keine Off-Canvas-Elemente gefunden."
+
+msgctxt "Avada Off Canvas"
+msgid "No Off Canvases found"
+msgstr "Keine Off-Canvas gefunden"
+
+msgctxt "Avada Off Canvas"
+msgid "No Off Canvases found in Trash"
+msgstr "Keine Off-Canvas im Papierkorb gefunden"
 
 msgid "No Opens Yet"
 msgstr "Noch keine Öffnungen"
@@ -24587,6 +25243,10 @@ msgstr "Nur Zahlen"
 msgid "Numeric"
 msgstr "Numerisch"
 
+msgctxt "CSS property"
+msgid "Numeric"
+msgstr "Numerisch"
+
 msgid "OAuth"
 msgstr "OAuth"
 
@@ -24623,6 +25283,10 @@ msgstr "Von allen Sitzungen mit diesem Schritt hat dieser Prozentsatz letztendli
 msgid "Off"
 msgstr "Aus"
 
+msgid "Off Canvas"
+msgstr "Off-Canvas"
+
+msgctxt "Avada Off Canvas"
 msgid "Off Canvas"
 msgstr "Off-Canvas"
 
@@ -25099,6 +25763,10 @@ msgstr "Nur Original (HTML)"
 msgid "Oriya"
 msgstr "Oriya"
 
+msgctxt "CSS property"
+msgid "Oriya"
+msgstr "Oriya"
+
 msgid "Other"
 msgstr "Andere"
 
@@ -25192,6 +25860,22 @@ msgstr "Mit einer neuen Farbe überschreiben."
 msgid "Overwrite with a new typography."
 msgstr "Mit einer neuen Typografie überschreiben."
 
+msgctxt "Currency"
+msgid "PAB"
+msgstr "PAB"
+
+msgctxt "Currency"
+msgid "PEN"
+msgstr "PEN"
+
+msgctxt "Currency"
+msgid "PGK"
+msgstr "PGK"
+
+msgctxt "Currency"
+msgid "PHP"
+msgstr "PHP"
+
 msgid "PHP Mail"
 msgstr "PHP Mail"
 
@@ -25219,8 +25903,20 @@ msgstr "PHP-Datumsformat zum Gruppieren von Beiträgen nach Monat. Standard: F Y
 msgid "PHP functions your host has switched off. These can make features fail with no error."
 msgstr "PHP-Funktionen, die dein Hoster deaktiviert hat. Dadurch können Funktionen ohne Fehlermeldung fehlschlagen."
 
+msgctxt "Currency"
+msgid "PKR"
+msgstr "PKR"
+
+msgctxt "Currency"
+msgid "PLN"
+msgstr "PLN"
+
 msgid "POST"
 msgstr "POST"
+
+msgctxt "Currency"
+msgid "PYG"
+msgstr "PYG"
 
 msgid "Packed"
 msgstr "Dicht gepackt"
@@ -25506,6 +26202,10 @@ msgstr "Das Zurücksetzen des Passworts ist für diesen Benutzer nicht erlaubt."
 msgid "Password:"
 msgstr "Passwort:"
 
+msgctxt "status labels"
+msgid "Past-due"
+msgstr "Überfällig"
+
 msgid "Paste After"
 msgstr "Danach einfügen"
 
@@ -25757,6 +26457,10 @@ msgstr "Zugriff verweigert."
 msgid "Permissions"
 msgstr "Berechtigungen"
 
+msgid "Persian"
+msgstr "Persisch"
+
+msgctxt "CSS property"
 msgid "Persian"
 msgstr "Persisch"
 
@@ -26272,6 +26976,14 @@ msgstr "Ausrichtung des Popup-Titels"
 msgid "Popup Title Typography"
 msgstr "Typografie des Popup-Titels"
 
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgctxt "Post Type General Name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgctxt "Post Type Singular Name"
 msgid "Portfolio"
 msgstr "Portfolio"
 
@@ -27511,6 +28223,10 @@ msgstr "Lila"
 msgid "Push"
 msgstr "Schieben"
 
+msgctxt "Currency"
+msgid "QAR"
+msgstr "QAR"
+
 msgid "Qatar"
 msgstr "Katar"
 
@@ -27584,14 +28300,34 @@ msgstr "Schnellansicht"
 msgid "Quickly generate SEO copy, edit text, or create variations of wording perfectly tailored to your site's content."
 msgstr "Erstelle schnell SEO-Texte, bearbeite Texte oder erzeuge Formulierungsvarianten, die perfekt auf die Inhalte deiner Website zugeschnitten sind."
 
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Zitate"
+
 msgid "RAND"
 msgstr "RAND"
+
+msgctxt "Currency"
+msgid "RON"
+msgstr "RON"
+
+msgctxt "Currency"
+msgid "RSD"
+msgstr "RSD"
 
 msgid "RSS Link"
 msgstr "RSS-Link"
 
 msgid "RTL"
 msgstr "RTL"
+
+msgctxt "Currency"
+msgid "RUB"
+msgstr "RUB"
+
+msgctxt "Currency"
+msgid "RWF"
+msgstr "RWF"
 
 msgid "Radar"
 msgstr "Radar"
@@ -28940,8 +29676,24 @@ msgstr "S"
 msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
 msgstr "S&atilde;o Tom&eacute; und Pr&iacute;ncipe"
 
+msgctxt "Currency"
+msgid "SAR"
+msgstr "SAR"
+
+msgctxt "Currency"
+msgid "SBD"
+msgstr "SBD"
+
+msgctxt "Currency"
+msgid "SCR"
+msgstr "SCR"
+
 msgid "SECONDS"
 msgstr "SEKUNDEN"
+
+msgctxt "Currency"
+msgid "SEK"
+msgstr "SEK"
 
 msgid "SEO"
 msgstr "SEO"
@@ -28973,11 +29725,35 @@ msgstr "SESSION"
 msgid "SESSION Variable"
 msgstr "SESSION-Variable"
 
+msgctxt "Currency"
+msgid "SGD"
+msgstr "SGD"
+
+msgctxt "Currency"
+msgid "SHP"
+msgstr "SHP"
+
 msgid "SKU:"
 msgstr "Artikelnummer:"
 
+msgctxt "Currency"
+msgid "SLL"
+msgstr "SLL"
+
 msgid "SNS Topic ARN"
 msgstr "SNS-Topic-ARN"
+
+msgctxt "Currency"
+msgid "SOS"
+msgstr "SOS"
+
+msgctxt "Currency"
+msgid "SRD"
+msgstr "SRD"
+
+msgctxt "Currency"
+msgid "STD"
+msgstr "STD"
 
 msgid "SUHOSIN Installed"
 msgstr "SUHOSIN installiert"
@@ -28987,6 +29763,10 @@ msgstr "SVG-ID aus der Mediathek."
 
 msgid "SVG Media Upload"
 msgstr "SVG-Medien-Upload"
+
+msgctxt "Currency"
+msgid "SZL"
+msgstr "SZL"
 
 msgid "Saint Barth&eacute;lemy"
 msgstr "Saint-Barth&eacute;lemy"
@@ -29297,6 +30077,10 @@ msgstr "Spalten der geplanten Aktionen"
 msgid "Scheduled Actions"
 msgstr "Geplante Aktionen"
 
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr "Geplante Aktionen"
+
 msgid "Scheduled Date"
 msgstr "Geplantes Datum"
 
@@ -29506,6 +30290,10 @@ msgstr "Design des Suchformulars"
 msgid "Search Forms..."
 msgstr "Formulare durchsuchen ..."
 
+msgctxt "Avada Icon"
+msgid "Search Icon Sets"
+msgstr "Icon-Sets durchsuchen"
+
 msgid "Search Icons"
 msgstr "Icons durchsuchen"
 
@@ -29520,6 +30308,10 @@ msgstr "Bibliothek durchsuchen ..."
 
 msgid "Search Off Canvas..."
 msgstr "Off-Canvas durchsuchen ..."
+
+msgctxt "Avada Off Canvas"
+msgid "Search Off Canvases"
+msgstr "Off-Canvas durchsuchen"
 
 msgid "Search Page"
 msgstr "Suchseite"
@@ -29645,6 +30437,10 @@ msgstr "Geheimer Schlüssel ist leer."
 
 msgid "Secret Key is empty. Please enter a valid secret key"
 msgstr "Geheimer Schlüssel ist leer. Bitte gib einen gültigen geheimen Schlüssel ein"
+
+msgctxt "Section type singular name"
+msgid "Section"
+msgstr "Bereich"
 
 msgid "Section Category"
 msgstr "Bereichskategorie"
@@ -33981,6 +34777,14 @@ msgstr "Einfaches Produkt"
 msgid "SimpleXML missing from server."
 msgstr "SimpleXML fehlt auf dem Server."
 
+msgctxt "CSS property"
+msgid "Simplified Chinese Formal"
+msgstr "Vereinfachtes Chinesisch formell"
+
+msgctxt "CSS property"
+msgid "Simplified Chinese Informal"
+msgstr "Vereinfachtes Chinesisch informell"
+
 msgid "Singapore"
 msgstr "Singapur"
 
@@ -34644,6 +35448,10 @@ msgstr "South Carolina"
 msgid "South Dakota"
 msgstr "South Dakota"
 
+msgctxt "Country"
+msgid "South Georgia"
+msgstr "Südgeorgien"
+
 msgid "South Georgia/Sandwich Islands"
 msgstr "Südgeorgien/Sandwichinseln"
 
@@ -35000,6 +35808,10 @@ msgstr "Status"
 
 msgid "Status:"
 msgstr "Status:"
+
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status"
 
 #. translators: %s - The number of the step.
 msgid "Step %s"
@@ -35673,8 +36485,36 @@ msgstr "Systempfad deines wp-content-Verzeichnisses."
 msgid "System: Abandoned Cart"
 msgstr "System: Abgebrochener Warenkorb"
 
+msgctxt "Currency"
+msgid "THB"
+msgstr "THB"
+
+msgctxt "Currency"
+msgid "TJS"
+msgstr "TJS"
+
 msgid "TOC Elements"
 msgstr "Inhaltsverzeichnis-Elemente"
+
+msgctxt "Currency"
+msgid "TOP"
+msgstr "TOP"
+
+msgctxt "Currency"
+msgid "TRY"
+msgstr "TRY"
+
+msgctxt "Currency"
+msgid "TTD"
+msgstr "TTD"
+
+msgctxt "Currency"
+msgid "TWD"
+msgstr "TWD"
+
+msgctxt "Currency"
+msgid "TZS"
+msgstr "TZS"
 
 msgid "Tab"
 msgstr "Tab"
@@ -36039,6 +36879,10 @@ msgstr "Telegram-Link"
 msgid "Telugu"
 msgstr "Telugu"
 
+msgctxt "CSS property"
+msgid "Telugu"
+msgstr "Telugu"
+
 msgid "Template"
 msgstr "Vorlage"
 
@@ -36325,6 +37169,10 @@ msgstr "Textbereich-Zeilen"
 msgid "Texture"
 msgstr "Textur"
 
+msgid "Thai"
+msgstr "Thailändisch"
+
+msgctxt "CSS property"
 msgid "Thai"
 msgstr "Thailändisch"
 
@@ -38750,6 +39598,10 @@ msgstr "Typografie-Sets"
 msgid "U.S. States"
 msgstr "US-Bundesstaaten"
 
+msgctxt "Currency"
+msgid "UAH"
+msgstr "UAH"
+
 msgid "URL"
 msgstr "URL"
 
@@ -38764,6 +39616,10 @@ msgstr "URL-Unterpfad für das Verschleiern von Affiliate-Links."
 
 msgid "US Minor Outlying Islands"
 msgstr "United States Minor Outlying Islands"
+
+msgctxt "Currency"
+msgid "USD"
+msgstr "USD"
 
 msgid "UTC"
 msgstr "UTC"
@@ -38878,6 +39734,14 @@ msgstr "UTC−11:00"
 
 msgid "UTC−12:00"
 msgstr "UTC−12:00"
+
+msgctxt "Currency"
+msgid "UYU"
+msgstr "UYU"
+
+msgctxt "Currency"
+msgid "UZS"
+msgstr "UZS"
 
 msgid "Uganda"
 msgstr "Uganda"
@@ -39317,6 +40181,14 @@ msgstr "ZIP-Datei wird hochgeladen ..."
 msgid "Uploads Preview"
 msgstr "Upload-Vorschau"
 
+msgctxt "CSS property"
+msgid "Upper Alpha"
+msgstr "Großbuchstaben"
+
+msgctxt "CSS property"
+msgid "Upper Roman"
+msgstr "Römisch groß"
+
 msgid "Uppercase"
 msgstr "Großbuchstaben"
 
@@ -39587,6 +40459,14 @@ msgstr "VK"
 msgid "VK Link"
 msgstr "VK-Link"
 
+msgctxt "Currency"
+msgid "VND"
+msgstr "VND"
+
+msgctxt "Currency"
+msgid "VUV"
+msgstr "VUV"
+
 msgid "Valid"
 msgstr "Gültig"
 
@@ -39808,6 +40688,10 @@ msgstr "Videoabmessungen in Pixeln. Wird nur eine Abmessung angegeben, wird das 
 msgid "Video settings are available in the Video tab."
 msgstr "Videoeinstellungen findest du im Tab Video."
 
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videos"
+
 msgid "Videos not for you? That's ok! We have you covered."
 msgstr "Videos sind nichts für dich? Kein Problem! Wir haben auch anderes."
 
@@ -39907,6 +40791,10 @@ msgstr "Datei ansehen"
 msgid "View Full Image"
 msgstr "Volles Bild ansehen"
 
+msgctxt "Avada Icon"
+msgid "View Icon Set"
+msgstr "Icon-Set ansehen"
+
 msgid "View Items"
 msgstr "Einträge ansehen"
 
@@ -39918,6 +40806,10 @@ msgstr "Layout ansehen"
 
 msgid "View Layouts"
 msgstr "Layouts ansehen"
+
+msgctxt "Avada Off Canvas"
+msgid "View Off Canvas"
+msgstr "Off-Canvas ansehen"
 
 msgid "View Page on Frontend"
 msgstr "Seite im Frontend ansehen"
@@ -40185,6 +41077,10 @@ msgstr "WP-Cron"
 
 msgid "WPML makes it easy to build multilingual sites and run them. It's powerful enough for corporate sites, yet simple for blogs."
 msgstr "Mit WPML erstellst und betreibst du ganz einfach mehrsprachige Websites. Leistungsstark genug für Unternehmensseiten, und doch einfach für Blogs."
+
+msgctxt "Currency"
+msgid "WST"
+msgstr "WST"
 
 msgid "WYSIWYG Studio Styles"
 msgstr "WYSIWYG-Studio-Styles"
@@ -41114,11 +42010,27 @@ msgstr "X-Timeline"
 msgid "X Username"
 msgstr "X-Benutzername"
 
+msgctxt "Currency"
+msgid "XAF"
+msgstr "XAF"
+
+msgctxt "Currency"
+msgid "XCD"
+msgstr "XCD"
+
 msgid "XL"
 msgstr "XL"
 
 msgid "XLarge"
 msgstr "Extragroß"
+
+msgctxt "Currency"
+msgid "XOF"
+msgstr "XOF"
+
+msgctxt "Currency"
+msgid "XPF"
+msgstr "XPF"
 
 msgid "XXL"
 msgstr "XXL"
@@ -41129,11 +42041,19 @@ msgstr "Xing"
 msgid "Xing Link"
 msgstr "Xing-Link"
 
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
 msgid "Y Axis Label"
 msgstr "Y-Achsenbeschriftung"
 
 msgid "Y-m-d H:i:s"
 msgstr "Y-m-d H:i:s"
+
+msgctxt "Currency"
+msgid "YER"
+msgstr "YER"
 
 #. translators: Yearly archive title.
 msgid "Year: %s"
@@ -41441,6 +42361,14 @@ msgstr "Z-Index"
 msgid "Z-Index"
 msgstr "Z-Index"
 
+msgctxt "Currency"
+msgid "ZAR"
+msgstr "ZAR"
+
+msgctxt "Currency"
+msgid "ZMW"
+msgstr "ZMW"
+
 msgid "Zambia"
 msgstr "Sambia"
 
@@ -41673,6 +42601,10 @@ msgstr "Experiment"
 
 msgid "experiments"
 msgstr "Experimente"
+
+msgctxt "slug"
+msgid "faq_category"
+msgstr "faq_category"
 
 msgid "field[1][name]"
 msgstr "field[1][name]"
@@ -41912,6 +42844,18 @@ msgstr "phtml"
 msgid "portfolio"
 msgstr "Portfolio"
 
+msgctxt "slug"
+msgid "portfolio_category"
+msgstr "portfolio_category"
+
+msgctxt "slug"
+msgid "portfolio_skills"
+msgstr "portfolio_skills"
+
+msgctxt "slug"
+msgid "portfolio_tags"
+msgstr "portfolio_tags"
+
 msgid "posts"
 msgstr "Beiträge"
 
@@ -42073,6 +43017,10 @@ msgstr "unerwartetes Herunterfahren: PHP Fatal error %1$s in %2$s in Zeile %3$s"
 msgid "unknown"
 msgstr "unbekannt"
 
+msgctxt "database error"
+msgid "unknown"
+msgstr "unbekannt"
+
 msgid "visits"
 msgstr "Besuche"
 
@@ -42105,951 +43053,3 @@ msgstr "• „Metadaten“: Beim Laden der Seite werden nur die Metadaten gelad
 
 msgid "• \"None\": The audio should not be loaded when the page loads."
 msgstr "• „Keine“: Die Audiodatei wird beim Laden der Seite nicht geladen."
-
-msgctxt "Cost range separator"
-msgid " – "
-msgstr " – "
-
-msgctxt "Address separator"
-msgid ", "
-msgstr ", "
-
-msgctxt "Currency"
-msgid "AED"
-msgstr "AED"
-
-msgctxt "Currency"
-msgid "AFN"
-msgstr "AFN"
-
-msgctxt "Currency"
-msgid "ALL"
-msgstr "ALL"
-
-msgctxt "Currency"
-msgid "AMD"
-msgstr "AMD"
-
-msgctxt "Currency"
-msgid "ANG"
-msgstr "ANG"
-
-msgctxt "Currency"
-msgid "AOA"
-msgstr "AOA"
-
-msgctxt "Currency"
-msgid "ARS"
-msgstr "ARS"
-
-msgctxt "Currency"
-msgid "AUD"
-msgstr "AUD"
-
-msgctxt "Currency"
-msgid "AWG"
-msgstr "AWG"
-
-msgctxt "Currency"
-msgid "AZN"
-msgstr "AZN"
-
-msgctxt "Currency"
-msgid "BAM"
-msgstr "BAM"
-
-msgctxt "Currency"
-msgid "BBD"
-msgstr "BBD"
-
-msgctxt "Currency"
-msgid "BDT"
-msgstr "BDT"
-
-msgctxt "Currency"
-msgid "BGN"
-msgstr "BGN"
-
-msgctxt "Currency"
-msgid "BIF"
-msgstr "BIF"
-
-msgctxt "Currency"
-msgid "BMD"
-msgstr "BMD"
-
-msgctxt "Currency"
-msgid "BND"
-msgstr "BND"
-
-msgctxt "Currency"
-msgid "BOB"
-msgstr "BOB"
-
-msgctxt "Currency"
-msgid "BRL"
-msgstr "BRL"
-
-msgctxt "Currency"
-msgid "BSD"
-msgstr "BSD"
-
-msgctxt "Currency"
-msgid "BWP"
-msgstr "BWP"
-
-msgctxt "Currency"
-msgid "BYN"
-msgstr "BYN"
-
-msgctxt "Currency"
-msgid "BZD"
-msgstr "BZD"
-
-msgctxt "Currency"
-msgid "CAD"
-msgstr "CAD"
-
-msgctxt "Currency"
-msgid "CDF"
-msgstr "CDF"
-
-msgctxt "Currency"
-msgid "CHF"
-msgstr "CHF"
-
-msgctxt "Currency"
-msgid "CLP"
-msgstr "CLP"
-
-msgctxt "Currency"
-msgid "CNY"
-msgstr "CNY"
-
-msgctxt "Currency"
-msgid "COP"
-msgstr "COP"
-
-msgctxt "Currency"
-msgid "CRC"
-msgstr "CRC"
-
-msgctxt "Currency"
-msgid "CVE"
-msgstr "CVE"
-
-msgctxt "Currency"
-msgid "CZK"
-msgstr "CZK"
-
-msgctxt "Currency"
-msgid "DJF"
-msgstr "DJF"
-
-msgctxt "Currency"
-msgid "DKK"
-msgstr "DKK"
-
-msgctxt "Currency"
-msgid "DOP"
-msgstr "DOP"
-
-msgctxt "Currency"
-msgid "DZD"
-msgstr "DZD"
-
-msgctxt "Currency"
-msgid "EGP"
-msgstr "EGP"
-
-msgctxt "Currency"
-msgid "ETB"
-msgstr "ETB"
-
-msgctxt "Currency"
-msgid "EUR"
-msgstr "EUR"
-
-msgctxt "Currency"
-msgid "FJD"
-msgstr "FJD"
-
-msgctxt "Currency"
-msgid "FKP"
-msgstr "FKP"
-
-msgctxt "Currency"
-msgid "GBP"
-msgstr "GBP"
-
-msgctxt "Currency"
-msgid "GEL"
-msgstr "GEL"
-
-msgctxt "Currency"
-msgid "GIP"
-msgstr "GIP"
-
-msgctxt "Currency"
-msgid "GMD"
-msgstr "GMD"
-
-msgctxt "Currency"
-msgid "GNF"
-msgstr "GNF"
-
-msgctxt "Currency"
-msgid "GTQ"
-msgstr "GTQ"
-
-msgctxt "Currency"
-msgid "GYD"
-msgstr "GYD"
-
-msgctxt "Currency"
-msgid "HKD"
-msgstr "HKD"
-
-msgctxt "Currency"
-msgid "HNL"
-msgstr "HNL"
-
-msgctxt "Currency"
-msgid "HRK"
-msgstr "HRK"
-
-msgctxt "Currency"
-msgid "HTG"
-msgstr "HTG"
-
-msgctxt "Currency"
-msgid "IDR"
-msgstr "IDR"
-
-msgctxt "Currency"
-msgid "ILS"
-msgstr "ILS"
-
-msgctxt "Currency"
-msgid "INR"
-msgstr "INR"
-
-msgctxt "Currency"
-msgid "ISK"
-msgstr "ISK"
-
-msgctxt "Currency"
-msgid "JMD"
-msgstr "JMD"
-
-msgctxt "Currency"
-msgid "JPY"
-msgstr "JPY"
-
-msgctxt "Currency"
-msgid "KES"
-msgstr "KES"
-
-msgctxt "Currency"
-msgid "KGS"
-msgstr "KGS"
-
-msgctxt "Currency"
-msgid "KHR"
-msgstr "KHR"
-
-msgctxt "Currency"
-msgid "KMF"
-msgstr "KMF"
-
-msgctxt "Currency"
-msgid "KRW"
-msgstr "KRW"
-
-msgctxt "Currency"
-msgid "KYD"
-msgstr "KYD"
-
-msgctxt "Currency"
-msgid "KZT"
-msgstr "KZT"
-
-msgctxt "Currency"
-msgid "LAK"
-msgstr "LAK"
-
-msgctxt "Currency"
-msgid "LBP"
-msgstr "LBP"
-
-msgctxt "Currency"
-msgid "LKR"
-msgstr "LKR"
-
-msgctxt "Currency"
-msgid "LRD"
-msgstr "LRD"
-
-msgctxt "Currency"
-msgid "LSL"
-msgstr "LSL"
-
-msgctxt "Currency"
-msgid "MAD"
-msgstr "MAD"
-
-msgctxt "Currency"
-msgid "MDL"
-msgstr "MDL"
-
-msgctxt "Currency"
-msgid "MGA"
-msgstr "MGA"
-
-msgctxt "Currency"
-msgid "MKD"
-msgstr "MKD"
-
-msgctxt "Currency"
-msgid "MMK"
-msgstr "MMK"
-
-msgctxt "Currency"
-msgid "MNT"
-msgstr "MNT"
-
-msgctxt "Currency"
-msgid "MOP"
-msgstr "MOP"
-
-msgctxt "Currency"
-msgid "MRO"
-msgstr "MRO"
-
-msgctxt "Currency"
-msgid "MUR"
-msgstr "MUR"
-
-msgctxt "Currency"
-msgid "MVR"
-msgstr "MVR"
-
-msgctxt "Currency"
-msgid "MWK"
-msgstr "MWK"
-
-msgctxt "Currency"
-msgid "MXN"
-msgstr "MXN"
-
-msgctxt "Currency"
-msgid "MYR"
-msgstr "MYR"
-
-msgctxt "Currency"
-msgid "MZN"
-msgstr "MZN"
-
-msgctxt "Currency"
-msgid "NAD"
-msgstr "NAD"
-
-msgctxt "Currency"
-msgid "NGN"
-msgstr "NGN"
-
-msgctxt "Currency"
-msgid "NIO"
-msgstr "NIO"
-
-msgctxt "Currency"
-msgid "NOK"
-msgstr "NOK"
-
-msgctxt "Currency"
-msgid "NPR"
-msgstr "NPR"
-
-msgctxt "Currency"
-msgid "NZD"
-msgstr "NZD"
-
-msgctxt "Currency"
-msgid "PAB"
-msgstr "PAB"
-
-msgctxt "Currency"
-msgid "PEN"
-msgstr "PEN"
-
-msgctxt "Currency"
-msgid "PGK"
-msgstr "PGK"
-
-msgctxt "Currency"
-msgid "PHP"
-msgstr "PHP"
-
-msgctxt "Currency"
-msgid "PKR"
-msgstr "PKR"
-
-msgctxt "Currency"
-msgid "PLN"
-msgstr "PLN"
-
-msgctxt "Currency"
-msgid "PYG"
-msgstr "PYG"
-
-msgctxt "Currency"
-msgid "QAR"
-msgstr "QAR"
-
-msgctxt "Currency"
-msgid "RON"
-msgstr "RON"
-
-msgctxt "Currency"
-msgid "RSD"
-msgstr "RSD"
-
-msgctxt "Currency"
-msgid "RUB"
-msgstr "RUB"
-
-msgctxt "Currency"
-msgid "RWF"
-msgstr "RWF"
-
-msgctxt "Currency"
-msgid "SAR"
-msgstr "SAR"
-
-msgctxt "Currency"
-msgid "SBD"
-msgstr "SBD"
-
-msgctxt "Currency"
-msgid "SCR"
-msgstr "SCR"
-
-msgctxt "Currency"
-msgid "SEK"
-msgstr "SEK"
-
-msgctxt "Currency"
-msgid "SGD"
-msgstr "SGD"
-
-msgctxt "Currency"
-msgid "SHP"
-msgstr "SHP"
-
-msgctxt "Currency"
-msgid "SLL"
-msgstr "SLL"
-
-msgctxt "Currency"
-msgid "SOS"
-msgstr "SOS"
-
-msgctxt "Currency"
-msgid "SRD"
-msgstr "SRD"
-
-msgctxt "Currency"
-msgid "STD"
-msgstr "STD"
-
-msgctxt "Currency"
-msgid "SZL"
-msgstr "SZL"
-
-msgctxt "Currency"
-msgid "THB"
-msgstr "THB"
-
-msgctxt "Currency"
-msgid "TJS"
-msgstr "TJS"
-
-msgctxt "Currency"
-msgid "TOP"
-msgstr "TOP"
-
-msgctxt "Currency"
-msgid "TRY"
-msgstr "TRY"
-
-msgctxt "Currency"
-msgid "TTD"
-msgstr "TTD"
-
-msgctxt "Currency"
-msgid "TWD"
-msgstr "TWD"
-
-msgctxt "Currency"
-msgid "TZS"
-msgstr "TZS"
-
-msgctxt "Currency"
-msgid "UAH"
-msgstr "UAH"
-
-msgctxt "Currency"
-msgid "USD"
-msgstr "USD"
-
-msgctxt "Currency"
-msgid "UYU"
-msgstr "UYU"
-
-msgctxt "Currency"
-msgid "UZS"
-msgstr "UZS"
-
-msgctxt "Currency"
-msgid "VND"
-msgstr "VND"
-
-msgctxt "Currency"
-msgid "VUV"
-msgstr "VUV"
-
-msgctxt "Currency"
-msgid "WST"
-msgstr "WST"
-
-msgctxt "Currency"
-msgid "XAF"
-msgstr "XAF"
-
-msgctxt "Currency"
-msgid "XCD"
-msgstr "XCD"
-
-msgctxt "Currency"
-msgid "XOF"
-msgstr "XOF"
-
-msgctxt "Currency"
-msgid "XPF"
-msgstr "XPF"
-
-msgctxt "Currency"
-msgid "YER"
-msgstr "YER"
-
-msgctxt "Currency"
-msgid "ZAR"
-msgstr "ZAR"
-
-msgctxt "Currency"
-msgid "ZMW"
-msgstr "ZMW"
-
-msgctxt "Avada Icon"
-msgid "Add New"
-msgstr "Neu hinzufügen"
-
-msgctxt "Avada Icon"
-msgid "Add New Icon Set"
-msgstr "Neues Icon-Set hinzufügen"
-
-msgctxt "Avada Icon"
-msgid "All Icon Sets"
-msgstr "Alle Icon-Sets"
-
-msgctxt "Avada Icon"
-msgid "Custom Icons"
-msgstr "Benutzerdefinierte Icons"
-
-msgctxt "Avada Icon"
-msgid "Edit Icon Set"
-msgstr "Icon-Set bearbeiten"
-
-msgctxt "Avada Icon"
-msgid "Icon Set"
-msgstr "Icon-Set"
-
-msgctxt "Avada Icon"
-msgid "New Icon Set"
-msgstr "Neues Icon-Set"
-
-msgctxt "Avada Icon"
-msgid "No Icon Sets found"
-msgstr "Keine Icon-Sets gefunden"
-
-msgctxt "Avada Icon"
-msgid "No Icon Sets found in Trash"
-msgstr "Keine Icon-Sets im Papierkorb gefunden"
-
-msgctxt "Avada Icon"
-msgid "Search Icon Sets"
-msgstr "Icon-Sets durchsuchen"
-
-msgctxt "Avada Icon"
-msgid "View Icon Set"
-msgstr "Icon-Set ansehen"
-
-msgctxt "Avada Off Canvas"
-msgid "Add New"
-msgstr "Neu hinzufügen"
-
-msgctxt "Avada Off Canvas"
-msgid "Add New Off Canvas"
-msgstr "Neues Off-Canvas hinzufügen"
-
-msgctxt "Avada Off Canvas"
-msgid "All Off Canvases"
-msgstr "Alle Off-Canvas"
-
-msgctxt "Avada Off Canvas"
-msgid "Edit Off Canvas"
-msgstr "Off-Canvas bearbeiten"
-
-msgctxt "Avada Off Canvas"
-msgid "New Off Canvas"
-msgstr "Neues Off-Canvas"
-
-msgctxt "Avada Off Canvas"
-msgid "No Off Canvases found"
-msgstr "Keine Off-Canvas gefunden"
-
-msgctxt "Avada Off Canvas"
-msgid "No Off Canvases found in Trash"
-msgstr "Keine Off-Canvas im Papierkorb gefunden"
-
-msgctxt "Avada Off Canvas"
-msgid "Off Canvas"
-msgstr "Off-Canvas"
-
-msgctxt "Avada Off Canvas"
-msgid "Search Off Canvases"
-msgstr "Off-Canvas durchsuchen"
-
-msgctxt "Avada Off Canvas"
-msgid "View Off Canvas"
-msgstr "Off-Canvas ansehen"
-
-msgctxt "Element item"
-msgid "Add New"
-msgstr "Neu hinzufügen"
-
-msgctxt "Layout item"
-msgid "Add New"
-msgstr "Neu hinzufügen"
-
-msgctxt "Section item"
-msgid "Add New"
-msgstr "Neu hinzufügen"
-
-msgctxt "avada-one"
-msgid "Add New Form"
-msgstr "Neues Formular hinzufügen"
-
-msgctxt "avada-one"
-msgid "Edit Form"
-msgstr "Formular bearbeiten"
-
-msgctxt "status labels"
-msgid "All"
-msgstr "Alle"
-
-msgctxt "status labels"
-msgid "Past-due"
-msgstr "Überfällig"
-
-msgctxt "CSS property"
-msgid "Arabic Indic"
-msgstr "Arabisch-Indisch"
-
-msgctxt "CSS property"
-msgid "Armenian"
-msgstr "Armenisch"
-
-msgctxt "CSS property"
-msgid "Bengali"
-msgstr "Bengalisch"
-
-msgctxt "CSS property"
-msgid "Cambodian"
-msgstr "Kambodschanisch"
-
-msgctxt "CSS property"
-msgid "Decimal with Leading Zero"
-msgstr "Dezimal mit führender Null"
-
-msgctxt "CSS property"
-msgid "Devanagari"
-msgstr "Devanagari"
-
-msgctxt "CSS property"
-msgid "Georgian"
-msgstr "Georgisch"
-
-msgctxt "CSS property"
-msgid "Gujarati"
-msgstr "Gujarati"
-
-msgctxt "CSS property"
-msgid "Gurmukhi"
-msgstr "Gurmukhi"
-
-msgctxt "CSS property"
-msgid "Hebrew"
-msgstr "Hebräisch"
-
-msgctxt "CSS property"
-msgid "Hiragana"
-msgstr "Hiragana"
-
-msgctxt "CSS property"
-msgid "Kannada"
-msgstr "Kannada"
-
-msgctxt "CSS property"
-msgid "Katakana"
-msgstr "Katakana"
-
-msgctxt "CSS property"
-msgid "Korean Hangul Formal"
-msgstr "Koreanisch Hangul formell"
-
-msgctxt "CSS property"
-msgid "Korean Hanja Formal"
-msgstr "Koreanisch Hanja formell"
-
-msgctxt "CSS property"
-msgid "Korean Hanja Informal"
-msgstr "Koreanisch Hanja informell"
-
-msgctxt "CSS property"
-msgid "Lao"
-msgstr "Laotisch"
-
-msgctxt "CSS property"
-msgid "Lower Alpha"
-msgstr "Kleinbuchstaben"
-
-msgctxt "CSS property"
-msgid "Lower Armenian"
-msgstr "Armenisch klein"
-
-msgctxt "CSS property"
-msgid "Lower Greek"
-msgstr "Griechisch klein"
-
-msgctxt "CSS property"
-msgid "Lower Roman"
-msgstr "Römisch klein"
-
-msgctxt "CSS property"
-msgid "Malayalam"
-msgstr "Malayalam"
-
-msgctxt "CSS property"
-msgid "Myanmar"
-msgstr "Myanmar"
-
-msgctxt "CSS property"
-msgid "Numeric"
-msgstr "Numerisch"
-
-msgctxt "CSS property"
-msgid "Oriya"
-msgstr "Oriya"
-
-msgctxt "CSS property"
-msgid "Persian"
-msgstr "Persisch"
-
-msgctxt "CSS property"
-msgid "Simplified Chinese Formal"
-msgstr "Vereinfachtes Chinesisch formell"
-
-msgctxt "CSS property"
-msgid "Simplified Chinese Informal"
-msgstr "Vereinfachtes Chinesisch informell"
-
-msgctxt "CSS property"
-msgid "Telugu"
-msgstr "Telugu"
-
-msgctxt "CSS property"
-msgid "Thai"
-msgstr "Thailändisch"
-
-msgctxt "CSS property"
-msgid "Upper Alpha"
-msgstr "Großbuchstaben"
-
-msgctxt "CSS property"
-msgid "Upper Roman"
-msgstr "Römisch groß"
-
-msgctxt "post format archive title"
-msgid "Asides"
-msgstr "Kurzmitteilungen"
-
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr "Audio"
-
-msgctxt "post format archive title"
-msgid "Chats"
-msgstr "Chats"
-
-msgctxt "post format archive title"
-msgid "Galleries"
-msgstr "Galerien"
-
-msgctxt "post format archive title"
-msgid "Images"
-msgstr "Bilder"
-
-msgctxt "post format archive title"
-msgid "Links"
-msgstr "Links"
-
-msgctxt "post format archive title"
-msgid "Quotes"
-msgstr "Zitate"
-
-msgctxt "post format archive title"
-msgid "Statuses"
-msgstr "Status"
-
-msgctxt "post format archive title"
-msgid "Videos"
-msgstr "Videos"
-
-msgctxt "Post Type Singular Name"
-msgid "Avada Form"
-msgstr "Avada-Formular"
-
-msgctxt "Post Type Singular Name"
-msgid "Avada Slide"
-msgstr "Avada-Slide"
-
-msgctxt "Post Type Singular Name"
-msgid "FAQ"
-msgstr "FAQ"
-
-msgctxt "Post Type Singular Name"
-msgid "Portfolio"
-msgstr "Portfolio"
-
-msgctxt "Post Type General Name"
-msgid "Avada Forms"
-msgstr "Avada Forms"
-
-msgctxt "Post Type General Name"
-msgid "Avada Slides"
-msgstr "Avada-Slides"
-
-msgctxt "Post Type General Name"
-msgid "FAQs"
-msgstr "FAQs"
-
-msgctxt "Post Type General Name"
-msgid "Portfolio"
-msgstr "Portfolio"
-
-msgctxt "Section type general name"
-msgid "Avada Layout Sections"
-msgstr "Avada-Layout-Bereiche"
-
-msgctxt "Layout general name"
-msgid "Avada Layouts"
-msgstr "Avada-Layouts"
-
-msgctxt "Element type singular name"
-msgid "Element"
-msgstr "Element"
-
-msgctxt "Block pattern category"
-msgid "Email Contents"
-msgstr "E-Mail-Inhalte"
-
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
-
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr "j. F Y"
-
-msgctxt "post"
-msgid "Failed"
-msgstr "Fehlgeschlagen"
-
-msgctxt "post"
-msgid "In-Progress"
-msgstr "In Bearbeitung"
-
-msgctxt "element type general name"
-msgid "Fusion Elements"
-msgstr "Fusion-Elemente"
-
-msgctxt "Layout type general name"
-msgid "Fusion Templates"
-msgstr "Fusion-Vorlagen"
-
-msgctxt "Country"
-msgid "Georgia"
-msgstr "Georgien"
-
-msgctxt "Country"
-msgid "South Georgia"
-msgstr "Südgeorgien"
-
-msgctxt "US state of Georgia"
-msgid "Georgia"
-msgstr "Georgia"
-
-msgctxt "breadcrumb"
-msgid "Home"
-msgstr "Startseite"
-
-msgctxt "Layout singular name"
-msgid "Layout"
-msgstr "Layout"
-
-msgctxt "Layout type singular name"
-msgid "Layout"
-msgstr "Layout"
-
-msgctxt "Admin menu name"
-msgid "Scheduled Actions"
-msgstr "Geplante Aktionen"
-
-msgctxt "Section type singular name"
-msgid "Section"
-msgstr "Bereich"
-
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
-
-msgctxt "slug"
-msgid "faq_category"
-msgstr "faq_category"
-
-msgctxt "slug"
-msgid "portfolio_category"
-msgstr "portfolio_category"
-
-msgctxt "slug"
-msgid "portfolio_skills"
-msgstr "portfolio_skills"
-
-msgctxt "slug"
-msgid "portfolio_tags"
-msgstr "portfolio_tags"
-
-msgctxt "database error"
-msgid "unknown"
-msgstr "unbekannt"

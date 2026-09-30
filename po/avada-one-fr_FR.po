@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-09-16 10:43:31+00:00\n"
+"POT-Creation-Date: 2026-09-30 07:52:22+00:00\n"
 "PO-Revision-Date: 2026-09-29 14:34+0000\n"
 "Last-Translator: Imported from Avada Classic translations\n"
 "Language-Team: \n"
@@ -157,6 +157,8 @@ msgstr ""
 msgid "%1$s with Specific %2$s"
 msgstr "%1$s avec spécifique %2$s"
 
+#. translators: 1: Global color name, eg. "Color 5". 2: Shade step name, eg.
+#. "Darker 25%".
 #. translators: 1: kind of record. 2: how long it is kept.
 msgid "%1$s — %2$s"
 msgstr ""
@@ -361,6 +363,10 @@ msgstr ""
 msgid "%s items in cart"
 msgstr ""
 
+#. translators: %s: Feature name.
+msgid "%s keeps working on your site exactly as it was set up, but changes need the Pro plan. Below is a preview of your latest entries."
+msgstr ""
+
 #. Translators: %s: minutes of read.
 msgid "%s min"
 msgstr ""
@@ -380,6 +386,10 @@ msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] ""
 msgstr[1] ""
+
+#. translators: %s: Number of entries.
+msgid "%s more entries are available on Pro"
+msgstr ""
 
 msgid "%s name"
 msgstr ""
@@ -525,6 +535,9 @@ msgid "1 Variation"
 msgstr ""
 
 msgid "1 environment check is below its recommended value"
+msgstr ""
+
+msgid "1 more entry is available on Pro"
 msgstr ""
 
 msgid "1 patch is waiting to be applied"
@@ -902,6 +915,9 @@ msgstr ""
 msgid "A short description that is only shown while this tab is active, and slides open as the tab is selected. Vertical tabs place it under the tab title, inside the tab itself. Horizontal tabs place it between the tab row and the content, since a single taller tab would leave the row ragged. Leave empty for no description."
 msgstr ""
 
+msgid "A short, readable name for the media library"
+msgstr ""
+
 msgid "A unique key for this switch. Other elements target this name in their \"Dynamic Display\" condition to show or hide based on this switch's state."
 msgstr ""
 
@@ -913,7 +929,7 @@ msgid "A webhook is used to keep email statuses (delivered, opened, clicked, bou
 msgstr ""
 
 #. translators: %s is the webhook endpoint URL to paste into Postmark.
-msgid "A webhook is used to keep email statuses (delivered, opened, clicked, bounced, spam) up to date in the Email Logs. Postmark webhooks are set per Message Stream, so add this URL under Webhooks on both the transactional and broadcast streams above: %s"
+msgid "A webhook is used to keep email statuses (delivered, opened, clicked, bounced, spam) up to date in the Email Logs. Postmark webhooks are set per Message Stream, so add this URL under Webhooks on both the transactional and broadcast streams above, with the webhook username and password below as its Basic Auth credentials: %s"
 msgstr ""
 
 msgid "A/B Testing"
@@ -999,7 +1015,7 @@ msgstr ""
 msgid "AI Chat"
 msgstr ""
 
-msgid "AI Chat Display"
+msgid "AI Chat Mode"
 msgstr ""
 
 msgid "AI Disabled For This Site"
@@ -1346,6 +1362,11 @@ msgstr ""
 #, fuzzy
 msgid "Activated"
 msgstr "Activer"
+
+#. translators: %s: Plugin name.
+#, fuzzy
+msgid "Activating %s..."
+msgstr "Extensions actives"
 
 msgid "Activating..."
 msgstr ""
@@ -1890,11 +1911,22 @@ msgstr "Ajoutez le nom de la classe de la Fenêtre Modale que vous souhaitez ouv
 msgid "Add the compare page link to the WooCommerce My Account page."
 msgstr ""
 
+#, fuzzy
+#| msgid "The number to which the counter will animate. Decimal numbers are supported by using the \".\" (period) delimiter."
+msgid "Add the highest amount the customer is allowed to pay. Leave empty for no upper limit. Decimal numbers are supported by using the \".\" (period) delimiter."
+msgstr "Le numéro auquel le compteur va s'animer. Les nombres décimaux sont supportés en utilisant le \".\" délimiteur (période)."
+
+msgid "Add the label shown above the field the customer enters their amount into."
+msgstr ""
+
 msgid "Add the letter to be used as dropcap."
 msgstr "Ajoutez la lettre à utiliser comme lettrine."
 
 msgid "Add the link's url ex: http://example.com."
 msgstr "Ajouter l'URL du lien. Par ex. : http://exemple.com."
+
+msgid "Add the lowest amount the customer is allowed to pay. Decimal numbers are supported by using the \".\" (period) delimiter. Note that Stripe enforces its own minimum charge amount per currency, which is around 0.50 for most of them."
+msgstr ""
 
 msgid "Add the product name that you sell."
 msgstr ""
@@ -2170,6 +2202,11 @@ msgstr "Champs personnalisés avancés"
 msgid "Advanced Optimization"
 msgstr "Optimisation avancée"
 
+#, fuzzy
+#| msgid "Advanced Custom Fields"
+msgid "Advanced adjustments (OKLCH)"
+msgstr "Champs personnalisés avancés"
+
 msgid "Afghanistan"
 msgstr "Afghanistan"
 
@@ -2406,6 +2443,9 @@ msgstr ""
 msgid "Allows PHP to read remote files. reCAPTCHA and some remote asset reads need it."
 msgstr ""
 
+msgid "Alpha"
+msgstr ""
+
 msgid "Alpha 25%"
 msgstr ""
 
@@ -2444,6 +2484,11 @@ msgstr "American Samoa"
 
 msgid "Amount"
 msgstr "Montant"
+
+#, fuzzy
+#| msgid "Field Label"
+msgid "Amount Field Label"
+msgstr "Libellé du champ"
 
 msgid "An active Avada subscription is required to use this feature."
 msgstr ""
@@ -2576,6 +2621,9 @@ msgid "Anonymize IPs"
 msgstr ""
 
 msgid "Anonymous"
+msgstr ""
+
+msgid "Another Builder tab took the connection."
 msgstr ""
 
 msgid "Antarctica"
@@ -2893,12 +2941,6 @@ msgctxt "post format archive title"
 msgid "Asides"
 msgstr "À part"
 
-msgid "Ask"
-msgstr ""
-
-msgid "Ask AI"
-msgstr ""
-
 msgid "Ask Avada AI"
 msgstr ""
 
@@ -2926,7 +2968,7 @@ msgstr ""
 msgid "Assign this snippet to a consent category. \"Necessary\" snippets always load and show as a locked checkbox. Other categories require consent and appear as a checkbox in the matching Consent Category content. Choose \"Do Not Add To A Group\" to load the snippet without listing it — useful for consent-aware scripts that handle consent signals themselves."
 msgstr ""
 
-msgid "Assign visitors to experiment variations and record impressions. Requires Visitor Tracking."
+msgid "Assign visitors to experiment variations and record impressions. Requires Visitor Analytics."
 msgstr ""
 
 msgid "Attach Images to Gallery"
@@ -2992,6 +3034,38 @@ msgstr "Couleur de progrès audio"
 
 msgid "August"
 msgstr "Août"
+
+msgid "Aurora"
+msgstr ""
+
+#, fuzzy
+#| msgid "Background Blend Mode"
+msgid "Aurora Blend Mode"
+msgstr "Mode de fusion de l'arrière-plan"
+
+msgid "Aurora Blur"
+msgstr ""
+
+#. translators: The color number.
+#, fuzzy
+#| msgid "Brand Colors"
+msgid "Aurora Color %s"
+msgstr "Couleurs de la marque"
+
+#, fuzzy
+#| msgid "Waves Opacity"
+msgid "Aurora Opacity"
+msgstr "Opacité Ondes"
+
+#, fuzzy
+#| msgid "Arrow Size"
+msgid "Aurora Size"
+msgstr "Taille de la flèche"
+
+#, fuzzy
+#| msgid "Parallax Speed"
+msgid "Aurora Speed"
+msgstr "Vitesse de l'effet de Parallax"
 
 msgid "Australia"
 msgstr "Australie"
@@ -3807,6 +3881,11 @@ msgstr ""
 msgid "Background color of the ticket form box."
 msgstr ""
 
+#, fuzzy
+#| msgid "Background Size"
+msgid "Background video"
+msgstr "Taille de l’arrière plan"
+
 msgid "Backlight"
 msgstr ""
 
@@ -4413,6 +4492,11 @@ msgstr "Navigateur"
 
 msgid "Browsing Journey"
 msgstr ""
+
+#, fuzzy
+#| msgid "Browse"
+msgid "Browsing media"
+msgstr "Parcourir"
 
 msgid "Brunei"
 msgstr ""
@@ -5065,6 +5149,9 @@ msgstr "Panier"
 msgid "Cart Alignment"
 msgstr "Alignement des chariots"
 
+msgid "Cart Cleanup (Days)"
+msgstr ""
+
 msgid "Cart Count"
 msgstr "Compte du panier"
 
@@ -5296,6 +5383,9 @@ msgstr "Change la direction d'expansion des sous-menus et des menus verticaux."
 msgid "Changes the expand transition for submenus."
 msgstr "Modifie la transition d'expansion pour les sous-menus."
 
+msgid "Changing them needs the Pro plan, so they keep their current values. Everything else was saved."
+msgstr ""
+
 #, fuzzy
 msgid "Channels of Support"
 msgstr "Canaux de soutien"
@@ -5342,6 +5432,12 @@ msgstr "Tye de graphique"
 
 msgid "Chart Value"
 msgstr "Valeur du graphique"
+
+#, fuzzy
+#| msgctxt "post format archive title"
+#| msgid "Chats"
+msgid "Chat"
+msgstr "Chats"
 
 msgctxt "post format archive title"
 msgid "Chats"
@@ -5430,11 +5526,26 @@ msgstr ""
 msgid "Checking Global Options"
 msgstr ""
 
+#, fuzzy
+#| msgid "Manage Page Options"
+msgid "Checking Page Options"
+msgstr "Gérer les options de page"
+
+#, fuzzy
+#| msgid "Check All Elements"
+msgid "Checking available elements"
+msgstr "Cocher tous les éléments"
+
 msgid "Checking available icons"
 msgstr ""
 
 msgid "Checking color palette"
 msgstr ""
+
+#, fuzzy
+#| msgid "Skip to content"
+msgid "Checking site content"
+msgstr "Passer au contenu"
 
 msgid "Checking typography"
 msgstr ""
@@ -5959,7 +6070,10 @@ msgstr ""
 msgid "Choose if subtotal should show or not."
 msgstr ""
 
-msgid "Choose if the Avada AI chat opens as a panel next to the page, so you can see changes as they happen, or as a dialog."
+msgid "Choose if the Avada AI chat opens in a sidebar opposite the options sidebar, so you can watch changes as they happen, or in a dialog."
+msgstr ""
+
+msgid "Choose if the Navigator should mark the items that are hidden by the visibility option, or removed by device conditional rendering, on some devices."
 msgstr ""
 
 msgid "Choose if the accordion toggle is pinned to the end of the post item, or if it follows the post content and is aligned together with it."
@@ -6139,6 +6253,13 @@ msgstr "Choisissez la quantité de flou ajoutée pour un effet d’ombre ou de l
 
 msgid "Choose the amount of blur added to glow or drop shadow effect. In pixels."
 msgstr "Choisissez la quantité de flou ajoutée pour un effet d’ombre ou de lueur. En pixels."
+
+msgid "Choose the animation that plays when visitors navigate between the pages of your site. Page transitions use the View Transitions API of the browser. Browsers without support, and visitors who prefer reduced motion, navigate without a transition."
+msgstr ""
+
+#. translators: %s: The default value.
+msgid "Choose the animation that plays when visitors navigate to this page. None also disables the transition when navigating away from this page. %s"
+msgstr ""
 
 msgid "Choose the background color of the overlay. Leave empty for default value of rgba(0,0,0,0.8)."
 msgstr ""
@@ -6827,6 +6948,9 @@ msgstr "Choisissez de montrer ou de masquer la section sur les écrans petits, m
 msgid "Choose to show or hide the slider on small, medium or large screens. You can choose more than one at a time. Each of the 3 sizes has a custom width setting on the Responsive tab in the. %s."
 msgstr ""
 
+msgid "Choose to show the featured image of a post next to the cursor while the post is hovered. Works independently of the featured image in the list, and only on devices with a mouse."
+msgstr ""
+
 msgid "Choose to show the modal footer with close button."
 msgstr "Choisissez d'afficher ou non le pied de page de la fenêtre modale avec le bouton de fermeture."
 
@@ -7038,6 +7162,9 @@ msgstr "Choisissez votre méthode de chargement paresseux préférée pour les i
 
 msgid "Christmas Island"
 msgstr "Christmas Island"
+
+msgid "Chroma"
+msgstr ""
 
 msgid "Cinematic"
 msgstr ""
@@ -7883,6 +8010,9 @@ msgid "Conditional Rendering"
 msgstr ""
 
 msgid "Conditional Tag"
+msgstr ""
+
+msgid "Conditional rendering preview is off, so the preview still shows it."
 msgstr ""
 
 msgid "Conditionals"
@@ -10262,6 +10392,11 @@ msgstr ""
 msgid "Controls the duration of the highlight animation. In milliseconds."
 msgstr ""
 
+#, fuzzy
+#| msgid "Controls the speed of the slide transition from slide to slide. 1000 = 1 second."
+msgid "Controls the duration of the page transitions in milliseconds. ex: 1000 = 1 second."
+msgstr "Contrôle la durée de transition entre 2 diapositives. 1000 = 1 seconde."
+
 msgid "Controls the duration of the scroll animation effect. In milliseconds."
 msgstr ""
 
@@ -12113,6 +12248,9 @@ msgstr ""
 msgid "Controls where the handle will be positioned on page load allowing you to control how much of each image displays by default. In percentage."
 msgstr "Contrôle l'emplacement de la poignée lors du chargement de la page, ce qui vous permet de contrôler la quantité d'affichage de chaque image par défaut. En pourcentage."
 
+msgid "Controls where the indicator scrolls to. Next Section scrolls to whatever is directly below the slider, wherever it is placed."
+msgstr ""
+
 msgid "Controls where the star rating appears. \"With Author\" places it inside the author block."
 msgstr ""
 
@@ -12310,6 +12448,9 @@ msgstr ""
 msgid "Copy connection link"
 msgstr ""
 
+msgid "Copy it now - it is shown once. A new link replaces the old one everywhere."
+msgstr ""
+
 msgid "Copy this category"
 msgstr ""
 
@@ -12340,10 +12481,11 @@ msgstr ""
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-msgid "Could not"
+msgid "Could not access upload folder."
 msgstr ""
 
-msgid "Could not access upload folder."
+#. translators: %1$s: Plugin slug. %2$s: Error message.
+msgid "Could not activate %1$s: %2$s"
 msgstr ""
 
 #. translators: Hubspot error.
@@ -12374,10 +12516,19 @@ msgstr "Impossible de trouver le commentaire parent du commentaire #%d"
 msgid "Could not find the menu object for \"%s\" (post #%d)"
 msgstr "Impossible de trouver l'objet menu pour \"%s\" (post #%d)"
 
+#, fuzzy
+#| msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgid "Could not find the parent menu item for \"%s\" (post #%d)"
+msgstr "Impossible de trouver le contenu parent pour \"%s\" (post #%d)"
+
 msgid "Could not find the post parent for \"%s\" (post #%d)"
 msgstr "Impossible de trouver le contenu parent pour \"%s\" (post #%d)"
 
 msgid "Could not initialize filesystem."
+msgstr ""
+
+#. translators: %1$s: Plugin slug. %2$s: Error message.
+msgid "Could not install %1$s: %2$s"
 msgstr ""
 
 msgid "Could not open the file for parsing"
@@ -12744,6 +12895,11 @@ msgstr[1] ""
 msgid "Creating database tables failed."
 msgstr "La création de tables de base de données a échoué."
 
+#, fuzzy
+#| msgid "Heading text for the modal."
+msgid "Creating items for the page"
+msgstr "Texte pour le titre de la fenêtre modale."
+
 msgid "Creation Data:"
 msgstr ""
 
@@ -12923,6 +13079,10 @@ msgstr "Personnaliser"
 
 msgid "Custom %d"
 msgstr ""
+
+#, fuzzy
+msgid "Custom Anchor"
+msgstr "Icônes personnalisées"
 
 msgid "Custom Aspect Ratio"
 msgstr ""
@@ -13165,6 +13325,11 @@ msgstr "Texte personnalisé à utiliser pour le lien clair de variation."
 msgid "Customer"
 msgstr ""
 
+#, fuzzy
+#| msgid "Custom Colors"
+msgid "Customer Chooses"
+msgstr "Couleurs personnalisées"
+
 msgid "Customer Contact"
 msgstr ""
 
@@ -13329,9 +13494,6 @@ msgid "Data Type"
 msgstr "Format de date"
 
 msgid "Data Type Icons & Badges"
-msgstr ""
-
-msgid "Data could not be retrieved from Instagram. Please try again."
 msgstr ""
 
 msgid "Data store:"
@@ -13535,9 +13697,6 @@ msgid "Default: %s"
 msgstr "﻿Par défaut: %s"
 
 msgid "Define reusable context sources that can be injected into AI prompts."
-msgstr ""
-
-msgid "Define the 8 core colors and any additional custom colors for this palette."
 msgstr ""
 
 #, fuzzy
@@ -13820,6 +13979,9 @@ msgid "Describe how you would like to adjust the color palette"
 msgstr ""
 
 msgid "Describe the SVG you would like the AI to generate"
+msgstr ""
+
+msgid "Describe the image for screen readers and search engines"
 msgstr ""
 
 msgid "Describe the purpose of the campaign."
@@ -14532,6 +14694,9 @@ msgstr "Dribble"
 msgid "Dribble (Author Page)"
 msgstr ""
 
+msgid "Drift"
+msgstr ""
+
 msgid "Drop Shadow"
 msgstr "Ombre portée"
 
@@ -14636,6 +14801,11 @@ msgstr "Dupliquer le contenu"
 
 msgid "Duplicate Slider Revolution detected.  Duplicate sliders will not be rendered whilst in the live editor."
 msgstr "Duplication Slider Revolution détecté.  Les diaporama dupliqués ne seront pas rendus dans l'éditeur en direct."
+
+#, fuzzy
+#| msgid "Duplicate Content"
+msgid "Duplicating content"
+msgstr "Dupliquer le contenu"
 
 msgid "Duration of the expand/collapse animation in milliseconds."
 msgstr ""
@@ -14772,6 +14942,11 @@ msgctxt "avada-one"
 msgid "Edit Form"
 msgstr "Modifier le formulaire"
 
+#, fuzzy
+#| msgid "Edit Global Page TitleBar"
+msgid "Edit Global Colors"
+msgstr "Modifier la barre de titre de page globale"
+
 msgid "Edit Global Page TitleBar"
 msgstr "Modifier la barre de titre de page globale"
 
@@ -14809,6 +14984,11 @@ msgstr ""
 
 msgid "Edit Mode"
 msgstr ""
+
+#, fuzzy
+#| msgid "Image Alt Text"
+msgid "Edit Name & Alt Text"
+msgstr "Description de l’image pour le référencement"
 
 msgctxt "Avada Off Canvas"
 msgid "Edit Off Canvas"
@@ -14875,6 +15055,9 @@ msgstr ""
 msgid "Edit item"
 msgstr "Modifier élément"
 
+msgid "Edit name & alt text"
+msgstr ""
+
 #, fuzzy
 msgid "Edit section"
 msgstr "Modifier la section"
@@ -14895,9 +15078,6 @@ msgid "Edit the pages of your website."
 msgstr ""
 
 msgid "Edit the text content of Avada content. For example edit an entire page or a single container."
-msgstr ""
-
-msgid "Edit with AI"
 msgstr ""
 
 msgid "Edit your site layouts."
@@ -15489,6 +15669,9 @@ msgstr ""
 msgid "Enter a name for your template and click the Save button. This will save the entire page layout, page template from the page attributes box, custom CSS, and Avada Page Options. IMPORTANT: When loading a saved template through the \"Replace All Content\" option, everything will load, including the page template and Avada Page Options. When inserting above or below existing content only the saved content will be added."
 msgstr "Saisissez un nom pour votre modèle et cliquez sur le bouton Enregistrer. Cela permettra de sauvegarder la mise en page complète, le modèle de page de la boîte d'attributs de la page, le CSS personnalisé et les options de page Avada. IMPORTANT : Lors du chargement d'un modèle sauvegardé via l'option \"Remplacer tout le contenu\", tout sera chargé, y compris le modèle de page et les options de page Avada. Lors de l'insertion au-dessus ou au-dessous d'un contenu existant, seul le contenu sauvegardé sera ajouté."
 
+msgid "Enter a new value to replace it"
+msgstr ""
+
 msgid "Enter a pixel value for the arrow size, ex: 14px"
 msgstr "Saisissez une valeur en pixels pour la taille de la flèche, ex. 14px"
 
@@ -15760,6 +15943,9 @@ msgid "Enter the CSS ID of the Post Card Archives element you want to link. If l
 msgstr ""
 
 msgid "Enter the GET variable name to be compared."
+msgstr ""
+
+msgid "Enter the ID to scroll to, ex: #features. This can be the Menu Anchor or CSS ID of a container. On pages where the anchor does not exist, the indicator scrolls to the next section instead."
 msgstr ""
 
 msgid "Enter the POST variable name to be compared."
@@ -16532,6 +16718,9 @@ msgstr ""
 msgid "Exclude Elements From Link Decoration"
 msgstr ""
 
+msgid "Exclude From Page Transitions"
+msgstr ""
+
 msgid "Exclude Products by SKU"
 msgstr ""
 
@@ -16953,6 +17142,16 @@ msgstr ""
 msgid "Failed to Open. Error Code: %s "
 msgstr ""
 
+#. translators: %s: Plugin slug.
+#, fuzzy
+#| msgid "Failed to import %s %s"
+msgid "Failed to activate %s"
+msgstr "L'installation de %s %s a échoué"
+
+#, fuzzy
+msgid "Failed to activate plugin"
+msgstr "Extensions actives"
+
 msgid "Failed to add to cart"
 msgstr ""
 
@@ -16992,6 +17191,10 @@ msgstr ""
 msgid "Failed to create price tracking subscription."
 msgstr ""
 
+#, fuzzy
+msgid "Failed to deactivate plugin"
+msgstr "Extensions actives"
+
 msgid "Failed to delete conversation:"
 msgstr ""
 
@@ -16999,6 +17202,9 @@ msgid "Failed to delete database."
 msgstr ""
 
 msgid "Failed to delete layout."
+msgstr ""
+
+msgid "Failed to delete plugin"
 msgstr ""
 
 msgid "Failed to delete reminder."
@@ -17011,10 +17217,17 @@ msgstr ""
 msgid "Failed to download patch file: %1$s. Error: %2$s"
 msgstr ""
 
+#. translators: %d: HTTP status code.
+msgid "Failed to download the prebuilt website package (Code: %d)."
+msgstr ""
+
 msgid "Failed to extract ZIP file."
 msgstr ""
 
 msgid "Failed to fetch image %s:"
+msgstr ""
+
+msgid "Failed to fetch plugins"
 msgstr ""
 
 msgid "Failed to find element:"
@@ -17034,6 +17247,20 @@ msgstr "Impossible d’importer l’utilisateur \"%s\""
 
 msgid "Failed to insert message"
 msgstr ""
+
+#. translators: %s: Plugin slug.
+#, fuzzy
+#| msgid "Failed to import %s %s"
+msgid "Failed to install %s"
+msgstr "L'installation de %s %s a échoué"
+
+msgid "Failed to install plugin"
+msgstr ""
+
+#, fuzzy
+#| msgid "Select Prebuilt Website"
+msgid "Failed to load prebuilt websites."
+msgstr "Sélectionnez un modèle de site web"
 
 msgid "Failed to load recovery statistics"
 msgstr ""
@@ -17080,7 +17307,13 @@ msgstr ""
 msgid "Failed to subscribe to price alerts."
 msgstr ""
 
+msgid "Failed to update plugin"
+msgstr ""
+
 msgid "Failed to update subscription."
+msgstr ""
+
+msgid "Failed to update the image details:"
 msgstr ""
 
 msgid "Falkland Islands"
@@ -17494,6 +17727,12 @@ msgstr "Trouver des recommandations"
 msgid "Find out more optimization tips in our documentation."
 msgstr "Vous trouverez d’autres conseils d’optimisation dans notre documentation."
 
+msgid "Finding and replacing"
+msgstr ""
+
+msgid "Finding design examples"
+msgstr ""
+
 msgid "Fine-tune the button(s) position. With \"Below Content\" it sets the gap above the button(s). With \"Overlay On Content\" it lifts the button(s) up from the bottom edge. Note: \"To Transparent\" fades via a mask, so the button only stays fully visible if the offset is at least the Fade Height. Enter a value with a unit, e.g. 20px."
 msgstr ""
 
@@ -17539,6 +17778,11 @@ msgstr "Fixé = la largeur et la hauteur seront fixées <br />Auto = largeur et 
 
 msgid "Fixed = width and height will be fixed<br/>Auto = width and height will adjust to the image."
 msgstr "Fixé = la largeur et la hauteur seront fixes <br /> auto = la largeur et la hauteur s'adapteront à la taille de l'image."
+
+#, fuzzy
+#| msgid "After Price"
+msgid "Fixed Price"
+msgstr "Après le prix"
 
 msgid "Fixed to Bottom"
 msgstr "Fixé au fond"
@@ -18019,9 +18263,6 @@ msgstr "Tableau de bord des formulaires"
 msgid "Forms Styling"
 msgstr "Style de formulaires"
 
-msgid "Forrst Link"
-msgstr "Lien Forrst"
-
 msgid "Forum"
 msgstr "Forum"
 
@@ -18349,6 +18590,11 @@ msgstr ""
 msgid "Generating Critical CSS"
 msgstr "Génération de CSS critiques"
 
+#, fuzzy
+#| msgid "Generating the mobile CSS."
+msgid "Generating an image"
+msgstr "Générer le CSS mobile."
+
 msgid "Generating the desktop CSS."
 msgstr "Générer le CSS du bureau."
 
@@ -18407,6 +18653,9 @@ msgid "Get Variable"
 msgstr ""
 
 msgid "Get Variable Value"
+msgstr ""
+
+msgid "Get a new link"
 msgstr ""
 
 msgid "Get one to one help from the Avada support team through our ticket system. Connect your subscription first so we can see your setup and answer faster."
@@ -19126,6 +19375,11 @@ msgstr ""
 msgid "Hidden"
 msgstr "Masqué"
 
+#, fuzzy
+#| msgid "Slider Visibility"
+msgid "Hidden (Visibility)"
+msgstr "Visibilité du curseur"
+
 msgid "Hidden Auto"
 msgstr ""
 
@@ -19429,11 +19683,26 @@ msgstr ""
 msgid "Hover Icon Color"
 msgstr ""
 
+#, fuzzy
+#| msgid "Toggle Preview"
+msgid "Hover Image Preview"
+msgstr "Passer en mode prévisualisation"
+
 msgid "Hover Item Background Color"
 msgstr ""
 
 msgid "Hover Item Color"
 msgstr ""
+
+#, fuzzy
+#| msgid "Form Border Radius"
+msgid "Hover Preview Border Radius"
+msgstr "Rayon de la bordure du formulaire"
+
+#, fuzzy
+#| msgid "Preview Width"
+msgid "Hover Preview Width"
+msgstr "Largeur de l’aperçu"
 
 msgid "Hover Text Color"
 msgstr ""
@@ -19461,6 +19730,9 @@ msgid "How WordPress describes this install: production, staging, development or
 msgstr ""
 
 msgid "How long PHP may spend parsing incoming request data, which matters for large imports and option saves."
+msgstr ""
+
+msgid "How long abandoned cart records remain in the database before permanent deletion. Default is 7."
 msgstr ""
 
 msgid "How long guest-scoped cookies (visitor identifier, wishlist and comparison tokens) may live, in days."
@@ -20271,12 +20543,25 @@ msgstr ""
 msgid "Import Websites Pages"
 msgstr ""
 
+msgid "Import already completed!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Import Failed"
+msgid "Import completed!"
+msgstr "L'importation a échouée"
+
 #, fuzzy
 msgid "Import failed."
 msgstr "L'importation a échouée"
 
 msgid "Import failed. Make sure the file is a valid Avada Global Options export."
 msgstr ""
+
+#, fuzzy
+#| msgid "Login failed, please try again."
+msgid "Import failed. Please try again."
+msgstr "L'identification a échoué, merci de réessayer."
 
 msgid "Import/Export"
 msgstr "Importer/Exporter"
@@ -20298,6 +20583,12 @@ msgstr "\"%s\" importé (%s)"
 
 msgid "Imported user \"%s\""
 msgstr "Utilisateur importé “%s”"
+
+#. translators: %s: Import stage name.
+#, fuzzy
+#| msgid "Import Options"
+msgid "Importing %s..."
+msgstr "Options d'importation"
 
 msgid "Importing Avada Studio Content"
 msgstr ""
@@ -20868,9 +21159,6 @@ msgstr "Insérez votre lien Facebook personnalisé."
 msgid "Insert your custom Flickr link."
 msgstr "Insérez votre lien Flickr personnalisé."
 
-msgid "Insert your custom Forrst link."
-msgstr "Insérez votre lien Forrst personnalisé."
-
 msgid "Insert your custom GitHub link."
 msgstr ""
 
@@ -20900,9 +21188,6 @@ msgstr "Insérez votre lien RSS personnalisé."
 
 msgid "Insert your custom Reddit link."
 msgstr "Insérez votre lien Reddit personnalisé."
-
-msgid "Insert your custom Skype link."
-msgstr "Insérez votre lien Skype personnalisé."
 
 msgid "Insert your custom Snapchat link."
 msgstr ""
@@ -20947,9 +21232,6 @@ msgstr "Insérez votre lien Xing personnalisé."
 
 msgid "Insert your custom Xing link."
 msgstr "Insérez votre lien Xing personnalisé."
-
-msgid "Insert your custom Yahoo link."
-msgstr "Insérez votre lien Yahoo personnalisé."
 
 msgid "Insert your custom Yelp link."
 msgstr "Insérez votre lien Yelp personnalisé."
@@ -21007,6 +21289,12 @@ msgstr ""
 
 msgid "Installation failed: %s"
 msgstr ""
+
+#. translators: %s: Plugin name.
+#, fuzzy
+#| msgid "Install"
+msgid "Installing %s..."
+msgstr "Installer"
 
 msgid "Installing..."
 msgstr ""
@@ -21100,6 +21388,12 @@ msgstr ""
 
 msgid "Invalid link ID."
 msgstr ""
+
+#. translators: %s: option name
+#, fuzzy
+#| msgid "Invalid Color"
+msgid "Invalid option: %s"
+msgstr "Couleur invalide"
 
 msgid "Invalid patch path: %s"
 msgstr ""
@@ -21860,9 +22154,6 @@ msgstr ""
 msgid "Left Top"
 msgstr "En haut à gauche"
 
-msgid "Legacy"
-msgstr "Héritage"
-
 msgid "Legacy License Detected:"
 msgstr ""
 
@@ -22022,6 +22313,11 @@ msgstr ""
 
 msgid "Lighting, camera, ..."
 msgstr ""
+
+#, fuzzy
+#| msgid "Brightness"
+msgid "Lightness"
+msgstr "Luminosité"
 
 msgid "Like"
 msgstr ""
@@ -23032,10 +23328,10 @@ msgstr ""
 msgid "Manage in Permissions"
 msgstr ""
 
-msgid "Manage the transactional and marketing emails sent from your site."
+msgid "Manage site-wide settings: layout, colors, typography, performance, and more."
 msgstr ""
 
-msgid "Manage theme-wide settings: layout, colors, typography, performance, and more."
+msgid "Manage the transactional and marketing emails sent from your site."
 msgstr ""
 
 msgid "Manage tracked links and monitor impressions, views, and clicks."
@@ -23401,6 +23697,11 @@ msgstr ""
 msgid "Maximum Allowed Characters"
 msgstr "Nombre maximum de caractères autorisés"
 
+#, fuzzy
+#| msgid "Maximum Columns"
+msgid "Maximum Amount"
+msgstr "Nombre de colonnes Max"
+
 msgid "Maximum Columns"
 msgstr "Nombre de colonnes Max"
 
@@ -23696,6 +23997,11 @@ msgstr ""
 
 msgid "Minimum"
 msgstr ""
+
+#, fuzzy
+#| msgid "Minimum Height"
+msgid "Minimum Amount"
+msgstr "Hauteur minimale"
 
 msgid "Minimum Date"
 msgstr ""
@@ -24016,6 +24322,11 @@ msgstr "Colonne imbriquée Déplacée"
 msgid "Moved Online"
 msgstr ""
 
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Moving content"
+msgstr "Supprimer le contenu"
+
 msgid "Mozambique"
 msgstr "Mozambique"
 
@@ -24132,6 +24443,11 @@ msgstr ""
 
 msgid "Name"
 msgstr "Nom"
+
+#, fuzzy
+#| msgid "Image Alt Text"
+msgid "Name & Alt Text"
+msgstr "Description de l’image pour le référencement"
 
 msgid "Name (required)"
 msgstr "Nom (requis)"
@@ -24357,6 +24673,11 @@ msgstr "New York"
 msgid "New Zealand"
 msgstr "Nouvelle-Zélande"
 
+#, fuzzy
+#| msgid "View cart"
+msgid "New chat"
+msgstr "Voir le panier"
+
 msgid "Newest"
 msgstr ""
 
@@ -24386,6 +24707,11 @@ msgstr "Séparateur de page suivante"
 
 msgid "Next Post Title"
 msgstr ""
+
+#, fuzzy
+#| msgid "New Section"
+msgid "Next Section"
+msgstr "Nouvelle section"
 
 msgid "Next Step"
 msgstr "Étape suivante"
@@ -24513,6 +24839,9 @@ msgstr "Aucun ensemble d’icônes trouvé dans la corbeille"
 
 msgid "No Icons"
 msgstr "Aucune icône"
+
+msgid "No Identifiers"
+msgstr ""
 
 msgid "No Info Bars Available"
 msgstr "Aucune infos Bars disponibles"
@@ -25068,6 +25397,9 @@ msgstr "Non trouvé"
 msgid "Not found in Trash"
 msgstr "Non trouvé dans la corbeille"
 
+msgid "Not rendered (Conditional Rendering)"
+msgstr ""
+
 msgid "Not right now"
 msgstr ""
 
@@ -25398,6 +25730,9 @@ msgstr ""
 msgid "On Sub Label"
 msgstr ""
 
+msgid "On the Essential plan, only the latest entries can be opened."
+msgstr ""
+
 msgid "Once"
 msgstr ""
 
@@ -25607,12 +25942,6 @@ msgstr ""
 msgid "Optional text shown next to the star rating, e.g. \"For Features Availability\". Shown below the stars in the clean design. Leave empty to hide."
 msgstr ""
 
-msgid "Optional. Basic auth password Postmark must send when calling the event webhook."
-msgstr ""
-
-msgid "Optional. Basic auth username Postmark must send when calling the event webhook."
-msgstr ""
-
 msgid "Optional. Declares what this snippet does with visitor data, so the matching icon and badge can be shown next to it in the Privacy & Consent Bar and Element. Leave unset if you are not sure — nothing is shown rather than an incorrect claim. Icons and badges are configured under Privacy & Consent > Data Collection."
 msgstr ""
 
@@ -25620,6 +25949,9 @@ msgid "Optional. Describe how long the cookies set by this service persist (e.g.
 msgstr ""
 
 msgid "Optional. Enter the name of your SES Configuration Set to enable event tracking (opens, clicks, bounces etc). Leave empty to send without a configuration set."
+msgstr ""
+
+msgid "Optional. Leave empty and Avada names the image for you."
 msgstr ""
 
 msgid "Optional. Shown below the consent checkbox in the Consent Category content. Use it to explain what this snippet does (e.g. \"Used to track conversions and show personalised ads.\")."
@@ -26006,6 +26338,16 @@ msgstr "Barre de Titre de la page"
 msgid "Page Title HTML Tag"
 msgstr ""
 
+#, fuzzy
+#| msgid "Page Options"
+msgid "Page Transitions"
+msgstr "Options de page"
+
+#, fuzzy
+#| msgid "Image Fade Transition Speed"
+msgid "Page Transitions Speed"
+msgstr "Vitesse de transition de fondu d'image"
+
 msgid "Page URL"
 msgstr ""
 
@@ -26084,6 +26426,11 @@ msgstr "Zone de pagination largeur/hauteur"
 msgid "Pagination Circles Below Video Slides"
 msgstr "Cercles de pagination sous les diapositives vidéo"
 
+#, fuzzy
+#| msgid "Pagination"
+msgid "Pagination Dots"
+msgstr "Pagination"
+
 msgid "Pagination Font Size"
 msgstr "Taille de police de la pagination"
 
@@ -26140,9 +26487,6 @@ msgstr ""
 
 msgid "Panama"
 msgstr "Panama"
-
-msgid "Panel"
-msgstr ""
 
 msgid "Paper"
 msgstr "Papier"
@@ -26278,6 +26622,11 @@ msgstr ""
 
 msgid "Pastel colors"
 msgstr ""
+
+#, fuzzy
+#| msgid "Rating Icon"
+msgid "Pasting content"
+msgstr "Icone de l'évaluation"
 
 msgid "Patch"
 msgstr ""
@@ -26704,6 +27053,11 @@ msgstr ""
 msgid "Please enter a username."
 msgstr "Merci d'entrer un nom d'utilisateur."
 
+#, fuzzy
+#| msgid "Please enter a username."
+msgid "Please enter a valid amount."
+msgstr "Merci d'entrer un nom d'utilisateur."
+
 msgid "Please enter correct details for this required field."
 msgstr "Veuillez indiquer les informations correctes pour ce champ obligatoire."
 
@@ -26758,6 +27112,11 @@ msgstr ""
 
 msgid "Please select all checkboxes from this field."
 msgstr ""
+
+#, fuzzy
+#| msgid "Please select a slider for it to display here."
+msgid "Please select an icon set ZIP file."
+msgstr "S'il vous plaît sélectionnez un diaporama pour qu'il s'affiche ici."
 
 #. translators: %1$s: will be replaced with a number, that represents the
 #. checkboxes.
@@ -27551,6 +27910,11 @@ msgstr ""
 
 msgid "Price Drop Alerts"
 msgstr ""
+
+#, fuzzy
+#| msgid "Preview Mode"
+msgid "Price Mode"
+msgstr "Mode aperçu"
 
 msgid "Price Tracker"
 msgstr ""
@@ -28479,6 +28843,11 @@ msgstr "Temps de lecture"
 msgid "Reading Time Decimal Precision"
 msgstr ""
 
+#, fuzzy
+#| msgid "Automatically Open Element Settings"
+msgid "Reading element settings"
+msgstr "Ouvrez automatiquement les paramètres d'élément"
+
 msgid "Reading page layout"
 msgstr ""
 
@@ -28660,7 +29029,7 @@ msgstr "Recommandé"
 msgid "Recommends to (mobile) browsers to prompt users to capture new media directly instead of selecting an existing file. Some directly open the camera app. Corresponding file types must have been set above. \"User\" indicates that the user-facing camera should be used, while  \"environment\" specifies that the outward-facing camera should be used. If not set, the browser will decide automatically, and likely load the standard file dialog. "
 msgstr ""
 
-msgid "Record behavioural visitor data — page views, scrolling, time on page and visit sessions. Turning this off also disables A/B testing and empties contact activity timelines; operational records like cart snapshots and link click counts keep working through their own features. How far visitors may be identified is set under Privacy & Consent → Data Collection."
+msgid "Record behavioural visitor data — page views, scrolling, time on page and visit sessions. Turning this off also disables A/B testing and empties contact activity timelines; operational records like cart snapshots and link click counts keep working through their own features. How far visitors may be identified is set by the Visitor Tracking Mode under Privacy & Consent → Data Collection."
 msgstr ""
 
 msgid "Record per-recipient open and click counts reported by your email provider. Turn off to stop recording engagement against individual contacts — campaign-level delivery status is kept either way."
@@ -28749,6 +29118,11 @@ msgstr "Lien de redirection"
 
 msgid "Redo"
 msgstr "Refaire"
+
+#, fuzzy
+#| msgid "Unsaved Changes"
+msgid "Redoing changes"
+msgstr "Modifications non enregistrées"
 
 msgid "Referrer"
 msgstr ""
@@ -28917,6 +29291,13 @@ msgstr "Le serveur distant a renvoyé  %1$d %2$s pour %3$s"
 msgid "Remote server returned code %d"
 msgstr ""
 
+msgid "Removal completed!"
+msgstr ""
+
+#, fuzzy
+msgid "Removal failed."
+msgstr "L'importation a échouée"
+
 msgid "Remove"
 msgstr "Supprimer"
 
@@ -29026,8 +29407,24 @@ msgstr ""
 msgid "Removed Global Status"
 msgstr "Statut global supprimé"
 
+#. translators: %s: Import stage name.
+#, fuzzy
+#| msgid "Currently Removing: %s"
+msgid "Removing %s..."
+msgstr "En cours de suppression: %s"
+
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Removing content"
+msgstr "Supprimer le contenu"
+
 msgid "Removing prebuilt website content will remove ALL previously imported content from this prebuilt website and restore your site to the state it was in before this prebuilt content was imported."
 msgstr ""
+
+#, fuzzy
+#| msgid "Design Elements"
+msgid "Renaming an element"
+msgstr "Éléments de conception"
 
 msgid "Rendering Logic Binding"
 msgstr ""
@@ -29138,6 +29535,15 @@ msgstr ""
 
 #. translators: %s - Link to the Stadia Maps signup page.
 msgid "Required for the Stamen Toner, Stamen Terrain and Stamen Watercolor styles. Stamen retired its own tile servers and handed these styles to Stadia Maps, which serves them on a free tier. Sign up at <a href=\"%s\" target=\"_blank\">Stadia Maps</a> to get a key. Tile requests are made by the visitor's browser, so this key is visible in the page source -- add your domain to the property allowlist in your Stadia account so it cannot be used elsewhere."
+msgstr ""
+
+msgid "Required for the webhook. The ARN of the SNS topic your Configuration Set publishes events to, for example arn:aws:sns:us-east-1:123456789012:ses-events. SNS messages from any other topic are rejected, and all SNS messages are rejected until this is set."
+msgstr ""
+
+msgid "Required for the webhook. The Basic Auth password Postmark must send when calling it. Webhook events are rejected until both username and password are set."
+msgstr ""
+
+msgid "Required for the webhook. The Basic Auth username Postmark must send when calling it. Webhook events are rejected until both username and password are set."
 msgstr ""
 
 msgid "Rerun the %s migration."
@@ -29300,6 +29706,9 @@ msgstr ""
 #, fuzzy
 msgid "Reunion"
 msgstr "La Réunion"
+
+msgid "Reveal"
+msgstr ""
 
 msgid "Reveal With Color"
 msgstr ""
@@ -29733,6 +30142,11 @@ msgctxt "Currency"
 msgid "SLL"
 msgstr ""
 
+#, fuzzy
+#| msgid "Topic: "
+msgid "SNS Topic ARN"
+msgstr "Sujet: "
+
 msgctxt "Currency"
 msgid "SOS"
 msgstr ""
@@ -29986,6 +30400,9 @@ msgstr ""
 msgid "Save page layout"
 msgstr "Sauver la mise en page"
 
+msgid "Save the prompt that generated an image as the attachment description, which makes the image findable by what it depicts when searching the media library. Off by default, because prompts are written as working notes and the description can be visible on the public attachment page."
+msgstr ""
+
 msgid "Save to Library"
 msgstr ""
 
@@ -30008,6 +30425,9 @@ msgstr "Éléments sauvegardés"
 msgid "Saved Templates"
 msgstr "Sauvegarder modèle"
 
+msgid "Saved as “%s”"
+msgstr ""
+
 msgid "Saved wishlists"
 msgstr ""
 
@@ -30015,6 +30435,11 @@ msgid "Saving form data to database failed."
 msgstr ""
 
 msgid "Saving the generated CSS."
+msgstr "Sauvegarder le CSS généré."
+
+#, fuzzy
+#| msgid "Saving the generated CSS."
+msgid "Saving the page"
 msgstr "Sauvegarder le CSS généré."
 
 msgid "Saving..."
@@ -30112,6 +30537,11 @@ msgstr "Scripts"
 msgid "Scroll"
 msgstr "Défilement"
 
+#, fuzzy
+#| msgid "Scroll Down Indicator"
+msgid "Scroll Anchor"
+msgstr "Indicateur de défilement vers le bas"
+
 msgid "Scroll Auto"
 msgstr ""
 
@@ -30196,11 +30626,21 @@ msgstr ""
 msgid "Scroll Speed"
 msgstr ""
 
+#, fuzzy
+#| msgid "Scroll Progress"
+msgid "Scroll Target"
+msgstr "Progression du défilement"
+
 msgid "Scroll To"
 msgstr ""
 
 msgid "Scroll Visible"
 msgstr ""
+
+#, fuzzy
+#| msgid "Scroll"
+msgid "Scroll down"
+msgstr "Défilement"
 
 msgid "Scroll to Top"
 msgstr ""
@@ -30391,6 +30831,11 @@ msgstr "Recherche : %s"
 
 msgid "Searchable guides for every part of Avada, from your first layout to advanced builder techniques. Start with the basics or jump straight to the detail you need."
 msgstr ""
+
+#, fuzzy
+#| msgid "Search for global options"
+msgid "Searching Global Options"
+msgstr "Rechercher des options globales"
 
 msgid "Searching…"
 msgstr ""
@@ -30831,6 +31276,11 @@ msgstr ""
 
 msgid "Select a predefined list or paste your own list bulk add choices."
 msgstr "Sélectionnez une liste prédéfinie ou collez votre propre liste en vrac pour ajouter des choix."
+
+#, fuzzy
+#| msgid "Select a widget"
+msgid "Select a product"
+msgstr "Sélectionnez un widget"
 
 #. translators: Avada Library link.
 msgid "Select a rollover layout to use as a custom overlay. Create new or edit existing ones in the %s."
@@ -31491,6 +31941,9 @@ msgstr ""
 msgid "Select the alignment."
 msgstr ""
 
+msgid "Select the animation of the aurora, an animated gradient of soft color blobs behind the content. Visitors who prefer reduced motion see the colors standing still."
+msgstr ""
+
 msgid "Select the animation of the scrolling transition on 100% height scrolling sections."
 msgstr ""
 
@@ -31503,6 +31956,9 @@ msgstr "Sélectionnez le type d'animation de l'icône au survol. Sélectionnez l
 
 msgid "Select the animation type when hovering the main menu items. This animation is applied to the background-color and borders."
 msgstr "Sélectionnez le type d'animation en survolant les éléments du menu principal. Cette animation est appliquée à la couleur de fond et aux bordures."
+
+msgid "Select the areas that stay in place during the page transitions, while the rest of the page is animated."
+msgstr ""
 
 msgid "Select the aspect ratio of the images. Images will be cropped."
 msgstr ""
@@ -32020,6 +32476,9 @@ msgstr ""
 msgid "Select the post whose children should be displayed."
 msgstr ""
 
+msgid "Select the product to charge for. These options are the active one time prices in your Stripe account, and can be managed on Stripe dashboard > Products. The amount and currency are taken from Stripe, so they cannot be changed here."
+msgstr ""
+
 msgid "Select the product type to check and render the element single product page."
 msgstr ""
 
@@ -32339,6 +32798,9 @@ msgid "Select what you want to use as the recipient name.  If names are unavaila
 msgstr ""
 
 msgid "Select when check instagram for new posts."
+msgstr ""
+
+msgid "Select where the amount comes from. \"Fixed Price\" charges the price you enter below. \"Stripe Product\" charges a price from your Stripe account, which is the option to use if you manage your catalog in Stripe. \"Customer Chooses\" lets the visitor enter their own amount, for donations or pay what you want, within the limits you set."
 msgstr ""
 
 msgid "Select whether dropdown carets should show as submenu indicator."
@@ -32719,6 +33181,11 @@ msgstr ""
 msgid "Server responded with unauthorized response code: %1$s. %2$s"
 msgstr "Le serveur a répondu avec le code de réponse non autorisé: %1$s. %2$s"
 
+#, fuzzy
+#| msgid "Server Environment"
+msgid "Server timeout"
+msgstr "Environnement serveur"
+
 msgid "Services"
 msgstr ""
 
@@ -32947,6 +33414,9 @@ msgstr "Choisir l'image à la une %s"
 msgid "Set featured image 2"
 msgstr "Choisir l'image à la une 2"
 
+msgid "Set how each Main Color Palette color looks in this palette. Colors are added and removed in the Main Color Palette, so every palette has the same ones."
+msgstr ""
+
 msgid "Set how far the standout column expands beyond the other columns at the top and bottom. The heading and CTA area paddings grow along to fill the added height. Enter value including any valid CSS unit, ex: 10px. Use 0px for a flat standout look."
 msgstr ""
 
@@ -32957,6 +33427,13 @@ msgid "Set how mask will blend with element background."
 msgstr ""
 
 msgid "Set how pattern will blend with element background."
+msgstr ""
+
+#, fuzzy
+msgid "Set how soft the edges of the blobs are, in pixels."
+msgstr "Définissez le rayon de flou de l'ombre de la boîte. En pixels."
+
+msgid "Set how the aurora will blend with the element background, e.g. to tint a background image."
 msgstr ""
 
 msgid "Set how the current post visitor counter should get updated, or disable the counter. \"Page Load\" option will update using PHP when a page is retrieved. \"Ajax\" will send an additional request after the page loads."
@@ -33033,6 +33510,11 @@ msgstr ""
 
 msgid "Set the arrow icon size. Enter value including any valid CSS unit, ex: 14px."
 msgstr ""
+
+#, fuzzy
+#| msgid "Filter opacity."
+msgid "Set the aurora opacity."
+msgstr "Filtrer l’opacité."
 
 msgid "Set the autoplay speed, the duration between transitions. In milliseconds."
 msgstr ""
@@ -33133,6 +33615,9 @@ msgstr ""
 msgid "Set the basic details for your list."
 msgstr ""
 
+msgid "Set the blur of the page content behind the overlay in pixels, e.g. for frosted glass effects. Use a semi-transparent background color for the blur to be visible."
+msgstr ""
+
 msgid "Set the blur radius of the box shadow. In pixels."
 msgstr "Définissez le rayon de flou de l'ombre de la boîte. En pixels."
 
@@ -33160,6 +33645,11 @@ msgstr ""
 
 msgid "Set the border radius of the featured image, in pixels."
 msgstr ""
+
+#, fuzzy
+#| msgid "Controls the border radius of the image options. In pixels."
+msgid "Set the border radius of the hover image preview, in pixels."
+msgstr "Contrôle le rayon de la bordure des options d'image. En pixels."
 
 msgid "Set the border radius of the post item background. Enter values including any valid CSS unit, ex: 4px."
 msgstr ""
@@ -33213,6 +33703,9 @@ msgid "Set the border width of the images. In pixels."
 msgstr ""
 
 msgid "Set the color for divider line."
+msgstr ""
+
+msgid "Set the color of a blob. Leave empty for fewer blobs, which calms the effect."
 msgstr ""
 
 msgid "Set the color of element borders, including the border between tweets."
@@ -33342,6 +33835,9 @@ msgid "Set the direction in which the boxes should flip."
 msgstr "Définissez la direction dans laquelle les cases doivent basculer."
 
 msgid "Set the duration of one full border rotation in seconds."
+msgstr ""
+
+msgid "Set the duration of one movement of the blobs, in seconds. Higher values are slower."
 msgstr ""
 
 msgid "Set the duration of the transition between Post Cards. In milliseconds."
@@ -33761,6 +34257,11 @@ msgstr ""
 msgid "Set the size of the Avatar in pixels. Ex. 96px. Leave empty for default value of 96px."
 msgstr ""
 
+#, fuzzy
+#| msgid "Set the style of the box shadow to either be an outer or inner shadow."
+msgid "Set the size of the blobs, in percent of the container width."
+msgstr "Définissez le style de l'ombre de la boîte sur une ombre externe ou interne."
+
 msgid "Set the size of the close icon."
 msgstr ""
 
@@ -33963,6 +34464,9 @@ msgid "Set the width of the featured image and the comment avatar, in pixels. Th
 msgstr ""
 
 msgid "Set the width of the featured image, in pixels."
+msgstr ""
+
+msgid "Set the width of the hover image preview, in pixels. The height follows the image."
 msgstr ""
 
 msgid "Set the width of the path stroke. In pixels."
@@ -34375,6 +34879,9 @@ msgstr "Afficher les icônes sociales personnalisées"
 msgid "Show Date"
 msgstr "Afficher la date"
 
+msgid "Show Device Indicators In Navigator"
+msgstr ""
+
 msgid "Show Discount Badge"
 msgstr "Afficher le badge de réduction"
 
@@ -34680,6 +35187,11 @@ msgstr ""
 msgid "Showing all %1$s %2$s"
 msgstr ""
 
+#. translators: 1: Number of entries shown, 2: Total number of entries, 3:
+#. Entry label, e.g. "entries".
+msgid "Showing the latest %1$s of %2$s %3$s"
+msgstr ""
+
 msgid "Shrink Placeholder on Focus"
 msgstr ""
 
@@ -34852,9 +35364,6 @@ msgstr ""
 
 msgid "Skipping attachment \"%s\", fetching attachments disabled"
 msgstr "Passer la pièce jointe \"%s\", recherche de pièces jointes désactivée"
-
-msgid "Skype Link"
-msgstr "Lien Skype"
 
 msgid "Slant"
 msgstr "Trait oblique"
@@ -35174,7 +35683,13 @@ msgstr ""
 msgid "Somalia"
 msgstr "Somalie"
 
+msgid "Some of these settings need the Pro plan. Privacy settings stay editable, and features can always be switched off."
+msgstr ""
+
 msgid "Some recommended plugins are not active. Functionality and content may be missing or not work as intended if you proceed."
+msgstr ""
+
+msgid "Some settings were not saved"
 msgstr ""
 
 msgid "Some tables could not be created. Check the site error log for details."
@@ -35267,6 +35782,11 @@ msgstr ""
 msgid "Sorry, you are not allowed to do that."
 msgstr ""
 
+#, fuzzy
+#| msgid "You do not have permission to edit this post."
+msgid "Sorry, you are not allowed to edit this post."
+msgstr "Vous n’avez pas la permission de modifier ce post."
+
 msgid "Sorry, you are not allowed to modify slides."
 msgstr ""
 
@@ -35286,6 +35806,9 @@ msgid "Sorry, you are not allowed to update sliders."
 msgstr ""
 
 msgid "Sorry, you are not allowed to update slides."
+msgstr ""
+
+msgid "Sorry, you are not allowed to update this icon set."
 msgstr ""
 
 msgid "Sorry, your browser doesn't support embedded videos."
@@ -35709,6 +36232,11 @@ msgstr ""
 msgid "Starting Users:"
 msgstr ""
 
+#, fuzzy
+#| msgid "Partial Import"
+msgid "Starting import..."
+msgstr "Importation partielle"
+
 msgid "State"
 msgstr ""
 
@@ -35900,6 +36428,11 @@ msgstr[1] ""
 msgid "Store IP And User Agent"
 msgstr ""
 
+#, fuzzy
+#| msgid "Woo Product Images"
+msgid "Store Prompt With Images"
+msgstr "Images de produits Woo"
+
 msgid "Stored Data"
 msgstr ""
 
@@ -35953,6 +36486,10 @@ msgstr ""
 
 msgid "Stripe Live Secret Key"
 msgstr ""
+
+#, fuzzy
+msgid "Stripe Product"
+msgstr "Produits mis en avant"
 
 msgid "Stripe Test Secret Key"
 msgstr ""
@@ -36356,6 +36893,9 @@ msgid "Swipe"
 msgstr ""
 
 msgid "Swipe Vertically"
+msgstr ""
+
+msgid "Swirl"
 msgstr ""
 
 msgid "Switch"
@@ -37149,6 +37689,10 @@ msgstr ""
 msgid "The %s class can only be run within WP CLI."
 msgstr ""
 
+#. translators: %s: Section name, e.g. "Marketing".
+msgid "The %s features your site used on Pro keep working exactly as they were set up, but changes need the Pro plan."
+msgstr ""
+
 msgid "The AI can read and change this page. Changes stay unsaved until you save."
 msgstr ""
 
@@ -37241,6 +37785,11 @@ msgstr ""
 
 msgid "The URL the project text links to."
 msgstr "L'URL à laquelle renvoie le texte du projet."
+
+#, fuzzy
+#| msgid "The file does not exist"
+msgid "The ZIP file is not a valid icon set."
+msgstr "Le fichier n'existe pas"
 
 msgid "The access key for your Amazon SES account."
 msgstr ""
@@ -37374,6 +37923,9 @@ msgstr ""
 msgid "The file does not exist"
 msgstr "Le fichier n'existe pas"
 
+msgid "The file name is generated automatically. It is part of the image URL, so it can no longer be changed once the image is saved."
+msgstr ""
+
 msgid "The following data is sent to a ThemeFusion server located in the U.S. to ensure that patches are compatible with your install."
 msgstr "Les données suivantes sont envoyées à un serveur de ThemeFusion, situé aux États-Unis pour s’assurer que les correctifs soient compatibles avec votre installation."
 
@@ -37435,6 +37987,10 @@ msgstr ""
 msgid "The mailing lists you subscribed to and when you joined them."
 msgstr ""
 
+#. translators: %1$s: The maximum amount. %2$s: The currency.
+msgid "The maximum amount is %1$s %2$s."
+msgstr ""
+
 #, fuzzy
 msgid "The maximum amount of memory (RAM) your site can use at one time."
 msgstr "La quantité maximale de mémoire (RAM) que votre site peut utilise en une fois."
@@ -37458,6 +38014,10 @@ msgid "The memory limit WordPress applies in the admin and to imports. This is t
 msgstr ""
 
 msgid "The memory limit WordPress applies to the front end, which can be lower than the PHP limit."
+msgstr ""
+
+#. translators: %1$s: The minimum amount. %2$s: The currency.
+msgid "The minimum amount is %1$s %2$s."
 msgstr ""
 
 msgid "The minimum font-size of elements affected by responsive typography is body font-size multiplied by this factor."
@@ -37609,7 +38169,11 @@ msgstr ""
 msgid "The server couldn't be reached. Please check for wp_remote_get on the <a href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr ""
 
-msgid "The site-wide ceiling on how visitors may be identified by tracking features. \"Anonymous\" counts visitors without cookies — they are never recognised on a return visit, no consent banner is required, and A/B testing and statistics still work day-scoped. \"Session Cookies\" allows capped tracking cookies, \"Full\" additionally allows a persistent visitor identifier — both subject to visitor consent when the Privacy Consent Tools are enabled. Storage visitors explicitly ask for (wishlists, comparisons) is not governed by this setting."
+#. translators: %s: Import stage name.
+msgid "The server hit a timeout while importing %s. The progress so far has been saved. Click <strong>Continue Import</strong> to pick up where it left off."
+msgstr ""
+
+msgid "The site-wide ceiling on how visitors may be identified by tracking features. \"No Identifiers\" issues no cookies or hashes of any kind, not even for operational features. \"Anonymous\" counts visitors without cookies — they are never recognised on a return visit, no consent banner is required, and A/B testing and statistics still work day-scoped. \"Session Cookies\" allows capped tracking cookies, \"Full\" additionally allows a persistent visitor identifier — both subject to visitor consent when the Privacy Consent Tools are enabled. Storage visitors explicitly ask for (wishlists, comparisons) is not governed by this setting."
 msgstr ""
 
 msgid "The site-wide settings that limit everything below. A feature can be active and still identify nobody, if the ceiling here does not allow it."
@@ -37941,6 +38505,12 @@ msgstr "Cet email est déjà enregistré, veuillez en choisir un autre."
 msgid "This event is still being used on %1$s %2$s."
 msgstr ""
 
+msgid "This feature is part of the Avada Pro plan."
+msgstr ""
+
+msgid "This feature is part of the Pro plan."
+msgstr ""
+
 msgid "This file extension is not allowed. Please upload file having these extensions: "
 msgstr "Cette extension de fichier n'est pas autorisée. Veuillez télécharger les fichiers portant ces extensions "
 
@@ -38037,6 +38607,9 @@ msgstr "Cette option décide quand une image carrée de 1x1 doit devenir 2x2. Ce
 msgid "This option decides when a square 1x1 image should become 2x2. This will not apply to images that highly favor landscape or portrait layouts. <strong>IMPORTANT:</strong> There is a “Masonry Image Layout” setting for every image in the WP media library that allows you to manually set how an image will appear (1x1, landscape, portrait or 2x2), regardless of the original ratio. In pixels."
 msgstr "Cette option détermine quand une image carrée 1x1 doit devenir 2x2. Cela ne s'appliquera pas aux images qui favorisent fortement les mises en page de paysage ou de portrait. <strong> IMPORTANT: </strong> Il y a un paramètre \"mise en page d'image de maçonnerie\" pour chaque image dans la bibliothèque multimédia WP qui vous permet de définir manuellement comment une image apparaîtra (1x1, paysage, portrait ou 2x2), quel que soit le ratio d'origine. En pixels."
 
+msgid "This payment could not be started. Please reload the page and try again."
+msgstr ""
+
 #. translators: URL.
 msgid "This plugin can only be installed or updated, after you have successfully completed the Avada product registration on the <a href=\"%s\" target=\"_blank\">Dashboard Welcome</a> tab."
 msgstr "Ce plugin ne peut être installé ou mis à jour qu’une fois que vous avez terminé avec succès l’enregistrement du produit Avada sous <a href=\"%s\" target=\"_blank\">l’onglet Bienvenue</a> du tableau de bord."
@@ -38068,6 +38641,9 @@ msgid "This site does not track visitors or issue any identifier of its own."
 msgstr ""
 
 msgid "This site has used its allocated AI credits for this period. Contact your subscription owner to raise this site's allocation in My Avada."
+msgstr ""
+
+msgid "This site is already set up in your AI app."
 msgstr ""
 
 msgid "This site issues a lasting identifier so that it can recognise your browser on later visits."
@@ -39373,6 +39949,9 @@ msgstr "Activez la lecture automatique de la galerie lightbox."
 msgid "Turn on to loop the media."
 msgstr "Activez-vous pour boucler les médias."
 
+msgid "Turn on to make API keys, secret keys and passwords in the Global Options write-only. Saved credentials are never shown again, to anyone including administrators, and are left out of exports. Enter a new value to replace one, or reset the field to remove it."
+msgstr ""
+
 msgid "Turn on to make the mobile menu trigger button span full-width."
 msgstr "Allumez pour que le bouton de déclenchement du menu mobile s'étende sur toute la largeur."
 
@@ -39793,6 +40372,11 @@ msgstr "Souligner en zig-zag"
 msgid "Undo"
 msgstr "Défaire"
 
+#, fuzzy
+#| msgid "Unsaved Changes"
+msgid "Undoing changes"
+msgstr "Modifications non enregistrées"
+
 msgid "Unexpected HTML. Ensure this is a page using the Avada Builder."
 msgstr ""
 
@@ -39875,6 +40459,9 @@ msgid "Unknown partial args matching value."
 msgstr ""
 
 msgid "Unknown status found for action."
+msgstr ""
+
+msgid "Unlink from global typography"
 msgstr ""
 
 msgid "Unlink section"
@@ -39979,6 +40566,16 @@ msgstr "Mettre à jour le panier"
 #, fuzzy
 msgid "Updated %s"
 msgstr "Mettre à jour %s"
+
+#, fuzzy
+#| msgid "Export Global Options"
+msgid "Updating Global Options"
+msgstr "Exporter des options globales"
+
+#, fuzzy
+#| msgid "Manage Page Options"
+msgid "Updating Page Options"
+msgstr "Gérer les options de page"
 
 msgid "Updating submissions database table failed."
 msgstr ""
@@ -40352,6 +40949,9 @@ msgstr ""
 
 msgid "Using default value."
 msgstr "Utiliser la valeur par défaut."
+
+msgid "Using the library"
+msgstr ""
 
 msgid "Utah"
 msgstr "Utah"
@@ -40904,10 +41504,10 @@ msgstr ""
 msgid "Visitor Analytics Label"
 msgstr ""
 
-msgid "Visitor Decides"
+msgid "Visitor Analytics is turned off under Marketing → Experiments & Links. The Visitor Tracking Mode below currently only applies to operational features such as abandoned cart recovery."
 msgstr ""
 
-msgid "Visitor Tracking"
+msgid "Visitor Decides"
 msgstr ""
 
 msgid "Visitor Tracking Mode"
@@ -41415,6 +42015,9 @@ msgstr "Largeur/hauteur basée"
 msgid "Wiggle"
 msgstr ""
 
+msgid "Will be saved as “%s”"
+msgstr ""
+
 msgid "Winner"
 msgstr ""
 
@@ -41895,6 +42498,12 @@ msgstr ""
 msgid "Write the selected tab into the page address, so a visitor can copy a link that opens on that tab. The address is replaced rather than added to the browser history, so the back button still leaves the page."
 msgstr ""
 
+msgid "Write-Only Credentials"
+msgstr ""
+
+msgid "Write-only: saved credentials can’t be viewed"
+msgstr ""
+
 msgid "Writer Presets"
 msgstr ""
 
@@ -41966,9 +42575,6 @@ msgstr ""
 msgctxt "Currency"
 msgid "YER"
 msgstr ""
-
-msgid "Yahoo Link"
-msgstr "Lien Yahoo"
 
 #. translators: Yearly archive title.
 msgid "Year: %s"
@@ -42188,6 +42794,9 @@ msgstr ""
 msgid "Your Mailchimp account has been successfully connected."
 msgstr ""
 
+msgid "Your Site Is on the Essential Plan"
+msgstr ""
+
 msgid "Your Studio content is now being imported. This includes the layout, and any assets that may be associated (images, menus, forms, post cards etc). The import process should only take a few seconds, depending on the amount of content to be imported."
 msgstr ""
 
@@ -42241,6 +42850,9 @@ msgid "Your prebuilt page content is now being imported. This includes the layou
 msgstr ""
 
 msgid "Your site is in Coming Soon mode"
+msgstr ""
+
+msgid "Your site is no longer on the Avada Pro plan. This feature keeps working as set up, but it can only be changed on Pro."
 msgstr ""
 
 msgid "Your site is not connected to a My Avada account. Please connect your site from the System Status page to use AI features. Please %1$scontact us%2$s if the problem persists"

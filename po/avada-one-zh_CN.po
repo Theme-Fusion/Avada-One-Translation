@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-09-16 10:43:31+00:00\n"
+"POT-Creation-Date: 2026-09-30 07:52:22+00:00\n"
 "PO-Revision-Date: 2026-09-29 14:35+0000\n"
 "Last-Translator: Imported from Avada Classic translations\n"
 "Language-Team: \n"
@@ -157,6 +157,8 @@ msgstr ""
 msgid "%1$s with Specific %2$s"
 msgstr "具有特定 %2$s 的 %1$s"
 
+#. translators: 1: Global color name, eg. "Color 5". 2: Shade step name, eg.
+#. "Darker 25%".
 #. translators: 1: kind of record. 2: how long it is kept.
 msgid "%1$s — %2$s"
 msgstr ""
@@ -360,6 +362,10 @@ msgstr ""
 msgid "%s items in cart"
 msgstr ""
 
+#. translators: %s: Feature name.
+msgid "%s keeps working on your site exactly as it was set up, but changes need the Pro plan. Below is a preview of your latest entries."
+msgstr ""
+
 #. Translators: %s: minutes of read.
 msgid "%s min"
 msgstr "%s 分钟"
@@ -379,6 +385,10 @@ msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] ""
 msgstr[1] ""
+
+#. translators: %s: Number of entries.
+msgid "%s more entries are available on Pro"
+msgstr ""
 
 msgid "%s name"
 msgstr ""
@@ -524,6 +534,9 @@ msgid "1 Variation"
 msgstr ""
 
 msgid "1 environment check is below its recommended value"
+msgstr ""
+
+msgid "1 more entry is available on Pro"
 msgstr ""
 
 msgid "1 patch is waiting to be applied"
@@ -901,6 +914,9 @@ msgstr ""
 msgid "A short description that is only shown while this tab is active, and slides open as the tab is selected. Vertical tabs place it under the tab title, inside the tab itself. Horizontal tabs place it between the tab row and the content, since a single taller tab would leave the row ragged. Leave empty for no description."
 msgstr ""
 
+msgid "A short, readable name for the media library"
+msgstr ""
+
 msgid "A unique key for this switch. Other elements target this name in their \"Dynamic Display\" condition to show or hide based on this switch's state."
 msgstr ""
 
@@ -912,7 +928,7 @@ msgid "A webhook is used to keep email statuses (delivered, opened, clicked, bou
 msgstr ""
 
 #. translators: %s is the webhook endpoint URL to paste into Postmark.
-msgid "A webhook is used to keep email statuses (delivered, opened, clicked, bounced, spam) up to date in the Email Logs. Postmark webhooks are set per Message Stream, so add this URL under Webhooks on both the transactional and broadcast streams above: %s"
+msgid "A webhook is used to keep email statuses (delivered, opened, clicked, bounced, spam) up to date in the Email Logs. Postmark webhooks are set per Message Stream, so add this URL under Webhooks on both the transactional and broadcast streams above, with the webhook username and password below as its Basic Auth credentials: %s"
 msgstr ""
 
 msgid "A/B Testing"
@@ -1000,8 +1016,10 @@ msgstr ""
 msgid "AI Chat"
 msgstr ""
 
-msgid "AI Chat Display"
-msgstr ""
+#, fuzzy
+#| msgid "API Mode"
+msgid "AI Chat Mode"
+msgstr "API 模式"
 
 msgid "AI Disabled For This Site"
 msgstr ""
@@ -1353,6 +1371,12 @@ msgstr ""
 #, fuzzy
 msgid "Activated"
 msgstr "激活"
+
+#. translators: %s: Plugin name.
+#, fuzzy
+#| msgid "Activation Type"
+msgid "Activating %s..."
+msgstr "激活类型"
 
 msgid "Activating..."
 msgstr ""
@@ -1894,10 +1918,21 @@ msgstr "添加在菜单项上单击要打开的模块窗口的类名。"
 msgid "Add the compare page link to the WooCommerce My Account page."
 msgstr ""
 
+#, fuzzy
+#| msgid "Add the shipping price. Decimal numbers are supported by using the \".\" (period) delimiter."
+msgid "Add the highest amount the customer is allowed to pay. Leave empty for no upper limit. Decimal numbers are supported by using the \".\" (period) delimiter."
+msgstr "添加the shipping price. Decimal numbers are supported by using the \".\" (period) delimiter。"
+
+msgid "Add the label shown above the field the customer enters their amount into."
+msgstr ""
+
 msgid "Add the letter to be used as dropcap."
 msgstr "添加the letter to be used as dropcap。"
 
 msgid "Add the link's url ex: http://example.com."
+msgstr ""
+
+msgid "Add the lowest amount the customer is allowed to pay. Decimal numbers are supported by using the \".\" (period) delimiter. Note that Stripe enforces its own minimum charge amount per currency, which is around 0.50 for most of them."
 msgstr ""
 
 msgid "Add the product name that you sell."
@@ -2172,6 +2207,11 @@ msgstr "高级 自定义 字段"
 msgid "Advanced Optimization"
 msgstr "高级优化"
 
+#, fuzzy
+#| msgid "Advanced Custom Fields"
+msgid "Advanced adjustments (OKLCH)"
+msgstr "高级 自定义 字段"
+
 msgid "Afghanistan"
 msgstr "阿富汗"
 
@@ -2409,6 +2449,9 @@ msgstr ""
 msgid "Allows PHP to read remote files. reCAPTCHA and some remote asset reads need it."
 msgstr ""
 
+msgid "Alpha"
+msgstr ""
+
 msgid "Alpha 25%"
 msgstr ""
 
@@ -2447,6 +2490,11 @@ msgstr "美属萨摩亚"
 
 msgid "Amount"
 msgstr "数量"
+
+#, fuzzy
+#| msgid "Field Label"
+msgid "Amount Field Label"
+msgstr "字段 标签"
 
 msgid "An active Avada subscription is required to use this feature."
 msgstr ""
@@ -2579,6 +2627,9 @@ msgid "Anonymize IPs"
 msgstr "IP 匿名化"
 
 msgid "Anonymous"
+msgstr ""
+
+msgid "Another Builder tab took the connection."
 msgstr ""
 
 msgid "Antarctica"
@@ -2893,12 +2944,6 @@ msgctxt "post format archive title"
 msgid "Asides"
 msgstr ""
 
-msgid "Ask"
-msgstr ""
-
-msgid "Ask AI"
-msgstr ""
-
 msgid "Ask Avada AI"
 msgstr ""
 
@@ -2926,7 +2971,7 @@ msgstr ""
 msgid "Assign this snippet to a consent category. \"Necessary\" snippets always load and show as a locked checkbox. Other categories require consent and appear as a checkbox in the matching Consent Category content. Choose \"Do Not Add To A Group\" to load the snippet without listing it — useful for consent-aware scripts that handle consent signals themselves."
 msgstr ""
 
-msgid "Assign visitors to experiment variations and record impressions. Requires Visitor Tracking."
+msgid "Assign visitors to experiment variations and record impressions. Requires Visitor Analytics."
 msgstr ""
 
 msgid "Attach Images to Gallery"
@@ -2993,6 +3038,38 @@ msgstr "音频 进度条 颜色"
 
 msgid "August"
 msgstr "八月"
+
+msgid "Aurora"
+msgstr ""
+
+#, fuzzy
+#| msgid "Mask Blend Mode"
+msgid "Aurora Blend Mode"
+msgstr "遮罩混合模式"
+
+msgid "Aurora Blur"
+msgstr ""
+
+#. translators: The color number.
+#, fuzzy
+#| msgid "Cursor Color"
+msgid "Aurora Color %s"
+msgstr "光标 颜色"
+
+#, fuzzy
+#| msgid "Mask Opacity"
+msgid "Aurora Opacity"
+msgstr "遮罩不透明度"
+
+#, fuzzy
+#| msgid "Arrow Size"
+msgid "Aurora Size"
+msgstr "箭头大小"
+
+#, fuzzy
+#| msgid "Autoplay Speed"
+msgid "Aurora Speed"
+msgstr "自动播放速度"
 
 msgid "Australia"
 msgstr "澳大利亚"
@@ -3820,6 +3897,11 @@ msgstr ""
 msgid "Background color of the ticket form box."
 msgstr ""
 
+#, fuzzy
+#| msgid "Background Size"
+msgid "Background video"
+msgstr "背景大小"
+
 msgid "Backlight"
 msgstr ""
 
@@ -4425,6 +4507,11 @@ msgstr "浏览器"
 
 msgid "Browsing Journey"
 msgstr ""
+
+#, fuzzy
+#| msgid "Browse"
+msgid "Browsing media"
+msgstr "浏览"
 
 msgid "Brunei"
 msgstr "文莱"
@@ -5083,6 +5170,9 @@ msgstr "购物车"
 msgid "Cart Alignment"
 msgstr "购物车对齐"
 
+msgid "Cart Cleanup (Days)"
+msgstr ""
+
 msgid "Cart Count"
 msgstr "购物车数量"
 
@@ -5315,6 +5405,9 @@ msgstr ""
 msgid "Changes the expand transition for submenus."
 msgstr ""
 
+msgid "Changing them needs the Pro plan, so they keep their current values. Everything else was saved."
+msgstr ""
+
 #, fuzzy
 msgid "Channels of Support"
 msgstr "支持渠道"
@@ -5361,6 +5454,11 @@ msgstr "图表类型"
 
 msgid "Chart Value"
 msgstr "图表值"
+
+#, fuzzy
+#| msgid "Live Chat"
+msgid "Chat"
+msgstr "实时聊天"
 
 msgctxt "post format archive title"
 msgid "Chats"
@@ -5449,11 +5547,26 @@ msgstr ""
 msgid "Checking Global Options"
 msgstr ""
 
+#, fuzzy
+#| msgid "Manage Page Options"
+msgid "Checking Page Options"
+msgstr "管理页面选项"
+
+#, fuzzy
+#| msgid "Check All Elements"
+msgid "Checking available elements"
+msgstr "勾选所有元素"
+
 msgid "Checking available icons"
 msgstr ""
 
 msgid "Checking color palette"
 msgstr ""
+
+#, fuzzy
+#| msgid "Skip to content"
+msgid "Checking site content"
+msgstr "跳过内容"
 
 msgid "Checking typography"
 msgstr ""
@@ -5978,7 +6091,10 @@ msgstr "选择是否显示小计（含或不含折扣）或合计。"
 msgid "Choose if subtotal should show or not."
 msgstr ""
 
-msgid "Choose if the Avada AI chat opens as a panel next to the page, so you can see changes as they happen, or as a dialog."
+msgid "Choose if the Avada AI chat opens in a sidebar opposite the options sidebar, so you can watch changes as they happen, or in a dialog."
+msgstr ""
+
+msgid "Choose if the Navigator should mark the items that are hidden by the visibility option, or removed by device conditional rendering, on some devices."
 msgstr ""
 
 msgid "Choose if the accordion toggle is pinned to the end of the post item, or if it follows the post content and is aligned together with it."
@@ -6158,6 +6274,13 @@ msgid "Choose the amount of blur added to glow or drop shadow effect."
 msgstr ""
 
 msgid "Choose the amount of blur added to glow or drop shadow effect. In pixels."
+msgstr ""
+
+msgid "Choose the animation that plays when visitors navigate between the pages of your site. Page transitions use the View Transitions API of the browser. Browsers without support, and visitors who prefer reduced motion, navigate without a transition."
+msgstr ""
+
+#. translators: %s: The default value.
+msgid "Choose the animation that plays when visitors navigate to this page. None also disables the transition when navigating away from this page. %s"
 msgstr ""
 
 msgid "Choose the background color of the overlay. Leave empty for default value of rgba(0,0,0,0.8)."
@@ -6848,6 +6971,9 @@ msgstr "选择显示or hide the section on small, medium or large screens. You c
 msgid "Choose to show or hide the slider on small, medium or large screens. You can choose more than one at a time. Each of the 3 sizes has a custom width setting on the Responsive tab in the. %s."
 msgstr "选择在小、中或大屏幕上显示或隐藏滑块。您可以一次选择多个。这 3 种尺寸在 %s 的响应式选项卡中都有自定义宽度设置。"
 
+msgid "Choose to show the featured image of a post next to the cursor while the post is hovered. Works independently of the featured image in the list, and only on devices with a mouse."
+msgstr ""
+
 msgid "Choose to show the modal footer with close button."
 msgstr "选择显示the modal footer with close button。"
 
@@ -7059,6 +7185,9 @@ msgstr "为您网站的图像选择首选的延迟加载方法以提高性能。
 
 msgid "Christmas Island"
 msgstr "圣诞岛"
+
+msgid "Chroma"
+msgstr ""
 
 msgid "Cinematic"
 msgstr ""
@@ -7908,6 +8037,9 @@ msgstr "条件渲染"
 
 msgid "Conditional Tag"
 msgstr "条件标签"
+
+msgid "Conditional rendering preview is off, so the preview still shows it."
+msgstr ""
 
 msgid "Conditionals"
 msgstr "条件"
@@ -10299,6 +10431,11 @@ msgstr "控制dropdown text颜色。"
 msgid "Controls the duration of the highlight animation. In milliseconds."
 msgstr ""
 
+#, fuzzy
+#| msgid "Controls the speed of the slide transition from slide to slide. 1000 = 1 second."
+msgid "Controls the duration of the page transitions in milliseconds. ex: 1000 = 1 second."
+msgstr "控制幻灯片之间过渡的速度。1000 = 1 秒。"
+
 msgid "Controls the duration of the scroll animation effect. In milliseconds."
 msgstr ""
 
@@ -12178,6 +12315,9 @@ msgstr ""
 msgid "Controls where the handle will be positioned on page load allowing you to control how much of each image displays by default. In percentage."
 msgstr ""
 
+msgid "Controls where the indicator scrolls to. Next Section scrolls to whatever is directly below the slider, wherever it is placed."
+msgstr ""
+
 msgid "Controls where the star rating appears. \"With Author\" places it inside the author block."
 msgstr ""
 
@@ -12375,6 +12515,9 @@ msgstr "复制文本到剪贴板"
 msgid "Copy connection link"
 msgstr ""
 
+msgid "Copy it now - it is shown once. A new link replaces the old one everywhere."
+msgstr ""
+
 msgid "Copy this category"
 msgstr ""
 
@@ -12405,10 +12548,11 @@ msgstr ""
 msgid "Costa Rica"
 msgstr "哥斯达黎加"
 
-msgid "Could not"
+msgid "Could not access upload folder."
 msgstr ""
 
-msgid "Could not access upload folder."
+#. translators: %1$s: Plugin slug. %2$s: Error message.
+msgid "Could not activate %1$s: %2$s"
 msgstr ""
 
 #. translators: Hubspot error.
@@ -12439,10 +12583,19 @@ msgstr "无法为评论 #%d 找到父级"
 msgid "Could not find the menu object for \"%s\" (post #%d)"
 msgstr "找不到\"%s\"的导航菜单对象（帖子 #%d）"
 
+#, fuzzy
+#| msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgid "Could not find the parent menu item for \"%s\" (post #%d)"
+msgstr "无法为 \"%s\" (文章id %d)找到父级"
+
 msgid "Could not find the post parent for \"%s\" (post #%d)"
 msgstr "无法为 \"%s\" (文章id %d)找到父级"
 
 msgid "Could not initialize filesystem."
+msgstr ""
+
+#. translators: %1$s: Plugin slug. %2$s: Error message.
+msgid "Could not install %1$s: %2$s"
 msgstr ""
 
 msgid "Could not open the file for parsing"
@@ -12810,6 +12963,11 @@ msgstr[1] ""
 msgid "Creating database tables failed."
 msgstr "创建数据库表失败。"
 
+#, fuzzy
+#| msgid "Heading text for the modal."
+msgid "Creating items for the page"
+msgstr "模态框标题文本。"
+
 msgid "Creation Data:"
 msgstr ""
 
@@ -12989,6 +13147,11 @@ msgstr "自定义"
 
 msgid "Custom %d"
 msgstr ""
+
+#, fuzzy
+#| msgid "Custom Icon"
+msgid "Custom Anchor"
+msgstr "自定义图标"
 
 msgid "Custom Aspect Ratio"
 msgstr "自定义宽高比"
@@ -13232,6 +13395,11 @@ msgstr "变体清除链接使用的自定义文本。"
 msgid "Customer"
 msgstr "客户"
 
+#, fuzzy
+#| msgid "Custom Colors"
+msgid "Customer Chooses"
+msgstr "自定义颜色"
+
 msgid "Customer Contact"
 msgstr ""
 
@@ -13401,9 +13569,6 @@ msgid "Data Type"
 msgstr "日期类型"
 
 msgid "Data Type Icons & Badges"
-msgstr ""
-
-msgid "Data could not be retrieved from Instagram. Please try again."
 msgstr ""
 
 msgid "Data store:"
@@ -13607,9 +13772,6 @@ msgid "Default: %s"
 msgstr "默认: %s"
 
 msgid "Define reusable context sources that can be injected into AI prompts."
-msgstr ""
-
-msgid "Define the 8 core colors and any additional custom colors for this palette."
 msgstr ""
 
 #, fuzzy
@@ -13893,6 +14055,9 @@ msgid "Describe how you would like to adjust the color palette"
 msgstr ""
 
 msgid "Describe the SVG you would like the AI to generate"
+msgstr ""
+
+msgid "Describe the image for screen readers and search engines"
 msgstr ""
 
 msgid "Describe the purpose of the campaign."
@@ -14608,6 +14773,9 @@ msgstr "Dribbble"
 msgid "Dribble (Author Page)"
 msgstr "Dribbble（作者页面）"
 
+msgid "Drift"
+msgstr ""
+
 msgid "Drop Shadow"
 msgstr "投影"
 
@@ -14712,6 +14880,11 @@ msgstr "复制内容"
 
 msgid "Duplicate Slider Revolution detected.  Duplicate sliders will not be rendered whilst in the live editor."
 msgstr "检测到重复的 Slider Revolution。在实时编辑器中不会渲染重复的滑块。"
+
+#, fuzzy
+#| msgid "Duplicate Content"
+msgid "Duplicating content"
+msgstr "复制内容"
 
 msgid "Duration of the expand/collapse animation in milliseconds."
 msgstr ""
@@ -14850,6 +15023,10 @@ msgctxt "avada-one"
 msgid "Edit Form"
 msgstr "编辑 表单"
 
+#, fuzzy
+msgid "Edit Global Colors"
+msgstr "全局颜色"
+
 msgid "Edit Global Page TitleBar"
 msgstr "编辑全局页面标题栏"
 
@@ -14887,6 +15064,11 @@ msgstr "编辑 菜单"
 
 msgid "Edit Mode"
 msgstr ""
+
+#, fuzzy
+#| msgid "Image Alt Text"
+msgid "Edit Name & Alt Text"
+msgstr "图片替代文本"
 
 msgctxt "Avada Off Canvas"
 msgid "Edit Off Canvas"
@@ -14953,6 +15135,9 @@ msgstr ""
 msgid "Edit item"
 msgstr "编辑项目"
 
+msgid "Edit name & alt text"
+msgstr ""
+
 #, fuzzy
 msgid "Edit section"
 msgstr "编辑 区块"
@@ -14973,9 +15158,6 @@ msgid "Edit the pages of your website."
 msgstr "编辑您网站的页面。"
 
 msgid "Edit the text content of Avada content. For example edit an entire page or a single container."
-msgstr ""
-
-msgid "Edit with AI"
 msgstr ""
 
 msgid "Edit your site layouts."
@@ -15571,6 +15753,9 @@ msgstr ""
 msgid "Enter a name for your template and click the Save button. This will save the entire page layout, page template from the page attributes box, custom CSS, and Avada Page Options. IMPORTANT: When loading a saved template through the \"Replace All Content\" option, everything will load, including the page template and Avada Page Options. When inserting above or below existing content only the saved content will be added."
 msgstr "输入a name for your template and click the Save button. This will save the entire page layout, page template from the page attributes box, custom CSS, and Avada Page Options. IMPORTANT: When loading a saved template through the \"Replace All Content\" option, everything will load, including the page template and Avada Page Options. When inserting above or below existing content only the saved content will be added。"
 
+msgid "Enter a new value to replace it"
+msgstr ""
+
 msgid "Enter a pixel value for the arrow size, ex: 14px"
 msgstr "输入箭头的像素值，例如：14px"
 
@@ -15845,6 +16030,9 @@ msgid "Enter the CSS ID of the Post Card Archives element you want to link. If l
 msgstr "输入CSS ID od the Post Card Archives element you want to link. If left empty, all Post Card Archives element on the same page will be affected by the sorting.。"
 
 msgid "Enter the GET variable name to be compared."
+msgstr ""
+
+msgid "Enter the ID to scroll to, ex: #features. This can be the Menu Anchor or CSS ID of a container. On pages where the anchor does not exist, the indicator scrolls to the next section instead."
 msgstr ""
 
 msgid "Enter the POST variable name to be compared."
@@ -16613,6 +16801,11 @@ msgstr ""
 msgid "Exclude Elements From Link Decoration"
 msgstr "从链接修饰中排除元素"
 
+#, fuzzy
+#| msgid "Exclude from Studio"
+msgid "Exclude From Page Transitions"
+msgstr "从 Studio 中排除"
+
 msgid "Exclude Products by SKU"
 msgstr "按 SKU 排除产品"
 
@@ -17037,6 +17230,17 @@ msgstr ""
 msgid "Failed to Open. Error Code: %s "
 msgstr "打开失败。错误代码：%s"
 
+#. translators: %s: Plugin slug.
+#, fuzzy
+#| msgid "Failed to import %s %s"
+msgid "Failed to activate %s"
+msgstr "导入失败%s %s"
+
+#, fuzzy
+#| msgid "Activate Plugins"
+msgid "Failed to activate plugin"
+msgstr "激活插件"
+
 msgid "Failed to add to cart"
 msgstr ""
 
@@ -17076,6 +17280,11 @@ msgstr ""
 msgid "Failed to create price tracking subscription."
 msgstr ""
 
+#, fuzzy
+#| msgid "Activate Plugins"
+msgid "Failed to deactivate plugin"
+msgstr "激活插件"
+
 msgid "Failed to delete conversation:"
 msgstr ""
 
@@ -17083,6 +17292,9 @@ msgid "Failed to delete database."
 msgstr ""
 
 msgid "Failed to delete layout."
+msgstr ""
+
+msgid "Failed to delete plugin"
 msgstr ""
 
 msgid "Failed to delete reminder."
@@ -17095,10 +17307,17 @@ msgstr ""
 msgid "Failed to download patch file: %1$s. Error: %2$s"
 msgstr ""
 
+#. translators: %d: HTTP status code.
+msgid "Failed to download the prebuilt website package (Code: %d)."
+msgstr ""
+
 msgid "Failed to extract ZIP file."
 msgstr ""
 
 msgid "Failed to fetch image %s:"
+msgstr ""
+
+msgid "Failed to fetch plugins"
 msgstr ""
 
 msgid "Failed to find element:"
@@ -17118,6 +17337,20 @@ msgstr "无法导入用户 \"%s\""
 
 msgid "Failed to insert message"
 msgstr ""
+
+#. translators: %s: Plugin slug.
+#, fuzzy
+#| msgid "Failed to import %s %s"
+msgid "Failed to install %s"
+msgstr "导入失败%s %s"
+
+msgid "Failed to install plugin"
+msgstr ""
+
+#, fuzzy
+#| msgid "Select a prebuilt website to import."
+msgid "Failed to load prebuilt websites."
+msgstr "选择要导入的预建网站。"
 
 msgid "Failed to load recovery statistics"
 msgstr ""
@@ -17164,7 +17397,13 @@ msgstr ""
 msgid "Failed to subscribe to price alerts."
 msgstr ""
 
+msgid "Failed to update plugin"
+msgstr ""
+
 msgid "Failed to update subscription."
+msgstr ""
+
+msgid "Failed to update the image details:"
 msgstr ""
 
 msgid "Falkland Islands"
@@ -17577,6 +17816,12 @@ msgstr "查找建议"
 msgid "Find out more optimization tips in our documentation."
 msgstr "在我们的文档中查找更多优化技巧。"
 
+msgid "Finding and replacing"
+msgstr ""
+
+msgid "Finding design examples"
+msgstr ""
+
 msgid "Fine-tune the button(s) position. With \"Below Content\" it sets the gap above the button(s). With \"Overlay On Content\" it lifts the button(s) up from the bottom edge. Note: \"To Transparent\" fades via a mask, so the button only stays fully visible if the offset is at least the Fade Height. Enter a value with a unit, e.g. 20px."
 msgstr ""
 
@@ -17623,6 +17868,11 @@ msgstr "fixed = 宽度和高度将固定 <br />auto = 宽度和高度将根据�
 #, fuzzy
 msgid "Fixed = width and height will be fixed<br/>Auto = width and height will adjust to the image."
 msgstr "fixed = 宽度和高度将固定 <br />auto = 宽度和高度将根据图像进行调整。"
+
+#, fuzzy
+#| msgid "After Price"
+msgid "Fixed Price"
+msgstr "之后 价格"
 
 msgid "Fixed to Bottom"
 msgstr "固定到底部"
@@ -18100,9 +18350,6 @@ msgstr "表单仪表盘"
 msgid "Forms Styling"
 msgstr "表单样式"
 
-msgid "Forrst Link"
-msgstr "Forrst 链接"
-
 msgid "Forum"
 msgstr "论坛"
 
@@ -18436,6 +18683,11 @@ msgstr ""
 msgid "Generating Critical CSS"
 msgstr "正在生成关键 CSS"
 
+#, fuzzy
+#| msgid "Generating the mobile CSS."
+msgid "Generating an image"
+msgstr "正在生成移动端 CSS。"
+
 msgid "Generating the desktop CSS."
 msgstr "正在生成桌面端 CSS。"
 
@@ -18494,6 +18746,9 @@ msgid "Get Variable"
 msgstr ""
 
 msgid "Get Variable Value"
+msgstr ""
+
+msgid "Get a new link"
 msgstr ""
 
 msgid "Get one to one help from the Avada support team through our ticket system. Connect your subscription first so we can see your setup and answer faster."
@@ -19216,6 +19471,11 @@ msgstr "六边形"
 msgid "Hidden"
 msgstr "隐藏"
 
+#, fuzzy
+#| msgid "Hidden Visible"
+msgid "Hidden (Visibility)"
+msgstr "隐藏 可见"
+
 msgid "Hidden Auto"
 msgstr "隐藏 自动"
 
@@ -19520,11 +19780,26 @@ msgstr "悬停 图标"
 msgid "Hover Icon Color"
 msgstr "悬停 图标 颜色"
 
+#, fuzzy
+#| msgid "Toggle Preview"
+msgid "Hover Image Preview"
+msgstr "切换 预览"
+
 msgid "Hover Item Background Color"
 msgstr "悬停项目背景颜色"
 
 msgid "Hover Item Color"
 msgstr "悬停项目颜色"
+
+#, fuzzy
+#| msgid "Arrow Border Radius"
+msgid "Hover Preview Border Radius"
+msgstr "箭头边框圆角"
+
+#, fuzzy
+#| msgid "Preview Width"
+msgid "Hover Preview Width"
+msgstr "预览宽度"
 
 msgid "Hover Text Color"
 msgstr "悬停 文本 颜色"
@@ -19551,6 +19826,9 @@ msgid "How WordPress describes this install: production, staging, development or
 msgstr ""
 
 msgid "How long PHP may spend parsing incoming request data, which matters for large imports and option saves."
+msgstr ""
+
+msgid "How long abandoned cart records remain in the database before permanent deletion. Default is 7."
 msgstr ""
 
 msgid "How long guest-scoped cookies (visitor identifier, wishlist and comparison tokens) may live, in days."
@@ -20363,12 +20641,25 @@ msgstr ""
 msgid "Import Websites Pages"
 msgstr "导入网站页面"
 
+msgid "Import already completed!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Import Failed"
+msgid "Import completed!"
+msgstr "导入失败"
+
 #, fuzzy
 msgid "Import failed."
 msgstr "导入失败"
 
 msgid "Import failed. Make sure the file is a valid Avada Global Options export."
 msgstr ""
+
+#, fuzzy
+#| msgid "Login failed, please try again."
+msgid "Import failed. Please try again."
+msgstr "登录失败，请重试."
 
 msgid "Import/Export"
 msgstr "导入 / 导出"
@@ -20390,6 +20681,12 @@ msgstr "成功导入 \"%s\" (%s)"
 
 msgid "Imported user \"%s\""
 msgstr "已导入用户 \"%s\""
+
+#. translators: %s: Import stage name.
+#, fuzzy
+#| msgid "Import Options"
+msgid "Importing %s..."
+msgstr "导入选项"
 
 msgid "Importing Avada Studio Content"
 msgstr "正在导入 Avada Studio 内容"
@@ -20956,9 +21253,6 @@ msgstr "插入your custom Facebook link。"
 msgid "Insert your custom Flickr link."
 msgstr "插入your custom Flickr link。"
 
-msgid "Insert your custom Forrst link."
-msgstr "插入your custom Forrst link。"
-
 msgid "Insert your custom GitHub link."
 msgstr "插入your custom GitHub link。"
 
@@ -20988,9 +21282,6 @@ msgstr "输入自定义 RSS 链接。"
 
 msgid "Insert your custom Reddit link."
 msgstr "插入your custom Reddit link。"
-
-msgid "Insert your custom Skype link."
-msgstr "输入自定义 Skype 链接。"
 
 msgid "Insert your custom Snapchat link."
 msgstr "插入your custom Snapchat link。"
@@ -21033,9 +21324,6 @@ msgstr "输入自定义 X 链接。"
 
 msgid "Insert your custom Xing link."
 msgstr "输入自定义 Xing 链接。"
-
-msgid "Insert your custom Yahoo link."
-msgstr "输入自定义 Yahoo 链接。"
 
 msgid "Insert your custom Yelp link."
 msgstr "输入自定义 Yelp 链接。"
@@ -21094,6 +21382,12 @@ msgstr ""
 
 msgid "Installation failed: %s"
 msgstr ""
+
+#. translators: %s: Plugin name.
+#, fuzzy
+#| msgid "Install"
+msgid "Installing %s..."
+msgstr "安装"
 
 msgid "Installing..."
 msgstr ""
@@ -21187,6 +21481,12 @@ msgstr ""
 
 msgid "Invalid link ID."
 msgstr ""
+
+#. translators: %s: option name
+#, fuzzy
+#| msgid "Invalid Color"
+msgid "Invalid option: %s"
+msgstr "无效颜色"
 
 msgid "Invalid patch path: %s"
 msgstr ""
@@ -21962,9 +22262,6 @@ msgstr "从左到右"
 msgid "Left Top"
 msgstr "左上"
 
-msgid "Legacy"
-msgstr "旧版"
-
 msgid "Legacy License Detected:"
 msgstr ""
 
@@ -22124,6 +22421,11 @@ msgstr ""
 
 msgid "Lighting, camera, ..."
 msgstr ""
+
+#, fuzzy
+#| msgid "Brightness"
+msgid "Lightness"
+msgstr "亮度"
 
 msgid "Like"
 msgstr "赞"
@@ -23147,10 +23449,10 @@ msgstr "根据用户角色管理对各种 Avada 组件的访问权限。如果�
 msgid "Manage in Permissions"
 msgstr ""
 
-msgid "Manage the transactional and marketing emails sent from your site."
+msgid "Manage site-wide settings: layout, colors, typography, performance, and more."
 msgstr ""
 
-msgid "Manage theme-wide settings: layout, colors, typography, performance, and more."
+msgid "Manage the transactional and marketing emails sent from your site."
 msgstr ""
 
 msgid "Manage tracked links and monitor impressions, views, and clicks."
@@ -23516,6 +23818,11 @@ msgstr ""
 msgid "Maximum Allowed Characters"
 msgstr "最大允许字符数"
 
+#, fuzzy
+#| msgid "Maximum Columns"
+msgid "Maximum Amount"
+msgstr "最大列数"
+
 msgid "Maximum Columns"
 msgstr "最大列数"
 
@@ -23808,6 +24115,11 @@ msgstr ""
 
 msgid "Minimum"
 msgstr ""
+
+#, fuzzy
+#| msgid "Minimum Font Size"
+msgid "Minimum Amount"
+msgstr "最小字体大小"
 
 msgid "Minimum Date"
 msgstr "最小日期"
@@ -24127,6 +24439,11 @@ msgstr "已移动嵌套列"
 msgid "Moved Online"
 msgstr "改为线上"
 
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Moving content"
+msgstr "删除内容"
+
 msgid "Mozambique"
 msgstr "莫桑比克"
 
@@ -24248,6 +24565,11 @@ msgstr "NZD"
 
 msgid "Name"
 msgstr "名称"
+
+#, fuzzy
+#| msgid "Image Alt Text"
+msgid "Name & Alt Text"
+msgstr "图片替代文本"
 
 msgid "Name (required)"
 msgstr "昵称(必填)"
@@ -24473,6 +24795,10 @@ msgstr "纽约州"
 msgid "New Zealand"
 msgstr "新西兰"
 
+#, fuzzy
+msgid "New chat"
+msgstr "查看购物车"
+
 msgid "Newest"
 msgstr ""
 
@@ -24502,6 +24828,11 @@ msgstr "下一页分隔符"
 
 msgid "Next Post Title"
 msgstr ""
+
+#, fuzzy
+#| msgid "New Section"
+msgid "Next Section"
+msgstr "新建区块"
 
 msgid "Next Step"
 msgstr "下一步"
@@ -24628,6 +24959,9 @@ msgstr "没有在回收站内找到图标集"
 
 msgid "No Icons"
 msgstr "无图标"
+
+msgid "No Identifiers"
+msgstr ""
 
 msgid "No Info Bars Available"
 msgstr "无可用信息栏"
@@ -25183,6 +25517,11 @@ msgstr "未找到"
 msgid "Not found in Trash"
 msgstr "在回收站中未找到"
 
+#, fuzzy
+#| msgid "Conditional Rendering"
+msgid "Not rendered (Conditional Rendering)"
+msgstr "条件渲染"
+
 msgid "Not right now"
 msgstr "现在不"
 
@@ -25513,6 +25852,9 @@ msgstr "滚动时"
 msgid "On Sub Label"
 msgstr ""
 
+msgid "On the Essential plan, only the latest entries can be opened."
+msgstr ""
+
 msgid "Once"
 msgstr "一次"
 
@@ -25722,12 +26064,6 @@ msgstr ""
 msgid "Optional text shown next to the star rating, e.g. \"For Features Availability\". Shown below the stars in the clean design. Leave empty to hide."
 msgstr ""
 
-msgid "Optional. Basic auth password Postmark must send when calling the event webhook."
-msgstr ""
-
-msgid "Optional. Basic auth username Postmark must send when calling the event webhook."
-msgstr ""
-
 msgid "Optional. Declares what this snippet does with visitor data, so the matching icon and badge can be shown next to it in the Privacy & Consent Bar and Element. Leave unset if you are not sure — nothing is shown rather than an incorrect claim. Icons and badges are configured under Privacy & Consent > Data Collection."
 msgstr ""
 
@@ -25735,6 +26071,9 @@ msgid "Optional. Describe how long the cookies set by this service persist (e.g.
 msgstr ""
 
 msgid "Optional. Enter the name of your SES Configuration Set to enable event tracking (opens, clicks, bounces etc). Leave empty to send without a configuration set."
+msgstr ""
+
+msgid "Optional. Leave empty and Avada names the image for you."
 msgstr ""
 
 msgid "Optional. Shown below the consent checkbox in the Consent Category content. Use it to explain what this snippet does (e.g. \"Used to track conversions and show personalised ads.\")."
@@ -26126,6 +26465,16 @@ msgstr "页面标题栏"
 msgid "Page Title HTML Tag"
 msgstr "页面标题 HTML 标签"
 
+#, fuzzy
+#| msgid "Transition"
+msgid "Page Transitions"
+msgstr "过渡"
+
+#, fuzzy
+#| msgid "Transition Speed"
+msgid "Page Transitions Speed"
+msgstr "过渡速度"
+
 msgid "Page URL"
 msgstr "页面 URL"
 
@@ -26204,6 +26553,11 @@ msgstr "分页框高宽"
 msgid "Pagination Circles Below Video Slides"
 msgstr "视频幻灯片下方的分页圆点"
 
+#, fuzzy
+#| msgid "Pagination"
+msgid "Pagination Dots"
+msgstr "分页"
+
 msgid "Pagination Font Size"
 msgstr "分页文字大小"
 
@@ -26260,9 +26614,6 @@ msgstr ""
 
 msgid "Panama"
 msgstr "巴拿马"
-
-msgid "Panel"
-msgstr ""
 
 msgid "Paper"
 msgstr "纸张"
@@ -26398,6 +26749,11 @@ msgstr "粉彩"
 
 msgid "Pastel colors"
 msgstr ""
+
+#, fuzzy
+#| msgid "Rating Icon"
+msgid "Pasting content"
+msgstr "评分图标"
 
 msgid "Patch"
 msgstr ""
@@ -26824,6 +27180,11 @@ msgstr ""
 msgid "Please enter a username."
 msgstr ""
 
+#, fuzzy
+#| msgid "Please enter element name"
+msgid "Please enter a valid amount."
+msgstr "请填入元素名称"
+
 msgid "Please enter correct details for this required field."
 msgstr "请在必填字段输入正确的信息."
 
@@ -26877,6 +27238,11 @@ msgstr ""
 
 msgid "Please select all checkboxes from this field."
 msgstr "请选择此字段中的所有复选框。"
+
+#, fuzzy
+#| msgid "Please select attribute."
+msgid "Please select an icon set ZIP file."
+msgstr "请选择属性。"
 
 #. translators: %1$s: will be replaced with a number, that represents the
 #. checkboxes.
@@ -27669,6 +28035,11 @@ msgstr ""
 
 msgid "Price Drop Alerts"
 msgstr ""
+
+#, fuzzy
+#| msgid "Preview Mode"
+msgid "Price Mode"
+msgstr "预览模式"
 
 msgid "Price Tracker"
 msgstr ""
@@ -28602,6 +28973,11 @@ msgstr "阅读时间"
 msgid "Reading Time Decimal Precision"
 msgstr "阅读时间小数精度"
 
+#, fuzzy
+#| msgid "Automatically Open Element Settings"
+msgid "Reading element settings"
+msgstr "自动打开元素设置"
+
 msgid "Reading page layout"
 msgstr ""
 
@@ -28783,7 +29159,7 @@ msgstr "推荐"
 msgid "Recommends to (mobile) browsers to prompt users to capture new media directly instead of selecting an existing file. Some directly open the camera app. Corresponding file types must have been set above. \"User\" indicates that the user-facing camera should be used, while  \"environment\" specifies that the outward-facing camera should be used. If not set, the browser will decide automatically, and likely load the standard file dialog. "
 msgstr ""
 
-msgid "Record behavioural visitor data — page views, scrolling, time on page and visit sessions. Turning this off also disables A/B testing and empties contact activity timelines; operational records like cart snapshots and link click counts keep working through their own features. How far visitors may be identified is set under Privacy & Consent → Data Collection."
+msgid "Record behavioural visitor data — page views, scrolling, time on page and visit sessions. Turning this off also disables A/B testing and empties contact activity timelines; operational records like cart snapshots and link click counts keep working through their own features. How far visitors may be identified is set by the Visitor Tracking Mode under Privacy & Consent → Data Collection."
 msgstr ""
 
 msgid "Record per-recipient open and click counts reported by your email provider. Turn off to stop recording engagement against individual contacts — campaign-level delivery status is kept either way."
@@ -28872,6 +29248,11 @@ msgstr ""
 
 msgid "Redo"
 msgstr "重做"
+
+#, fuzzy
+#| msgid "Unsaved Changes"
+msgid "Redoing changes"
+msgstr "为保存的设置"
 
 msgid "Referrer"
 msgstr "来源页面"
@@ -29040,6 +29421,14 @@ msgstr "远程服务器返回%1$d %2$s 为 %3$s"
 msgid "Remote server returned code %d"
 msgstr ""
 
+msgid "Removal completed!"
+msgstr ""
+
+#, fuzzy
+#| msgid "Remove File"
+msgid "Removal failed."
+msgstr "移除 文件"
+
 msgid "Remove"
 msgstr "删除"
 
@@ -29149,8 +29538,24 @@ msgstr ""
 msgid "Removed Global Status"
 msgstr "已删除全局状态"
 
+#. translators: %s: Import stage name.
+#, fuzzy
+#| msgid "Currently Removing: %s"
+msgid "Removing %s..."
+msgstr "正在移除: %s"
+
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Removing content"
+msgstr "删除内容"
+
 msgid "Removing prebuilt website content will remove ALL previously imported content from this prebuilt website and restore your site to the state it was in before this prebuilt content was imported."
 msgstr "删除预建网站内容将删除之前从此预建网站导入的所有内容，并将您的网站恢复到导入此预建内容之前的状态。"
+
+#, fuzzy
+#| msgid "Design Elements"
+msgid "Renaming an element"
+msgstr "设计元素"
 
 msgid "Rendering Logic Binding"
 msgstr "渲染逻辑绑定"
@@ -29261,6 +29666,15 @@ msgstr ""
 
 #. translators: %s - Link to the Stadia Maps signup page.
 msgid "Required for the Stamen Toner, Stamen Terrain and Stamen Watercolor styles. Stamen retired its own tile servers and handed these styles to Stadia Maps, which serves them on a free tier. Sign up at <a href=\"%s\" target=\"_blank\">Stadia Maps</a> to get a key. Tile requests are made by the visitor's browser, so this key is visible in the page source -- add your domain to the property allowlist in your Stadia account so it cannot be used elsewhere."
+msgstr ""
+
+msgid "Required for the webhook. The ARN of the SNS topic your Configuration Set publishes events to, for example arn:aws:sns:us-east-1:123456789012:ses-events. SNS messages from any other topic are rejected, and all SNS messages are rejected until this is set."
+msgstr ""
+
+msgid "Required for the webhook. The Basic Auth password Postmark must send when calling it. Webhook events are rejected until both username and password are set."
+msgstr ""
+
+msgid "Required for the webhook. The Basic Auth username Postmark must send when calling it. Webhook events are rejected until both username and password are set."
 msgstr ""
 
 msgid "Rerun the %s migration."
@@ -29422,6 +29836,11 @@ msgstr ""
 
 msgid "Reunion"
 msgstr "留尼汪"
+
+#, fuzzy
+#| msgid "Scroll Reveal"
+msgid "Reveal"
+msgstr "滚动揭示"
 
 msgid "Reveal With Color"
 msgstr "色彩揭示"
@@ -29863,6 +30282,11 @@ msgid "SLL"
 msgstr "SLL"
 
 #, fuzzy
+#| msgid "Topic: "
+msgid "SNS Topic ARN"
+msgstr "主题: "
+
+#, fuzzy
 msgctxt "Currency"
 msgid "SOS"
 msgstr "SOS"
@@ -30120,6 +30544,9 @@ msgstr ""
 msgid "Save page layout"
 msgstr "保存页面布局"
 
+msgid "Save the prompt that generated an image as the attachment description, which makes the image findable by what it depicts when searching the media library. Off by default, because prompts are written as working notes and the description can be visible on the public attachment page."
+msgstr ""
+
 msgid "Save to Library"
 msgstr ""
 
@@ -30141,6 +30568,9 @@ msgstr "已保存的元素"
 msgid "Saved Templates"
 msgstr "已保存的模板"
 
+msgid "Saved as “%s”"
+msgstr ""
+
 msgid "Saved wishlists"
 msgstr ""
 
@@ -30148,6 +30578,11 @@ msgid "Saving form data to database failed."
 msgstr "将表单数据保存到数据库失败。"
 
 msgid "Saving the generated CSS."
+msgstr "正在保存生成的 CSS。"
+
+#, fuzzy
+#| msgid "Saving the generated CSS."
+msgid "Saving the page"
 msgstr "正在保存生成的 CSS。"
 
 msgid "Saving..."
@@ -30245,6 +30680,11 @@ msgstr "脚本"
 msgid "Scroll"
 msgstr "滚动"
 
+#, fuzzy
+#| msgid "Scroll Auto"
+msgid "Scroll Anchor"
+msgstr "滚动 自动"
+
 msgid "Scroll Auto"
 msgstr "滚动 自动"
 
@@ -30329,11 +30769,21 @@ msgstr "滚动幻灯片"
 msgid "Scroll Speed"
 msgstr "滚动速度"
 
+#, fuzzy
+#| msgid "Scroll Left"
+msgid "Scroll Target"
+msgstr "向左滚动"
+
 msgid "Scroll To"
 msgstr "滚动到"
 
 msgid "Scroll Visible"
 msgstr "滚动 可见"
+
+#, fuzzy
+#| msgid "Scroll To"
+msgid "Scroll down"
+msgstr "滚动到"
 
 msgid "Scroll to Top"
 msgstr ""
@@ -30523,6 +30973,11 @@ msgstr "搜索：%s"
 
 msgid "Searchable guides for every part of Avada, from your first layout to advanced builder techniques. Start with the basics or jump straight to the detail you need."
 msgstr ""
+
+#, fuzzy
+#| msgid "Search for global options"
+msgid "Searching Global Options"
+msgstr "搜索全局选项"
 
 msgid "Searching…"
 msgstr ""
@@ -30964,6 +31419,11 @@ msgstr ""
 
 msgid "Select a predefined list or paste your own list bulk add choices."
 msgstr "选择预定义列表或粘贴您自己的列表以批量添加选项。"
+
+#, fuzzy
+#| msgid "Select a widget"
+msgid "Select a product"
+msgstr "选择小工具"
 
 #. translators: Avada Library link.
 msgid "Select a rollover layout to use as a custom overlay. Create new or edit existing ones in the %s."
@@ -31622,6 +32082,9 @@ msgstr ""
 msgid "Select the alignment."
 msgstr ""
 
+msgid "Select the animation of the aurora, an animated gradient of soft color blobs behind the content. Visitors who prefer reduced motion see the colors standing still."
+msgstr ""
+
 msgid "Select the animation of the scrolling transition on 100% height scrolling sections."
 msgstr ""
 
@@ -31633,6 +32096,9 @@ msgid "Select the animation type for icon on hover. Select default for Global Op
 msgstr ""
 
 msgid "Select the animation type when hovering the main menu items. This animation is applied to the background-color and borders."
+msgstr ""
+
+msgid "Select the areas that stay in place during the page transitions, while the rest of the page is animated."
 msgstr ""
 
 msgid "Select the aspect ratio of the images. Images will be cropped."
@@ -32148,6 +32614,9 @@ msgstr ""
 msgid "Select the post whose children should be displayed."
 msgstr ""
 
+msgid "Select the product to charge for. These options are the active one time prices in your Stripe account, and can be managed on Stripe dashboard > Products. The amount and currency are taken from Stripe, so they cannot be changed here."
+msgstr ""
+
 msgid "Select the product type to check and render the element single product page."
 msgstr ""
 
@@ -32465,6 +32934,9 @@ msgid "Select what you want to use as the recipient name.  If names are unavaila
 msgstr ""
 
 msgid "Select when check instagram for new posts."
+msgstr ""
+
+msgid "Select where the amount comes from. \"Fixed Price\" charges the price you enter below. \"Stripe Product\" charges a price from your Stripe account, which is the option to use if you manage your catalog in Stripe. \"Customer Chooses\" lets the visitor enter their own amount, for donations or pay what you want, within the limits you set."
 msgstr ""
 
 msgid "Select whether dropdown carets should show as submenu indicator."
@@ -32847,6 +33319,11 @@ msgstr ""
 msgid "Server responded with unauthorized response code: %1$s. %2$s"
 msgstr "服务器返回未经授权响应代码：%1$s。%2$s"
 
+#, fuzzy
+#| msgid "Show every time"
+msgid "Server timeout"
+msgstr "每次都显示"
+
 msgid "Services"
 msgstr "服务"
 
@@ -33075,6 +33552,9 @@ msgstr "设置特色图像 %s"
 msgid "Set featured image 2"
 msgstr "设置特色图像 2"
 
+msgid "Set how each Main Color Palette color looks in this palette. Colors are added and removed in the Main Color Palette, so every palette has the same ones."
+msgstr ""
+
 msgid "Set how far the standout column expands beyond the other columns at the top and bottom. The heading and CTA area paddings grow along to fill the added height. Enter value including any valid CSS unit, ex: 10px. Use 0px for a flat standout look."
 msgstr ""
 
@@ -33085,6 +33565,16 @@ msgid "Set how mask will blend with element background."
 msgstr "设置遮罩与元素背景的混合方式。"
 
 msgid "Set how pattern will blend with element background."
+msgstr "设置图案与元素背景的混合方式。"
+
+#, fuzzy
+#| msgid "Set the spread radius of the box shadow. In pixels."
+msgid "Set how soft the edges of the blobs are, in pixels."
+msgstr "设置盒子阴影的扩展半径。单位为像素。"
+
+#, fuzzy
+#| msgid "Set how pattern will blend with element background."
+msgid "Set how the aurora will blend with the element background, e.g. to tint a background image."
 msgstr "设置图案与元素背景的混合方式。"
 
 #, fuzzy
@@ -33162,6 +33652,11 @@ msgstr ""
 
 msgid "Set the arrow icon size. Enter value including any valid CSS unit, ex: 14px."
 msgstr "设置箭头图标大小。输入包含任何有效 CSS 单位的值，例如：14px。"
+
+#, fuzzy
+#| msgid "Set the mask opacity."
+msgid "Set the aurora opacity."
+msgstr "设置遮罩不透明度。"
 
 msgid "Set the autoplay speed, the duration between transitions. In milliseconds."
 msgstr "设置自动播放速度，即过渡之间的时长。以毫秒为单位。"
@@ -33263,6 +33758,9 @@ msgstr ""
 msgid "Set the basic details for your list."
 msgstr ""
 
+msgid "Set the blur of the page content behind the overlay in pixels, e.g. for frosted glass effects. Use a semi-transparent background color for the blur to be visible."
+msgstr ""
+
 msgid "Set the blur radius of the box shadow. In pixels."
 msgstr "设置盒子阴影的模糊半径。单位为像素。"
 
@@ -33290,6 +33788,11 @@ msgstr ""
 
 msgid "Set the border radius of the featured image, in pixels."
 msgstr ""
+
+#, fuzzy
+#| msgid "Controls the border radius of the image options. In pixels."
+msgid "Set the border radius of the hover image preview, in pixels."
+msgstr "控制图片选项的边框圆角。以像素为单位。"
 
 msgid "Set the border radius of the post item background. Enter values including any valid CSS unit, ex: 4px."
 msgstr ""
@@ -33346,6 +33849,11 @@ msgstr ""
 
 msgid "Set the color for divider line."
 msgstr "设置分隔线的颜色。"
+
+#, fuzzy
+#| msgid "Select the color for the counter. Leave empty to inherit from item color."
+msgid "Set the color of a blob. Leave empty for fewer blobs, which calms the effect."
+msgstr "选择color for the counter. Leave empty to inherit from item颜色。"
 
 msgid "Set the color of element borders, including the border between tweets."
 msgstr ""
@@ -33474,6 +33982,9 @@ msgid "Set the direction in which the boxes should flip."
 msgstr ""
 
 msgid "Set the duration of one full border rotation in seconds."
+msgstr ""
+
+msgid "Set the duration of one movement of the blobs, in seconds. Higher values are slower."
 msgstr ""
 
 msgid "Set the duration of the transition between Post Cards. In milliseconds."
@@ -33894,6 +34405,11 @@ msgstr ""
 msgid "Set the size of the Avatar in pixels. Ex. 96px. Leave empty for default value of 96px."
 msgstr "设置头像大小（像素）。例如 96px。留空则使用默认值 96px。"
 
+#, fuzzy
+#| msgid "Set the path slide elgongation in percentage of the path width."
+msgid "Set the size of the blobs, in percent of the container width."
+msgstr "设置path slide elgongation in percentage of the path宽度。"
+
 msgid "Set the size of the close icon."
 msgstr "设置关闭图标的大小。"
 
@@ -34095,6 +34611,9 @@ msgid "Set the width of the featured image and the comment avatar, in pixels. Th
 msgstr ""
 
 msgid "Set the width of the featured image, in pixels."
+msgstr ""
+
+msgid "Set the width of the hover image preview, in pixels. The height follows the image."
 msgstr ""
 
 msgid "Set the width of the path stroke. In pixels."
@@ -34509,6 +35028,9 @@ msgstr "显示自定义社交图标"
 msgid "Show Date"
 msgstr "显示 日期"
 
+msgid "Show Device Indicators In Navigator"
+msgstr ""
+
 msgid "Show Discount Badge"
 msgstr "显示折扣徽章"
 
@@ -34815,6 +35337,11 @@ msgstr ""
 msgid "Showing all %1$s %2$s"
 msgstr ""
 
+#. translators: 1: Number of entries shown, 2: Total number of entries, 3:
+#. Entry label, e.g. "entries".
+msgid "Showing the latest %1$s of %2$s %3$s"
+msgstr ""
+
 msgid "Shrink Placeholder on Focus"
 msgstr ""
 
@@ -34987,9 +35514,6 @@ msgstr ""
 
 msgid "Skipping attachment \"%s\", fetching attachments disabled"
 msgstr "跳过附件\"%s\"，获取附件禁用"
-
-msgid "Skype Link"
-msgstr "Skype 链接"
 
 msgid "Slant"
 msgstr "倾斜"
@@ -35309,7 +35833,13 @@ msgstr ""
 msgid "Somalia"
 msgstr "索马里"
 
+msgid "Some of these settings need the Pro plan. Privacy settings stay editable, and features can always be switched off."
+msgstr ""
+
 msgid "Some recommended plugins are not active. Functionality and content may be missing or not work as intended if you proceed."
+msgstr ""
+
+msgid "Some settings were not saved"
 msgstr ""
 
 msgid "Some tables could not be created. Check the site error log for details."
@@ -35402,6 +35932,11 @@ msgstr ""
 msgid "Sorry, you are not allowed to do that."
 msgstr ""
 
+#, fuzzy
+#| msgid "Sorry, you are not allowed to access this page."
+msgid "Sorry, you are not allowed to edit this post."
+msgstr "抱歉，您无权访问此页面。"
+
 msgid "Sorry, you are not allowed to modify slides."
 msgstr ""
 
@@ -35422,6 +35957,11 @@ msgstr ""
 
 msgid "Sorry, you are not allowed to update slides."
 msgstr ""
+
+#, fuzzy
+#| msgid "Sorry, you are not allowed to access this page."
+msgid "Sorry, you are not allowed to update this icon set."
+msgstr "抱歉，您无权访问此页面。"
 
 msgid "Sorry, your browser doesn't support embedded videos."
 msgstr "抱歉，您的浏览器不支持嵌入视频。"
@@ -35841,6 +36381,11 @@ msgstr ""
 msgid "Starting Users:"
 msgstr ""
 
+#, fuzzy
+#| msgid "Partial Import"
+msgid "Starting import..."
+msgstr "部分导入"
+
 msgid "State"
 msgstr "省份"
 
@@ -36031,6 +36576,11 @@ msgstr[1] ""
 msgid "Store IP And User Agent"
 msgstr "存储 IP 和用户代理"
 
+#, fuzzy
+#| msgid "Show Product Images"
+msgid "Store Prompt With Images"
+msgstr "显示产品图片"
+
 msgid "Stored Data"
 msgstr ""
 
@@ -36084,6 +36634,11 @@ msgstr "Stripe 按钮"
 
 msgid "Stripe Live Secret Key"
 msgstr "Stripe 正式密钥"
+
+#, fuzzy
+#| msgid "Simple Product"
+msgid "Stripe Product"
+msgstr "简单产品"
 
 msgid "Stripe Test Secret Key"
 msgstr "Stripe 测试密钥"
@@ -36484,6 +37039,9 @@ msgstr "滑动"
 
 msgid "Swipe Vertically"
 msgstr "垂直滑动"
+
+msgid "Swirl"
+msgstr ""
 
 msgid "Switch"
 msgstr ""
@@ -37285,6 +37843,10 @@ msgstr "“%1$s”与“%2$s”缺乏对比。"
 msgid "The %s class can only be run within WP CLI."
 msgstr ""
 
+#. translators: %s: Section name, e.g. "Marketing".
+msgid "The %s features your site used on Pro keep working exactly as they were set up, but changes need the Pro plan."
+msgstr ""
+
 msgid "The AI can read and change this page. Changes stay unsaved until you save."
 msgstr ""
 
@@ -37378,6 +37940,11 @@ msgstr ""
 
 msgid "The URL the project text links to."
 msgstr "项目文字链接URL."
+
+#, fuzzy
+#| msgid "The email address is not valid."
+msgid "The ZIP file is not a valid icon set."
+msgstr "邮箱地址无效。"
 
 msgid "The access key for your Amazon SES account."
 msgstr ""
@@ -37511,6 +38078,9 @@ msgstr ""
 msgid "The file does not exist"
 msgstr "该文件不存在"
 
+msgid "The file name is generated automatically. It is part of the image URL, so it can no longer be changed once the image is saved."
+msgstr ""
+
 msgid "The following data is sent to a ThemeFusion server located in the U.S. to ensure that patches are compatible with your install."
 msgstr "以下数据将发送到位于美国的 ThemeFusion 服务器，以确保补丁与您的安装环境兼容。"
 
@@ -37572,6 +38142,10 @@ msgstr ""
 msgid "The mailing lists you subscribed to and when you joined them."
 msgstr ""
 
+#. translators: %1$s: The maximum amount. %2$s: The currency.
+msgid "The maximum amount is %1$s %2$s."
+msgstr ""
+
 #, fuzzy
 msgid "The maximum amount of memory (RAM) your site can use at one time."
 msgstr "您的站点可以一次使用的最大内存量（RAM）。"
@@ -37595,6 +38169,10 @@ msgid "The memory limit WordPress applies in the admin and to imports. This is t
 msgstr ""
 
 msgid "The memory limit WordPress applies to the front end, which can be lower than the PHP limit."
+msgstr ""
+
+#. translators: %1$s: The minimum amount. %2$s: The currency.
+msgid "The minimum amount is %1$s %2$s."
 msgstr ""
 
 msgid "The minimum font-size of elements affected by responsive typography is body font-size multiplied by this factor."
@@ -37745,7 +38323,11 @@ msgstr ""
 msgid "The server couldn't be reached. Please check for wp_remote_get on the <a href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr "无法连接到服务器。请在<a href=\"%s\" target=\"_blank\">系统状态</a>页面检查 wp_remote_get。"
 
-msgid "The site-wide ceiling on how visitors may be identified by tracking features. \"Anonymous\" counts visitors without cookies — they are never recognised on a return visit, no consent banner is required, and A/B testing and statistics still work day-scoped. \"Session Cookies\" allows capped tracking cookies, \"Full\" additionally allows a persistent visitor identifier — both subject to visitor consent when the Privacy Consent Tools are enabled. Storage visitors explicitly ask for (wishlists, comparisons) is not governed by this setting."
+#. translators: %s: Import stage name.
+msgid "The server hit a timeout while importing %s. The progress so far has been saved. Click <strong>Continue Import</strong> to pick up where it left off."
+msgstr ""
+
+msgid "The site-wide ceiling on how visitors may be identified by tracking features. \"No Identifiers\" issues no cookies or hashes of any kind, not even for operational features. \"Anonymous\" counts visitors without cookies — they are never recognised on a return visit, no consent banner is required, and A/B testing and statistics still work day-scoped. \"Session Cookies\" allows capped tracking cookies, \"Full\" additionally allows a persistent visitor identifier — both subject to visitor consent when the Privacy Consent Tools are enabled. Storage visitors explicitly ask for (wishlists, comparisons) is not governed by this setting."
 msgstr ""
 
 msgid "The site-wide settings that limit everything below. A feature can be active and still identify nobody, if the ceiling here does not allow it."
@@ -38078,6 +38660,12 @@ msgstr ""
 msgid "This event is still being used on %1$s %2$s."
 msgstr ""
 
+msgid "This feature is part of the Avada Pro plan."
+msgstr ""
+
+msgid "This feature is part of the Pro plan."
+msgstr ""
+
 msgid "This file extension is not allowed. Please upload file having these extensions: "
 msgstr ""
 
@@ -38173,6 +38761,9 @@ msgstr "此选项决定 1x1 正方形图像何时应变为 2x2。这不适用于
 msgid "This option decides when a square 1x1 image should become 2x2. This will not apply to images that highly favor landscape or portrait layouts. <strong>IMPORTANT:</strong> There is a “Masonry Image Layout” setting for every image in the WP media library that allows you to manually set how an image will appear (1x1, landscape, portrait or 2x2), regardless of the original ratio. In pixels."
 msgstr "此选项决定 1x1 正方形图像何时应变为 2x2。这不适用于非常倾向于横向或纵向布局的图像。<strong>重要：</strong>WP 媒体库中的每张图像都有一个“瀑布流图像布局”设置，允许您手动设置图像的显示方式（1x1、横向、纵向或 2x2），而不考虑原始比例。单位为像素。"
 
+msgid "This payment could not be started. Please reload the page and try again."
+msgstr ""
+
 #. translators: URL.
 msgid "This plugin can only be installed or updated, after you have successfully completed the Avada product registration on the <a href=\"%s\" target=\"_blank\">Dashboard Welcome</a> tab."
 msgstr "只有在您成功完成<a href=\"%s\" target=\"_blank\">仪表盘欢迎</a>选项卡上的 Avada 产品注册后，才能安装或更新此插件。"
@@ -38204,6 +38795,9 @@ msgid "This site does not track visitors or issue any identifier of its own."
 msgstr ""
 
 msgid "This site has used its allocated AI credits for this period. Contact your subscription owner to raise this site's allocation in My Avada."
+msgstr ""
+
+msgid "This site is already set up in your AI app."
 msgstr ""
 
 msgid "This site issues a lasting identifier so that it can recognise your browser on later visits."
@@ -39508,6 +40102,9 @@ msgstr "开启以循环灯箱相册。"
 msgid "Turn on to loop the media."
 msgstr "开启以循环播放媒体。"
 
+msgid "Turn on to make API keys, secret keys and passwords in the Global Options write-only. Saved credentials are never shown again, to anyone including administrators, and are left out of exports. Enter a new value to replace one, or reset the field to remove it."
+msgstr ""
+
 msgid "Turn on to make the mobile menu trigger button span full-width."
 msgstr "开启以make the mobile menu trigger button span full-width。"
 
@@ -39946,6 +40543,11 @@ msgstr "锯齿下划线"
 msgid "Undo"
 msgstr "撤销"
 
+#, fuzzy
+#| msgid "Unsaved Changes"
+msgid "Undoing changes"
+msgstr "为保存的设置"
+
 msgid "Unexpected HTML. Ensure this is a page using the Avada Builder."
 msgstr ""
 
@@ -40029,6 +40631,11 @@ msgstr ""
 
 msgid "Unknown status found for action."
 msgstr ""
+
+#, fuzzy
+#| msgid "Global Typography"
+msgid "Unlink from global typography"
+msgstr "全局排版"
 
 msgid "Unlink section"
 msgstr ""
@@ -40132,6 +40739,16 @@ msgstr "更新购物车"
 #, fuzzy
 msgid "Updated %s"
 msgstr "更新 %s"
+
+#, fuzzy
+#| msgid "Avada Global Options"
+msgid "Updating Global Options"
+msgstr "Avada 全局 选项"
+
+#, fuzzy
+#| msgid "Manage Page Options"
+msgid "Updating Page Options"
+msgstr "管理页面选项"
 
 msgid "Updating submissions database table failed."
 msgstr "更新提交数据库表失败。"
@@ -40505,6 +41122,9 @@ msgstr ""
 
 msgid "Using default value."
 msgstr "使用默认参数."
+
+msgid "Using the library"
+msgstr ""
 
 msgid "Utah"
 msgstr "犹他州"
@@ -41060,10 +41680,10 @@ msgstr ""
 msgid "Visitor Analytics Label"
 msgstr ""
 
-msgid "Visitor Decides"
+msgid "Visitor Analytics is turned off under Marketing → Experiments & Links. The Visitor Tracking Mode below currently only applies to operational features such as abandoned cart recovery."
 msgstr ""
 
-msgid "Visitor Tracking"
+msgid "Visitor Decides"
 msgstr ""
 
 msgid "Visitor Tracking Mode"
@@ -41572,6 +42192,9 @@ msgstr "基于宽度/高度"
 msgid "Wiggle"
 msgstr "摇摆"
 
+msgid "Will be saved as “%s”"
+msgstr ""
+
 msgid "Winner"
 msgstr ""
 
@@ -42053,6 +42676,12 @@ msgstr ""
 msgid "Write the selected tab into the page address, so a visitor can copy a link that opens on that tab. The address is replaced rather than added to the browser history, so the back button still leaves the page."
 msgstr ""
 
+msgid "Write-Only Credentials"
+msgstr ""
+
+msgid "Write-only: saved credentials can’t be viewed"
+msgstr ""
+
 msgid "Writer Presets"
 msgstr ""
 
@@ -42130,9 +42759,6 @@ msgstr "Y-m-d H:i:s"
 msgctxt "Currency"
 msgid "YER"
 msgstr "YER"
-
-msgid "Yahoo Link"
-msgstr "Yahoo 链接"
 
 #. translators: Yearly archive title.
 msgid "Year: %s"
@@ -42353,6 +42979,9 @@ msgstr "您的 Mailchimp 账户已断开连接。"
 msgid "Your Mailchimp account has been successfully connected."
 msgstr "您的 Mailchimp 账户已成功连接。"
 
+msgid "Your Site Is on the Essential Plan"
+msgstr ""
+
 msgid "Your Studio content is now being imported. This includes the layout, and any assets that may be associated (images, menus, forms, post cards etc). The import process should only take a few seconds, depending on the amount of content to be imported."
 msgstr "您的 Studio 内容正在导入中。这包括布局以及可能关联的任何资源（图片、菜单、表单、文章卡片等）。导入过程只需几秒钟，具体取决于要导入的内容量。"
 
@@ -42406,6 +43035,9 @@ msgid "Your prebuilt page content is now being imported. This includes the layou
 msgstr "您的预建页面内容正在导入中。这包括布局以及任何关联的图片和视频。导入过程只需几秒钟，具体取决于要导入的内容量。"
 
 msgid "Your site is in Coming Soon mode"
+msgstr ""
+
+msgid "Your site is no longer on the Avada Pro plan. This feature keeps working as set up, but it can only be changed on Pro."
 msgstr ""
 
 msgid "Your site is not connected to a My Avada account. Please connect your site from the System Status page to use AI features. Please %1$scontact us%2$s if the problem persists"

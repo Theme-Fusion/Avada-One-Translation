@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Avada\n"
-"POT-Creation-Date: 2026-09-30 07:52:22+00:00\n"
+"POT-Creation-Date: 2026-10-20 09:36:51+00:00\n"
 "PO-Revision-Date: 2026-09-29 14:34+0000\n"
 "Last-Translator: Imported from Avada Classic translations\n"
 "Language-Team: \n"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "\"Block until consent\" completely prevents the script from loading until the user agrees. \"Consent-aware\" always loads the script but passes the current consent state to it — only use this for scripts that natively support consent signals."
 msgstr ""
 
-msgid "\"Dismiss Only\" — the button closes the bar without saving any consent; visitors grant consent via placeholders or the details panel. \"Save Pre-selected\" — the button immediately saves the consent types selected under \"Privacy Selected Consent Types\". \"Save on Change\" — the button is hidden until the visitor opens the details panel and changes a checkbox; it then appears as a contextual save action. Note: regardless of this setting, once the settings panel is open the button always saves the current checkbox selection."
+msgid "\"Dismiss\" — the button closes the bar without saving any consent; visitors grant consent via placeholders or the details panel. \"Save Selected\" — the button immediately saves the consent types selected under \"Privacy Selected Consent Types\". \"On Change\" — the button is hidden until the visitor opens the details panel and changes a checkbox; it then appears as a contextual save action. Note: regardless of this setting, once the settings panel is open the button always saves the current checkbox selection."
 msgstr ""
 
 msgid "\"Display Until Consented\" opens the Off Canvas for visitors who have not yet saved their consent choices. Once done, it will no longer open. \"Display Until Consented & Close Off Canvas\" works the same but also auto-closes the Off Canvas automatically once the visitor saves their consent choices (requires a Privacy Element with \"Save Action\" set to \"AJAX\")."
@@ -131,6 +131,10 @@ msgstr ""
 msgid "%1$s at %2$s"
 msgstr "%1$s , %2$s"
 
+#. translators: 1: credits bought, 2: date.
+msgid "%1$s credits, expires %2$s"
+msgstr ""
+
 #. translators: %1$s is the current parameter and %2$s a comma-separated list
 #. of the allowed types.
 msgid "%1$s is not of type %2$s."
@@ -140,9 +144,27 @@ msgstr ""
 msgid "%1$s of %2$s"
 msgstr "%1$s , %2$s"
 
+#. translators: 1: Elements switched on. 2: Elements in the group.
+#, fuzzy
+msgid "%1$s of %2$s On"
+msgstr "%1$s , %2$s"
+
+#. translators: 1: Settings that match. 2: Settings with a recommendation.
+msgid "%1$s of %2$s Settings Match the Recommendations"
+msgstr ""
+
+#. translators: 1: Features in use, 2: Features available.
+#, fuzzy
+msgid "%1$s of %2$s in use"
+msgstr "%1$s , %2$s"
+
 #. translators: %1$s: Comment author. %2$s: Post title.
 msgid "%1$s on %2$s"
 msgstr "%1$s , %2$s"
+
+#. translators: 1: number of packs, 2: credits bought, 3: date.
+msgid "%1$s packs, %2$s credits, next expires %3$s"
+msgstr ""
 
 #. translators: %1$s: patch count, always 1. %2$s: product name. %3$s: product
 #. version.
@@ -156,6 +178,12 @@ msgstr ""
 #. translators: 1: The post-type label. 2: The taxonomy label.
 msgid "%1$s with Specific %2$s"
 msgstr ""
+
+#. translators: 1: HubSpot account domain, 2: HubSpot account (hub) ID.
+#, fuzzy
+#| msgid "%1$s at %2$s"
+msgid "%1$s · Hub ID %2$s"
+msgstr "%1$s , %2$s"
 
 #. translators: 1: Global color name, eg. "Color 5". 2: Shade step name, eg.
 #. "Darker 25%".
@@ -268,6 +296,12 @@ msgstr ""
 msgid "%s Badge Text"
 msgstr ""
 
+#. translators: %s: The post type's name.
+#, fuzzy
+#| msgid "Categories"
+msgid "%s Categories"
+msgstr "קטגוריות"
+
 #. translators: %s: The feature label.
 msgid "%s Category"
 msgstr ""
@@ -280,6 +314,10 @@ msgstr[1] "%s תגובות"
 
 #. translators: Number.
 msgid "%s Days"
+msgstr ""
+
+#. translators: %s: Number of font variants.
+msgid "%s Font Variants"
 msgstr ""
 
 #. translators: Number.
@@ -318,6 +356,10 @@ msgstr ""
 msgid "%s Support for strings longer than this will be removed in a future version."
 msgstr ""
 
+#. translators: %s: Number of elements switched off by the scan.
+msgid "%s Unused Elements Switched Off"
+msgstr ""
+
 #. translators: %s: number of views.
 msgid "%s View"
 msgid_plural "%s Views"
@@ -326,6 +368,10 @@ msgstr[1] ""
 
 #. translators: Number.
 msgid "%s Weeks"
+msgstr ""
+
+#. translators: %s: What could not be checked, e.g. "Experiment events".
+msgid "%s could not be checked."
 msgstr ""
 
 #. translators: %s: number of days.
@@ -368,6 +414,12 @@ msgstr ""
 msgid "%s keeps working on your site exactly as it was set up, but changes need the Pro plan. Below is a preview of your latest entries."
 msgstr ""
 
+#. translators: %s: credits left.
+#, fuzzy
+#| msgid "top left"
+msgid "%s left"
+msgstr "עליון שמאלי"
+
 #. Translators: %s: minutes of read.
 msgid "%s min"
 msgstr ""
@@ -398,7 +450,15 @@ msgstr ""
 msgid "%s overdue"
 msgstr ""
 
+#. translators: %s: Number of patches.
+msgid "%s patches are ready to apply."
+msgstr ""
+
 msgid "%s patches are waiting to be applied"
+msgstr ""
+
+#. translators: %s: Number of plugins.
+msgid "%s plugin updates are ready to install."
 msgstr ""
 
 #. translators: %s: Comment author.
@@ -410,6 +470,10 @@ msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] ""
 msgstr[1] ""
+
+#. translators: %s: Number of checks.
+msgid "%s server checks are below what Avada recommends."
+msgstr ""
 
 msgid "%s sessions"
 msgstr ""
@@ -428,6 +492,10 @@ msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] ""
 msgstr[1] ""
+
+#. translators: %s: the AI app's name, e.g. "Claude".
+msgid "%s will no longer be able to edit this site. You can also delete the connector in the app itself."
+msgstr ""
 
 #. Translators: %s: number of words.
 msgid "%s words"
@@ -456,26 +524,6 @@ msgstr ""
 msgid "&nbsp;&ndash; Page %s"
 msgstr "&nbsp;&ndash; עמוד %s"
 
-#. translators: %s - Name of typography.
-msgid "(%s) Typography 1 Overwrite"
-msgstr ""
-
-#. translators: %s - Name of typography.
-msgid "(%s) Typography 2 Overwrite"
-msgstr ""
-
-#. translators: %s - Name of typography.
-msgid "(%s) Typography 3 Overwrite"
-msgstr ""
-
-#. translators: %s - Name of typography.
-msgid "(%s) Typography 4 Overwrite"
-msgstr ""
-
-#. translators: %s - Name of typography.
-msgid "(%s) Typography 5 Overwrite"
-msgstr ""
-
 msgid "(+%s%% lift)"
 msgstr ""
 
@@ -493,6 +541,9 @@ msgstr ""
 msgid "(Imported)"
 msgstr ""
 
+msgid "(Private item)"
+msgstr ""
+
 msgid "(menus only import with \\\"All\\\")"
 msgstr ""
 
@@ -507,9 +558,6 @@ msgstr ""
 
 #. translators: The post ID.
 msgid "(no title) #%d"
-msgstr ""
-
-msgid "(opens in a new window)"
 msgstr ""
 
 msgid "+ Add Data Set"
@@ -540,7 +588,16 @@ msgstr ""
 msgid "1 more entry is available on Pro"
 msgstr ""
 
+msgid "1 patch is ready to apply."
+msgstr ""
+
 msgid "1 patch is waiting to be applied"
+msgstr ""
+
+msgid "1 plugin update is ready to install."
+msgstr ""
+
+msgid "1 server check is below what Avada recommends."
 msgstr ""
 
 msgid "1 year"
@@ -570,9 +627,6 @@ msgstr ""
 msgid "1.618 - Golden Ratio"
 msgstr ""
 
-msgid "100% Background Image"
-msgstr "תמונת רקע 100%"
-
 msgid "100% Completed"
 msgstr ""
 
@@ -588,10 +642,16 @@ msgstr ""
 msgid "12 Hour"
 msgstr ""
 
+msgid "1200 × 900 pixels, like any theme screenshot."
+msgstr ""
+
 msgid "1200px Width"
 msgstr ""
 
 msgid "12345"
+msgstr ""
+
+msgid "14 blog posts in 8 categories."
 msgstr ""
 
 msgid "16:9"
@@ -610,6 +670,9 @@ msgid "2 Decimals"
 msgstr ""
 
 msgid "2 days"
+msgstr ""
+
+msgid "2 forums with topics and replies."
 msgstr ""
 
 msgid "200px Width"
@@ -654,6 +717,9 @@ msgstr ""
 msgid "4 Columns"
 msgstr ""
 
+msgid "4 upcoming events with a venue and an organizer."
+msgstr ""
+
 msgid "400px Width"
 msgstr ""
 
@@ -678,13 +744,22 @@ msgstr ""
 msgid "4:3"
 msgstr ""
 
+msgid "5 questions in 3 categories."
+msgstr ""
+
 msgid "5:4"
 msgstr ""
 
 msgid "600px Width"
 msgstr ""
 
+msgid "7 products in 5 categories, some of them on sale."
+msgstr ""
+
 msgid "800px Width"
+msgstr ""
+
+msgid "9 projects with categories, skills and tags."
 msgstr ""
 
 msgid "9:16"
@@ -859,6 +934,9 @@ msgstr ""
 msgid "A CSS selector used to extract content from the page."
 msgstr ""
 
+msgid "A JSON file exported from this screen, or from the Import / Export screen of the Avada Custom Branding plugin."
+msgstr ""
+
 msgid "A JavaScript expression evaluated at runtime."
 msgstr ""
 
@@ -871,10 +949,16 @@ msgstr ""
 msgid "A collection of email content layouts."
 msgstr ""
 
+msgid "A compiled file is cached by the browser instead of being rebuilt for every page."
+msgstr ""
+
 msgid "A consent item can put visitor data in more than one place: a cookie on their device, a record in this site's database, or a third party service — often several at once. Give a data type an icon or a label below and it is marked wherever it applies, on the consent item itself and on the lists of cookies and stored data beneath it. Leave both empty and that data type is never marked. Cookies and stored data are detected automatically; for your own code snippets, set the Data Type field on each snippet under Custom CSS & Code."
 msgstr ""
 
 msgid "A display name for this snippet (e.g. \"Facebook Pixel\"). Used as the consent checkbox label in the Consent Category content."
+msgstr ""
+
+msgid "A free CRM with marketing, sales and service tools built around it."
 msgstr ""
 
 msgid "A general template for emails."
@@ -883,7 +967,7 @@ msgstr ""
 msgid "A growing library of narrated HD videos covering every part of building with Avada, for when you would rather watch a feature than read about it."
 msgstr ""
 
-msgid "A label for this ask preset."
+msgid "A label for this chat preset."
 msgstr ""
 
 msgid "A label for this writing preset."
@@ -906,6 +990,9 @@ msgstr ""
 msgid "A password is required."
 msgstr ""
 
+msgid "A prebuilt website or a blank slate."
+msgstr ""
+
 msgid "A quick brown fox jumps over the lazy dog."
 msgstr ""
 
@@ -916,6 +1003,9 @@ msgid "A short description that is only shown while this tab is active, and slid
 msgstr ""
 
 msgid "A short, readable name for the media library"
+msgstr ""
+
+msgid "A square icon for the admin menu, the admin bar and the builders. SVG or PNG, at least 40 × 40 pixels."
 msgstr ""
 
 msgid "A unique key for this switch. Other elements target this name in their \"Dynamic Display\" condition to show or hide based on this switch's state."
@@ -932,7 +1022,13 @@ msgstr ""
 msgid "A webhook is used to keep email statuses (delivered, opened, clicked, bounced, spam) up to date in the Email Logs. Postmark webhooks are set per Message Stream, so add this URL under Webhooks on both the transactional and broadcast streams above, with the webhook username and password below as its Basic Auth credentials: %s"
 msgstr ""
 
+msgid "A wide logo for the dashboard header. SVG or PNG, about 120 × 28 pixels."
+msgstr ""
+
 msgid "A/B Testing"
+msgstr ""
+
+msgid "A/B Tests"
 msgstr ""
 
 msgid "ACF Color"
@@ -1018,6 +1114,9 @@ msgstr ""
 msgid "AI Chat Mode"
 msgstr ""
 
+msgid "AI Credits Used"
+msgstr ""
+
 msgid "AI Disabled For This Site"
 msgstr ""
 
@@ -1033,6 +1132,9 @@ msgstr ""
 msgid "AI Moderations"
 msgstr ""
 
+msgid "AI Palette"
+msgstr ""
+
 msgid "AI Settings"
 msgstr ""
 
@@ -1046,6 +1148,12 @@ msgid "AI Usage"
 msgstr ""
 
 msgid "AI Writer"
+msgstr ""
+
+msgid "AI apps"
+msgstr ""
+
+msgid "AI credit packs:"
 msgstr ""
 
 msgid "AI features require the Avada Pro plan. Your connected My Avada account does not currently have Pro access. If you've recently upgraded your plan, click \"Sync\" below to refresh your subscription status. Please %1$scontact us%2$s if the problem persists"
@@ -1377,6 +1485,12 @@ msgstr ""
 msgid "Active"
 msgstr "פעיל"
 
+#. translators: %s: when the AI app was last active, e.g. "2 minutes ago".
+#, fuzzy
+#| msgid "Active"
+msgid "Active %s"
+msgstr "פעיל"
+
 msgid "Active Filter Background Color"
 msgstr ""
 
@@ -1458,6 +1572,11 @@ msgstr ""
 msgid "Active subscribers"
 msgstr ""
 
+#, fuzzy
+#| msgid "Activate"
+msgid "Activity"
+msgstr "הפעלה"
+
 msgid "Activity Feed"
 msgstr ""
 
@@ -1468,6 +1587,7 @@ msgid "Add"
 msgstr "הוסף"
 
 #. translators: Add unknown element type.
+#. translators: %s: The post type's name.
 msgid "Add %s"
 msgstr ""
 
@@ -1486,14 +1606,16 @@ msgstr ""
 msgid "Add Anyway"
 msgstr ""
 
-msgid "Add Ask Preset"
-msgstr ""
-
 msgid "Add Attribute"
 msgstr ""
 
 msgid "Add Button"
 msgstr ""
+
+#, fuzzy
+#| msgid "Add Child Element"
+msgid "Add Chat Preset"
+msgstr "הוסף אלמנט מקונן"
 
 msgid "Add Child Element"
 msgstr "הוסף אלמנט מקונן"
@@ -1592,6 +1714,12 @@ msgstr "הוסף חדש"
 #, fuzzy
 msgctxt "Section item"
 msgid "Add New"
+msgstr "הוסף חדש"
+
+#. translators: %s: The taxonomy's name.
+#, fuzzy
+#| msgid "Add New"
+msgid "Add New %s"
 msgstr "הוסף חדש"
 
 msgid "Add New Color"
@@ -1756,6 +1884,9 @@ msgstr ""
 msgid "Add alternate Post Cards"
 msgstr ""
 
+msgid "Add an AI app"
+msgstr ""
+
 msgid "Add an ID for the form field."
 msgstr ""
 
@@ -1766,6 +1897,9 @@ msgstr "הוסף מזהה לאלמנט עטיפת HTML."
 msgid "Add an ID to the wrapping child HTML element."
 msgstr "הוסף מזהה לאלמנט עטיפת HTML."
 
+msgid "Add an Off Canvas"
+msgstr ""
+
 msgid "Add an URL for the link. E.g: https://example.com."
 msgstr ""
 
@@ -1774,6 +1908,11 @@ msgstr ""
 
 msgid "Add an unticked checkbox to checkout, next to the email field, that grants cart-recovery consent when checked."
 msgstr ""
+
+#, fuzzy
+#| msgid "Add New Element"
+msgid "Add as New Palette"
+msgstr "הוסף אלמנט חדש"
 
 msgid "Add conditional logic for the input field."
 msgstr ""
@@ -1976,9 +2115,6 @@ msgstr ""
 msgid "Add the url to which a user should redirected after form submission. Leave empty to use the same page."
 msgstr ""
 
-msgid "Add this link as a custom connector in your AI app, then connect the page here."
-msgstr ""
-
 msgid "Add to Cart"
 msgstr ""
 
@@ -2070,10 +2206,16 @@ msgstr ""
 msgid "Added on"
 msgstr ""
 
+msgid "Added to every admin screen for users who see your brand."
+msgstr ""
+
 msgid "Adding it here will remove it from that layout."
 msgstr ""
 
 msgid "Adding to Cart"
+msgstr ""
+
+msgid "Adding to Media Library..."
 msgstr ""
 
 msgid "Adding to page"
@@ -2093,9 +2235,6 @@ msgstr ""
 
 msgid "Additional Information"
 msgstr "מידע נוסף"
-
-msgid "Additional Optimization Tips"
-msgstr ""
 
 msgid "Additional field for some types."
 msgstr ""
@@ -2146,13 +2285,10 @@ msgstr ""
 msgid "Address Typography"
 msgstr ""
 
-msgid "Adds a button in posts/pages view under each item to allow an easy and fast way to clone the item. The button is also added to avada custom post types."
+msgid "Adds a Clone link below each item in the admin post lists, for a quick way to copy a page, post or custom post type item."
 msgstr ""
 
 msgid "Adds additional tax info when using \"Totals\" above, if activated in WooCommerce settings."
-msgstr ""
-
-msgid "Adjust Your Subscription"
 msgstr ""
 
 msgid "Adjust the button shortcode parameters for the first button."
@@ -2164,7 +2300,24 @@ msgstr "התאמת מאפייני הקוד המקוצר עבור הכפתור ה
 msgid "Adjust the weight to show the variation more or less than others.  For example reduce the weight to 0.5 to show the variation half as often as a variation with weight 1."
 msgstr ""
 
+#, fuzzy
+#| msgid "Avada Builder"
+msgid "Admin & Builders"
+msgstr "אוואדה בילדר"
+
+msgid "Admin CSS"
+msgstr ""
+
 msgid "Admin Email"
+msgstr ""
+
+msgid "Admin Footer Text"
+msgstr ""
+
+msgid "Admin Footer Version Text"
+msgstr ""
+
+msgid "Admin Menu Dashicon"
 msgstr ""
 
 msgid "Admin Page: %s"
@@ -2189,9 +2342,6 @@ msgid "Advanced"
 msgstr "מתקדם"
 
 msgid "Advanced Custom Fields"
-msgstr ""
-
-msgid "Advanced Optimization"
 msgstr ""
 
 msgid "Advanced adjustments (OKLCH)"
@@ -2317,6 +2467,7 @@ msgid "All"
 msgstr " הכל "
 
 #. Translators: The post-type label.
+#. translators: %s: The post type's name.
 msgid "All %s"
 msgstr ""
 
@@ -2362,6 +2513,11 @@ msgstr ""
 
 msgid "All Lists"
 msgstr ""
+
+#, fuzzy
+#| msgid "Add New"
+msgid "All News"
+msgstr "הוסף חדש"
 
 msgctxt "Avada Off Canvas"
 msgid "All Off Canvases"
@@ -2445,6 +2601,12 @@ msgstr ""
 msgid "Alpha Numeric"
 msgstr ""
 
+msgid "Already imported"
+msgstr ""
+
+msgid "Already in Use"
+msgstr ""
+
 msgid "Alt Text"
 msgstr ""
 
@@ -2462,6 +2624,11 @@ msgstr ""
 
 msgid "Always Expanded"
 msgstr ""
+
+#, fuzzy
+#| msgid "Include"
+msgid "Always Included"
+msgstr "תכלול"
 
 msgid "Amazon SES"
 msgstr ""
@@ -2679,6 +2846,12 @@ msgstr ""
 msgid "Apply Alternate Post Cards"
 msgstr ""
 
+msgid "Apply Avada Custom Branding"
+msgstr ""
+
+msgid "Apply Branding To Brand Owners"
+msgstr ""
+
 msgid "Apply Motion Scroll Effects On"
 msgstr ""
 
@@ -2689,6 +2862,12 @@ msgid "Apply coupon"
 msgstr ""
 
 msgid "Apply patch #%s first."
+msgstr ""
+
+msgid "Apply them one at a time below, or all at once. Nothing is stored until you save."
+msgstr ""
+
+msgid "Apply to Main Palette"
 msgstr ""
 
 msgid "April"
@@ -2854,6 +3033,12 @@ msgctxt "CSS property"
 msgid "Armenian"
 msgstr ""
 
+msgid "Around 2560 keeps very large uploads sharp on big screens without oversized files."
+msgstr ""
+
+msgid "Around 80 balances file size and image quality."
+msgstr ""
+
 msgid "Arrow Background Color"
 msgstr ""
 
@@ -2911,7 +3096,13 @@ msgstr ""
 msgid "Aruba"
 msgstr ""
 
+msgid "As alternate card"
+msgstr ""
+
 msgid "As global"
+msgstr ""
+
+msgid "As list view card"
 msgstr ""
 
 msgid "Ascending"
@@ -2927,10 +3118,10 @@ msgctxt "post format archive title"
 msgid "Asides"
 msgstr ""
 
-msgid "Ask Avada AI"
+msgid "Ask AI to try again"
 msgstr ""
 
-msgid "Ask Presets"
+msgid "Ask Avada AI"
 msgstr ""
 
 msgid "Ask about the image"
@@ -2955,6 +3146,9 @@ msgid "Assign this snippet to a consent category. \"Necessary\" snippets always 
 msgstr ""
 
 msgid "Assign visitors to experiment variations and record impressions. Requires Visitor Analytics."
+msgstr ""
+
+msgid "At a Glance"
 msgstr ""
 
 msgid "Attach Images to Gallery"
@@ -3200,6 +3394,10 @@ msgstr ""
 msgid "Avada %s is available"
 msgstr ""
 
+#. translators: %s: Avada version.
+msgid "Avada %s is ready to install."
+msgstr ""
+
 msgid "Avada AI"
 msgstr ""
 
@@ -3208,6 +3406,11 @@ msgstr "אוואדה בילדר"
 
 msgid "Avada Builder Docs"
 msgstr ""
+
+#, fuzzy
+#| msgid "Avada Builder Elements"
+msgid "Avada Builder Element Generator"
+msgstr "אלמנטים מבונה האוואדה"
 
 msgid "Avada Builder Elements"
 msgstr "אלמנטים מבונה האוואדה"
@@ -3237,6 +3440,10 @@ msgstr ""
 msgid "Avada Button"
 msgstr ""
 
+#, fuzzy
+msgid "Avada Classic"
+msgstr "סליידר אוואדה"
+
 msgid "Avada Color"
 msgstr ""
 
@@ -3252,10 +3459,12 @@ msgstr ""
 msgid "Avada Customization"
 msgstr ""
 
-msgid "Avada Dropdown Styles"
-msgstr ""
+#, fuzzy
+#| msgid "Avada Library"
+msgid "Avada Dashboard"
+msgstr "ספריית אוואדה"
 
-msgid "Avada Elements"
+msgid "Avada Dropdown Styles"
 msgstr ""
 
 msgid "Avada Email Template"
@@ -3268,9 +3477,6 @@ msgid "Avada FAQs"
 msgstr ""
 
 msgid "Avada Features"
-msgstr ""
-
-msgid "Avada Fonts/Typography"
 msgstr ""
 
 #, fuzzy
@@ -3292,6 +3498,9 @@ msgstr "טפסים של אוואדה"
 msgctxt "Post Type General Name"
 msgid "Avada Forms"
 msgstr "טפסים של אוואדה"
+
+msgid "Avada Forms were found. Keep this on while any of them are in use."
+msgstr ""
 
 msgid "Avada Global Options"
 msgstr ""
@@ -3316,9 +3525,6 @@ msgstr ""
 msgid "Avada Image Sizes"
 msgstr ""
 
-msgid "Avada Integrations"
-msgstr ""
-
 msgctxt "Section type general name"
 msgid "Avada Layout Sections"
 msgstr ""
@@ -3335,9 +3541,6 @@ msgid "Avada Live Builder - Edit Mode"
 msgstr ""
 
 msgid "Avada Live Builder - Preview Mode"
-msgstr ""
-
-msgid "Avada Logo"
 msgstr ""
 
 msgid "Avada Main Navigation"
@@ -3373,14 +3576,15 @@ msgstr ""
 msgid "Avada One is the ultimate all in one website builder. Design Anything, Build Everything, Fast."
 msgstr ""
 
-msgid "Avada Optimization"
-msgstr ""
-
 msgid "Avada Options"
 msgstr ""
 
 msgid "Avada Page Options"
 msgstr ""
+
+#, fuzzy
+msgid "Avada Partners"
+msgstr "סליידר אוואדה"
 
 msgid "Avada Plus"
 msgstr ""
@@ -3392,9 +3596,6 @@ msgid "Avada Prebuilts"
 msgstr ""
 
 msgid "Avada Product Attribute Options"
-msgstr ""
-
-msgid "Avada Resources"
 msgstr ""
 
 msgid "Avada Sales"
@@ -3420,6 +3621,9 @@ msgstr "סליידר אוואדה"
 #, fuzzy
 msgid "Avada Sliders"
 msgstr "סליידר אוואדה"
+
+msgid "Avada Sliders were found. Keep this on while any of them are in use."
+msgstr ""
 
 #, fuzzy
 msgctxt "Post Type General Name"
@@ -3462,6 +3666,9 @@ msgstr ""
 msgid "Avada Widget Options"
 msgstr ""
 
+msgid "Avada across the WordPress admin and the builders."
+msgstr ""
+
 msgid "Avada caches could not be reset"
 msgstr ""
 
@@ -3469,16 +3676,7 @@ msgstr ""
 msgid "Avada can block these, but they are not in your Selected Consent Types, so if this site embeds any of them they load for every visitor unasked: %s. Either add them to Selected Consent Types, or describe them above."
 msgstr ""
 
-msgid "Avada content is selected. The content contains %1$s text strings and %2$s images."
-msgstr ""
-
-msgid "Avada forms found, only disable if you are not using them."
-msgstr ""
-
 msgid "Avada is up to date, no patches are waiting, and your environment meets every recommendation."
-msgstr ""
-
-msgid "Avada off canvas found, only disable if you are not using them."
 msgstr ""
 
 msgid "Avada performance wizard is missing."
@@ -3506,14 +3704,16 @@ msgstr ""
 msgid "Avada requires at least WordPress version %1$s. You are running version %2$s. Please upgrade and try again."
 msgstr ""
 
-msgid "Avada sliders found, only disable if you are not using them."
-msgstr ""
-
 msgid "Avada uses this library to resize images and speed up your site's loading time."
 msgstr ""
 
 msgid "Avada uses this method to communicate with different APIs, e.g. Google, X, Facebook."
 msgstr ""
+
+#, fuzzy
+#| msgid "Insert below current content"
+msgid "Avada welcome screen content"
+msgstr "הכנס מתחת לתוכן העמוד"
 
 msgid "Avada work waiting in the queue: campaign sends, abandoned cart emails, review reminders, price checks and wishlist reminders. Overdue items mean the queue is not being processed."
 msgstr ""
@@ -3522,6 +3722,9 @@ msgid "Avada's Option Network Dependencies"
 msgstr ""
 
 msgid "Avada's Option Network consists of Global Options, Page Options and Builder Options and each of them have dependent options ON by default. This means the only options you see are the only ones currently available for your selection. However, if you wish to disable this feature, simply turn this option off, and all dependencies will be disabled (requires save & refresh)."
+msgstr ""
+
+msgid "Avada's lazy loading also covers images in dynamically loaded elements."
 msgstr ""
 
 msgid "Avada: \"Route wp_mail through provider\" is enabled, but another SMTP plugin is also active. To avoid the two competing over how mail is sent, Avada is not intercepting wp_mail — deactivate the other plugin, or disable this option in Avada's mailer settings."
@@ -3563,6 +3766,11 @@ msgstr ""
 msgid "Average Journey Length:"
 msgstr ""
 
+#, fuzzy
+#| msgid "Default Order"
+msgid "Average Order"
+msgstr "סדר ברירת המחדל"
+
 msgid "Average Order Value"
 msgstr ""
 
@@ -3588,9 +3796,6 @@ msgid "Avg Duration"
 msgstr ""
 
 msgid "Avg Recovery Time"
-msgstr ""
-
-msgid "Avoid using complex dynamic elements above the fold."
 msgstr ""
 
 msgid "Awaiting product image"
@@ -3863,6 +4068,11 @@ msgid "Background color of the ticket form box."
 msgstr ""
 
 #, fuzzy
+#| msgid "Background Color"
+msgid "Background could not be removed"
+msgstr "צבע רקע"
+
+#, fuzzy
 #| msgid "Background Type"
 msgid "Background video"
 msgstr "סוג רקע"
@@ -3946,9 +4156,6 @@ msgid "Before Price"
 msgstr ""
 
 msgid "Before Regular"
-msgstr ""
-
-msgid "Before Starting"
 msgstr ""
 
 msgid "Before Text"
@@ -4082,6 +4289,9 @@ msgstr ""
 msgid "Black & White"
 msgstr ""
 
+msgid "Blank"
+msgstr ""
+
 msgid "Blank Page"
 msgstr ""
 
@@ -4090,6 +4300,9 @@ msgstr ""
 
 msgid "Block"
 msgstr "בלוק"
+
+msgid "Block styles are only needed for content made in the block editor."
+msgstr ""
 
 msgid "Block until consent"
 msgstr ""
@@ -4105,6 +4318,11 @@ msgstr ""
 
 msgid "Blog Medium (L)"
 msgstr ""
+
+#, fuzzy
+#| msgid "Blog Single Post"
+msgid "Blog Posts"
+msgstr "הודעה בבלוג"
 
 msgid "Blog Single Post"
 msgstr "הודעה בבלוג"
@@ -4188,6 +4406,9 @@ msgid "Book 300"
 msgstr ""
 
 msgid "Book 300 Italic"
+msgstr ""
+
+msgid "Booking"
 msgstr ""
 
 msgid "Border"
@@ -4361,7 +4582,13 @@ msgstr ""
 msgid "Boxed Style"
 msgstr ""
 
+msgid "Brand"
+msgstr ""
+
 msgid "Brand Colors"
+msgstr ""
+
+msgid "Brand Owners"
 msgstr ""
 
 msgid "Brand Thumb Border Color"
@@ -4374,6 +4601,15 @@ msgid "Brand Thumb Border Size"
 msgstr ""
 
 msgid "Brand Thumb Opacity"
+msgstr ""
+
+msgid "Brand owners see Avada and can change these settings. Leave empty to make every administrator an owner."
+msgstr ""
+
+msgid "Brand owners see your brand too, and keep access to these settings."
+msgstr ""
+
+msgid "Brand the WordPress login screen."
 msgstr ""
 
 msgid "Brands"
@@ -4440,6 +4676,9 @@ msgstr ""
 msgid "Browse Files"
 msgstr ""
 
+msgid "Browse Studio"
+msgstr ""
+
 msgid "Browse and import prebuilt website demos to quickly get started with a new design."
 msgstr ""
 
@@ -4467,6 +4706,9 @@ msgstr ""
 msgid "Browsers"
 msgstr ""
 
+msgid "Browsers show emojis on their own; the script is only needed for older ones."
+msgstr ""
+
 msgid "Browsing Journey"
 msgstr ""
 
@@ -4482,9 +4724,6 @@ msgstr ""
 msgid "Build / Edit your Avada Forms."
 msgstr ""
 
-msgid "Build Your Website"
-msgstr ""
-
 msgid "Build a new website from scratch with the help of the Avada Setup Wizard."
 msgstr ""
 
@@ -4498,9 +4737,6 @@ msgid "Build your chart data visually"
 msgstr ""
 
 msgid "Build your integration in Test mode, and switch to Live mode when you are ready."
-msgstr ""
-
-msgid "Build your website before starting with performance optimization."
 msgstr ""
 
 msgid "Builder"
@@ -4540,9 +4776,6 @@ msgid "Bulk Add"
 msgstr ""
 
 msgid "Bulk Image Upload"
-msgstr ""
-
-msgid "Bulk Input Content"
 msgstr ""
 
 msgid "Bulk fetch failed:"
@@ -4643,6 +4876,11 @@ msgstr ""
 
 msgid "Button Hover Bevel Color For 3D Mode"
 msgstr ""
+
+#, fuzzy
+#| msgid "Border Color"
+msgid "Button Hover Color"
+msgstr "צבע גבול"
 
 msgid "Button Hover Or Click Text / Icon"
 msgstr ""
@@ -4768,6 +5006,9 @@ msgstr ""
 msgid "Buttons Span"
 msgstr ""
 
+msgid "Buy Credits"
+msgstr ""
+
 msgid "Buy Now"
 msgstr ""
 
@@ -4851,6 +5092,11 @@ msgstr ""
 msgid "CRM, Marketing & Sales"
 msgstr ""
 
+#, fuzzy
+#| msgid "CSS ID"
+msgid "CSS"
+msgstr "מזהה CSS"
+
 msgid "CSS Class"
 msgstr "קלאס CSS"
 
@@ -4864,9 +5110,6 @@ msgid "CSS ID"
 msgstr "מזהה CSS"
 
 msgid "CSS Image Hover Animations on Mobiles"
-msgstr ""
-
-msgid "CSS Optimization"
 msgstr ""
 
 msgid "CSS Outlines"
@@ -4920,9 +5163,6 @@ msgid "Cache Content (For SEO)"
 msgstr ""
 
 msgid "Cache Server IP"
-msgstr ""
-
-msgid "Cache and assets have been cleared successfully!"
 msgstr ""
 
 msgid "Cache-First strategy file types"
@@ -5203,6 +5443,9 @@ msgstr ""
 msgid "Cast Your Vote"
 msgstr ""
 
+msgid "Catch up on releases, tutorials and tips on the Avada blog."
+msgstr ""
+
 msgid "Categories"
 msgstr "קטגוריות"
 
@@ -5221,6 +5464,11 @@ msgstr ""
 
 msgid "Category Color"
 msgstr ""
+
+#, fuzzy
+#| msgid "Category"
+msgid "Category ID"
+msgstr "קטגוריה"
 
 msgid "Category Item Alignment"
 msgstr ""
@@ -5332,6 +5580,11 @@ msgstr ""
 msgid "Chad"
 msgstr ""
 
+#, fuzzy
+#| msgid "Changelog"
+msgid "Change Mode"
+msgstr "יומן שינויים"
+
 msgid "Change Page After AJAX"
 msgstr ""
 
@@ -5344,8 +5597,16 @@ msgstr ""
 msgid "Change the width and position of expanded mobile menus."
 msgstr ""
 
+#, fuzzy
+#| msgid "Changelog"
+msgid "Change unit"
+msgstr "יומן שינויים"
+
 msgid "Changelog"
 msgstr "יומן שינויים"
+
+msgid "Changes stay unsaved until you save the page."
+msgstr ""
 
 msgid "Changes the expand direction for submenus and vertical menus."
 msgstr ""
@@ -5405,6 +5666,9 @@ msgstr ""
 msgid "Chat"
 msgstr ""
 
+msgid "Chat Presets"
+msgstr ""
+
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr ""
@@ -5420,6 +5684,11 @@ msgstr ""
 
 msgid "Check For New Posts"
 msgstr ""
+
+#, fuzzy
+#| msgid "Checkout"
+msgid "Check Now"
+msgstr "קופה"
 
 msgid "Check Row"
 msgstr ""
@@ -5464,9 +5733,6 @@ msgid "Check your email for the confirmation link."
 msgstr ""
 
 msgid "Check your site against Avada's recommendations, run setup and conversion tools, and copy a report whenever support asks for one."
-msgstr ""
-
-msgid "Check your subscription in your My Avada account, to see how many sites you have left. Adjust your subscription easily as needed."
 msgstr ""
 
 msgid "Checkbox"
@@ -5597,6 +5863,21 @@ msgstr ""
 msgid "Checkout View"
 msgstr ""
 
+msgid "Checks every layout and the Global Layout."
+msgstr ""
+
+msgid "Checks pages, posts, layout sections, library items, forms, off canvas, page options, menus, sliders, widgets and Global Options."
+msgstr ""
+
+msgid "Checks pages, posts, layout sections, library items, forms, off canvas, widgets and Global Options."
+msgstr ""
+
+msgid "Checks pages, posts, layout sections, library items, forms, off canvas, widgets, Global Options and experiment events."
+msgstr ""
+
+msgid "Checks the Avada Slider element and the slider page options of pages, posts, layout sections and archives."
+msgstr ""
+
 msgid "Checks whether the custom database tables Avada relies on (Marketing & Engagement, AI Assistant, Critical CSS, Forms, Mailer Queue) exist, and lets you recreate any that are missing, e.g. after a failed activation or a hosting restore."
 msgstr ""
 
@@ -5679,6 +5960,9 @@ msgstr ""
 msgid "Choose \"Yes\" to reset the form values after a successful submission, or \"No\" to keep the values."
 msgstr ""
 
+msgid "Choose An Image"
+msgstr ""
+
 msgid "Choose Color Palette"
 msgstr ""
 
@@ -5719,6 +6003,9 @@ msgid "Choose Taxonomy to use."
 msgstr ""
 
 msgid "Choose Totals"
+msgstr ""
+
+msgid "Choose a Starting Point"
 msgstr ""
 
 msgid "Choose a background color for the countdown wrapping box."
@@ -5883,6 +6170,11 @@ msgstr ""
 #. translators: Additional description (defaults).
 msgid "Choose how the background color and background image blend together."
 msgstr ""
+
+#. translators: Additional description (defaults).
+#, fuzzy
+msgid "Choose how the background color and background image blend together. %s"
+msgstr "בחירת כיצד תמונת הרקע חוזרת בשנית."
 
 msgid "Choose how the background image is positioned."
 msgstr ""
@@ -6105,7 +6397,7 @@ msgstr ""
 msgid "Choose if view cart and checkout links should or not."
 msgstr ""
 
-msgid "Choose if you want a light or dark builder UI style."
+msgid "Choose if you want a light or dark builder UI style, or one that follows the light or dark setting of your device. The icon in the toolbar switches between light and dark."
 msgstr ""
 
 msgid "Choose if you want the mobile menu to be collapsed to a button, or always expanded."
@@ -6262,10 +6554,6 @@ msgstr ""
 msgid "Choose the caption separator you want to use."
 msgstr ""
 
-#. translators: default value.
-msgid "Choose the caption size you want to use. The size you choose will utilize the font family and letter spacing typography settings in Global Options for that specific size. Font size is set below. %s"
-msgstr ""
-
 msgid "Choose the caption size you want to use. The size you choose will utilize the font family and letter spacing typography settings in Global Options for that specific size. Font size is set below. Default: H3"
 msgstr ""
 
@@ -6402,6 +6690,11 @@ msgstr ""
 msgid "Choose the position of the background image."
 msgstr ""
 
+#. translators: Additional description (defaults).
+#, fuzzy
+msgid "Choose the position of the background image. %s"
+msgstr "בחירת כיצד תמונת הרקע חוזרת בשנית."
+
 msgid "Choose the position of the background slider images."
 msgstr ""
 
@@ -6466,6 +6759,11 @@ msgstr ""
 msgid "Choose the size of the background image."
 msgstr ""
 
+#. translators: Additional description (defaults).
+#, fuzzy
+msgid "Choose the size of the background image. %s"
+msgstr "בחירת כיצד תמונת הרקע חוזרת בשנית."
+
 msgid "Choose the social icon position."
 msgstr ""
 
@@ -6492,10 +6790,6 @@ msgid "Choose the text color of the tags."
 msgstr ""
 
 msgid "Choose the text hover color of the tags."
-msgstr ""
-
-#. translators: default value.
-msgid "Choose the title size you want to use. The size you choose will utilize the font family and letter spacing typography settings in Global Options for that specific size. Font size is set below.  %s"
 msgstr ""
 
 msgid "Choose the title size you want to use. The size you choose will utilize the font family and letter spacing typography settings in Global Options for that specific size. Font size is set below. Default: H2"
@@ -6717,10 +7011,6 @@ msgstr ""
 msgid "Choose to have table headers displayed."
 msgstr ""
 
-#. translators: Additional description (defaults).
-msgid "Choose to have the background image display at 100&#37;. %s"
-msgstr ""
-
 msgid "Choose to have the background image fade and blur on scroll. WARNING: Only works for images."
 msgstr ""
 
@@ -6749,9 +7039,6 @@ msgid "Choose to imit the indexing to certain containers. You can limit indexing
 msgstr ""
 
 msgid "Choose to import Avada Builder Library content. You can import all the different library content types, ranging from Post Cards, Off-Canvas to elements, and page templates."
-msgstr ""
-
-msgid "Choose to include or exclude this template from studio content."
 msgstr ""
 
 msgid "Choose to leave the post being viewed out of the list."
@@ -7003,6 +7290,11 @@ msgstr ""
 msgid "Choose whether the background image scrolls with the page or stays fixed."
 msgstr ""
 
+#. translators: Additional description (defaults).
+#, fuzzy
+msgid "Choose whether the background image scrolls with the page or stays fixed. %s"
+msgstr "בחירת כיצד תמונת הרקע חוזרת בשנית."
+
 msgid "Choose whether the moving thumb/highlight bounces past its resting position before settling (\"elastic\"), or eases straight to it."
 msgstr ""
 
@@ -7195,6 +7487,9 @@ msgstr ""
 msgid "Clean Layout Vertical"
 msgstr ""
 
+msgid "Clean up the WordPress admin for your clients."
+msgstr ""
+
 msgid "Cleaned"
 msgstr ""
 
@@ -7237,10 +7532,10 @@ msgstr ""
 msgid "Clear Text"
 msgstr ""
 
-msgid "Clear selection"
+msgid "Clear filters"
 msgstr ""
 
-msgid "Clearing cache..."
+msgid "Clear selection"
 msgstr ""
 
 msgid "Click"
@@ -7273,16 +7568,10 @@ msgstr ""
 msgid "Click here to copy the full error message."
 msgstr ""
 
-msgid "Click here to view button option descriptions."
-msgstr "לחצו כאן לצפייה בתיאור אפשרויות הכפתור"
-
 msgid "Click or drag a file to this area to upload."
 msgstr ""
 
 msgid "Click the ? icon to access Avada documentation"
-msgstr ""
-
-msgid "Click the button to fetch all prebuilt import posts."
 msgstr ""
 
 msgid "Click the export button to export your current set of Page Options as a JSON file."
@@ -7583,49 +7872,25 @@ msgstr "צבע"
 msgid "Color 1"
 msgstr ""
 
-msgid "Color 1 Overwrite"
-msgstr ""
-
 msgid "Color 2"
-msgstr ""
-
-msgid "Color 2 Overwrite"
 msgstr ""
 
 msgid "Color 3"
 msgstr ""
 
-msgid "Color 3 Overwrite"
-msgstr ""
-
 msgid "Color 4"
-msgstr ""
-
-msgid "Color 4 Overwrite"
 msgstr ""
 
 msgid "Color 5"
 msgstr ""
 
-msgid "Color 5 Overwrite"
-msgstr ""
-
 msgid "Color 6"
-msgstr ""
-
-msgid "Color 6 Overwrite"
 msgstr ""
 
 msgid "Color 7"
 msgstr ""
 
-msgid "Color 7 Overwrite"
-msgstr ""
-
 msgid "Color 8"
-msgstr ""
-
-msgid "Color 8 Overwrite"
 msgstr ""
 
 msgid "Color Burn"
@@ -7639,6 +7904,11 @@ msgstr ""
 
 msgid "Color Dodge"
 msgstr ""
+
+#, fuzzy
+#| msgid "Color"
+msgid "Color Mode"
+msgstr "צבע"
 
 msgid "Color Name"
 msgstr ""
@@ -7794,6 +8064,9 @@ msgstr ""
 msgid "Combine prompts, contexts and variations to generate AI text instantly."
 msgstr ""
 
+msgid "Combines Avada scripts into one file, so pages make fewer requests."
+msgstr ""
+
 msgid "Comic Book"
 msgstr ""
 
@@ -7801,6 +8074,9 @@ msgid "Coming Soon"
 msgstr ""
 
 msgid "Coming Soon Mode"
+msgstr ""
+
+msgid "Coming Soon mode is on, so visitors see your coming soon page."
 msgstr ""
 
 msgid "Comma"
@@ -7877,6 +8153,11 @@ msgstr ""
 
 msgid "Communication Preferences"
 msgstr ""
+
+#, fuzzy
+#| msgid "Comment"
+msgid "Community"
+msgstr "הערה"
 
 msgid "Comoros"
 msgstr ""
@@ -8032,6 +8313,9 @@ msgstr ""
 msgid "Connect this page"
 msgstr ""
 
+msgid "Connect this page so your AI apps can work on it."
+msgstr ""
+
 msgid "Connect this site to your My Avada account with an active subscription to unlock Marketing, Sales, and AI features."
 msgstr ""
 
@@ -8114,6 +8398,11 @@ msgstr ""
 msgid "Consent Mapping"
 msgstr ""
 
+#, fuzzy
+#| msgid "Preferences"
+msgid "Consent Preferences"
+msgstr "אפשרויות"
+
 msgid "Consent Type"
 msgstr ""
 
@@ -8124,9 +8413,6 @@ msgid "Consent category per feature. \"Necessary\" makes a feature work before t
 msgstr ""
 
 msgid "Consent-aware (always loads)"
-msgstr ""
-
-msgid "Consider using a CDN for faster content delivery."
 msgstr ""
 
 msgid "Contact"
@@ -8255,6 +8541,9 @@ msgstr ""
 
 msgid "Containers"
 msgstr "קונטיינרים"
+
+msgid "Containers below the fold are only rendered when visitors scroll near them."
+msgstr ""
 
 msgid "Contains"
 msgstr ""
@@ -8397,16 +8686,7 @@ msgstr "תוכן פריסה"
 msgid "Content Lines Clamp"
 msgstr ""
 
-msgid "Content Options"
-msgstr ""
-
 msgid "Content Padding"
-msgstr ""
-
-msgid "Content Replace"
-msgstr ""
-
-msgid "Content Replacement"
 msgstr ""
 
 msgid "Content Source"
@@ -8441,10 +8721,6 @@ msgstr ""
 
 msgid "Content Wrap"
 msgstr "עיטוף תוכן"
-
-#. translators: Used subset labels.
-msgid "Content has been scanned for icons, recommend selecting %s."
-msgstr ""
 
 msgid "Content inserted."
 msgstr ""
@@ -8591,6 +8867,11 @@ msgstr ""
 msgid "Controls how the background image repeats."
 msgstr ""
 
+#. translators: Additional description (defaults).
+#, fuzzy
+msgid "Controls how the background image repeats. %s"
+msgstr "בחירת כיצד תמונת הרקע חוזרת בשנית."
+
 msgid "Controls how the card content is distributed vertically in equal-height cards."
 msgstr ""
 
@@ -8598,6 +8879,9 @@ msgid "Controls how the columns / items align vertically within their row."
 msgstr ""
 
 msgid "Controls how the filters display for FAQs."
+msgstr ""
+
+msgid "Controls how the icon and the text of the ToTop button are arranged."
 msgstr ""
 
 msgid "Controls how the link will open."
@@ -10461,7 +10745,7 @@ msgstr ""
 msgid "Controls the font size of the order button. Enter value including any valid CSS unit, ex: 20px."
 msgstr ""
 
-msgid "Controls the font size of the privacy bar buttons. Leave empty to inherit the global button font size."
+msgid "Controls the font size of the privacy bar buttons. Their padding then scales with it. Leave empty to use the global button font size and padding."
 msgstr ""
 
 msgid "Controls the font size of the product count select. Enter value including any valid CSS unit, ex: 20px."
@@ -10693,6 +10977,14 @@ msgstr ""
 msgid "Controls the hover/active border style of the icon."
 msgstr ""
 
+#, fuzzy
+msgid "Controls the icon and text color of the ToTop button."
+msgstr "קובע את צבע הרקע של הכותרת התחתונה."
+
+#, fuzzy
+msgid "Controls the icon and text hover color of the ToTop button."
+msgstr "קובע את צבע הרקע של הכותרת התחתונה."
+
 msgid "Controls the icon background color."
 msgstr ""
 
@@ -10717,13 +11009,7 @@ msgstr ""
 msgid "Controls the icon color for the success message."
 msgstr ""
 
-msgid "Controls the icon color of the ToTop button."
-msgstr ""
-
 msgid "Controls the icon color."
-msgstr ""
-
-msgid "Controls the icon hover color of the ToTop button."
 msgstr ""
 
 msgid "Controls the icon hover/active color."
@@ -10929,10 +11215,10 @@ msgstr ""
 msgid "Controls the maximum value typography."
 msgstr ""
 
-msgid "Controls the maximum width of the content container."
+msgid "Controls the maximum width of the content container. On mobile devices, the content always uses the full width."
 msgstr ""
 
-msgid "Controls the maximum width of the privacy bar's main row (the message text and action buttons), centered within the bar. Leave empty for full width. With the \"Stacked\" layout, this width applies to the message text only."
+msgid "Controls the maximum width of the privacy bar's main row (the message text and action buttons), centered within the bar. Leave empty for full width. With the \"Stacked\" layout, this width applies to the message text only. On small screens, the message always uses the full width."
 msgstr ""
 
 msgid "Controls the meta color of the live search results."
@@ -11709,7 +11995,7 @@ msgstr ""
 msgid "Controls the text decoration underline offset of all general links."
 msgstr ""
 
-msgid "Controls the text for the primary privacy bar button. With the \"Save on Change\" action this text is not shown, as the button only appears after a checkbox changes and uses the \"Privacy Bar Primary Button Update Text\" instead."
+msgid "Controls the text for the primary privacy bar button. With the \"On Change\" action this text is not shown, as the button only appears after a checkbox changes and uses the \"Privacy Bar Primary Button Update Text\" instead."
 msgstr ""
 
 msgid "Controls the text hover color of the breadcrumbs font."
@@ -12232,16 +12518,10 @@ msgstr ""
 msgid "Convert Plus"
 msgstr ""
 
-msgid "Convert Posts"
-msgstr ""
-
 msgid "Convert existing images to %s format. You can change the format in the Avada Global Options."
 msgstr ""
 
 msgid "Convert existing images to modern Avada formats."
-msgstr ""
-
-msgid "Convert from Font Awesome to a single custom icon set to improve your load time."
 msgstr ""
 
 msgid "Converted"
@@ -12254,9 +12534,6 @@ msgid "Converting Journey"
 msgstr ""
 
 msgid "Converting images: %1$s - %2$s of %3$s"
-msgstr ""
-
-msgid "Converting post %1$s / %2$s"
 msgstr ""
 
 msgid "Cook Islands"
@@ -12309,6 +12586,10 @@ msgstr ""
 msgid "Copied"
 msgstr "הועתק"
 
+#, fuzzy
+msgid "Copied from:"
+msgstr "הועתק"
+
 msgid "Copied!"
 msgstr "הועתק"
 
@@ -12340,11 +12621,10 @@ msgstr ""
 msgid "Copy Text To Clipboard"
 msgstr ""
 
-msgid "Copy connection link"
-msgstr ""
-
-msgid "Copy it now - it is shown once. A new link replaces the old one everywhere."
-msgstr ""
+#, fuzzy
+#| msgid "Copy"
+msgid "Copy link"
+msgstr "העתק"
 
 msgid "Copy this category"
 msgstr ""
@@ -12356,6 +12636,9 @@ msgid "Copy to Clipboard"
 msgstr ""
 
 msgid "Copy to Clipboard Text"
+msgstr ""
+
+msgid "Copy, images and code."
 msgstr ""
 
 msgid "Copyright URL"
@@ -12430,6 +12713,20 @@ msgstr ""
 #. translators: 1: action HTML 2: action ID 3: error message
 msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
 msgstr ""
+
+msgid "Could not reach Avada AI. Check your internet connection and try again."
+msgstr ""
+
+msgid "Could not reach the connection server."
+msgstr ""
+
+msgid "Could not remove the imported Avada Studio content."
+msgstr ""
+
+#, fuzzy
+#| msgid "Login failed, please try again."
+msgid "Could not revoke access. Please try again."
+msgstr "הכניסה נכשלה, נסה שוב."
 
 msgid "Could not update \"%s\" (post #%d) with mapped data"
 msgstr ""
@@ -12743,6 +13040,11 @@ msgstr ""
 
 msgid "Create Your First Link"
 msgstr ""
+
+#, fuzzy
+#| msgid "Date Format"
+msgid "Create a Form"
+msgstr "תבנית התאריך"
 
 msgid "Create a new layout which you can then assign layout sections to and set layout conditions."
 msgstr "צור פריסה חדשה שבה תוכל להקצות קטעי פריסה ולהגדיר תנאי פריסה."
@@ -13155,6 +13457,9 @@ msgstr ""
 msgid "Custom Width"
 msgstr ""
 
+msgid "Custom branding is built into Avada One, so the Avada Custom Branding plugin is no longer used and its settings have been taken over."
+msgstr ""
+
 msgid "Custom colors allow you to choose a color for icons and boxes. Brand colors will use the exact brand color of each network for the icons or boxes."
 msgstr ""
 
@@ -13275,9 +13580,6 @@ msgstr ""
 msgid "DESC"
 msgstr ""
 
-msgid "DIV"
-msgstr ""
-
 msgctxt "Currency"
 msgid "DJF"
 msgstr ""
@@ -13355,6 +13657,9 @@ msgid "Dash"
 msgstr ""
 
 msgid "Dashboard"
+msgstr ""
+
+msgid "Dashboard Home"
 msgstr ""
 
 msgid "Dashed"
@@ -13500,6 +13805,9 @@ msgstr ""
 msgid "Deactivate"
 msgstr ""
 
+msgid "Deactivate the plugin"
+msgstr ""
+
 msgid "December"
 msgstr ""
 
@@ -13579,10 +13887,6 @@ msgstr ""
 msgid "Default value is: Out of stock"
 msgstr ""
 
-#. translators: default value.
-msgid "Default: %s"
-msgstr ""
-
 msgid "Define reusable context sources that can be injected into AI prompts."
 msgstr ""
 
@@ -13634,6 +13938,12 @@ msgstr ""
 msgid "Defines how the elements should be positioned in the flexbox."
 msgstr ""
 
+msgid "Defines how the filters are ordered. Custom lets you drag the filters into any order. With more than 25 categories, it is only available for the categories you include."
+msgstr ""
+
+msgid "Defines how the filters are ordered. Custom lets you drag the filters into any order. With more than 25 terms, it is only available for the terms you include."
+msgstr ""
+
 msgid "Defines how the meta content should align horizontally.  Overrides what is set on the container."
 msgstr ""
 
@@ -13669,6 +13979,10 @@ msgstr ""
 
 msgid "Defines the sorting order of posts."
 msgstr ""
+
+#, fuzzy
+msgid "Defines the sorting order of the filters."
+msgstr "בחר להציג או להסתיר את הכותרת."
 
 msgid "Defines the sorting order of the posts."
 msgstr ""
@@ -13720,6 +14034,11 @@ msgstr "מחק אלמנט"
 
 msgid "Delete Entries"
 msgstr ""
+
+#, fuzzy
+#| msgid "Delete Element"
+msgid "Delete Entry"
+msgstr "מחק אלמנט"
 
 msgid "Delete Event"
 msgstr ""
@@ -13811,6 +14130,11 @@ msgstr ""
 msgid "Deleted Next Page Divider"
 msgstr ""
 
+#, fuzzy
+#| msgid "Delete Element"
+msgid "Deleted event"
+msgstr "מחק אלמנט"
+
 msgid "Deletes and recreates the built-in system emails (Subscription Verification, Review Reminder, Price Drop Alert, Abandoned Cart Recovery, Wishlist Reminder) with their original designs. Any customisations made to these emails will be lost."
 msgstr ""
 
@@ -13841,6 +14165,9 @@ msgstr ""
 msgid "Depending on the background color you can change this value to \"Light\" or \"Dark\" to ensure controls are visible."
 msgstr ""
 
+msgid "Depends on Your Site"
+msgstr ""
+
 msgid "Depth of field"
 msgstr ""
 
@@ -13856,13 +14183,7 @@ msgstr ""
 msgid "Describe how you want to edit or enhance the uploaded image..."
 msgstr ""
 
-msgid "Describe how you would like to adjust the SVG"
-msgstr ""
-
 msgid "Describe how you would like to adjust the color palette"
-msgstr ""
-
-msgid "Describe the SVG you would like the AI to generate"
 msgstr ""
 
 msgid "Describe the image for screen readers and search engines"
@@ -13907,6 +14228,9 @@ msgid "Design"
 msgstr "עיצוב"
 
 msgid "Design Elements"
+msgstr ""
+
+msgid "Design Header & Footer"
 msgstr ""
 
 msgid "Desired Price (Optional)"
@@ -14049,10 +14373,10 @@ msgstr ""
 msgid "Disable Inline Dynamic Data"
 msgstr ""
 
-msgid "Disable Sharing"
+msgid "Disable Live Builder"
 msgstr ""
 
-msgid "Disable Unused Features"
+msgid "Disable Sharing"
 msgstr ""
 
 msgid "Disabled"
@@ -14079,10 +14403,19 @@ msgstr ""
 msgid "Disconnect"
 msgstr ""
 
+msgid "Disconnect HubSpot? Forms will stop sending data to HubSpot until you reconnect."
+msgstr ""
+
+msgid "Disconnect Mailchimp? Forms will stop sending data to Mailchimp until you reconnect."
+msgstr ""
+
 msgid "Disconnect from My Avada"
 msgstr ""
 
 msgid "Disconnect from My Avada?"
+msgstr ""
+
+msgid "Disconnect this page"
 msgstr ""
 
 msgid "Discord Link"
@@ -14109,10 +14442,10 @@ msgstr ""
 msgid "Discount Type"
 msgstr ""
 
-msgid "Dismiss Button"
+msgid "Dismiss"
 msgstr ""
 
-msgid "Dismiss Only"
+msgid "Dismiss Button"
 msgstr ""
 
 msgid "Display Active Value"
@@ -14395,11 +14728,11 @@ msgstr ""
 msgid "Do you want to proceed without saving changes?"
 msgstr ""
 
-msgid "Docs"
-msgstr ""
-
 msgid "Documentation"
 msgstr "תיעוד מקוון"
+
+msgid "Documentation, video and support links in the dashboard and the builders, and the Support screen. The help links on the dashboard home have a setting of their own, so you can show yours there."
+msgstr ""
 
 msgid "Does Not Contain"
 msgstr ""
@@ -14509,7 +14842,10 @@ msgstr ""
 msgid "Download or delete the geolocation database. These are the IP => Continent/Country matches. A good rule of thumb is to re-download the geolocation data every 1-3 years."
 msgstr ""
 
-msgid "Download your current Global Options settings as a JSON file."
+msgid "Download these settings as a JSON file, to import them on another site. Brand owners are left out, they differ from site to site."
+msgstr ""
+
+msgid "Download your current Global Options settings as a JSON file. Turn on Include Site Settings to also export permissions, Builder Options, API keys and head / body scripts, for example to set up another of your sites the same way. Leave it off for a file you share with others."
 msgstr ""
 
 msgid "Downloads remaining"
@@ -14557,7 +14893,17 @@ msgstr ""
 msgid "Drag tabs here to remove them from the element."
 msgstr ""
 
+msgid "Drag the filters into the order they should show in. The list follows the included and excluded categories, and new categories are added at the end."
+msgstr ""
+
+msgid "Drag the filters into the order they should show in. The list follows the included and excluded terms, and new terms are added at the end."
+msgstr ""
+
 msgid "Drag to reorder"
+msgstr ""
+
+#. translators: %s: Number of figures.
+msgid "Drag to reorder, and pick up to %s figures from the list below."
 msgstr ""
 
 msgid "Drag to resize, double-click to reset"
@@ -14671,6 +15017,11 @@ msgstr ""
 msgid "Dropdown/Select Size"
 msgstr ""
 
+#, fuzzy
+#| msgid "Full Content"
+msgid "Dummy Content"
+msgstr "תוכן מלא"
+
 msgid "Dummy Title Placeholder"
 msgstr ""
 
@@ -14745,6 +15096,9 @@ msgstr ""
 msgid "Each Avada Builder element can be enabled or disabled. This can increase performance if you are not using a specific element. Select to enable, deselect to disable."
 msgstr ""
 
+msgid "Each font family and weight is another file to download. Keep only the ones your design uses, and choose how they load for the fastest first paint."
+msgstr ""
+
 msgid "Ease"
 msgstr ""
 
@@ -14776,6 +15130,8 @@ msgid "Edit"
 msgstr "ערוך"
 
 #. translators: Name of post type.
+#. translators: %s: The post type's name.
+#. translators: %s: The taxonomy's name.
 msgid "Edit %s"
 msgstr "ערוך %s"
 
@@ -14825,11 +15181,21 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Title Color"
+msgid "Edit Global"
+msgstr "צבע כותרת"
+
+#, fuzzy
+#| msgid "Title Color"
 msgid "Edit Global Colors"
 msgstr "צבע כותרת"
 
 msgid "Edit Global Page TitleBar"
 msgstr ""
+
+#, fuzzy
+#| msgid "Title Color"
+msgid "Edit Global in New Tab"
+msgstr "צבע כותרת"
 
 msgid "Edit Header Layout Section"
 msgstr ""
@@ -14957,9 +15323,6 @@ msgstr "ערוך את אפשרויות אוודוה בילדר"
 msgid "Edit the pages of your website."
 msgstr ""
 
-msgid "Edit the text content of Avada content. For example edit an entire page or a single container."
-msgstr ""
-
 msgid "Edit your site layouts."
 msgstr "ערוך את פריסות האתר"
 
@@ -15035,8 +15398,17 @@ msgstr ""
 msgid "Element Visibility"
 msgstr ""
 
+msgid "Element animations cost the most on phones. Desktop Only keeps them where visitors have the power to spare."
+msgstr ""
+
 msgid "Element content will render here."
 msgstr "תוכן האלמנטים יופיע כאן."
+
+#. translators: The ID not found.
+#, fuzzy
+#| msgid "Element Options"
+msgid "Element not found. ID: %s"
+msgstr "אפשרויות אלמנטים"
 
 msgid "Element published privately."
 msgstr "אלמנט פורסם בפרטי"
@@ -15046,9 +15418,6 @@ msgstr "אלמנט פורסם"
 
 msgid "Element reverted to draft."
 msgstr "הפוך אלמנט לטיוטה"
-
-msgid "Element scan has completed and only used elements have been selected."
-msgstr ""
 
 msgid "Element scheduled."
 msgstr "אלמנט תוזמן"
@@ -15072,6 +15441,12 @@ msgid "Elements Justify Content"
 msgstr ""
 
 msgid "Elements for plugins like WooCommerce or The Events Calendar will only be available in the builder, if the corresponding options are activated here and if those plugins are active."
+msgstr ""
+
+msgid "Elements used anywhere in your content stay on. Save your changes to keep this selection."
+msgstr ""
+
+msgid "Elements you switch off are not loaded on your site or offered in the Builder. Scan your content to keep exactly the ones your pages use."
 msgstr ""
 
 msgid "Ellipsis"
@@ -15185,6 +15560,9 @@ msgid "Emails you a reminder to review a product after your order arrives."
 msgstr ""
 
 msgid "Embed API"
+msgstr ""
+
+msgid "Embedded videos and maps load only when visitors scroll near them."
 msgstr ""
 
 msgid "Emojis Script"
@@ -15372,10 +15750,10 @@ msgstr ""
 msgid "Enable this to count this event as a conversion for the experiment."
 msgstr ""
 
-msgid "Enable to automatically list standard WordPress necessary cookies in the Necessary group. If WooCommerce or The Events Calendar are active, their necessary cookies are included automatically. \"Default\" inherits from Global Options."
+msgid "Enable to also list the standard WordPress cookies (login, cookie check and admin settings) in the Necessary group. Necessary cookies set by Avada and by active plugins such as WooCommerce are always listed. \"Default\" inherits from Global Options."
 msgstr ""
 
-msgid "Enable to automatically list standard WordPress necessary cookies. If WooCommerce or The Events Calendar are active, their necessary cookies are included automatically. Note: This will only be displayed if a consent category with the \"Necessary\" type is present in the Consent Categories above."
+msgid "Enable to also list the standard WordPress cookies (login, cookie check and admin settings). Necessary cookies set by Avada and by active plugins such as WooCommerce or The Events Calendar are always listed. Note: Necessary cookies are only displayed if a consent category with the \"Necessary\" type is present in the Consent Categories above."
 msgstr ""
 
 msgid "Enable to let each slide's height be driven by its own content instead of the fixed value above — only relevant for Custom slides. When enabled, the height above is used as a minimum height instead of a fixed height."
@@ -15387,7 +15765,7 @@ msgstr ""
 msgid "Enable to pause background slider on hover."
 msgstr ""
 
-msgid "Enable upload of SVG files and improve performance through their smaller image and logo file size."
+msgid "Enable upload of SVG files and improve performance through their smaller image and logo file size. SVG files can carry scripts, so administrators can always upload them, while other roles need SVG Uploads switched on under Permissions. Form upload fields only accept SVG files when they list .svg explicitly and the form was created by a user who may post unfiltered HTML."
 msgstr ""
 
 msgid "Enable video facade in order to load video player only when video is played."
@@ -15493,12 +15871,6 @@ msgstr ""
 msgid "Enhance your workflow with powerful artificial intelligence integrated directly into Avada."
 msgstr ""
 
-msgid "Enjoy 4 months free!"
-msgstr ""
-
-msgid "Ensure you are ready to optimize your website."
-msgstr ""
-
 msgid "Enter Field Name"
 msgstr ""
 
@@ -15592,6 +15964,9 @@ msgstr ""
 msgid "Enter a starting value for the element. Usually this should be empty and a placeholder used instead."
 msgstr ""
 
+msgid "Enter a text to show within the ToTop button next to the icon, e.g. \"Back to top\". Leave empty for an icon only button."
+msgstr ""
+
 msgid "Enter a username or email address."
 msgstr ""
 
@@ -15620,10 +15995,6 @@ msgstr ""
 msgid "Enter before text."
 msgstr ""
 
-#. translators: default value.
-msgid "Enter caption font size without px unit. In pixels, ex: 24 instead of 24px. %s"
-msgstr ""
-
 msgid "Enter caption font size without px unit. In pixels, ex: 24 instead of 24px. Default: 24"
 msgstr ""
 
@@ -15643,28 +16014,6 @@ msgid "Enter field name you want to use."
 msgstr ""
 
 msgid "Enter field name."
-msgstr ""
-
-msgid "Enter font size for H1s."
-msgstr ""
-
-msgid "Enter font size for H2s."
-msgstr ""
-
-msgid "Enter font size for H3s."
-msgstr ""
-
-msgid "Enter font size for H4s."
-msgstr ""
-
-msgid "Enter font size for H5s."
-msgstr ""
-
-msgid "Enter font size for H6s."
-msgstr ""
-
-#. translators: default value.
-msgid "Enter heading font size without px unit. In pixels, ex: 50 instead of 50px. %s"
 msgstr ""
 
 msgid "Enter heading font size without px unit. In pixels, ex: 50 instead of 50px. Default: 60"
@@ -16173,9 +16522,6 @@ msgstr ""
 msgid "Error State"
 msgstr ""
 
-msgid "Error Updating %s"
-msgstr ""
-
 msgid "Error fetching data:"
 msgstr ""
 
@@ -16307,6 +16653,16 @@ msgstr ""
 msgid "Event Sessions"
 msgstr ""
 
+#, fuzzy
+#| msgid "Event Date"
+msgid "Event Single"
+msgstr "תאריך אירוע"
+
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Event Single Content"
+msgstr "הסר תוכן"
+
 msgid "Event Start Date"
 msgstr "תחילת אירוע"
 
@@ -16393,6 +16749,11 @@ msgstr "אירועים"
 
 msgid "Events Archive"
 msgstr ""
+
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Events Archive Content"
+msgstr "הסר תוכן"
 
 msgid "Events Border Color"
 msgstr ""
@@ -16513,6 +16874,12 @@ msgstr ""
 msgid "Every Hour"
 msgstr ""
 
+msgid "Every Marketing, Sales and AI feature is unlocked for this site. The bars below show how much of it you already put to work."
+msgstr ""
+
+msgid "Every Setting Matches the Recommendations"
+msgstr ""
+
 msgid "Every Time"
 msgstr ""
 
@@ -16521,6 +16888,9 @@ msgid "Every active subscription includes full access to Avada support. Set up y
 msgstr ""
 
 msgid "Every active subscription includes full access to Avada support. This site is connected to My Avada, so you are ready to open a ticket whenever you need one."
+msgstr ""
+
+msgid "Every feature you switch off is code your visitors never download. Find Recommendations checks your content first, so you only switch off what nothing on your site uses."
 msgstr ""
 
 msgid "Every minute"
@@ -16534,6 +16904,12 @@ msgid "Every uploaded custom icon set needs a unique font name and CSS class pre
 msgstr ""
 
 msgid "Every variation is switched off, so this experiment will not run. Switch at least one variation on."
+msgstr ""
+
+msgid "Every website needs these layouts, so they are always added."
+msgstr ""
+
+msgid "Everybody sees Avada again. Settings of the Avada Custom Branding plugin stay in the database."
 msgstr ""
 
 msgid "Everything this site currently stores on a visitor's device or in its database, grouped by consent category. Not every entry appears on the consent bar — the Consent Via column says how each one is actually decided. Each entry links to the setting that governs it."
@@ -16596,9 +16972,6 @@ msgid "Exclude Products by SKU"
 msgstr ""
 
 msgid "Exclude Terms"
-msgstr ""
-
-msgid "Exclude from Studio"
 msgstr ""
 
 msgid "Exclude parts of your site like feed, pages, or archives from Maintenance or Coming Soon mode. Add one slug or URL per line."
@@ -16708,6 +17081,9 @@ msgid "Experiment Statistics"
 msgstr ""
 
 msgid "Experiment Variation"
+msgstr ""
+
+msgid "Experiment events"
 msgstr ""
 
 msgid "Experiment for link \"%s\""
@@ -16834,8 +17210,23 @@ msgctxt "Post Type Singular Name"
 msgid "FAQ"
 msgstr "שאלות נפוצות"
 
+#, fuzzy
+#| msgid "Archives"
+msgid "FAQ Archive"
+msgstr "ארכיונים"
+
+#, fuzzy
+#| msgid "Remove Content"
+msgid "FAQ Archive Content"
+msgstr "הסר תוכן"
+
 msgid "FAQ Categories"
 msgstr ""
+
+#, fuzzy
+#| msgid "Cart Count"
+msgid "FAQ Count"
+msgstr "ספירת עגלה"
 
 msgid "FAQ Featured Images"
 msgstr ""
@@ -16906,6 +17297,14 @@ msgstr ""
 msgid "FAQ Order"
 msgstr ""
 
+msgid "FAQ Single"
+msgstr ""
+
+#, fuzzy
+#| msgid "Full Content"
+msgid "FAQ Single Content"
+msgstr "תוכן מלא"
+
 msgid "FAQ Slug"
 msgstr ""
 
@@ -16915,7 +17314,7 @@ msgstr ""
 msgid "FAQ Toggle Hover Accent Color"
 msgstr ""
 
-msgid "FAQ posts found, only disable if you are not using them."
+msgid "FAQ posts were found. Keep this on while you use them."
 msgstr ""
 
 msgid "FAQ published privately."
@@ -17340,10 +17739,10 @@ msgstr ""
 msgid "Fetch Latest Patches"
 msgstr ""
 
-msgid "Fetch Posts"
+msgid "Fetch Priority"
 msgstr ""
 
-msgid "Fetch Priority"
+msgid "Fewer than 5 variants keeps font downloads light."
 msgstr ""
 
 msgid "Field"
@@ -17547,14 +17946,34 @@ msgstr ""
 msgid "Filters Container Height"
 msgstr ""
 
+msgid "Filters Custom Order"
+msgstr ""
+
+#. translators: Taxonomy title.
+msgid "Filters Custom Order: %s"
+msgstr ""
+
 msgid "Filters Link Active Color"
 msgstr ""
 
 msgid "Filters Link Hover Color"
 msgstr ""
 
+#, fuzzy
+#| msgid "Default Order"
+msgid "Filters Order"
+msgstr "סדר ברירת המחדל"
+
+msgid "Filters Order By"
+msgstr ""
+
 msgid "Filters Typography"
 msgstr ""
+
+#, fuzzy
+#| msgid "Show Filters"
+msgid "Filters:"
+msgstr "הצג מסננים"
 
 msgid "Final Conversion:"
 msgstr ""
@@ -17577,13 +17996,19 @@ msgstr ""
 msgid "Find On Page"
 msgstr ""
 
-msgid "Find Out How!"
+msgid "Find Out How"
 msgstr ""
 
 msgid "Find Recommendations"
 msgstr ""
 
-msgid "Find out more optimization tips in our documentation."
+msgid "Find Usage"
+msgstr ""
+
+msgid "Find the version that converts."
+msgstr ""
+
+msgid "Find where this is used"
 msgstr ""
 
 msgid "Finding and replacing"
@@ -17592,13 +18017,16 @@ msgstr ""
 msgid "Finding design examples"
 msgstr ""
 
+msgid "Finding stock photos"
+msgstr ""
+
+msgid "Fine-tune every speed setting in one place."
+msgstr ""
+
 msgid "Fine-tune the button(s) position. With \"Below Content\" it sets the gap above the button(s). With \"Overlay On Content\" it lifts the button(s) up from the bottom edge. Note: \"To Transparent\" fades via a mask, so the button only stays fully visible if the offset is at least the Fade Height. Enter a value with a unit, e.g. 20px."
 msgstr ""
 
 msgid "Finish"
-msgstr ""
-
-msgid "Finish Wizard"
 msgstr ""
 
 msgid "Finish checkout"
@@ -17812,6 +18240,9 @@ msgstr ""
 msgid "Folder"
 msgstr ""
 
+msgid "Follow Avada"
+msgstr ""
+
 msgid "Follow Button"
 msgstr ""
 
@@ -17853,9 +18284,6 @@ msgstr ""
 
 #. translators: link to docs
 msgid "Follow the steps in %s to get the site key."
-msgstr ""
-
-msgid "Follow the wizard to optimize your website for better performance."
 msgstr ""
 
 msgid "Font Awesome"
@@ -17913,6 +18341,9 @@ msgstr ""
 msgid "Fonts"
 msgstr ""
 
+msgid "Fonts load from your own server, without a connection to another one. CDN works too."
+msgstr ""
+
 msgid "Footer"
 msgstr "כותרת תחתונה"
 
@@ -17935,14 +18366,15 @@ msgid "Footer Layout"
 msgstr ""
 
 #, fuzzy
+#| msgid "Footer"
+msgid "Footer Text"
+msgstr "כותרת תחתונה"
+
+#, fuzzy
 msgid "Footers"
 msgstr "כותרת תחתונה"
 
 msgid "For all style types except border. Controls the style color."
-msgstr ""
-
-#. translators: %1$s: URL. %2$s: ID.
-msgid "For example the Video ID for %1$s is %2$s"
 msgstr ""
 
 msgid "For example the Video ID for http://vimeo.com/<strong>75230326</strong> is <strong>75230326</strong>"
@@ -17963,9 +18395,6 @@ msgstr ""
 
 #. translators: The placeholder label (embed-type).
 msgid "For privacy reasons %s needs your permission to be loaded."
-msgstr ""
-
-msgid "For the current month, your allowed credit has exceeded the limit. To request a higher limit, please contact our %1$ssupport team%2$s. For additional information, you may review your current usage details %3$shere%4$s"
 msgstr ""
 
 msgid "For unique cases where you are using CloudFlare and a cache server, ex: varnish cache. Enter your cache server IP to clear the Global Options dynamic CSS cache. Consult with your server admin for help."
@@ -18124,6 +18553,16 @@ msgstr ""
 msgid "Forum"
 msgstr "פורום"
 
+#, fuzzy
+#| msgid "Full Content"
+msgid "Forum Content"
+msgstr "תוכן מלא"
+
+#, fuzzy
+#| msgid "Forum"
+msgid "Forums"
+msgstr "פורום"
+
 msgid "Forward History"
 msgstr ""
 
@@ -18132,9 +18571,6 @@ msgid "Found %d scheduled task"
 msgid_plural "Found %d scheduled tasks"
 msgstr[0] ""
 msgstr[1] ""
-
-msgid "Found %s posts to be converted."
-msgstr ""
 
 msgid "Framed Scrolling"
 msgstr ""
@@ -18149,6 +18585,9 @@ msgid "Free Shipping Min. Amount"
 msgstr ""
 
 msgid "Free Shipping Status"
+msgstr ""
+
+msgid "Free for commercial use, no attribution required."
 msgstr ""
 
 msgid "Free shipping can be enabled through a coupon."
@@ -18173,6 +18612,9 @@ msgid "French Southern Territories"
 msgstr ""
 
 msgid "Frequency"
+msgstr ""
+
+msgid "Fresh assets are built, so your next visitor gets the faster website."
 msgstr ""
 
 msgid "Friday"
@@ -18434,6 +18876,9 @@ msgstr ""
 msgid "Generate an Avada color palette from a prompt or image. Only available in the Avada live builder."
 msgstr ""
 
+msgid "Generate with AI instead"
+msgstr ""
+
 msgid "Generate with Avada AI"
 msgstr ""
 
@@ -18491,6 +18936,9 @@ msgstr ""
 msgid "Get Free Quote"
 msgstr ""
 
+msgid "Get HubSpot Free"
+msgstr ""
+
 msgid "Get Special Offer"
 msgstr ""
 
@@ -18506,7 +18954,10 @@ msgstr ""
 msgid "Get Variable Value"
 msgstr ""
 
-msgid "Get a new link"
+msgid "Get Your Pro Tools Back"
+msgstr ""
+
+msgid "Get connection link"
 msgstr ""
 
 msgid "Get one to one help from the Avada support team through our ticket system. Connect your subscription first so we can see your setup and answer faster."
@@ -18573,6 +19024,12 @@ msgid "Give the variation a name."
 msgstr ""
 
 msgid "Global"
+msgstr "גולבלי"
+
+#. translators: %s: Library item type, e.g. Container.
+#, fuzzy
+#| msgid "Global"
+msgid "Global %s"
 msgstr "גולבלי"
 
 msgid "Global Color"
@@ -18675,10 +19132,16 @@ msgstr ""
 msgid "Go Back"
 msgstr ""
 
+msgid "Go Multilingual"
+msgstr ""
+
 msgid "Go To Compare Page"
 msgstr ""
 
 msgid "Go back"
+msgstr ""
+
+msgid "Go further with tips for a faster website."
 msgstr ""
 
 msgid "Go to Global Options"
@@ -18695,6 +19158,18 @@ msgid "Go to: %s"
 msgstr ""
 
 msgid "Golden hour"
+msgstr ""
+
+#. translators: %s: User display name.
+msgid "Good Afternoon, %s!"
+msgstr ""
+
+#. translators: %s: User display name.
+msgid "Good Evening, %s!"
+msgstr ""
+
+#. translators: %s: User display name.
+msgid "Good Morning, %s!"
 msgstr ""
 
 msgid "Good news! A product you are tracking has dropped in price."
@@ -18875,6 +19350,9 @@ msgstr ""
 msgid "Grouped Product"
 msgstr ""
 
+msgid "Grow Faster with Avada Pro"
+msgstr ""
+
 msgid "Grunge"
 msgstr ""
 
@@ -18928,16 +19406,10 @@ msgstr ""
 msgid "H1"
 msgstr ""
 
-msgid "H1 Font Size"
-msgstr ""
-
 msgid "H1 Headings Typography"
 msgstr ""
 
 msgid "H2"
-msgstr ""
-
-msgid "H2 Font Size"
 msgstr ""
 
 msgid "H2 Headings Typography"
@@ -18946,16 +19418,10 @@ msgstr ""
 msgid "H3"
 msgstr ""
 
-msgid "H3 Font Size"
-msgstr ""
-
 msgid "H3 Headings Typography"
 msgstr ""
 
 msgid "H4"
-msgstr ""
-
-msgid "H4 Font Size"
 msgstr ""
 
 msgid "H4 Headings Typography"
@@ -18964,16 +19430,10 @@ msgstr ""
 msgid "H5"
 msgstr ""
 
-msgid "H5 Font Size"
-msgstr ""
-
 msgid "H5 Headings Typography"
 msgstr ""
 
 msgid "H6"
-msgstr ""
-
-msgid "H6 Font Size"
 msgstr ""
 
 msgid "H6 Headings Typography"
@@ -19067,6 +19527,11 @@ msgstr ""
 
 msgid "Header"
 msgstr "כותרת"
+
+#, fuzzy
+#| msgid "Header Position"
+msgid "Header & Footer"
+msgstr "מיקום כותרת"
 
 #, fuzzy
 msgid "Header Background Color"
@@ -19201,6 +19666,9 @@ msgstr ""
 msgid "Hello %s!"
 msgstr ""
 
+msgid "Help"
+msgstr ""
+
 msgid "Help Article"
 msgstr ""
 
@@ -19245,8 +19713,30 @@ msgstr ""
 msgid "Hidden Visible"
 msgstr ""
 
+#. translators: %s: The menu item's slug.
+msgid "Hidden menu item \"%s\""
+msgstr ""
+
+msgid "Hidden screens are removed from the menus and cannot be opened."
+msgstr ""
+
 msgid "Hide"
 msgstr "הסתר"
+
+msgid "Hide Account & Plan"
+msgstr ""
+
+msgid "Hide Admin Bar Menu"
+msgstr ""
+
+msgid "Hide Admin Menus"
+msgstr ""
+
+msgid "Hide Avada Resources"
+msgstr ""
+
+msgid "Hide Dashboard Screens"
+msgstr ""
 
 msgid "Hide Empty Categories"
 msgstr ""
@@ -19254,19 +19744,59 @@ msgstr ""
 msgid "Hide Empty Terms"
 msgstr ""
 
+#, fuzzy
+#| msgid "Footer"
+msgid "Hide Footer"
+msgstr "כותרת תחתונה"
+
+#, fuzzy
+#| msgid "Slide Link"
+msgid "Hide Help Links"
+msgstr "קישור שקופית פתיחה"
+
 msgid "Hide Hidden Titles"
 msgstr ""
+
+msgid "Hide Lost Password Link"
+msgstr ""
+
+#, fuzzy
+msgid "Hide News"
+msgstr "שם המחוון"
 
 msgid "Hide Notice"
 msgstr ""
 
+msgid "Hide Partners"
+msgstr ""
+
+msgid "Hide Plan Badge"
+msgstr ""
+
+#, fuzzy
+#| msgid "Registration"
+msgid "Hide Registration"
+msgstr "הרשמה"
+
 msgid "Hide Row"
+msgstr ""
+
+msgid "Hide Update Notices"
 msgstr ""
 
 msgid "Hide Video Controls"
 msgstr "הסתר בקרת וידאו "
 
+msgid "Hide What's New"
+msgstr ""
+
 msgid "Hide When Inactive"
+msgstr ""
+
+msgid "Hide WordPress Logo"
+msgstr ""
+
+msgid "Hide for a week"
 msgstr ""
 
 msgid "Hide or customize Off Canvas scrollbar. Styling and support varies depending on the browser."
@@ -19279,6 +19809,9 @@ msgid "Hide section"
 msgstr ""
 
 msgid "Hide this link when its action does not apply. An \"Open\" link once the target is open, a \"Close\" link while it is collapsed."
+msgstr ""
+
+msgid "Hides the menu items. The screens stay reachable by their address."
 msgstr ""
 
 msgid "Hierarchical"
@@ -19623,6 +20156,9 @@ msgstr ""
 msgid "How the context value is retrieved."
 msgstr ""
 
+msgid "How the theme shows on Appearance, Themes."
+msgstr ""
+
 msgid "How to extract content from the selected element."
 msgstr ""
 
@@ -19670,9 +20206,6 @@ msgid "HubSpot docs"
 msgstr ""
 
 msgid "HubSpot integration with Avada Forms documentation."
-msgstr ""
-
-msgid "HubSpot offers a full stack of software for marketing, sales, and also customer service, with a completely free CRM at its core. Grow now!"
 msgstr ""
 
 msgid "HubSpot properties have been reset."
@@ -19765,6 +20298,16 @@ msgstr ""
 msgid "Icon"
 msgstr "אייקון"
 
+#, fuzzy
+#| msgid "Icon Set"
+msgid "Icon Above Text"
+msgstr "ערכת סמלים"
+
+#, fuzzy
+#| msgid "center left"
+msgid "Icon After Text"
+msgstr "ממורכז לשמאל"
+
 msgid "Icon Alignment"
 msgstr ""
 
@@ -19804,6 +20347,9 @@ msgstr ""
 msgid "Icon Background Size"
 msgstr ""
 
+msgid "Icon Before Text"
+msgstr ""
+
 msgid "Icon Border Color"
 msgstr ""
 
@@ -19820,9 +20366,6 @@ msgid "Icon Border Width"
 msgstr ""
 
 msgid "Icon Boxed Mode"
-msgstr ""
-
-msgid "Icon Breakdown"
 msgstr ""
 
 msgid "Icon Circle"
@@ -19933,6 +20476,9 @@ msgstr ""
 msgid "Icon Tagline Position"
 msgstr ""
 
+msgid "Icon fonts are among the heaviest files a page loads. Scan your content to see which icon sets it uses, and keep only those switched on."
+msgstr ""
+
 msgid "Icon set name"
 msgstr ""
 
@@ -20022,6 +20568,11 @@ msgstr ""
 msgid "Identifies your saved wishlists on this device."
 msgstr ""
 
+#, fuzzy
+#| msgid "Quantity"
+msgid "Identity"
+msgstr "קובע את צבע הרקע של תיבת הכמות woocommerce."
+
 msgid "If WooCommerce is active, also clear the password nag, auto-login the user via the WooCommerce auth cookie (merging the cart session) and respect the woocommerce_disable_password_change_notification filter for the admin notification."
 msgstr ""
 
@@ -20067,9 +20618,6 @@ msgstr ""
 msgid "If set to \"yes\", the placeholder text will shrink to 75% of its original size when moved to the top or bottom of the field."
 msgstr ""
 
-msgid "If set to cover, the video will fill the entire slider area.  If set to contain, the video will display such that both its width and its height can fit inside the slider area."
-msgstr ""
-
 msgid "If set to cover, the video will fill the entire slider area. If set to contain, the video will display such that both its width and its height can fit inside the slider area."
 msgstr ""
 
@@ -20089,9 +20637,6 @@ msgid "If the order received page (after user checks out), is successful (paymen
 msgstr ""
 
 msgid "If the user installs your site as an app, select how the app will behave. For more information about these options please refer to <a href=\"https://developers.google.com/web/fundamentals/web-app-manifest/#display\" target=\"_blank\">this document.</a>"
-msgstr ""
-
-msgid "If this is set to yes, autoplay must be enabled, otherwise the video can't play. For YouTube and Vimeo videos, in order to ensure the controls are always fully visible, the Video Display Mode should be set to \"contain\"."
 msgstr ""
 
 msgid "If this is set to yes, autoplay must be enabled, otherwise the video can't play. For YouTube and Vimeo videos, in order to ensure the controls are always fully visible, the Video Display Mode should be set to \\\"contain\\\"."
@@ -20142,19 +20687,18 @@ msgstr ""
 msgid "Illinois"
 msgstr ""
 
+#, fuzzy
+#| msgid "Registration"
+msgid "Illustration"
+msgstr "הרשמה"
+
 msgid "Image"
 msgstr "תמונה"
-
-msgid "Image & Video Optimization"
-msgstr ""
 
 msgid "Image Alt Text"
 msgstr ""
 
 msgid "Image Aspect Ratio"
-msgstr ""
-
-msgid "Image Bank"
 msgstr ""
 
 msgid "Image Before & After"
@@ -20286,6 +20830,9 @@ msgstr ""
 msgid "Image already saved to library"
 msgstr ""
 
+msgid "Image import failed"
+msgstr ""
+
 msgid "Image index %s fetch error:"
 msgstr ""
 
@@ -20306,6 +20853,11 @@ msgctxt "post format archive title"
 msgid "Images"
 msgstr "תמונות"
 
+#, fuzzy
+#| msgid "Images"
+msgid "Images & Video"
+msgstr "תמונות"
+
 msgid "Images Aspect Ratio"
 msgstr ""
 
@@ -20313,6 +20865,9 @@ msgid "Images Focus Point"
 msgstr ""
 
 msgid "Images Max Width"
+msgstr ""
+
+msgid "Images from Pixabay"
 msgstr ""
 
 msgid "Imagick"
@@ -20336,17 +20891,24 @@ msgstr ""
 msgid "Import"
 msgstr "ייבא"
 
+#, fuzzy
+#| msgid "Import Content"
+msgid "Import &amp; Paste"
+msgstr "ייבא תוכן"
+
 msgid "Import / Export"
 msgstr ""
 
 msgid "Import Content"
 msgstr "ייבא תוכן"
 
-msgid "Import Dummy Content"
-msgstr ""
-
 msgid "Import Failed"
 msgstr ""
+
+#, fuzzy
+#| msgid "Import"
+msgid "Import File"
+msgstr "ייבא"
 
 msgid "Import From Global Options"
 msgstr ""
@@ -20366,10 +20928,16 @@ msgstr ""
 msgid "Import Options"
 msgstr "אפשרויות יבוא"
 
+msgid "Import Page Images"
+msgstr ""
+
 msgid "Import Page Options"
 msgstr ""
 
 msgid "Import Page Options.  You can import via file or copy and paste from JSON data."
+msgstr ""
+
+msgid "Import Post Card Designs?"
 msgstr ""
 
 msgid "Import Prebuilt Website Layout"
@@ -20409,6 +20977,11 @@ msgstr ""
 msgid "Import failed. Please try again."
 msgstr "הכניסה נכשלה, נסה שוב."
 
+#, fuzzy
+#| msgid "Import Content"
+msgid "Import them"
+msgstr "ייבא תוכן"
+
 msgid "Import/Export"
 msgstr ""
 
@@ -20425,6 +20998,18 @@ msgid "Imported"
 msgstr ""
 
 msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+msgid "Imported Avada Studio content has been removed."
+msgstr ""
+
+#, fuzzy
+#| msgid "Post Card"
+msgid "Imported Post Card"
+msgstr "גלויה"
+
+#. translators: %s: Date.
+msgid "Imported on %s. You can import them again."
 msgstr ""
 
 msgid "Imported user \"%s\""
@@ -20463,6 +21048,16 @@ msgstr ""
 msgid "Importing Studio Media:"
 msgstr ""
 
+#, fuzzy
+#| msgid "Import Options"
+msgid "Importing an image"
+msgstr "אפשרויות יבוא"
+
+#, fuzzy
+#| msgid "Import Options"
+msgid "Importing…"
+msgstr "אפשרויות יבוא"
+
 msgid "Impression: "
 msgstr ""
 
@@ -20480,6 +21075,11 @@ msgstr ""
 
 msgid "In Compare"
 msgstr ""
+
+#, fuzzy
+#| msgid "Container Options"
+msgid "In Page Options"
+msgstr "אפשרויות קונטיינר"
 
 msgid "In Stock"
 msgstr ""
@@ -20539,19 +21139,7 @@ msgstr ""
 msgid "In reply to: "
 msgstr "בתגובה ל:"
 
-msgid "In this step, you can check which fonts are being loaded on your website and optimize how those fonts are served. Ensure all families and variants selected here are required. Less variants will mean less requests and therefore faster loading."
-msgstr ""
-
-msgid "In this step, you can disable any Design, Layout and Form Elements you aren't using. When disabled, the Elements will not load and will therefore not be available in the Builder. Click the 'Find Recommendations' button to scan your website and show which Elements you are using."
-msgstr ""
-
-msgid "In this step, you can disable any features you aren't using, thereby reducing the amount of code loaded. Please be cautious, as disabling a feature you are using will result in broken behaviour until it is enabled again. Click the 'Find Recommendations' button to scan your website and present recommendations."
-msgstr ""
-
-msgid "In this step, you can optimize how the CSS and JS assets should be enqueued. These options can have a large impact on the performance of the page load, but some of these options can also break functionality if you are using a caching plugin, so proceed with caution."
-msgstr ""
-
-msgid "In this step, you can scan your website to get information about any icons you are using. You can also disable unused icon sets, and read about how to optimize your icons."
+msgid "In your AI app, add a custom connector and paste the link above. Note: the link is shown only once, so copy it now. Keep it private: anyone with it can edit the pages you connect."
 msgstr ""
 
 msgctxt "post"
@@ -20602,6 +21190,11 @@ msgstr ""
 
 msgid "Include Products by SKU"
 msgstr ""
+
+#, fuzzy
+#| msgid "Include Context"
+msgid "Include Site Settings"
+msgstr "כלול הקשר"
 
 msgid "Include Tax Info"
 msgstr ""
@@ -20732,6 +21325,12 @@ msgid "Inline Right"
 msgstr ""
 
 msgid "Inline element for usage inside of other elements."
+msgstr ""
+
+msgid "Inline the styles your key pages need first."
+msgstr ""
+
+msgid "Inlines the styles needed above the fold, so pages render before the full stylesheet loads."
 msgstr ""
 
 msgid "Inner"
@@ -21169,16 +21768,6 @@ msgstr ""
 msgid "Invalid %s ID."
 msgstr ""
 
-msgid "Invalid CSS Value"
-msgstr ""
-
-#. translators: The value.
-msgid "Invalid CSS Value: %s"
-msgstr ""
-
-msgid "Invalid Color"
-msgstr ""
-
 msgid "Invalid IDs."
 msgstr ""
 
@@ -21219,6 +21808,11 @@ msgid "Invalid experiment ID."
 msgstr ""
 
 msgid "Invalid file type"
+msgstr "סוג קובץ לא חוקי"
+
+#, fuzzy
+#| msgid "Invalid file type"
+msgid "Invalid item ID."
 msgstr "סוג קובץ לא חוקי"
 
 msgid "Invalid layout ID."
@@ -21471,9 +22065,6 @@ msgstr ""
 msgid "JS API"
 msgstr ""
 
-msgid "JS Optimization"
-msgstr ""
-
 msgid "JS Value"
 msgstr ""
 
@@ -21499,6 +22090,9 @@ msgid "Japanese"
 msgstr ""
 
 msgid "Japanese (Japan)"
+msgstr ""
+
+msgid "JavaScript"
 msgstr ""
 
 msgid "JavaScript Error"
@@ -21597,7 +22191,25 @@ msgstr ""
 msgid "Keep"
 msgstr ""
 
+msgid "Keep Building"
+msgstr ""
+
+msgid "Keep Optimizing"
+msgstr ""
+
 msgid "Keep Original Upload Images"
+msgstr ""
+
+msgid "Keep complex dynamic elements out of the area visitors see first."
+msgstr ""
+
+msgid "Keep only the elements you build with."
+msgstr ""
+
+msgid "Keep only the image sizes your website uses; every size is another file per upload."
+msgstr ""
+
+msgid "Keep yourself in the brand owners, or you would lose access to these settings."
 msgstr ""
 
 msgid "Kentucky"
@@ -21772,6 +22384,10 @@ msgstr ""
 msgid "Large View"
 msgstr ""
 
+#. translators: %s: Number of days.
+msgid "Last %s Days"
+msgstr ""
+
 msgid "Last AI action"
 msgstr ""
 
@@ -21848,9 +22464,6 @@ msgstr ""
 msgid "Launch the Avada setup wizard, the easiest way to get your website started."
 msgstr ""
 
-msgid "Launch your site in seconds on WP Engine who offer optimized hosting for the Avada Website Builder."
-msgstr ""
-
 msgid "Layer Slider"
 msgstr ""
 
@@ -21885,6 +22498,10 @@ msgstr "בונה מערך הפריסה"
 
 msgid "Layout Section Options"
 msgstr ""
+
+#, fuzzy
+msgid "Layout Sections"
+msgstr "מערך פריסה"
 
 msgid "Layout Specific Elements"
 msgstr ""
@@ -21935,6 +22552,9 @@ msgstr ""
 msgid "Lead"
 msgstr ""
 
+msgid "Leads, bookings and messages."
+msgstr ""
+
 msgid "Learn How To Import Sliders"
 msgstr ""
 
@@ -21944,19 +22564,34 @@ msgstr "המשך"
 msgid "Learn More in Documentation"
 msgstr ""
 
-msgid "Learn more about performance in our documentation, and pick up extra tips and tricks."
-msgstr ""
-
 msgid "Leave A Comment"
 msgstr " השאר תגובה "
 
 msgid "Leave a Review"
 msgstr ""
 
+msgid "Leave a field empty to keep the WordPress name."
+msgstr ""
+
+msgid "Leave a field empty to keep the name."
+msgstr ""
+
 msgid "Leave empty to use current user ID."
 msgstr ""
 
 msgid "Leave empty to use the default icon for the selected network. Many networks offer several variants."
+msgstr ""
+
+msgid "Leave off unless you use an external critical CSS service; without one, pages flash unstyled."
+msgstr ""
+
+msgid "Leave off unless your host does not compress files already; most do it at server level."
+msgstr ""
+
+msgid "Leave off. In most cases pages load faster without it."
+msgstr ""
+
+msgid "Leave this screen and lose your changes?"
 msgstr ""
 
 msgid "Lebanon"
@@ -22028,10 +22663,13 @@ msgstr ""
 msgid "Less Wishlisted (1-4)"
 msgstr ""
 
-msgid "Let an AI app you already use read and edit this page."
+msgid "Let an AI app you already use, like Claude or ChatGPT, read and edit this page."
 msgstr ""
 
 msgid "Let the contact explicitly opt in to specific email categories."
+msgstr ""
+
+msgid "Let the wizard recommend the right settings for your website, and Avada's tools optimize it for speed, one step at a time."
 msgstr ""
 
 msgid "Let users compare different products side-by-side to make better purchasing decisions."
@@ -22040,7 +22678,7 @@ msgstr ""
 msgid "Let users sign up to receive updates when a target price is reached for a product."
 msgstr ""
 
-msgid "Let's Start"
+msgid "Let your creativity flow with Avada’s tools."
 msgstr ""
 
 msgid "Letter Spacing"
@@ -22055,11 +22693,26 @@ msgstr ""
 msgid "Library"
 msgstr "ספרייה"
 
+#, fuzzy
+#| msgid "Drag Column"
+msgid "Library Column"
+msgstr "גרור עמודה"
+
 msgid "Library Columns"
 msgstr ""
 
+#, fuzzy
+#| msgid "Drag Container"
+msgid "Library Container"
+msgstr "גרור קונטיינר"
+
 msgid "Library Containers"
 msgstr ""
+
+#, fuzzy
+#| msgid "Drag Element"
+msgid "Library Element"
+msgstr "גרור אלמנט"
 
 msgid "Library Elements"
 msgstr ""
@@ -22326,10 +22979,10 @@ msgstr "קישור URL"
 msgid "Link color inside the ticket forms section."
 msgstr ""
 
-msgid "Link copied"
+msgid "Link description"
 msgstr ""
 
-msgid "Link description"
+msgid "Link it to your Avada account."
 msgstr ""
 
 msgid "Link name"
@@ -22478,6 +23131,9 @@ msgstr "טען"
 msgid "Load %s"
 msgstr ""
 
+msgid "Load From Database"
+msgstr ""
+
 msgid "Load Frontend Block Styles"
 msgstr ""
 
@@ -22522,6 +23178,12 @@ msgstr ""
 msgid "Load Off Canvas on these pages."
 msgstr ""
 
+msgid "Load Only the Elements You Use"
+msgstr ""
+
+msgid "Load Only the Icons You Use"
+msgstr ""
+
 msgid "Load Stylesheets In Footer"
 msgstr ""
 
@@ -22529,6 +23191,14 @@ msgid "Load Via YouTube No Cookie"
 msgstr ""
 
 msgid "Load jQuery In Footer"
+msgstr ""
+
+#, fuzzy
+#| msgid "Load"
+msgid "Load more"
+msgstr "טען"
+
+msgid "Load only the icon sets you need."
 msgstr ""
 
 msgid "Loading Behavior"
@@ -22555,9 +23225,6 @@ msgstr ""
 msgid "Loading previous messages..."
 msgstr ""
 
-msgid "Loading the homepage to generate assets..."
-msgstr ""
-
 #. translators: The name.
 msgid "Loading the next set of %s..."
 msgstr ""
@@ -22581,7 +23248,13 @@ msgstr ""
 msgid "Loading wizard data..."
 msgstr ""
 
+msgid "Loading your homepage to build fresh assets..."
+msgstr ""
+
 msgid "Loading..."
+msgstr ""
+
+msgid "Loading…"
 msgstr ""
 
 msgid "Local"
@@ -22640,14 +23313,31 @@ msgstr ""
 msgid "Login / Logout URL"
 msgstr ""
 
+msgid "Login CSS"
+msgstr ""
+
 msgid "Login Page"
 msgstr ""
+
+#, fuzzy
+#| msgid "Screen"
+msgid "Login Screen"
+msgstr "מסך"
 
 msgid "Login failed, please try again."
 msgstr "הכניסה נכשלה, נסה שוב."
 
 msgid "Logo"
 msgstr "לוגו"
+
+#, fuzzy
+msgid "Logo Link"
+msgstr "קישור %s"
+
+#, fuzzy
+#| msgid "Post Title"
+msgid "Logo Title"
+msgstr "כותרת הודעה"
 
 msgid "Logo displayed for your website at 512px x 512px when installing as an app. Logo image must be in PNG format."
 msgstr ""
@@ -22750,6 +23440,10 @@ msgid "Luxembourg"
 msgstr ""
 
 msgid "M"
+msgstr ""
+
+msgctxt "dashboard activation date"
+msgid "M j, Y"
 msgstr ""
 
 msgctxt "Currency"
@@ -22988,7 +23682,13 @@ msgstr ""
 msgid "Maintenance and support tools for Avada."
 msgstr ""
 
+msgid "Maintenance mode is on, so visitors see your maintenance page."
+msgstr ""
+
 msgid "Make Excerpt Symbol Link to Single Post Page"
+msgstr ""
+
+msgid "Make It Yours"
 msgstr ""
 
 msgid "Make a section for the reviewer avatar."
@@ -23061,6 +23761,9 @@ msgid "Make a selection to view Dynamic Data based on a specific post/page."
 msgstr ""
 
 msgid "Make a selection whether badge should show percentage discount or amount."
+msgstr ""
+
+msgid "Make background transparent"
 msgstr ""
 
 msgid "Make both sides the same width (sized to fit whichever label is longer) instead of each side hugging its own text. For \"Outside\", this also keeps the track centered when only one side has text."
@@ -23194,6 +23897,9 @@ msgid "Manage your saved elements. Elements cannot be inserted from the library 
 msgstr ""
 
 msgid "Manage your subscribers, organize them into lists, and track audience growth."
+msgstr ""
+
+msgid "Managed hosting with Avada installed and activated for you in one click."
 msgstr ""
 
 msgid "Manual (Drag Order)"
@@ -23485,6 +24191,9 @@ msgstr ""
 msgid "Mastodon Link"
 msgstr ""
 
+msgid "Match your typical layout: 1 for pages that open with a hero, 0 for pages that open with content."
+msgstr ""
+
 msgid "Matte"
 msgstr ""
 
@@ -23600,6 +24309,9 @@ msgstr ""
 msgid "Mayotte"
 msgstr ""
 
+msgid "Media"
+msgstr ""
+
 msgid "Media Library"
 msgstr ""
 
@@ -23646,6 +24358,9 @@ msgid "Mega Menus"
 msgstr ""
 
 msgid "Members"
+msgstr ""
+
+msgid "Memory Limit"
 msgstr ""
 
 msgid "Menu"
@@ -24018,6 +24733,9 @@ msgstr ""
 msgid "Modern Image Formats"
 msgstr ""
 
+msgid "Modern formats are much smaller than JPEG and PNG at the same quality."
+msgstr ""
+
 msgid "Modified"
 msgstr ""
 
@@ -24085,6 +24803,12 @@ msgstr ""
 msgid "More actions"
 msgstr ""
 
+msgid "More optimization tips"
+msgstr ""
+
+msgid "More results"
+msgstr ""
+
 msgid "Morocco"
 msgstr ""
 
@@ -24125,6 +24849,10 @@ msgid "Move Row"
 msgstr ""
 
 #, fuzzy
+msgid "Move to Trash"
+msgstr "העבר לפח"
+
+#, fuzzy
 msgid "Move to Trash?"
 msgstr "העבר לפח"
 
@@ -24141,6 +24869,9 @@ msgid "Moved Nested Column"
 msgstr ""
 
 msgid "Moved Online"
+msgstr ""
+
+msgid "Moves jQuery to the footer. Turn it off again if anything on the front end stops working."
 msgstr ""
 
 #, fuzzy
@@ -24185,6 +24916,10 @@ msgstr "השתק וידאו"
 
 msgid "Muted tones"
 msgstr ""
+
+#, fuzzy
+msgid "My Account"
+msgstr "החשבון שלי"
 
 msgid "My Account Page URL"
 msgstr ""
@@ -24357,6 +25092,9 @@ msgstr ""
 msgid "Need a new search?"
 msgstr "צריך חיפוש חדש?"
 
+msgid "Needs Your Attention"
+msgstr ""
+
 msgid "Needs to be a unique identifier (lowercase), used for button or modal_text_link element to open the modal. ex: mymodal."
 msgstr ""
 
@@ -24405,6 +25143,9 @@ msgstr "חדש"
 msgid "New %s Event"
 msgstr ""
 
+msgid "New AI app"
+msgstr ""
+
 msgid "New Caledonia"
 msgstr ""
 
@@ -24413,6 +25154,15 @@ msgstr ""
 
 msgid "New Color"
 msgstr ""
+
+#, fuzzy
+#| msgid "No Comments"
+msgid "New Comments"
+msgstr "אין תגובות"
+
+#, fuzzy
+msgid "New Contacts"
+msgstr "צור קשר"
 
 msgid "New Element"
 msgstr "אלמנט חדש"
@@ -24455,6 +25205,11 @@ msgctxt "Avada Off Canvas"
 msgid "New Off Canvas"
 msgstr ""
 
+#, fuzzy
+#| msgid "Save Page"
+msgid "New Page"
+msgstr "שמור עמוד"
+
 msgid "New Palette"
 msgstr ""
 
@@ -24476,6 +25231,12 @@ msgstr "שם מחוון חדש"
 msgid "New Subscribers"
 msgstr ""
 
+msgid "New Users"
+msgstr ""
+
+msgid "New Visitors"
+msgstr ""
+
 msgid "New Website"
 msgstr ""
 
@@ -24495,13 +25256,22 @@ msgstr ""
 msgid "New chat"
 msgstr "הצגת עגלה"
 
+msgid "New uploads are converted to a modern format that is much smaller than JPEG and PNG."
+msgstr ""
+
 msgid "Newest"
 msgstr ""
 
 msgid "Newest Scheduled Date"
 msgstr ""
 
+msgid "News Feed"
+msgstr ""
+
 msgid "News Ticker"
+msgstr ""
+
+msgid "Newsletters sent from Avada."
 msgstr ""
 
 msgid "Next"
@@ -24551,6 +25321,18 @@ msgstr ""
 msgid "No"
 msgstr "לא"
 
+#. translators: %s: The post type's name.
+#, fuzzy
+#| msgid "Not found"
+msgid "No %s found"
+msgstr "לא נמצא"
+
+#. translators: %s: The post type's name.
+#, fuzzy
+#| msgid "Not found in Trash"
+msgid "No %s found in Trash"
+msgstr "לא נמצא בזבל"
+
 msgid "No AI generated images found."
 msgstr ""
 
@@ -24566,13 +25348,10 @@ msgstr ""
 msgid "No Adobe Fonts detected."
 msgstr ""
 
-msgid "No Avada forms found, can be disabled. Alternatively if you haven't tried them yet, give them a go."
+msgid "No Avada Forms were found, so this feature can be switched off until you need one."
 msgstr ""
 
-msgid "No Avada off canvas found, can be disabled. Alternatively if you haven't tried them yet, give them a go."
-msgstr ""
-
-msgid "No Avada sliders found, should be disabled."
+msgid "No Avada Sliders were found, so this feature can be switched off."
 msgstr ""
 
 msgid "No Browser Data"
@@ -24614,7 +25393,7 @@ msgstr ""
 msgid "No Events Selected"
 msgstr ""
 
-msgid "No FAQ posts found, can be disabled."
+msgid "No FAQ posts were found, so this feature can be switched off."
 msgstr ""
 
 msgid "No Field"
@@ -24626,13 +25405,16 @@ msgstr ""
 msgid "No Follow"
 msgstr ""
 
-msgid "No Font Awesome icons found being used. Recommend disabling all."
+msgid "No Font Awesome icons were found in your content, so none of the subsets are needed."
 msgstr ""
 
 msgid "No Forms found."
 msgstr ""
 
 msgid "No Geo Data"
+msgstr ""
+
+msgid "No Google Maps were found in your content or templates, so the script is not needed."
 msgstr ""
 
 msgid "No IDs provided for deletion."
@@ -24674,6 +25456,9 @@ msgid "No OS Data"
 msgstr ""
 
 msgid "No Off Canvas items found."
+msgstr ""
+
+msgid "No Off Canvas items were found, so this feature can be switched off until you need one."
 msgstr ""
 
 msgctxt "Avada Off Canvas"
@@ -24739,11 +25524,22 @@ msgstr ""
 msgid "No Style"
 msgstr "בלי סגנון"
 
+#, fuzzy
+#| msgid "Not Found"
+msgid "No Uses Found"
+msgstr "לא נמצא"
+
+msgid "No Vimeo videos were found in your content, so the API script is not needed."
+msgstr ""
+
 msgid "No Websites Found"
 msgstr ""
 
 msgid "No Wrap"
 msgstr "ללא עיטוף"
+
+msgid "No YouTube videos were found in your content, so the API script is not needed."
+msgstr ""
 
 msgid "No abandoned cart found to restore."
 msgstr ""
@@ -24835,6 +25631,9 @@ msgstr ""
 msgid "No element to clone."
 msgstr ""
 
+msgid "No elements match your search."
+msgstr ""
+
 msgid "No email address found."
 msgstr ""
 
@@ -24857,18 +25656,6 @@ msgid "No form entries submitted yet."
 msgstr ""
 
 msgid "No form fields found."
-msgstr ""
-
-msgid "No form fields or HubSpot communication preferences found."
-msgstr ""
-
-msgid "No form fields or HubSpot preferences found."
-msgstr ""
-
-msgid "No form fields or HubSpot properties found."
-msgstr ""
-
-msgid "No form fields or Mailchimp merge tags found."
 msgstr ""
 
 msgid "No form selected. Please select a form to display it here."
@@ -24913,9 +25700,6 @@ msgstr ""
 msgid "No lists selected"
 msgstr ""
 
-msgid "No lists, subscriptions or form consent fields found."
-msgstr ""
-
 msgid "No location found for the entered address."
 msgstr ""
 
@@ -24952,7 +25736,10 @@ msgstr ""
 msgid "No password provided."
 msgstr ""
 
-msgid "No portfolio posts found, can be disabled."
+msgid "No photos found. Try fewer or different words."
+msgstr ""
+
+msgid "No portfolio posts were found, so this feature can be switched off."
 msgstr ""
 
 msgid "No post to clone or no permission."
@@ -25060,9 +25847,6 @@ msgstr ""
 msgid "No valid URLs found to generate."
 msgstr ""
 
-msgid "No valid content strings found."
-msgstr ""
-
 msgid "No valid quota returned."
 msgstr ""
 
@@ -25094,6 +25878,9 @@ msgid "None"
 msgstr "אין"
 
 msgid "None of the selected wishlists have a linked contact."
+msgstr ""
+
+msgid "None, unless your largest contentful paint is text or an icon. Preloaded fonts compete with more important files."
 msgstr ""
 
 msgid "Norfolk Island"
@@ -25144,6 +25931,11 @@ msgstr ""
 msgid "Not Being Tracked"
 msgstr ""
 
+#, fuzzy
+#| msgid "Not Found"
+msgid "Not Connected"
+msgstr "לא נמצא"
+
 msgid "Not Equal To"
 msgstr ""
 
@@ -25180,6 +25972,14 @@ msgstr ""
 msgid "Not Tracked"
 msgstr ""
 
+#, fuzzy
+#| msgid "Not Installed"
+msgid "Not Used"
+msgstr "לא מותקן"
+
+msgid "Not Used Anywhere"
+msgstr ""
+
 msgid "Not active"
 msgstr ""
 
@@ -25189,10 +25989,10 @@ msgstr ""
 msgid "Not all fields have been filled in correctly."
 msgstr ""
 
-msgid "Not available on this site yet."
+msgid "Not assigned to a layout"
 msgstr ""
 
-msgid "Not available."
+msgid "Not available on this site yet."
 msgstr ""
 
 msgid "Not connected"
@@ -25216,7 +26016,16 @@ msgstr ""
 msgid "Not right now"
 msgstr ""
 
+msgid "Not used by an experiment"
+msgstr ""
+
+msgid "Not used yet"
+msgstr ""
+
 msgid "Not writable, styles load inline"
+msgstr ""
+
+msgid "Not yet"
 msgstr ""
 
 msgid "Note for the site owner: this text describes what Avada is configured to do and is generated from your current settings. It cannot see content you have embedded from other services — a video, a map, a font or a chat widget — unless you have registered it as a consent type. Anything like that loads for every visitor without being asked about, and should be added above."
@@ -25237,9 +26046,6 @@ msgstr ""
 msgid "Note: The visual editor, which is necessary for Avada Builder to work, has been disabled in your profile settings."
 msgstr ""
 
-msgid "Note: This tool is only available in the Avada Builder. Right click any container to generate relevant copy via context menu."
-msgstr ""
-
 #, fuzzy
 msgid "Nothing Found"
 msgstr "לא נמצא כלום"
@@ -25256,6 +26062,12 @@ msgstr "לא נמצא כלום בפח"
 msgid "Nothing is collected in this category."
 msgstr ""
 
+msgid "Nothing left to change here. Save if you applied anything, then move on."
+msgstr ""
+
+msgid "Nothing on this site references this item, so it can safely be moved to the trash."
+msgstr ""
+
 msgid "Nothing personal"
 msgstr ""
 
@@ -25269,6 +26081,9 @@ msgid "Nothing to copy, the page is empty."
 msgstr ""
 
 msgid "Nothing to insert."
+msgstr ""
+
+msgid "Nothing was found, but not every place could be checked, so this item may still be in use."
 msgstr ""
 
 msgid "Nothing was imported - please make sure this is a valid Avada Slider export zip."
@@ -25468,6 +26283,9 @@ msgstr ""
 msgid "Off Canvas is closed when clicking on a scroll-to anchor link."
 msgstr ""
 
+msgid "Off Canvas items were found. Keep this on while any of them are in use."
+msgstr ""
+
 msgid "Off Label"
 msgstr ""
 
@@ -25519,6 +26337,11 @@ msgstr "דלוק"
 msgid "On Bar"
 msgstr ""
 
+#, fuzzy
+#| msgid "Cancel Changes"
+msgid "On Change"
+msgstr "בטל שינויים"
+
 msgid "On Click"
 msgstr ""
 
@@ -25532,9 +26355,6 @@ msgid "On Page Load"
 msgstr ""
 
 msgid "On Privacy Scrub"
-msgstr ""
-
-msgid "On Sale - Only %s"
 msgstr ""
 
 msgid "On Scroll"
@@ -25576,7 +26396,8 @@ msgstr ""
 msgid "One record per visit holding your browser, device and approximate region, with your IP address masked."
 msgstr ""
 
-msgid "Only %s - Buy Now"
+#. translators: 1: images generated, 2: images asked for.
+msgid "Only %1$s of %2$s images could be generated. You were only charged for the images shown."
 msgstr ""
 
 msgid "Only accepts JavaScript code wrapped with &lt;script&gt; tags and HTML markup that is valid inside the &lt;head&gt; tag."
@@ -25591,10 +26412,19 @@ msgstr ""
 msgid "Only campaign sends can be retried."
 msgstr ""
 
+msgid "Only emails can be sent as a preview."
+msgstr ""
+
 msgid "Only emails sent through a connected email sender are logged here."
 msgstr ""
 
 msgid "Only failed sends can be retried."
+msgstr ""
+
+msgid "Only needed by old jQuery code. Disable it unless a plugin still relies on it."
+msgstr ""
+
+msgid "Only needed for old icon codes. Update those in your pages and menus, then switch this off."
 msgstr ""
 
 msgid "Only numbers and phone characters are accepted"
@@ -25690,6 +26520,9 @@ msgstr ""
 msgid "Open a Ticket"
 msgstr ""
 
+msgid "Open a page in the Live Builder first."
+msgstr ""
+
 msgid "Open by Default"
 msgstr ""
 
@@ -25734,10 +26567,18 @@ msgstr ""
 msgid "Optimization"
 msgstr ""
 
+#, fuzzy
+#| msgid "Animation Speed"
+msgid "Optimization Complete"
+msgstr "מהירות אנימציה"
+
+msgid "Optimization Guide"
+msgstr ""
+
 msgid "Optimize Offscreen Rendering"
 msgstr ""
 
-msgid "Optimize your images before uploading them to your site."
+msgid "Optimized WordPress hosting for Avada, with four months free."
 msgstr ""
 
 msgid "Optional action group."
@@ -25930,13 +26771,13 @@ msgstr ""
 msgid "Other"
 msgstr "אחר"
 
-msgid "Other Feature Recommendations"
-msgstr ""
-
 msgid "Other Fields"
 msgstr ""
 
 msgid "Other Properties"
+msgstr ""
+
+msgid "Other Recommendations"
 msgstr ""
 
 msgid "Our site is currently undergoing scheduled maintenance. Please try again in a moment."
@@ -26004,6 +26845,11 @@ msgstr ""
 msgid "Overlay On Content"
 msgstr ""
 
+#, fuzzy
+#| msgid "Overlay"
+msgid "Overlays"
+msgstr "מכוסה"
+
 msgid "Overline"
 msgstr ""
 
@@ -26016,10 +26862,7 @@ msgstr ""
 msgid "Overview"
 msgstr ""
 
-msgid "Overwrite with a new color."
-msgstr ""
-
-msgid "Overwrite with a new typography."
+msgid "Owners"
 msgstr ""
 
 msgctxt "Currency"
@@ -26032,6 +26875,9 @@ msgstr ""
 
 msgctxt "Currency"
 msgid "PGK"
+msgstr ""
+
+msgid "PHP"
 msgstr ""
 
 msgctxt "Currency"
@@ -26199,7 +27045,14 @@ msgstr "דפים"
 msgid "Pages & Dummy Content"
 msgstr ""
 
+#, fuzzy
+msgid "Pages & Layouts"
+msgstr "הצג פריסה"
+
 msgid "Pages viewed, time on page and scroll depth, linked to a random session ID. Held anonymously for up to 24 hours while you decide; kept for the period opposite once you accept."
+msgstr ""
+
+msgid "Pages, layouts and forms you work on show up here."
 msgstr ""
 
 msgid "Pages:"
@@ -26402,6 +27255,11 @@ msgstr ""
 msgid "Paste Rich Content"
 msgstr ""
 
+#, fuzzy
+#| msgid "Site Width"
+msgid "Paste Without"
+msgstr "רוחב אתר"
+
 msgid "Paste content here..."
 msgstr ""
 
@@ -26601,13 +27459,12 @@ msgstr ""
 msgid "Performance"
 msgstr ""
 
-msgid "Performance Scores"
-msgstr ""
+#, fuzzy
+#| msgid "Column Options"
+msgid "Performance Options"
+msgstr "אפשרויות עמודה"
 
 msgid "Performance Wizard"
-msgstr ""
-
-msgid "Performance Wizard Complete!"
 msgstr ""
 
 msgid "Period"
@@ -26690,6 +27547,17 @@ msgstr ""
 msgid "Photo"
 msgstr ""
 
+#. translators: 1: photographer, 2: stock photo site. Stored in the image's
+#. description.
+#, fuzzy
+#| msgid "%1$s on %2$s"
+msgid "Photo by %1$s on %2$s"
+msgstr "%1$s , %2$s"
+
+#. translators: %s: stock photo site. Stored in the image's description.
+msgid "Photo from %s"
+msgstr ""
+
 msgid "Photorealistic"
 msgstr ""
 
@@ -26700,6 +27568,9 @@ msgid "Pick a highlight background color."
 msgstr ""
 
 msgid "Pick a text-color for your highlight. Leave empty to use an auto-calculated value."
+msgstr ""
+
+msgid "Pick up where you left off, or start on something new."
 msgstr ""
 
 msgid "Picture"
@@ -26782,6 +27653,11 @@ msgstr ""
 
 msgid "Plan"
 msgstr ""
+
+#, fuzzy
+#| msgid "Slide Link"
+msgid "Plan Link"
+msgstr "קישור שקופית פתיחה"
 
 msgid "Plan:"
 msgstr ""
@@ -26876,7 +27752,7 @@ msgstr ""
 msgid "Please enter template name"
 msgstr ""
 
-msgid "Please enter the comma separated filetypes or extensions that you want to allow. Leave empty to allow all. Example input: .jpg, .png, image/*. Note, WordPress file type permissions still apply."
+msgid "Please enter the comma separated filetypes or extensions that you want to allow. Leave empty to allow all. Example input: .jpg, .png, image/*. Note, WordPress file type permissions still apply. SVG files can carry scripts, so they are only accepted when .svg is listed here, SVG upload is enabled in the Global Options and the form was created by a user who may post unfiltered HTML."
 msgstr ""
 
 msgid "Please enter your URL that will be used to link the full slide."
@@ -26974,9 +27850,6 @@ msgstr ""
 msgid "Please upload a valid .zip export file."
 msgstr ""
 
-msgid "Please use live-editor to change this setting."
-msgstr ""
-
 msgid "Please verify your subscription"
 msgstr ""
 
@@ -27021,6 +27894,10 @@ msgstr ""
 
 msgid "Plural"
 msgstr "רבים"
+
+#. translators: %s: credits left in AI credit packs.
+msgid "Plus %s credits in AI credit packs, used once the monthly credits run out."
+msgstr ""
 
 msgid "Plus Lighter"
 msgstr ""
@@ -27149,6 +28026,9 @@ msgstr ""
 msgid "Popup Title Typography"
 msgstr ""
 
+msgid "Popups, slide-ins and menus."
+msgstr ""
+
 msgid "Portfolio"
 msgstr "פורטפוליו"
 
@@ -27192,6 +28072,11 @@ msgstr ""
 msgid "Portfolio Items"
 msgstr ""
 
+#, fuzzy
+#| msgid "Portfolios"
+msgid "Portfolio Projects"
+msgstr "פורטפוליו"
+
 msgid "Portfolio Single"
 msgstr ""
 
@@ -27207,7 +28092,7 @@ msgstr "תיק סלאג"
 msgid "Portfolio Tags"
 msgstr ""
 
-msgid "Portfolio posts found, only disable if you are not using them."
+msgid "Portfolio posts were found. Keep this on while you use them."
 msgstr ""
 
 msgid "Portfolio published privately."
@@ -27308,6 +28193,11 @@ msgstr ""
 
 msgid "Post Card Rotation Angle"
 msgstr ""
+
+#, fuzzy
+#| msgid "Post Card"
+msgid "Post Card:"
+msgstr "גלויה"
 
 msgid "Post Cards"
 msgstr "כרטיסיות פוסט"
@@ -27456,6 +28346,11 @@ msgstr ""
 msgid "Post Types"
 msgstr "סוגי פוסטים"
 
+#, fuzzy
+#| msgid "Post Types"
+msgid "Post Types To Clone"
+msgstr "סוגי פוסטים"
+
 msgid "Post Variable"
 msgstr ""
 
@@ -27472,9 +28367,6 @@ msgid "Post Views Counter"
 msgstr ""
 
 msgid "Post Views User Type Counting"
-msgstr ""
-
-msgid "Post conversion is complete!"
 msgstr ""
 
 #. translators: Number.
@@ -27545,7 +28437,7 @@ msgstr ""
 msgid "Posts by %s"
 msgstr ""
 
-msgid "Power your events for free with The Events Calendar, or upgrade to Pro to unlock recurring events, views, premium support, and more."
+msgid "Power Your Events"
 msgstr ""
 
 msgid "Pre-checked"
@@ -27563,7 +28455,7 @@ msgstr ""
 msgid "Prebuilts"
 msgstr ""
 
-msgid "Preconfigured question prompts available in the AI Ask panel."
+msgid "Preconfigured prompts available in AI Chat."
 msgstr ""
 
 msgid "Preconfigured writing prompts available in the AI Writer panel."
@@ -27596,11 +28488,14 @@ msgstr ""
 msgid "Preload Key Fonts"
 msgstr ""
 
+msgid "Preload only the font subsets your content uses."
+msgstr ""
+
+msgid "Preload only the font variants your design uses."
+msgstr ""
+
 msgid "Premium"
 msgstr "פרימיום"
-
-msgid "Premium Additions"
-msgstr ""
 
 msgid "Preserve Column Gap On Standout"
 msgstr ""
@@ -27626,6 +28521,16 @@ msgstr "תצוגה מקדימה של טקסט וסמל מותאם אישי תה�
 msgid "Preview Background Color"
 msgstr ""
 
+#, fuzzy
+#| msgid "Preview"
+msgid "Preview Branding"
+msgstr "תצוגה מקדימה של טקסט וסמל מותאם אישי תהיה כאן"
+
+#, fuzzy
+#| msgid "Price"
+msgid "Preview Color Mode"
+msgstr "מחיר"
+
 msgid "Preview Desktop"
 msgstr ""
 
@@ -27645,9 +28550,6 @@ msgid "Preview Mobile - Portrait Mode"
 msgstr ""
 
 msgid "Preview Mode"
-msgstr ""
-
-msgid "Preview Off Canvas"
 msgstr ""
 
 msgid "Preview Position"
@@ -27730,7 +28632,7 @@ msgstr ""
 msgid "Price Tracker Count"
 msgstr ""
 
-msgid "Price Tracker Has Items"
+msgid "Price Tracker Form"
 msgstr ""
 
 msgid "Price Tracker Item Count"
@@ -27816,6 +28718,11 @@ msgstr ""
 
 msgid "Pricing table column."
 msgstr ""
+
+#, fuzzy
+#| msgid "Border Color"
+msgid "Primary Color"
+msgstr "צבע גבול"
 
 msgid "Primary Color Overlay Text Color"
 msgstr ""
@@ -27997,6 +28904,9 @@ msgstr ""
 msgid "Pro Subscription Required"
 msgstr ""
 
+msgid "Pro adds the tools that turn visitors into customers, built into the dashboard you already use, so there are no extra plugins to install or update."
+msgstr ""
+
 msgid "Proceed to checkout"
 msgstr ""
 
@@ -28013,6 +28923,11 @@ msgstr ""
 msgid "Product Added To Cart"
 msgstr ""
 
+#, fuzzy
+#| msgid "Product Registration"
+msgid "Product Attribute Icons"
+msgstr "רישום המוצר"
+
 msgid "Product Categories"
 msgstr ""
 
@@ -28022,13 +28937,7 @@ msgstr ""
 msgid "Product Compare"
 msgstr ""
 
-msgid "Product Compare Count"
-msgstr ""
-
 msgid "Product Compare Counter Display"
-msgstr ""
-
-msgid "Product Compare Has Items"
 msgstr ""
 
 msgid "Product Compare Status"
@@ -28349,6 +29258,9 @@ msgstr ""
 msgid "Publish All"
 msgstr ""
 
+msgid "Publish and sell events for free, with recurring events and more on Pro."
+msgstr ""
+
 msgid "Published"
 msgstr "פורסם"
 
@@ -28471,6 +29383,11 @@ msgstr ""
 
 msgid "Query Var"
 msgstr "שאילתה Var"
+
+#, fuzzy
+#| msgid "Draft"
+msgid "Quick Draft"
+msgstr "טיוטה"
 
 msgid "Quick Start Guide"
 msgstr ""
@@ -28623,9 +29540,6 @@ msgstr ""
 msgid "Read More Link Url"
 msgstr ""
 
-msgid "Read The Documentation"
-msgstr ""
-
 msgid "Read our extensive docs."
 msgstr ""
 
@@ -28651,6 +29565,14 @@ msgid "Reading page layout"
 msgstr ""
 
 msgid "Readonly Field"
+msgstr ""
+
+#, fuzzy
+#| msgid "Read More"
+msgid "Ready to use"
+msgstr "המשך בקריאה "
+
+msgid "Ready-made designs."
 msgstr ""
 
 msgid "Real"
@@ -28704,6 +29626,9 @@ msgstr ""
 msgid "Recent products"
 msgstr ""
 
+msgid "Recently Edited"
+msgstr ""
+
 msgid "Recently Purchased"
 msgstr ""
 
@@ -28716,113 +29641,22 @@ msgstr ""
 msgid "Recipients"
 msgstr ""
 
-msgid "Recommend disabling if you don't use deprecated jQuery code."
-msgstr ""
-
-msgid "Recommend disabling if you don't use emojis to improve performance."
-msgstr ""
-
-msgid "Recommend disabling to save filesystem storage."
-msgstr ""
-
-msgid "Recommend enabling SVG upload for smaller image and logo file sizes."
-msgstr ""
-
-msgid "Recommend enabling for content-heavy pages to reduce initial load work."
-msgstr ""
-
-msgid "Recommend enabling if you use persistent object caching."
-msgstr ""
-
-msgid "Recommend enabling on Apache or LiteSpeed for compression and browser caching."
-msgstr ""
-
-msgid "Recommend enabling only if no jQuery-dependent scripts are in the head."
-msgstr ""
-
-msgid "Recommend enabling to combine JavaScript files for better performance."
-msgstr ""
-
-msgid "Recommend enabling to defer stylesheets to footer for non-render-blocking CSS."
-msgstr ""
-
-msgid "Recommend enabling to improve page load time by inlining critical CSS."
-msgstr ""
-
-msgid "Recommend enabling to load media-queries asynchronously for better mobile performance."
-msgstr ""
-
-msgid "Recommend enabling video facade to load video player only when video is played."
-msgstr ""
-
-msgid "Recommend only enabling image sizes you actually use on your site."
-msgstr ""
-
-msgid "Recommend preloading Google Fonts for better performance."
-msgstr ""
-
-msgid "Recommend preloading only the font subsets you actually use."
-msgstr ""
-
-msgid "Recommend preloading only the font subsets you use."
-msgstr ""
-
-msgid "Recommend preloading only the font variants you actually use."
-msgstr ""
-
-msgid "Recommend preloading only the font variants you use."
-msgstr ""
-
-msgid "Recommend setting to around 2560 to balance file size and quality on very large displays."
-msgstr ""
-
-msgid "Recommend setting to around 80 to balance file size and quality."
-msgstr ""
-
-msgid "Recommend setting to desktop only to disable element animations on mobile devices."
-msgstr ""
-
-msgid "Recommend setting to disabled unless you specifically want them for comments."
-msgstr ""
-
-msgid "Recommend setting to off unless you use the Gutenberg editor."
-msgstr ""
-
-msgid "Recommend setting to webP for a modern, broadly supported format."
-msgstr ""
-
-msgid "Recommend using Avada lazy loading for better performance with dynamically loaded elements."
-msgstr ""
-
-msgid "Recommend using Avada lazy loading for iframes to improve performance."
-msgstr ""
-
-msgid "Recommend using File mode for better performance."
-msgstr ""
-
-msgid "Recommend using Swap All Fonts for faster rendering."
-msgstr ""
-
-msgid "Recommend using local loading for better performance, but CDN will also work."
-msgstr ""
-
-msgid "Recommend using modern format for better performance."
-msgstr ""
-
 msgid "Recommended"
 msgstr "מומלץ"
 
 msgid "Recommended Plugins"
 msgstr ""
 
-msgid "Recommended to disable this and update any old icon references by editing the pages/menus."
-msgstr ""
-
-msgid "Recommended. This will create dummy blog posts, portfolio posts, and WooCommerce products to populate the feature layouts if selected."
+msgid "Recommended. Creates sample content, so the layouts of the selected pages and features have something to show."
 msgstr ""
 
 #, fuzzy
 msgid "Recommended:"
+msgstr "מומלץ"
+
+#. translators: %s: The recommended value, for example "Avada".
+#, fuzzy
+msgid "Recommended: %s"
 msgstr "מומלץ"
 
 msgid "Recommends to (mobile) browsers to prompt users to capture new media directly instead of selecting an existing file. Some directly open the camera app. Corresponding file types must have been set above. \"User\" indicates that the user-facing camera should be used, while  \"environment\" specifies that the outward-facing camera should be used. If not set, the browser will decide automatically, and likely load the standard file dialog. "
@@ -28838,6 +29672,9 @@ msgid "Records anonymised visit statistics — pages viewed, time on page and sc
 msgstr ""
 
 msgid "Records of the emails this site has sent you."
+msgstr ""
+
+msgid "Recover Lost Sales"
 msgstr ""
 
 msgid "Recovered"
@@ -28985,9 +29822,6 @@ msgstr ""
 msgid "Regular"
 msgstr ""
 
-msgid "Regularly update your plugins and themes for the latest performance improvements."
-msgstr ""
-
 msgid "Reject All"
 msgstr ""
 
@@ -29097,8 +29931,17 @@ msgstr ""
 msgid "Remove"
 msgstr "הסרה"
 
+#. translators: %s: the AI app's name, e.g. "Claude".
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove %s"
+msgstr "הסרה"
+
 #. translators: %s is the product name
 msgid "Remove %s from cart"
+msgstr ""
+
+msgid "Remove All Branding"
 msgstr ""
 
 msgid "Remove All Items"
@@ -29107,11 +29950,21 @@ msgstr ""
 msgid "Remove Avada Studio Content"
 msgstr ""
 
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove BG"
+msgstr "הסרה"
+
 msgid "Remove Background"
 msgstr ""
 
 msgid "Remove Content"
 msgstr "הסר תוכן"
+
+#, fuzzy
+#| msgid "Remove featured image %s"
+msgid "Remove Dashboard Widgets"
+msgstr "הסר תמונה מועדפת %s"
 
 msgid "Remove Empty Attributes"
 msgstr ""
@@ -29120,6 +29973,9 @@ msgid "Remove File"
 msgstr ""
 
 msgid "Remove Global?"
+msgstr ""
+
+msgid "Remove Help Tab"
 msgstr ""
 
 msgid "Remove Icon"
@@ -29131,8 +29987,10 @@ msgstr ""
 msgid "Remove Icon Color"
 msgstr ""
 
-msgid "Remove Image"
-msgstr ""
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Remove Imported Content"
+msgstr "הסר תוכן"
 
 msgid "Remove Inline Element"
 msgstr ""
@@ -29146,6 +30004,11 @@ msgstr ""
 msgid "Remove Row"
 msgstr ""
 
+#, fuzzy
+#| msgid "Element Options"
+msgid "Remove Screen Options"
+msgstr "אפשרויות אלמנטים"
+
 msgid "Remove Selected (%s)"
 msgstr ""
 
@@ -29156,6 +30019,12 @@ msgid "Remove Slider"
 msgstr ""
 
 msgid "Remove Studio Content"
+msgstr ""
+
+msgid "Remove all custom branding? This cannot be undone."
+msgstr ""
+
+msgid "Remove all previously imported Avada Studio content? This deletes the imported layouts, sections, forms, icons, menus and images site-wide, including any still used on your pages. This cannot be undone."
 msgstr ""
 
 msgid "Remove color"
@@ -29201,6 +30070,15 @@ msgstr ""
 msgid "Removed Global Status"
 msgstr ""
 
+msgid "Removes the WordPress menu from the admin bar."
+msgstr ""
+
+msgid "Removes the brand menu from the admin bar."
+msgstr ""
+
+msgid "Removes the dashboard footer altogether."
+msgstr ""
+
 #. translators: %s: Import stage name.
 msgid "Removing %s..."
 msgstr ""
@@ -29213,10 +30091,24 @@ msgstr "הסר תוכן"
 msgid "Removing prebuilt website content will remove ALL previously imported content from this prebuilt website and restore your site to the state it was in before this prebuilt content was imported."
 msgstr ""
 
+msgid "Rename Admin Menus"
+msgstr ""
+
+#, fuzzy
+#| msgid "Portfolios"
+msgid "Rename Portfolio & FAQs"
+msgstr "פורטפוליו"
+
+msgid "Rename page"
+msgstr ""
+
 msgid "Renaming an element"
 msgstr ""
 
 msgid "Rendering Logic Binding"
+msgstr ""
+
+msgid "Renew to keep getting Avada updates, prebuilt websites, Studio content and direct support for this site, all managed from your My Avada account."
 msgstr ""
 
 msgid "Repair"
@@ -29260,28 +30152,34 @@ msgstr ""
 msgid "Repeater Field Name"
 msgstr ""
 
-msgid "Repeater Row"
-msgstr ""
-
 msgid "Replace"
 msgstr ""
 
 msgid "Replace All"
 msgstr ""
 
-msgid "Replace Images"
-msgstr ""
-
 msgid "Replace all page content"
 msgstr "החלף את כל התוכן של העמוד"
-
-msgid "Replace content with AI"
-msgstr ""
 
 msgid "Replace with"
 msgstr ""
 
 msgid "Replacement text when no results are found."
+msgstr ""
+
+msgid "Replaces Avada's blue across the dashboard: buttons, links, active states and progress, in the dashboard's light and dark mode."
+msgstr ""
+
+msgid "Replaces Avada's green: icon tiles, badges, the connection status and the setup wizard's progress. Success messages stay green."
+msgstr ""
+
+msgid "Replaces the WordPress welcome panel on the WordPress dashboard. HTML is allowed."
+msgstr ""
+
+msgid "Replaces the greeting on the dashboard home. Leave empty to keep it."
+msgstr ""
+
+msgid "Replaces the thank-you line at the bottom of the dashboard."
 msgstr ""
 
 msgid "Reply To Email"
@@ -29336,6 +30234,26 @@ msgid "Required for the webhook. The Basic Auth password Postmark must send when
 msgstr ""
 
 msgid "Required for the webhook. The Basic Auth username Postmark must send when calling it. Webhook events are rejected until both username and password are set."
+msgstr ""
+
+msgid "Requires the Blog page"
+msgstr ""
+
+msgid "Requires the Events feature"
+msgstr ""
+
+msgid "Requires the FAQ feature"
+msgstr ""
+
+#, fuzzy
+#| msgid "Request Parameter"
+msgid "Requires the Forum feature"
+msgstr "בקש פרמטר"
+
+msgid "Requires the Portfolio page or feature"
+msgstr ""
+
+msgid "Requires the Shop page or WooCommerce"
 msgstr ""
 
 msgid "Rerun the %s migration."
@@ -29464,6 +30382,14 @@ msgstr "שחזר"
 msgid "Restore Cart URL"
 msgstr ""
 
+#, fuzzy
+#| msgid "Caption Background"
+msgid "Restore background"
+msgstr "רקע הכתובית"
+
+msgid "Restore empty space"
+msgstr ""
+
 msgid "Resume After Interaction"
 msgstr ""
 
@@ -29554,6 +30480,10 @@ msgstr ""
 msgid "Review Link"
 msgstr ""
 
+#, fuzzy
+msgid "Review Patches"
+msgstr "תיקון מהיר"
+
 msgid "Review Reminder"
 msgstr ""
 
@@ -29594,9 +30524,6 @@ msgid "Reviews Left"
 msgstr ""
 
 msgid "Revoke Access"
-msgstr ""
-
-msgid "Rewrite the content to fit in with my site. Use the site name and site description to help you."
 msgstr ""
 
 msgid "Rhode Island"
@@ -29821,10 +30748,16 @@ msgstr ""
 msgid "Run Scan"
 msgstr ""
 
+msgid "Run an A/B Test"
+msgstr ""
+
 msgid "Run split tests and create variations to optimize your conversion rates."
 msgstr ""
 
 msgid "Run the Avada Setup Wizard."
+msgstr ""
+
+msgid "Run the wizard once your website is built. Its scans look at your published content to decide what is safe to switch off."
 msgstr ""
 
 #. translators: %d: amount of actions
@@ -29833,10 +30766,10 @@ msgid_plural "Running %d actions"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "Running Ticker"
+msgid "Running Experiments"
 msgstr ""
 
-msgid "Running a lighthouse test to find new performance scores..."
+msgid "Running Ticker"
 msgstr ""
 
 msgid "Running post-processing for post %d"
@@ -29957,6 +30890,17 @@ msgstr ""
 msgid "SVG Media Upload"
 msgstr ""
 
+#, fuzzy
+#| msgid "Upload"
+msgid "SVG Uploads"
+msgstr "העלאה"
+
+msgid "SVG images cannot be used here"
+msgstr ""
+
+msgid "SVGs with a DOCTYPE are not accepted."
+msgstr ""
+
 msgctxt "Currency"
 msgid "SZL"
 msgstr ""
@@ -30028,6 +30972,9 @@ msgid "Sale!"
 msgstr ""
 
 msgid "Sales"
+msgstr ""
+
+msgid "Sales › Price Tracker"
 msgstr ""
 
 msgid "Same"
@@ -30108,6 +31055,11 @@ msgstr ""
 msgid "Save Assistant Conversations"
 msgstr ""
 
+#, fuzzy
+#| msgid "Save Page"
+msgid "Save Branding"
+msgstr "שמור עמוד"
+
 msgid "Save Changes"
 msgstr ""
 
@@ -30153,8 +31105,10 @@ msgstr "שמור עמוד"
 msgid "Save Page Options"
 msgstr ""
 
-msgid "Save Pre-selected"
-msgstr ""
+#, fuzzy
+#| msgid "Save Template"
+msgid "Save Selected"
+msgstr "שמור תבנית"
 
 msgid "Save Settings"
 msgstr ""
@@ -30183,9 +31137,6 @@ msgstr ""
 
 msgid "Save my name, email, and website in this browser for the next time I comment."
 msgstr "שמור את שמי, דואל ואתרי בדפדפן זה בפעם הבאה שאגיב"
-
-msgid "Save on Change"
-msgstr ""
 
 msgid "Save page layout"
 msgstr ""
@@ -30232,9 +31183,6 @@ msgstr ""
 msgid "Saving the page"
 msgstr ""
 
-msgid "Saving..."
-msgstr ""
-
 msgid "Scale"
 msgstr ""
 
@@ -30254,6 +31202,9 @@ msgid "Scale Y"
 msgstr ""
 
 msgid "Scan Abandoned Carts"
+msgstr ""
+
+msgid "Scan Again"
 msgstr ""
 
 msgid "Scanned abandoned carts. %d carts identified."
@@ -30451,6 +31402,7 @@ msgid "Search"
 msgstr " חפש "
 
 #. translators: Search type.
+#. translators: %s: The post type's name.
 #, fuzzy
 msgid "Search %s"
 msgstr "חפש: %s"
@@ -30556,6 +31508,11 @@ msgstr ""
 msgid "Search commands, options, or elements…"
 msgstr ""
 
+#, fuzzy
+#| msgid "Search Elements"
+msgid "Search elements"
+msgstr "חפש אלמנטים"
+
 msgid "Search entries..."
 msgstr ""
 
@@ -30588,6 +31545,11 @@ msgstr ""
 
 msgid "Search icons..."
 msgstr ""
+
+#, fuzzy
+#| msgid "Search Layouts"
+msgid "Search photos"
+msgstr "חפש פריסות"
 
 msgid "Search placeholder"
 msgstr ""
@@ -30626,6 +31588,11 @@ msgstr ""
 
 msgid "Sec"
 msgstr ""
+
+#, fuzzy
+#| msgid "Icon Color"
+msgid "Secondary Color"
+msgstr "צבע סמל"
 
 msgid "Seconds"
 msgstr ""
@@ -30678,6 +31645,9 @@ msgid "Security nonce check failed.  Attempts to reconnect were also unsuccessfu
 msgstr ""
 
 msgid "See the added Adobe Fonts, or press the button to reset Adobe Fonts cache."
+msgstr ""
+
+msgid "See the saved branding as your clients do. The admin bar switches it off again."
 msgstr ""
 
 msgid "See what Avada AI can do"
@@ -30893,9 +31863,6 @@ msgstr ""
 msgid "Select Product Categories"
 msgstr ""
 
-msgid "Select Referenced Off Canvases"
-msgstr ""
-
 msgid "Select Slide In"
 msgstr ""
 
@@ -30912,9 +31879,6 @@ msgid "Select Tags"
 msgstr ""
 
 msgid "Select Taxonomy"
-msgstr ""
-
-msgid "Select Testing"
 msgstr ""
 
 msgid "Select Text Color"
@@ -30960,15 +31924,7 @@ msgstr ""
 msgid "Select a color for the audio progress-bar."
 msgstr ""
 
-#. translators: default value.
-msgid "Select a color for the caption background. %s"
-msgstr ""
-
 msgid "Select a color for the caption background. Default: #000"
-msgstr ""
-
-#. translators: default value.
-msgid "Select a color for the caption font. %s"
 msgstr ""
 
 msgid "Select a color for the caption font. Default: #fff"
@@ -30983,15 +31939,7 @@ msgstr ""
 msgid "Select a color for the dots. Hex color code, ex: #fff. Default: #fff"
 msgstr ""
 
-#. translators: default value.
-msgid "Select a color for the heading background. %s"
-msgstr ""
-
 msgid "Select a color for the heading background. Default: #000"
-msgstr ""
-
-#. translators: default value.
-msgid "Select a color for the heading font. %s"
 msgstr ""
 
 msgid "Select a color for the heading font. Default: #fff"
@@ -31175,9 +32123,6 @@ msgstr ""
 msgid "Select an image mask."
 msgstr ""
 
-msgid "Select an image or video slide. If using an image, please select the image in the \"Featured Image\" box on the right hand side."
-msgstr "בחר שקופיות תמונה או וידאו. אם אתה משתמש בתמונה, בחר את התמונה בתיבת \"תמונות מומלצות\"\" בצד ימין."
-
 #, fuzzy
 msgid "Select an image or video slide. If using an image, please select the image in the \\\"Featured Image\\\" box on the right hand side."
 msgstr "בחר שקופיות תמונה או וידאו. אם אתה משתמש בתמונה, בחר את התמונה בתיבת \"תמונות מומלצות\"\" בצד ימין."
@@ -31344,10 +32289,6 @@ msgstr ""
 msgid "Select how the background image repeats."
 msgstr "בחירת כיצד תמונת הרקע חוזרת בשנית."
 
-#. translators: Additional description (defaults).
-msgid "Select how the background image repeats. %s"
-msgstr ""
-
 msgid "Select how the columns will be justified horizontally."
 msgstr ""
 
@@ -31455,9 +32396,6 @@ msgstr ""
 msgid "Select if the slider shows below or above the header. Only works for top header position. %s"
 msgstr ""
 
-msgid "Select if this is special setup wizard content."
-msgstr ""
-
 msgid "Select if you want the filled area percentage value to be shown."
 msgstr ""
 
@@ -31503,12 +32441,6 @@ msgstr ""
 msgid "Select if you would like an explicit checkbox consent or implicit consent."
 msgstr ""
 
-msgid "Select if you would like to attempt before and after testing. Will slow down process if selected."
-msgstr ""
-
-msgid "Select images that you would like the AI to make use of when replacing placeholder images. Ensure you have written a title and description for the image to help the AI."
-msgstr ""
-
 msgid "Select layout for view types."
 msgstr ""
 
@@ -31552,13 +32484,7 @@ msgstr ""
 msgid "Select off canvas to show when click on menu item."
 msgstr ""
 
-msgid "Select off canvas which is added to the item markup."
-msgstr ""
-
 msgid "Select off canvas."
-msgstr ""
-
-msgid "Select off canvases which are referenced in this item. Leaving blank if none."
 msgstr ""
 
 msgid "Select one or more terms to exclude from search results or leave blank to exclude none."
@@ -31619,9 +32545,6 @@ msgid "Select or search for product"
 msgstr ""
 
 msgid "Select or search for products"
-msgstr ""
-
-msgid "Select pages (incl. content without images) and additional features to be added to your website."
 msgstr ""
 
 msgid "Select pattern."
@@ -31815,9 +32738,6 @@ msgid "Select the button's alignment."
 msgstr ""
 
 msgid "Select the button's color. Select default or color name for Global Options, or select custom to use advanced color options below."
-msgstr ""
-
-msgid "Select the button's color. Select default or specific color name to use Global Options presets, or select custom to use advanced color options below."
 msgstr ""
 
 msgid "Select the button's color. Select default to use Global Options values, or custom to use advanced color options below."
@@ -32203,6 +33123,9 @@ msgstr ""
 msgid "Select the padding for your mobile menu's expand / collapse button. Enter values including any valid CSS unit, ex: 10px."
 msgstr ""
 
+msgid "Select the pages, features and dummy content to be added to your website."
+msgstr ""
+
 msgid "Select the path type."
 msgstr ""
 
@@ -32246,6 +33169,9 @@ msgid "Select the post type to display."
 msgstr ""
 
 msgid "Select the post type to pull the entries from."
+msgstr ""
+
+msgid "Select the post types that get the Clone link. Post types that come with their own duplicate feature, like WooCommerce products, are not listed."
 msgstr ""
 
 msgid "Select the post whose children should be displayed."
@@ -32777,6 +33703,9 @@ msgstr ""
 msgid "Semi-Bold 600 Italic"
 msgstr ""
 
+msgid "Send"
+msgstr ""
+
 msgid "Send Again"
 msgstr ""
 
@@ -32813,6 +33742,9 @@ msgstr ""
 msgid "Send WordPress new user notification, by triggering the \"register_new_user\" action."
 msgstr ""
 
+msgid "Send an Email Campaign"
+msgstr ""
+
 msgid "Send automatic emails to customers after purchase to drive more reviews."
 msgstr ""
 
@@ -32821,6 +33753,11 @@ msgstr ""
 
 msgid "Sender Email"
 msgstr ""
+
+#, fuzzy
+#| msgid "Slider Name"
+msgid "Sender Name"
+msgstr "שם המחוון"
 
 msgid "Sending"
 msgstr ""
@@ -32934,6 +33871,12 @@ msgid "Serbian (Bosnia and Herzegovina)"
 msgstr ""
 
 msgid "Serene"
+msgstr ""
+
+msgid "Serve Fonts Faster"
+msgstr ""
+
+msgid "Serve fewer, faster font files."
 msgstr ""
 
 msgid "Server Environment"
@@ -33129,9 +34072,6 @@ msgid "Set an operatot to connect several conditionals."
 msgstr ""
 
 msgid "Set as Draft"
-msgstr ""
-
-msgid "Set based on your typical page layout - 1 for pages with hero, 0 for content-first pages."
 msgstr ""
 
 msgid "Set border color for inactive image."
@@ -33603,7 +34543,7 @@ msgstr ""
 msgid "Set the duration of one full border rotation in seconds."
 msgstr ""
 
-msgid "Set the duration of one movement of the blobs, in seconds. Higher values are slower."
+msgid "Set the duration of one movement cycle of the blobs, in seconds. Higher values are slower."
 msgstr ""
 
 msgid "Set the duration of the transition between Post Cards. In milliseconds."
@@ -34379,9 +35319,6 @@ msgstr ""
 msgid "Set up keywords for auto-linking in your content."
 msgstr ""
 
-msgid "Set up your AI app"
-msgstr ""
-
 msgid "Set where along the bar edge the toggle tab appears. \"Start\" means top on left/right bars, and left on top/bottom bars."
 msgstr ""
 
@@ -34433,10 +35370,21 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+msgid "Settings access by role, the brand owners have it now"
+msgstr ""
+
 msgid "Settings have changed, you need to save the page before you export or save page options."
 msgstr ""
 
 msgid "Settings imported successfully. Reloading…"
+msgstr ""
+
+#, fuzzy
+#| msgid "Partial Import"
+msgid "Settings imported."
+msgstr "ייבוא חלקי"
+
+msgid "Settings marked Pro need an active Avada Pro plan. What was set up before keeps working, it can only be changed with Pro."
 msgstr ""
 
 msgid "Setup Complete!"
@@ -34448,7 +35396,7 @@ msgstr ""
 msgid "Setup Wizard"
 msgstr ""
 
-msgid "Setup Wizard Content"
+msgid "Several apps can work on the page at once."
 msgstr ""
 
 msgid "Sex / Gender"
@@ -34931,6 +35879,9 @@ msgstr ""
 msgid "Show without \"All\""
 msgstr ""
 
+msgid "Show your own brand instead of Avada. Brand owners keep seeing Avada, everybody else sees your brand."
+msgstr ""
+
 msgid "Show:"
 msgstr ""
 
@@ -34946,9 +35897,22 @@ msgstr ""
 msgid "Showing all %1$s %2$s"
 msgstr ""
 
+#. translators: 1: Number of places shown, 2: Total number of places.
+msgid "Showing the first %1$s of %2$s."
+msgstr ""
+
 #. translators: 1: Number of entries shown, 2: Total number of entries, 3:
 #. Entry label, e.g. "entries".
 msgid "Showing the latest %1$s of %2$s %3$s"
+msgstr ""
+
+msgid "Shown instead of Avada in menus, the dashboard and the builders."
+msgstr ""
+
+msgid "Shown instead of the Avada version number. Leave empty to keep the number. With Pro, also on Appearance, Themes."
+msgstr ""
+
+msgid "Shows a lightweight preview, and loads the video player only when visitors press play."
 msgstr ""
 
 msgid "Shrink Placeholder on Focus"
@@ -35036,6 +36000,11 @@ msgstr ""
 msgid "Site"
 msgstr "אתר"
 
+#, fuzzy
+#| msgid "Default"
+msgid "Site Default"
+msgstr "ברירת מחדל"
+
 msgid "Site Description"
 msgstr ""
 
@@ -35078,7 +36047,13 @@ msgstr "קישור אתר"
 msgid "Site Width"
 msgstr "רוחב אתר"
 
+msgid "Site disconnected"
+msgstr ""
+
 msgid "Site footer"
+msgstr ""
+
+msgid "Site-wide headers and footers."
 msgstr ""
 
 msgid "Size"
@@ -35109,6 +36084,9 @@ msgstr ""
 msgid "Skills Needed: %s"
 msgstr ""
 
+msgid "Skip"
+msgstr ""
+
 msgid "Skip Lazy Loading"
 msgstr ""
 
@@ -35116,9 +36094,6 @@ msgid "Skip to content"
 msgstr "דלג לתוכן"
 
 msgid "Skipped"
-msgstr ""
-
-msgid "Skipped %s"
 msgstr ""
 
 msgid "Skipping attachment \"%s\", fetching attachments disabled"
@@ -35163,9 +36138,6 @@ msgstr "שקופית בלולאה חוזרת"
 #, fuzzy
 msgid "Slide Name"
 msgstr "שם המחוון"
-
-msgid "Slide Options"
-msgstr ""
 
 msgid "Slide Over"
 msgstr ""
@@ -35270,6 +36242,10 @@ msgstr ""
 
 msgid "Slider Width"
 msgstr ""
+
+#, fuzzy
+msgid "Slider menu labels"
+msgstr "שם המחוון"
 
 #, fuzzy
 msgid "Slider name"
@@ -35410,6 +36386,14 @@ msgstr ""
 msgid "Social Links Icons Tooltip Position"
 msgstr ""
 
+#, fuzzy
+msgid "Social Media Icons"
+msgstr "קישור למדיה החברתית"
+
+#, fuzzy
+msgid "Social Media Links"
+msgstr "קישור למדיה החברתית"
+
 msgid "Social Network"
 msgstr ""
 
@@ -35447,10 +36431,19 @@ msgstr ""
 msgid "Somalia"
 msgstr ""
 
+msgid "Some images could not be generated"
+msgstr ""
+
 msgid "Some of these settings need the Pro plan. Privacy settings stay editable, and features can always be switched off."
 msgstr ""
 
+msgid "Some places could not be checked:"
+msgstr ""
+
 msgid "Some recommended plugins are not active. Functionality and content may be missing or not work as intended if you proceed."
+msgstr ""
+
+msgid "Some settings have no equivalent in Avada One and were not imported:"
 msgstr ""
 
 msgid "Some settings were not saved"
@@ -35473,6 +36466,9 @@ msgstr ""
 
 #. translators: HTTP response code
 msgid "Something went wrong while checking API status. Response code: %1$s. %2$s"
+msgstr ""
+
+msgid "Something went wrong while checking where this is used."
 msgstr ""
 
 msgid "Something went wrong while retrieving your map, please ensure you have entered the short code correctly."
@@ -35512,6 +36508,12 @@ msgstr ""
 msgid "Sorry, you are not allowed to change the status of this post."
 msgstr ""
 
+msgid "Sorry, you are not allowed to change the status of this slide."
+msgstr ""
+
+msgid "Sorry, you are not allowed to change this layout."
+msgstr ""
+
 msgid "Sorry, you are not allowed to clone sliders."
 msgstr ""
 
@@ -35522,6 +36524,9 @@ msgid "Sorry, you are not allowed to clone this item."
 msgstr ""
 
 msgid "Sorry, you are not allowed to clone this post."
+msgstr ""
+
+msgid "Sorry, you are not allowed to clone this slide."
 msgstr ""
 
 msgid "Sorry, you are not allowed to create sliders."
@@ -35545,10 +36550,22 @@ msgstr ""
 msgid "Sorry, you are not allowed to do that."
 msgstr ""
 
+msgid "Sorry, you are not allowed to edit this item."
+msgstr ""
+
 msgid "Sorry, you are not allowed to edit this post."
 msgstr ""
 
+msgid "Sorry, you are not allowed to edit this slide."
+msgstr ""
+
 msgid "Sorry, you are not allowed to modify slides."
+msgstr ""
+
+msgid "Sorry, you are not allowed to modify this slide."
+msgstr ""
+
+msgid "Sorry, you are not allowed to remove Studio content."
 msgstr ""
 
 msgid "Sorry, you are not allowed to rename this icon set."
@@ -35563,6 +36580,9 @@ msgstr ""
 msgid "Sorry, you are not allowed to restore this post."
 msgstr ""
 
+msgid "Sorry, you are not allowed to send email previews."
+msgstr ""
+
 msgid "Sorry, you are not allowed to update sliders."
 msgstr ""
 
@@ -35571,6 +36591,10 @@ msgstr ""
 
 msgid "Sorry, you are not allowed to update this icon set."
 msgstr ""
+
+#, fuzzy
+msgid "Sorry, you are not allowed to update this slide."
+msgstr "האם אתה בטוח שברצונך למחוק עיצוב פריסה זו?"
 
 msgid "Sorry, your browser doesn't support embedded videos."
 msgstr "מצטערים, הדפדפן שלך לא תומך בסרטונים מוטמעים."
@@ -35831,6 +36855,12 @@ msgid "Speed"
 msgstr ""
 
 msgid "Speed Up AI Content"
+msgstr ""
+
+msgid "Speed Up Images, CSS and Scripts"
+msgstr ""
+
+msgid "Speed Up Your Site"
 msgstr ""
 
 msgid "Speed of Animation"
@@ -36172,11 +37202,34 @@ msgstr ""
 msgid "Stock Typography"
 msgstr ""
 
+#. translators: %s: the technical reason.
+msgid "Stock image search failed (%s)."
+msgstr ""
+
+msgid "Stock image search is busy right now. Try again in a minute."
+msgstr ""
+
+msgid "Stock image search is not available right now. Try again later, or generate an image instead."
+msgstr ""
+
+msgid "Stock image search needs Avada AI to be active on this site."
+msgstr ""
+
 msgid "Stone"
 msgstr ""
 
+#, fuzzy
+#| msgid "Toggle Preview"
+msgid "Stop Branding Preview"
+msgstr "החלף תצוגה מקדימה"
+
 msgid "Stop Collecting"
 msgstr ""
+
+#, fuzzy
+#| msgid "Preview"
+msgid "Stop Preview"
+msgstr "תצוגה מקדימה של טקסט וסמל מותאם אישי תהיה כאן"
 
 #. translators: %d: amount of time
 msgid "Stopped the insanity for %d second"
@@ -36200,6 +37253,9 @@ msgid "Stores a hash of the cart contents so WooCommerce can detect when cart co
 msgstr ""
 
 msgid "Stores the product IDs you are comparing. Set only after you add a product."
+msgstr ""
+
+msgid "Stores your privacy and consent choices so they are respected on future visits."
 msgstr ""
 
 msgid "Stores your wishlist contents when you are not signed in. Set only after you add a product."
@@ -36258,9 +37314,6 @@ msgid "Structured Data"
 msgstr ""
 
 msgid "Studio"
-msgstr ""
-
-msgid "Studio Tools"
 msgstr ""
 
 msgid "Studio lighting"
@@ -36662,6 +37715,18 @@ msgstr ""
 msgid "Switch between the regular colors and the colors used on hover and for the term of the page being viewed."
 msgstr ""
 
+msgid "Switch from Font Awesome to a single custom icon set to load fewer files."
+msgstr ""
+
+msgid "Switch off features you do not use."
+msgstr ""
+
+msgid "Switch to Dark Mode"
+msgstr ""
+
+msgid "Switch to Light Mode"
+msgstr ""
+
 msgid "Switched off"
 msgstr ""
 
@@ -37041,6 +38106,9 @@ msgstr ""
 msgid "Take Over"
 msgstr ""
 
+msgid "Take your branding from site to site: export these settings as a file and import it on your other sites. Exports of the Avada Custom Branding plugin from Avada Classic import too. Only the parts a file has are replaced."
+msgstr ""
+
 msgid "Tamil"
 msgstr ""
 
@@ -37228,6 +38296,9 @@ msgstr ""
 msgid "Testimonials Speed"
 msgstr ""
 
+msgid "Tests, contacts and emails."
+msgstr ""
+
 msgid "Texas"
 msgstr ""
 
@@ -37384,6 +38455,9 @@ msgstr ""
 msgid "Text shown on the button while the %s is expanded."
 msgstr ""
 
+msgid "Text shows straight away in a fallback font, instead of staying blank while fonts load."
+msgstr ""
+
 msgid "Text to be displayed inside the popover."
 msgstr ""
 
@@ -37419,7 +38493,18 @@ msgstr "תודה שבחרת אוואדה. אנו מחויבים באופן מל�
 msgid "Thank you for logging in %s."
 msgstr ""
 
+#, fuzzy
+#| msgid "Login failed, please try again."
+msgid "That did not work. Please try again."
+msgstr "הכניסה נכשלה, נסה שוב."
+
 msgid "That doesn't look like a valid URL. Enter the full web address of an existing page, e.g. https://example.com/about."
+msgstr ""
+
+msgid "That image has been removed from Pixabay. Pick another one."
+msgstr ""
+
+msgid "That image link is no longer valid. Search again."
 msgstr ""
 
 msgid "The \"%1$s\" contrast with \"%2$s\" could be improved."
@@ -37428,15 +38513,15 @@ msgstr ""
 msgid "The \"%1$s\" lacks contrast with \"%2$s\"."
 msgstr ""
 
+msgid "The \"We're here to help\" links in the plan card."
+msgstr ""
+
 #. translators: %s php class name
 msgid "The %s class can only be run within WP CLI."
 msgstr ""
 
 #. translators: %s: Section name, e.g. "Marketing".
 msgid "The %s features your site used on Pro keep working exactly as they were set up, but changes need the Pro plan."
-msgstr ""
-
-msgid "The AI can read and change this page. Changes stay unsaved until you save."
 msgstr ""
 
 msgid "The AI is temporarily unavailable at a system level. Please try again shortly, and %1$scontact us%2$s if the problem persists"
@@ -37507,6 +38592,19 @@ msgstr ""
 msgid "The Postmark message stream ID used for transactional emails. Default: outbound."
 msgstr ""
 
+msgid "The Pro features your site used keep running as they were set up. Upgrade again to change them and unlock everything else Pro offers."
+msgstr ""
+
+#. translators: %s: upload error.
+msgid "The SVG could not be saved: %s"
+msgstr ""
+
+msgid "The SVG has nothing left to draw once unsafe content is removed."
+msgstr ""
+
+msgid "The SVG is empty or too large."
+msgstr ""
+
 msgid "The Slider feature is not currently enabled."
 msgstr ""
 
@@ -37528,6 +38626,12 @@ msgstr ""
 msgid "The URL the project text links to."
 msgstr "הכתובת אשר טקסט זכויות היוצרים מקשר אליה"
 
+msgid "The What's New button in the dashboard header."
+msgstr ""
+
+msgid "The WordPress admin menu, admin bar, buttons and links take your primary and secondary colors. Needs a primary color."
+msgstr ""
+
 msgid "The ZIP file is not a valid icon set."
 msgstr ""
 
@@ -37546,6 +38650,12 @@ msgstr ""
 msgid "The active child theme, if any. A child theme can override Avada templates, styles and functions."
 msgstr ""
 
+msgid "The activity could not be loaded."
+msgstr ""
+
+msgid "The address of an RSS feed with your own news. Leave empty for Avada's."
+msgstr ""
+
 msgid "The address this icon links to. Rows without a link are not displayed."
 msgstr ""
 
@@ -37562,6 +38672,12 @@ msgid "The archive details updated."
 msgstr ""
 
 msgid "The attribute value."
+msgstr ""
+
+msgid "The background is already transparent"
+msgstr ""
+
+msgid "The background remover works on photos and would turn an SVG into a flat image. For an SVG made with the Vector model, use its \"Make background transparent\" button instead."
 msgstr ""
 
 msgid "The box title."
@@ -37605,6 +38721,18 @@ msgstr ""
 msgid "The connection between your browser identifier and your customer profile, created when you log in, order, or open a personalised email link."
 msgstr ""
 
+msgid "The connection closed."
+msgstr ""
+
+msgid "The connection timed out."
+msgstr ""
+
+msgid "The connection was lost."
+msgstr ""
+
+msgid "The connection was refused. Check the site connection."
+msgstr ""
+
 msgid "The consent category this feature is listed under."
 msgstr ""
 
@@ -37620,6 +38748,9 @@ msgstr ""
 msgid "The content is generated by AI, it may display inaccurate information."
 msgstr ""
 
+msgid "The converted images are what your pages use, so the originals only take up storage."
+msgstr ""
+
 msgid "The current language used by WordPress. Default is English."
 msgstr ""
 
@@ -37631,6 +38762,16 @@ msgstr "טקסט זכויות יוצרים מותאם אישית זה יופיע
 
 msgid "The custom project text that will link."
 msgstr "טקסט הפרוייקט מותאם אישית זה יופיע בתור קישור."
+
+msgid "The dashboard's header, menu and footer, for everybody who sees your branding."
+msgstr ""
+
+msgid "The database could not be searched, so where this is used is unknown."
+msgstr ""
+
+#. translators: %s: Database error message.
+msgid "The database could not be searched: %s"
+msgstr ""
 
 msgid "The date/time the action is/was scheduled to run."
 msgstr ""
@@ -37656,10 +38797,19 @@ msgstr ""
 msgid "The email address used as reply-to on all outbound emails — campaigns, price alerts, abandoned cart recovery, review reminders, and more."
 msgstr ""
 
+msgid "The experiments using events"
+msgstr ""
+
 msgid "The fade in and fade out speed of the large image."
 msgstr ""
 
 msgid "The file does not exist"
+msgstr ""
+
+msgid "The file imported must be an exported JSON file from Avada Page Options."
+msgstr ""
+
+msgid "The file is not a valid SVG."
 msgstr ""
 
 msgid "The file name is generated automatically. It is part of the image URL, so it can no longer be changed once the image is saved."
@@ -37687,6 +38837,10 @@ msgstr[1] ""
 msgid "The height of the frame in pixels in which the image will be scrolled."
 msgstr ""
 
+#. translators: %s: the reason WordPress gave.
+msgid "The image could not be added to the Media Library: %s"
+msgstr ""
+
 msgid "The import process has timed out, but already imported steps have been saved. Click \"continue\", and the importer will attempt to complete the remaining steps of the import process."
 msgstr ""
 
@@ -37708,7 +38862,23 @@ msgstr ""
 msgid "The largest file size that can be uploaded to your WordPress installation."
 msgstr ""
 
+msgid "The latest posts in the news card."
+msgstr ""
+
+#. translators: %s: Layout name.
+msgid "The layout \"%s\" could not be read."
+msgstr ""
+
+msgid "The layout for pages that cannot be found."
+msgstr ""
+
+msgid "The layout for search results."
+msgstr ""
+
 msgid "The length of the post excerpt. Words or characters, depending on the \"Excerpt Base\" global option."
+msgstr ""
+
+msgid "The line under the greeting. Leave empty to keep it."
 msgstr ""
 
 msgid "The link that will be shared. Leave empty to use URL of current post."
@@ -37779,6 +38949,9 @@ msgstr ""
 msgid "The multibyte string extension. Avada uses it to handle non-Latin characters correctly, including in email content."
 msgstr ""
 
+msgid "The name and images that replace Avada."
+msgstr ""
+
 msgid "The name of the campaign."
 msgstr ""
 
@@ -37837,6 +39010,12 @@ msgstr ""
 msgid "The page used as the wishlist page."
 msgstr ""
 
+msgid "The palette could not be added"
+msgstr ""
+
+msgid "The partner offers below the cards."
+msgstr ""
+
 msgid "The password needs to be at least %s characters long."
 msgstr ""
 
@@ -37865,10 +39044,19 @@ msgstr ""
 msgid "The placeholder text to display as the initial selection."
 msgstr ""
 
+msgid "The plan and My Avada badge in the dashboard header."
+msgstr ""
+
+msgid "The plan card, the plan badge and every upgrade prompt."
+msgstr ""
+
 msgid "The post ID for context-aware tag filtering."
 msgstr ""
 
 msgid "The post title that will be shared. Leave empty to use title of current post. <strong>NOTE:</strong> Some of the social networks will ignore this option and will instead auto pull the post title based on the shared link."
+msgstr ""
+
+msgid "The posts and pages that use Font Awesome icons, and where in each one."
 msgstr ""
 
 msgid "The preview text shows up in the email client before the recipient opens. Leave blank to use the preview text set on the linked email."
@@ -37878,6 +39066,12 @@ msgid "The product IDs in your running comparison."
 msgstr ""
 
 msgid "The products you are tracking, your target price, and when you were last alerted."
+msgstr ""
+
+msgid "The profile could not be loaded."
+msgstr ""
+
+msgid "The registration status in the header, on the dashboard home and in the setup wizard. Only while the site is validly registered: one that is not keeps showing how to register."
 msgstr ""
 
 msgid "The request did not reach the server correctly. This can happen if a security plugin, firewall, or a server rule (such as .htaccess) is blocking access to the REST API."
@@ -37901,12 +39095,18 @@ msgstr ""
 msgid "The server API token for your Postmark account."
 msgstr ""
 
+msgid "The server cannot read SVG files (the PHP DOM extension is missing)."
+msgstr ""
+
 #. translators: URL.
 msgid "The server couldn't be reached. Please check for wp_remote_get on the <a href=\"%s\" target=\"_blank\">System Status</a> page."
 msgstr ""
 
 #. translators: %s: Import stage name.
 msgid "The server hit a timeout while importing %s. The progress so far has been saved. Click <strong>Continue Import</strong> to pick up where it left off."
+msgstr ""
+
+msgid "The server stopped before the check finished. On a very large site this can take longer than the server allows."
 msgstr ""
 
 msgid "The site-wide ceiling on how visitors may be identified by tracking features. \"No Identifiers\" issues no cookies or hashes of any kind, not even for operational features. \"Anonymous\" counts visitors without cookies — they are never recognised on a return visit, no consent banner is required, and A/B testing and statistics still work day-scoped. \"Session Cookies\" allows capped tracking cookies, \"Full\" additionally allows a persistent visitor identifier — both subject to visitor consent when the Privacy Consent Tools are enabled. Storage visitors explicitly ask for (wishlists, comparisons) is not governed by this setting."
@@ -38031,9 +39231,6 @@ msgstr ""
 msgid "The version of WordPress installed on your site."
 msgstr ""
 
-msgid "The video will be resized to maintain this aspect ratio, this is to prevent the video from showing any black bars. Enter an aspect ratio here such as: \"16:9\", \"4:3\" or \"16:10\". The default is \"16:9\""
-msgstr ""
-
 msgid "The video will be resized to maintain this aspect ratio, this is to prevent the video from showing any black bars. Enter an aspect ratio here such as: \"16:9\", \"4:3\" or \"16:10\". The default is \"16:9\"."
 msgstr ""
 
@@ -38052,6 +39249,23 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
+#, fuzzy
+#| msgid "Show Author"
+msgid "Theme Author"
+msgstr "הצג מחבר"
+
+#, fuzzy
+#| msgid "Description"
+msgid "Theme Description"
+msgstr "תיאור"
+
+#, fuzzy
+msgid "Theme Name"
+msgstr "שם המחוון"
+
+msgid "Theme Screenshot"
+msgstr ""
+
 msgid "Theme Styling"
 msgstr ""
 
@@ -38061,6 +39275,9 @@ msgstr ""
 #. Author of the plugin/theme
 msgid "ThemeFusion"
 msgstr "אפשרויות ערכת עיצוב"
+
+msgid "There are no Avada Custom Branding settings on this site."
+msgstr ""
 
 #, fuzzy
 msgid "There are no custom columns in your library"
@@ -38136,9 +39353,6 @@ msgstr ""
 msgid "There was an error deleting an action: %s"
 msgstr ""
 
-msgid "There was an error during the process. Please try again."
-msgstr ""
-
 #. translators: %s refers to the exception error message
 msgid "There was an error running the action scheduler: %s"
 msgstr ""
@@ -38156,6 +39370,12 @@ msgid "These settings control the typography for all body text."
 msgstr ""
 
 msgid "These settings control the typography for all button text."
+msgstr ""
+
+msgid "These settings have no equivalent in Avada One and were not imported:"
+msgstr ""
+
+msgid "These settings have the biggest effect on load times. If you run a caching plugin, check your website after each change, as some overlap with what it does."
 msgstr ""
 
 msgid "These tools focus on optimization, analysis, content repurposing, and specialized generation."
@@ -38180,6 +39400,9 @@ msgid "Third-Party Embeds"
 msgstr ""
 
 msgid "This Reference"
+msgstr ""
+
+msgid "This SVG paints its background in a way that cannot be removed automatically, so it has been left as it was."
 msgstr ""
 
 msgid "This Slider Is Assigned Via Avada Page Options"
@@ -38263,6 +39486,9 @@ msgstr "אלמנט גלריה זה מוגדר לשימוש בנתונים דינ
 msgid "This happens automatically, because after the theme has been updated, the old CSS can cause artifacts on your pages. The best way is to regenerate all critical css(using bulk actions from below), and then enable it."
 msgstr ""
 
+msgid "This icon set has no CSS prefix, so where it is used cannot be checked. Re-upload the icon set to fix it."
+msgstr ""
+
 msgid "This image carousel element is set to use dynamic data.  For a preview please check the front-end."
 msgstr "אלמנט קרוסלה זה מוגדר לשימוש בנתונים דינמיים.לתצוגה מקדימה אנא בדוק את ממשק הקצה."
 
@@ -38309,7 +39535,13 @@ msgstr ""
 msgid "This is custom information."
 msgstr ""
 
+msgid "This is not a Custom Branding export file."
+msgstr ""
+
 msgid "This is not a multisite."
+msgstr ""
+
+msgid "This is not an Avada Custom Branding export file."
 msgstr ""
 
 msgid "This is not one of your Selected Consent Types, so no checkbox is shown for it and it runs for every visitor without being asked. Add it to Selected Consent Types to let visitors decide."
@@ -38336,10 +39568,17 @@ msgstr ""
 msgid "This option allows you to select multiple images at once and they will populate into individual items. It saves time instead of adding one image at a time."
 msgstr ""
 
+#. translators: The field type.
+msgid "This option cannot be shown here: its field type (%s) is not supported."
+msgstr ""
+
 msgid "This option decides when a square 1x1 image should become 2x2. This will not apply to images that highly favor landscape or portrait layouts. <strong>IMPORTANT:</strong> There is a \"Masonry Image Layout\" setting for every image in the WP media library that allows you to manually set how an image will appear (1x1, landscape, portrait or 2x2), regardless of the original ratio."
 msgstr ""
 
 msgid "This option decides when a square 1x1 image should become 2x2. This will not apply to images that highly favor landscape or portrait layouts. <strong>IMPORTANT:</strong> There is a “Masonry Image Layout” setting for every image in the WP media library that allows you to manually set how an image will appear (1x1, landscape, portrait or 2x2), regardless of the original ratio. In pixels."
+msgstr ""
+
+msgid "This page"
 msgstr ""
 
 msgid "This payment could not be started. Please reload the page and try again."
@@ -38366,6 +39605,9 @@ msgstr ""
 msgid "This section shows details of Action Scheduler."
 msgstr ""
 
+msgid "This section uses Post Card designs which do not exist on this site. Review them below, they will be added to your Avada Library."
+msgstr ""
+
 msgid "This setting will override the global setting. "
 msgstr ""
 
@@ -38375,10 +39617,16 @@ msgstr ""
 msgid "This site does not track visitors or issue any identifier of its own."
 msgstr ""
 
+msgid "This site has settings from the Avada Custom Branding plugin. Custom branding is built into Avada One, so they can be imported."
+msgstr ""
+
 msgid "This site has used its allocated AI credits for this period. Contact your subscription owner to raise this site's allocation in My Avada."
 msgstr ""
 
-msgid "This site is already set up in your AI app."
+msgid "This site is not connected to My Avada, or its connection has ended. To use AI features, go to the Avada dashboard and click \"Connect to My Avada\" at the top. Please %1$scontact us%2$s if the problem persists"
+msgstr ""
+
+msgid "This site is not connected to My Avada. Click \"Connect to My Avada\" to connect it."
 msgstr ""
 
 msgid "This site issues a lasting identifier so that it can recognise your browser on later visits."
@@ -38388,6 +39636,15 @@ msgid "This site issues an identifier that lasts only for the current browsing s
 msgstr ""
 
 msgid "This site measures visits without issuing any identifier that would let it recognise you again."
+msgstr ""
+
+msgid "This site ran Avada Classic with the Avada Custom Branding plugin. Its settings are still in the database and can be brought over."
+msgstr ""
+
+msgid "This site was disconnected from My Avada. Click \"Connect to My Avada\" to connect it again."
+msgstr ""
+
+msgid "This slider could not be found."
 msgstr ""
 
 msgid "This tab use dynamic data.  For a preview please check the front-end."
@@ -38414,7 +39671,7 @@ msgstr ""
 msgid "This will be used in the font-family dropdown."
 msgstr ""
 
-msgid "This will overwrite all your current settings and reload the page."
+msgid "This will overwrite your current settings and reload the page."
 msgstr ""
 
 msgid "This will permanently delete the current system emails and recreate them from their default designs. Any customisations will be lost. Continue?"
@@ -38513,9 +39770,6 @@ msgid "Ticker Title"
 msgstr ""
 
 msgid "Ticker Type"
-msgstr ""
-
-msgid "Ticket"
 msgstr ""
 
 msgid "TikTok Link"
@@ -38764,6 +40018,9 @@ msgstr ""
 msgid "To get started, add a Container, or add prebuilt content."
 msgstr ""
 
+msgid "To save custom page options, you must enter a name and ensure your page is saved first."
+msgstr ""
+
 msgid "To upload your own icon image, deselect the icon above and then upload your icon image."
 msgstr ""
 
@@ -38783,6 +40040,15 @@ msgid "ToTop Border Radius"
 msgstr ""
 
 msgid "ToTop Button Position"
+msgstr ""
+
+msgid "ToTop Button Text"
+msgstr ""
+
+msgid "ToTop Button Text Layout"
+msgstr ""
+
+msgid "ToTop Button Text On Mobile"
 msgstr ""
 
 msgid "ToTop Icon Color"
@@ -39287,6 +40553,9 @@ msgstr ""
 msgid "Translate Y"
 msgstr ""
 
+msgid "Translate every page, menu and layout, and run each language with ease."
+msgstr ""
+
 msgid "Transparent Background"
 msgstr "רקע הכתובית"
 
@@ -39329,14 +40598,30 @@ msgstr ""
 msgid "Triggers"
 msgstr ""
 
+msgid "Trim empty space"
+msgstr ""
+
 msgid "Trinidad and Tobago"
 msgstr ""
 
 msgid "True"
 msgstr ""
 
+#, fuzzy
+msgid "Try Again"
+msgstr "נסה שנית"
+
+#, fuzzy
+#| msgid "Next"
+msgid "Try Next"
+msgstr "הבא"
+
 msgid "Try adjusting your search or filter to find what you're looking for."
 msgstr ""
+
+#, fuzzy
+msgid "Try again"
+msgstr "נסה שנית"
 
 #, fuzzy
 msgid "Try again."
@@ -39349,6 +40634,12 @@ msgid "Tumblr"
 msgstr "טאמבלר"
 
 msgid "Tumblr Link"
+msgstr ""
+
+msgid "Tune how images, CSS and scripts load."
+msgstr ""
+
+msgid "Tune loading and caching."
 msgstr ""
 
 msgid "Tune your new site for speed."
@@ -39378,10 +40669,16 @@ msgstr ""
 msgid "Turn"
 msgstr ""
 
+msgid "Turn Off Unused Features"
+msgstr ""
+
 msgid "Turn on enable scroll for live search results."
 msgstr ""
 
 msgid "Turn on for accessibility reasons, if your button does not use standard link behavior, but triggers an action like opening an Off-Canvas or a Modal."
+msgstr ""
+
+msgid "Turn on for the plugins you use, unless a caching plugin already combines CSS."
 msgstr ""
 
 msgid "Turn on if you want to change the background and handle color of the scrollbar. Styling and support varies depending on the browser."
@@ -39417,6 +40714,9 @@ msgstr ""
 msgid "Turn on to also search for WooCommerce product SKUs. This will only work, if products have been added to the search results content."
 msgstr ""
 
+msgid "Turn on to also show the text of the ToTop button on mobile devices. Otherwise an icon only button will be used there."
+msgstr ""
+
 msgid "Turn on to automatically save conversations with the AI assistant so that you can come back to them at a later date."
 msgstr ""
 
@@ -39441,6 +40741,11 @@ msgstr "בחר להציג מפריד בין סמל וטקסט."
 
 msgid "Turn on to display a pattern in the page background."
 msgstr ""
+
+#. translators: Additional description (defaults).
+#, fuzzy
+msgid "Turn on to display a pattern in the page background. %s"
+msgstr "בחר להציג מפריד בין סמל וטקסט."
 
 msgid "Turn on to display a placeholder image for posts that do not have a featured image. This allows the post to display on portfolio archives and related posts/projects carousels."
 msgstr ""
@@ -40072,6 +41377,9 @@ msgstr ""
 msgid "Uncheck All Elements"
 msgstr "בטל את הסימון של כל האלמנטים"
 
+msgid "Uncheck an icon to hide it. With the news and every icon hidden, the news card goes."
+msgstr ""
+
 msgid "Unchecked"
 msgstr ""
 
@@ -40192,6 +41500,9 @@ msgstr ""
 msgid "Unknown status found for action."
 msgstr ""
 
+msgid "Unlimited"
+msgstr ""
+
 msgid "Unlink from global typography"
 msgstr ""
 
@@ -40240,10 +41551,21 @@ msgstr ""
 msgid "Until you unsubscribe"
 msgstr ""
 
+#, fuzzy
+#| msgid "Post Card"
+msgid "Untitled Post Card"
+msgstr "גלויה"
+
 msgid "Up"
 msgstr ""
 
 msgid "Up (moves up on desktop and mobile)"
+msgstr ""
+
+msgid "Up to three links of your own, in place of Avada's. Shown even when the plan card is hidden."
+msgstr ""
+
+msgid "Up to three offers of your own, in place of Avada's partners."
 msgstr ""
 
 msgid "Up-Sells Products"
@@ -40282,6 +41604,16 @@ msgstr ""
 msgid "Update Icon Set"
 msgstr ""
 
+#, fuzzy
+#| msgid "Update"
+msgid "Update Now"
+msgstr "עדכן"
+
+#, fuzzy
+#| msgid "Update Slide"
+msgid "Update Plugins"
+msgstr "עדכון שקופיות"
+
 msgid "Update Slide"
 msgstr "עדכון שקופיות"
 
@@ -40294,7 +41626,7 @@ msgstr ""
 msgid "Update cart"
 msgstr ""
 
-msgid "Updated %s"
+msgid "Update notices, counts and the Updates screen, for everybody who sees your branding. Updates still run, automatic ones too, and brand owners keep seeing them."
 msgstr ""
 
 #, fuzzy
@@ -40308,6 +41640,9 @@ msgid "Updating Page Options"
 msgstr "אפשרויות קונטיינר"
 
 msgid "Updating submissions database table failed."
+msgstr ""
+
+msgid "Upgrade"
 msgstr ""
 
 msgid "Upgrade to Pro"
@@ -40356,7 +41691,7 @@ msgstr ""
 msgid "Upload a lottie JSON file. Visit %s to find animations."
 msgstr ""
 
-msgid "Upload a previously exported JSON file to restore Global Options settings."
+msgid "Upload a previously exported JSON file to restore Global Options settings. Permissions, Builder Options, API keys and head / body scripts keep their current values, unless Include Site Settings is turned on and the file contains them."
 msgstr ""
 
 msgid "Upload an after image to display."
@@ -40393,9 +41728,6 @@ msgid "Upload error:"
 msgstr ""
 
 msgid "Upload failed"
-msgstr ""
-
-msgid "Upload images to the AI image bank for use in AI-generated content."
 msgstr ""
 
 msgid "Upload or select image(s)"
@@ -40440,6 +41772,23 @@ msgid "Urdu"
 msgstr ""
 
 msgid "Uruguay"
+msgstr ""
+
+msgid "Usage Could Not Be Checked"
+msgstr ""
+
+msgid "Usage could not be loaded."
+msgstr ""
+
+msgid "Usage is not tracked for this item."
+msgstr ""
+
+#. translators: %s: Library item or Form name.
+#, fuzzy
+msgid "Usage of %s"
+msgstr "%1$s , %2$s"
+
+msgid "Use Brand Colors In WordPress Admin"
 msgstr ""
 
 msgid "Use Cart As Icon On Mobile"
@@ -40497,9 +41846,6 @@ msgstr ""
 msgid "Use WooCommerce Reset Password"
 msgstr ""
 
-msgid "Use a caching plugin for additional performance gains."
-msgstr ""
-
 msgid "Use additional API parameter, for example &rel=0 to disable related videos."
 msgstr ""
 
@@ -40535,6 +41881,9 @@ msgstr ""
 msgid "Use the built-in button, or control the toggle from any external link/button via the \"Toggle/Open/Close Collapse\" dynamic data link actions (target this %s by its Element ID)."
 msgstr ""
 
+msgid "Use this image"
+msgstr ""
+
 msgid "Use this media"
 msgstr ""
 
@@ -40551,6 +41900,16 @@ msgid "Used as a minimum height since Height Adjustment is enabled below."
 msgstr ""
 
 msgid "Used by %s"
+msgstr ""
+
+msgid "Used for the admin menu when there is no icon image, e.g. dashicons-admin-site."
+msgstr ""
+
+#. translators: %s: Number of places.
+msgid "Used in %s places"
+msgstr ""
+
+msgid "Used in 1 place"
 msgstr ""
 
 msgid "Used to check if your browser has cookies enabled."
@@ -40575,9 +41934,6 @@ msgid "User Agent"
 msgstr ""
 
 msgid "User Email"
-msgstr ""
-
-msgid "User Has Price Alerts"
 msgstr ""
 
 msgid "User ID"
@@ -40799,6 +42155,9 @@ msgstr ""
 msgid "Vatican"
 msgstr ""
 
+msgid "Vector"
+msgstr ""
+
 msgid "Vector Art"
 msgstr ""
 
@@ -40818,6 +42177,9 @@ msgid "Vermont"
 msgstr ""
 
 msgid "Version"
+msgstr ""
+
+msgid "Version Text"
 msgstr ""
 
 msgid "Version:"
@@ -40853,6 +42215,14 @@ msgstr ""
 
 msgid "Very Poor"
 msgstr ""
+
+msgid "Vetted WordPress experts for customization jobs of any size."
+msgstr ""
+
+#, fuzzy
+#| msgid "View Element"
+msgid "Via Widget element"
+msgstr "הצג אלמנט"
 
 msgid "Vibrant colors"
 msgstr ""
@@ -40899,9 +42269,6 @@ msgstr ""
 msgid "Video OGV Upload"
 msgstr "להעלות קובץ וידאו בפורמט OGV"
 
-msgid "Video Options"
-msgstr ""
-
 msgid "Video Preloading"
 msgstr ""
 
@@ -40947,6 +42314,12 @@ msgstr ""
 
 msgid "View"
 msgstr ""
+
+#. translators: %s: The post type's name.
+#. translators: %s: The taxonomy's name.
+#, fuzzy
+msgid "View %s"
+msgstr "הצג פריסה"
 
 msgid "View Action"
 msgstr ""
@@ -41078,6 +42451,15 @@ msgstr ""
 msgid "View Submissions"
 msgstr ""
 
+#, fuzzy
+#| msgid "System Status"
+msgid "View System Status"
+msgstr "מצב מערכת"
+
+#. translators: %s: number of trashed items.
+msgid "View Trash (%s)"
+msgstr ""
+
 msgid "View Types"
 msgstr ""
 
@@ -41131,6 +42513,9 @@ msgstr ""
 msgid "View in Browser URL"
 msgstr ""
 
+msgid "View on Pixabay"
+msgstr ""
+
 msgid "View on YouTube"
 msgstr ""
 
@@ -41138,6 +42523,12 @@ msgid "View revenue metrics and performance performance."
 msgstr ""
 
 msgid "View source"
+msgstr ""
+
+msgid "View the HubSpot setup guide."
+msgstr ""
+
+msgid "View the Mailchimp setup guide."
 msgstr ""
 
 msgid "Viewed page: "
@@ -41222,6 +42613,9 @@ msgstr ""
 msgid "Visit sessions"
 msgstr ""
 
+msgid "Visit the Blog"
+msgstr ""
+
 msgid "Visitor Analytics"
 msgstr ""
 
@@ -41267,6 +42661,9 @@ msgstr ""
 msgid "WARNING: Importing a single prebuilt page will remove all other page content, Avada Page Options and page template. Avada Global Options and images are not imported. Click OK to continue or cancel to stop."
 msgstr ""
 
+msgid "WP Admin"
+msgstr ""
+
 msgid "WP CLI"
 msgstr ""
 
@@ -41286,19 +42683,10 @@ msgstr ""
 msgid "WP Default"
 msgstr ""
 
-msgid "WP Events Calendar"
-msgstr ""
-
-msgid "WP Marketing"
-msgstr ""
-
 msgid "WP Max Memory Limit"
 msgstr ""
 
 msgid "WP Memory Limit"
-msgstr ""
-
-msgid "WP Multilingual"
 msgstr ""
 
 msgid "WP Multisite"
@@ -41320,9 +42708,6 @@ msgstr ""
 msgid "WP-Cron"
 msgstr ""
 
-msgid "WPML makes it easy to build multilingual sites and run them. It's powerful enough for corporate sites, yet simple for blogs."
-msgstr ""
-
 msgctxt "Currency"
 msgid "WST"
 msgstr ""
@@ -41331,6 +42716,9 @@ msgid "WYSIWYG Studio Styles"
 msgstr ""
 
 msgid "Wait Time (Minutes)"
+msgstr ""
+
+msgid "Waiting for your AI app to connect…"
 msgstr ""
 
 msgid "Wallis and Futuna"
@@ -41343,12 +42731,6 @@ msgid "Warm tone light"
 msgstr ""
 
 msgid "Warm tones"
-msgstr ""
-
-msgid "Warning "
-msgstr "אזהרה"
-
-msgid "Warning: Large number of posts detected, scanning might take a while."
 msgstr ""
 
 msgid "Washington"
@@ -41411,16 +42793,10 @@ msgstr ""
 msgid "We Are Here To Help"
 msgstr ""
 
-msgid "We have partnered with SiteGround to bring you full-service WordPress hosting. Sign up and have Avada installed and activated for you with one click."
-msgstr ""
-
 msgid "We recommend that you set up your website with the Avada Setup Wizard; the easiest way to get started."
 msgstr ""
 
 msgid "We saved your cart for you. Finish your purchase now."
-msgstr ""
-
-msgid "We work with Codeable who offers amazing customization services. They are equipped to handle both large and small customization jobs."
 msgstr ""
 
 msgid "We would love to hear about your recent purchase."
@@ -41472,6 +42848,22 @@ msgstr ""
 msgid "Welcome %s"
 msgstr ""
 
+#, fuzzy
+#| msgid "Remove Content"
+msgid "Welcome Panel Content"
+msgstr "הסר תוכן"
+
+msgid "Welcome Panel Title"
+msgstr ""
+
+msgid "Welcome Text"
+msgstr ""
+
+#, fuzzy
+#| msgid "Site Title"
+msgid "Welcome Title"
+msgstr "שם אתר"
+
 msgid "Welcome To Avada AI!"
 msgstr ""
 
@@ -41511,10 +42903,22 @@ msgstr ""
 msgid "What runs without asking you"
 msgstr ""
 
+msgid "What should be different? (optional)"
+msgstr ""
+
+msgid "What the cards on the dashboard home show to everybody who sees your branding."
+msgstr ""
+
 msgid "What this site collects"
 msgstr ""
 
 msgid "What your hosting server provides, measured against the values Avada needs."
+msgstr ""
+
+msgid "What your integrations know about this contact."
+msgstr ""
+
+msgid "What's New Link"
 msgstr ""
 
 msgid "What's the vision today?"
@@ -41527,6 +42931,9 @@ msgid "WhatsApp (Author Page)"
 msgstr ""
 
 msgid "WhatsApp Link"
+msgstr ""
+
+msgid "What’s New"
 msgstr ""
 
 msgid "What’s New In Avada %s"
@@ -41583,6 +42990,9 @@ msgstr ""
 msgid "When notifications are enabled, all individually enabled ones will be sent on form submission. If disabled, no notifications will be sent at all."
 msgstr ""
 
+msgid "When off, the selected pages use placeholders instead of images."
+msgstr ""
+
 msgid "When set to \"Local\", the Google and Font Awesome fonts set in Global Options will be downloaded to your server. Set to \"CDN\" to use the Google and FontAwesome CDNs."
 msgstr ""
 
@@ -41598,13 +43008,25 @@ msgstr ""
 msgid "When using the Post Card Lightbox dynamic data on a link inside a post card, choose how images are grouped for lightbox gallery navigation."
 msgstr ""
 
+msgid "Where Your Icons Are Used"
+msgstr ""
+
+msgid "Where each icon leads. Leave a field empty for Avada's account."
+msgstr ""
+
 msgid "Where should this snippet be output in the page."
 msgstr ""
 
 msgid "Where the built-in button(s) sit(s). \"Below Content\" places it in its own row beneath the collapsed area. \"Overlay On Content\" floats it over the bottom of the collapsed area (on top of the fade)."
 msgstr ""
 
+msgid "Where the button leads. Leave empty for Avada's release notes."
+msgstr ""
+
 msgid "Where the contact lead has come from."
+msgstr ""
+
+msgid "Where the plan card's Manage and Upgrade links lead, e.g. your care plans or client portal. Leave empty for the Avada account."
 msgstr ""
 
 msgid "Whether Avada can write dynamic CSS files to your uploads folder. When it cannot, the same CSS is printed inline instead, which works but makes pages larger."
@@ -41703,7 +43125,16 @@ msgstr ""
 msgid "Which order a reminder relates to, when it is due, and whether a review was left."
 msgstr ""
 
+msgid "Which other roles see the branding is set in Options, Permissions. All of them do by default."
+msgstr ""
+
 msgid "Which user roles can reach AI features is set in Options → Permissions, alongside every other Avada permission."
+msgstr ""
+
+msgid "Who sees Avada itself, together with its account, licence and update screens."
+msgstr ""
+
+msgid "Who the emails WordPress sends come from, password resets and notifications for example. Plugins that set a sender of their own keep it."
 msgstr ""
 
 msgid "Wide"
@@ -41718,6 +43149,10 @@ msgstr "ווידג'טים"
 
 msgid "Widget Size"
 msgstr ""
+
+#, fuzzy
+msgid "Widgets"
+msgstr "ווידג'טים"
 
 msgid "Width"
 msgstr "רוחב"
@@ -41743,6 +43178,9 @@ msgstr ""
 msgid "Will be saved as “%s”"
 msgstr ""
 
+msgid "Win back lost carts."
+msgstr ""
+
 msgid "Winner"
 msgstr ""
 
@@ -41758,6 +43196,9 @@ msgstr ""
 msgid "Wishlist Actions"
 msgstr ""
 
+msgid "Wishlist Adds"
+msgstr ""
+
 msgid "Wishlist Alert"
 msgstr ""
 
@@ -41771,9 +43212,6 @@ msgid "Wishlist Creation Date"
 msgstr ""
 
 msgid "Wishlist Email Consent"
-msgstr ""
-
-msgid "Wishlist Has Items"
 msgstr ""
 
 msgid "Wishlist Is Sharing URL"
@@ -41842,6 +43280,9 @@ msgstr ""
 msgid "Wishlists"
 msgstr ""
 
+msgid "Wishlists and cart recovery."
+msgstr ""
+
 msgid "With Content"
 msgstr ""
 
@@ -41855,6 +43296,9 @@ msgid "Within Column - Normal"
 msgstr ""
 
 msgid "Within Column - Static"
+msgstr ""
+
+msgid "Wizard Complete"
 msgstr ""
 
 msgid "Woo Active Filters"
@@ -42139,6 +43583,11 @@ msgstr ""
 msgid "WordPress"
 msgstr ""
 
+#, fuzzy
+#| msgid "WordPress Environment"
+msgid "WordPress Admin"
+msgstr "סביבת וורדפרס"
+
 msgid "WordPress Admin Dashboard"
 msgstr ""
 
@@ -42151,7 +43600,17 @@ msgstr ""
 msgid "WordPress Editor (Backend)"
 msgstr ""
 
+#, fuzzy
+#| msgid "WordPress Environment"
+msgid "WordPress Emails"
+msgstr "סביבת וורדפרס"
+
 msgid "WordPress Environment"
+msgstr "סביבת וורדפרס"
+
+#, fuzzy
+#| msgid "WordPress Environment"
+msgid "WordPress Events and News"
 msgstr "סביבת וורדפרס"
 
 msgid "WordPress Image Quality"
@@ -42182,6 +43641,9 @@ msgid "Works for up/down/left/right only. Parallax effects would most probably c
 msgstr ""
 
 msgid "Works with \"Classic Icon With Title\" and \"Classic Icon On Side\" layout options."
+msgstr ""
+
+msgid "Worth turning on if your host provides a persistent object cache."
 msgstr ""
 
 msgid "Wrap"
@@ -42326,6 +43788,9 @@ msgstr ""
 msgid "Yes, Reset"
 msgstr ""
 
+msgid "Yes, Revoke"
+msgstr ""
+
 msgid "Yes, delete them"
 msgstr ""
 
@@ -42368,26 +43833,12 @@ msgstr ""
 msgid "You are editing a saved element from the Avada Builder Library which will update with your changes when you click the update button. This is not a real page, only a saved element."
 msgstr ""
 
-msgid "You are not using any Google Map element or template. This option can be disabled."
-msgstr ""
-
-msgid "You are not using any Vimeo element. This option can be disabled."
-msgstr ""
-
-msgid "You are not using any Youtube element. This option can be disabled."
-msgstr ""
-
-msgid "You are using Google Map element or template. Should be enabled."
-msgstr ""
-
-msgid "You are using Vimeo element. Should be enabled."
-msgstr ""
-
-msgid "You are using Youtube element. Should be enabled."
-msgstr ""
-
 #. translators: Global link.
 msgid "You are using invalid or expired HubSpot API key. Please update your %s configurations."
+msgstr ""
+
+#. translators: %s: the maximum number of AI apps.
+msgid "You can add up to %s AI apps. Remove one to add another."
 msgstr ""
 
 msgid "You can add your own context options here. These are content parts that you want to pass on to the AI as additional information."
@@ -42407,16 +43858,13 @@ msgstr ""
 msgid "You can control the calendar highlight color from Avada's Global Options panel through the <a href=\"%1$s\" target=\"_blank\">Main Color Palette</a> setting (Color 5). Avada has additional <a href=\"%2$s\" target=\"_blank\">Event Calendar settings</a> in Global Options."
 msgstr ""
 
-msgid "You can create your own ask presets, which allows you to create reusable prompt/context combinations in order to speed up your workflow."
+msgid "You can create your own chat presets, which allow you to create reusable prompt/context combinations in order to speed up your workflow."
 msgstr ""
 
 msgid "You can create your own writer presets, which allows you to create reusable prompt/context combinations in order to speed up your workflow."
 msgstr ""
 
 msgid "You currently do not have authorization to view this content."
-msgstr ""
-
-msgid "You currently have"
 msgstr ""
 
 msgid "You do not have permission to do this."
@@ -42444,6 +43892,12 @@ msgid "You have chosen to edit your selected slider. This operation must be perf
 msgstr ""
 
 msgid "You have no code set, write some below if you want to give AI context"
+msgstr ""
+
+msgid "You have searched a lot in a short time. Wait a minute, then try again."
+msgstr ""
+
+msgid "You have to stay a brand owner, or you would lose access to these settings."
 msgstr ""
 
 msgid "You have unsaved changed on this campaign.  Changes will be lost if you confirm to switch page."
@@ -42498,6 +43952,9 @@ msgstr ""
 msgid "YouTube/Vimeo Video URL or ID"
 msgstr ""
 
+msgid "Your Avada Custom Branding settings have been imported into Avada One. Review them under Maintenance, Custom Branding."
+msgstr ""
+
 msgid "Your Content Goes Here"
 msgstr "הזן את התוכן שלך כאן"
 
@@ -42505,6 +43962,9 @@ msgid "Your Description Goes Here"
 msgstr "המקטע בא כאן"
 
 msgid "Your Heading Goes Here"
+msgstr ""
+
+msgid "Your Help Links"
 msgstr ""
 
 msgid "Your HubSpot account has been disconnected."
@@ -42517,6 +43977,12 @@ msgid "Your Mailchimp account has been disconnected."
 msgstr ""
 
 msgid "Your Mailchimp account has been successfully connected."
+msgstr ""
+
+msgid "Your Partners"
+msgstr ""
+
+msgid "Your Plan"
 msgstr ""
 
 msgid "Your Site Is on the Essential Plan"
@@ -42532,6 +43998,9 @@ msgid "Your Title Goes Here"
 msgstr "הכותרת באה לכאן"
 
 msgid "Your Website Is Almost Ready"
+msgstr ""
+
+msgid "Your WordPress login has expired. Save your work, reload the page and try again."
 msgstr ""
 
 msgid "Your browsing history on this site is never connected to your customer or subscriber record."
@@ -42552,6 +44021,19 @@ msgstr ""
 msgid "Your comment is awaiting moderation."
 msgstr "התגובה שלך מחכה לאישור"
 
+msgid "Your content embeds Vimeo videos, which need this script."
+msgstr ""
+
+msgid "Your content embeds YouTube videos, which need this script."
+msgstr ""
+
+msgid "Your content or templates use Google Maps, which need this script."
+msgstr ""
+
+#. translators: Used subset labels.
+msgid "Your content uses icons from these subsets: %s."
+msgstr ""
+
 msgid "Your email address, name, subscription preferences, status and where you first got in touch."
 msgstr ""
 
@@ -42564,6 +44046,9 @@ msgstr ""
 msgid "Your file size exceeds max allowed limit of "
 msgstr ""
 
+msgid "Your homepage could not be loaded. Visit it once to build fresh assets."
+msgstr ""
+
 #. translators: Link URL.
 msgid "Your page content could not be displayed as an Avada Builder layout. Most likely that means, there is some invalid markup or shortcode in it. Please check the contents in the text editor. <a href=\"%s\" target=\"_blank\">See here for more information</a>."
 msgstr ""
@@ -42571,7 +44056,21 @@ msgstr ""
 msgid "Your permalink structure. Plain permalinks can break pretty URLs that Avada layouts and the REST API rely on."
 msgstr ""
 
+msgid "Your plan could not be confirmed lately. Check the connection to keep your Pro features running."
+msgstr ""
+
 msgid "Your prebuilt page content is now being imported. This includes the layout, and any associated images and videos. The import process should only take a few seconds, depending on the amount of content to be imported."
+msgstr ""
+
+msgid "Your settings are saved and the cache is cleared. Run a speed test to see where your website stands now."
+msgstr ""
+
+#. translators: %s: the technical reason, e.g. "cURL error 28: Operation timed
+#. out".
+msgid "Your site could not download the image from Pixabay (%s). Some hosts block outgoing connections - ask your host to allow connections to pixabay.com."
+msgstr ""
+
+msgid "Your site has a lot of content, so the scan can take a while."
 msgstr ""
 
 msgid "Your site is in Coming Soon mode"
@@ -42580,13 +44079,16 @@ msgstr ""
 msgid "Your site is no longer on the Avada Pro plan. This feature keeps working as set up, but it can only be changed on Pro."
 msgstr ""
 
-msgid "Your site is not connected to a My Avada account. Please connect your site from the System Status page to use AI features. Please %1$scontact us%2$s if the problem persists"
-msgstr ""
-
 msgid "Your social accounts, in the order they are displayed. One account per row. Drag to reorder."
 msgstr ""
 
-msgid "Your website has been optimized for better performance. The cache has been cleared and assets have been regenerated."
+msgid "Your subscription has used this month's AI credits. Buy an AI credit pack on My Avada to keep going right away, or wait for your credits to reset next month. You can review your current usage details %1$shere%2$s."
+msgstr ""
+
+msgid "Your user role is not allowed to add images to the Media Library."
+msgstr ""
+
+msgid "Your user role is not allowed to upload SVG files. An administrator can allow it in the Role Manager."
 msgstr ""
 
 msgid "Your website is successfully paired with My Avada. You now possess access to the Avada Studio, direct core updates, and premium website importers."
@@ -42594,9 +44096,6 @@ msgstr ""
 
 msgid "Your wishlist is waiting!"
 msgstr ""
-
-msgid "Youtube"
-msgstr "יוטיוב"
 
 msgid "Youtube Video ID"
 msgstr "מספר זיהוי לסרטון יוטוב"
@@ -42745,6 +44244,12 @@ msgstr "תחתון לשמאל"
 msgid "bottom right"
 msgstr "תחתון ימני"
 
+#. translators: %s: photographer name.
+#, fuzzy
+#| msgid "Sort by %s"
+msgid "by %s"
+msgstr "מיין לפי %s"
+
 msgid "cURL"
 msgstr ""
 
@@ -42800,9 +44305,6 @@ msgid "days"
 msgstr "ימים"
 
 msgid "diff"
-msgstr ""
-
-msgid "different font variants. Recommend using fewer than 5 variants if possible."
 msgstr ""
 
 msgid "e.g. My Awesome Popup"
@@ -43273,6 +44775,10 @@ msgid "unknown"
 msgstr ""
 
 msgid "visits"
+msgstr ""
+
+#. translators: %s: Number of days.
+msgid "vs. previous %s days"
 msgstr ""
 
 msgid "w3schools"
